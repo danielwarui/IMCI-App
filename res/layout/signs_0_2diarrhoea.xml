@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrl_2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f4eaa3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/scrl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FAFAD2"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/tbl_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="SEVERE DEHYDRATION"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/signsDehydrationPink"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="@string/young_signs_severe_dehydration"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFF00"
+            android:text="SOME DEHYDRATION"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/space2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff00"
+            android:text="@string/signs_some_dehydration"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90ee90"
+            android:text="NO DEHYDRATION"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/signsDehydration"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#90ee90"
+            android:text="@string/signs_no_dehydration"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="SEVERE PROLONGED DIARRHOEA"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="@string/young_signs_severe_prolonged"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="POSSIBLE SERIOUS ABDOMINAL PROBLEM"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="@string/signs_dysentry"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</ScrollView>

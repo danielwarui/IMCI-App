@@ -1,0 +1,15 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <style name="styleOne">
+            <item name="android:textColor" >@color/textColor</item>
+            <item name="android:childDivider">#000000</item>
+            
+        </style>
+<color name="textColor">#000000</color>
+
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F0E68C"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout
+        android:id="@+id/relativelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+         >
+
+        <!-- The main content view -->
+
+
+        <!-- style="@android:color/background_dark" -->
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tbl1"
+            android:text="@string/intro"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/colorcode0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="Color :   Classification"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/colorcode1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+                        android:textColor="#000000"
+            
+            android:text="Pink :  Severe classification needing admission or \n\t\t\t\tpre-referral treatment and referral"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/colorcode2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFD700"
+                        android:textColor="#000000"
+            
+            android:text="Yellow : A classification needing specific medical \n\t\t\t\t treatment and advice."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/colorcode3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#32CD32"
+                        android:textColor="#000000"
+            
+            android:text="Green : Not serious in most cases.Simple advice \n\t\t\t\t on home management given."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@android:string/selectAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/intro2"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnProceed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="NextActivity"
+            android:text="Proceed"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</ScrollView>

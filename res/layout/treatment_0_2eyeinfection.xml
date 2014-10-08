@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrl_2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FAFAD2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/scrl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAD2"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="SQUINT"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="@string/young_treatment_squint"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="CONGENITAL CANCER OF THE EYE"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="@string/young_treatment_squint"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="CONGENITAL GLAUCOMA"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="@string/young_signs_congenital_glaucoma"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="SEVERE EYE INFECTION"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/signsDehydrationPink"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="@string/young_treatment_severe_eye_infection"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFF00"
+            android:text="EYE INFECTION"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/space2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff00"
+            android:text="@string/young_treatment_eye_infection"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90EE90"
+            android:text="CONGENITAL CONDITION OR EYE INFECTION UNLIKELY"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/signsDehydration"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#90ee90"
+            android:text="@string/young_treatment_unlikely_congenital_or_eyeinfection"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+</ScrollView>

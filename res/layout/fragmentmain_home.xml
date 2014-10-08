@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0E68C" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="1.0dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/adMobSect"
+                android:layout_width="fill_parent"
+                android:layout_height="15.0dip"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/mainContainer"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/mainLinearLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/preambleLinearLayout"
+                        android:layout_width="150.0dip"
+                        android:layout_height="150.0dip"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginRight="5.0dip"
+                        android:layout_marginTop="11.0dip"
+                        android:layout_weight="1.0"
+                        android:background="#ff6059f4"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/projectsHeaderTextView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8.0dip"
+                            android:text=""
+                            android:textColor="#ffffffff"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+
+                        <ViewFlipper
+                            android:id="@+id/preambleFlipper"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:flipInterval="3000" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/chaptersLinearLayout"
+                        android:layout_width="150.0dip"
+                        android:layout_height="150.0dip"
+                        android:layout_marginLeft="5.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:layout_marginTop="11.0dip"
+                        android:layout_weight="1.0"
+                        android:background="#ffde4adc"
+                        android:orientation="vertical" >
+
+                        <ViewFlipper
+                            android:id="@+id/chaptersFlipper"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:flipInterval="3000" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mainLinearLayout3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/articlesLinearLayout"
+                        android:layout_width="150.0dip"
+                        android:layout_height="150.0dip"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginRight="5.0dip"
+                        android:layout_marginTop="11.0dip"
+                        android:layout_weight="1.0"
+                        android:background="#ffe36161"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/financeHeaderTextView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8.0dip"
+                            android:text=""
+                            android:textColor="#ffffffff"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+
+                        <ViewFlipper
+                            android:id="@+id/articlesFlipper"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:flipInterval="3000" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/schedulesLinearLayout"
+                        android:layout_width="150.0dip"
+                        android:layout_height="150.0dip"
+                        android:layout_marginLeft="5.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:layout_marginTop="11.0dip"
+                        android:layout_weight="1.0"
+                        android:background="#fff89443"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/pmHeaderTextView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8.0dip"
+                            android:text=""
+                            android:textColor="#ffffffff"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+
+                        <ViewFlipper
+                            android:id="@+id/schedulesFlipper"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:flipInterval="3000" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mainLinearLayout2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20.0dip"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/bookmarkssLinearLayout"
+                        android:layout_width="150.0dip"
+                        android:layout_height="150.0dip"
+                        android:layout_marginLeft="10.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:layout_marginTop="11.0dip"
+                        android:layout_weight="1.0"
+                        android:background="#ffffbb33"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/bookmarksHeaderTextView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8.0dip"
+                            android:text=""
+                            android:textColor="#ffffffff"
+                            android:textSize="20.0sp"
+                            android:textStyle="bold" />
+
+                        <ViewFlipper
+                            android:id="@+id/bookmarksFlipper"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:flipInterval="3000" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
