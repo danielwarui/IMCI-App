@@ -12,7 +12,9 @@
         android:background="#FAFAD2"
         android:orientation="vertical" >
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -22,34 +24,46 @@
             android:background="#ff69b4"
             android:text="SEVERE DEHYDRATION"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/signsDehydrationPink"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#ff69b4"
             android:text="@string/severe_dehydration"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ffff00"
             android:text="SOME DEHYDRATION"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/space2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#ffff00"
             android:text="@string/some_dehydration_treatment"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -58,29 +72,38 @@
             android:background="#90ee90"
             android:text="NO DEHYDRATION"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/signsDehydration"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#90ee90"
             android:text="@string/no_dehydration_treatment"
             android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/signsDehydration"
-            android:background="#90ee90"
+            android:background="#ff69b4"
             android:text="SEVERE PERSISTENT DIARRHOEA"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/severeDiarr"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -88,9 +111,12 @@
             android:layout_below="@+id/textView3"
             android:background="#ff69b4"
             android:text="@string/severe_persistent_diarrhoea_treatment"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -101,34 +127,44 @@
             android:background="#ffff00"
             android:text="PERSISTENT DIARRHOEA"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/space2"
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/space21"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/textView6"
             android:background="#ffff00"
             android:text="@string/persistent_diarrhoea_treatment"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ffff00"
             android:text="DYSENTRY"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/TextView01"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#ffff00"
             android:text="@string/dysentry_treatment"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
     </LinearLayout>
 
 </ScrollView>

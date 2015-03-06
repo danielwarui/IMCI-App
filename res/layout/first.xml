@@ -3,31 +3,32 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#F0E68C"
-    android:orientation="vertical" 
-    >
+    android:orientation="vertical" >
 
     <LinearLayout
         android:id="@+id/relativelayout1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-         >
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
 
         <!-- The main content view -->
 
 
         <!-- style="@android:color/background_dark" -->
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/tbl1"
             android:text="@string/intro"
-            android:textColor="#000000"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/colorcode0"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,37 +37,42 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="#ffffff" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/colorcode1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ff69b4"
-                        android:textColor="#000000"
-            
             android:text="Pink :  Severe classification needing admission or \n\t\t\t\tpre-referral treatment and referral"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/colorcode2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#FFD700"
-                        android:textColor="#000000"
-            
             android:text="Yellow : A classification needing specific medical \n\t\t\t\t treatment and advice."
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/colorcode3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#32CD32"
-                        android:textColor="#000000"
-            
-            android:text="Green : Not serious in most cases.Simple advice \n\t\t\t\t on home management given."
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:text="Green : Not serious and in most cases.Simple advice \n\t\t\t\t on home management given."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView4"
             style="@android:string/selectAll"
             android:layout_width="match_parent"

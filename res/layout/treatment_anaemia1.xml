@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrl_2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FAFAD2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/scrl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FAFAD2"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/tbl_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+          <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="Classify Anaemia: \n SEVERE ANAEMIA"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/signsDehydrationPink12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:text="@string/severe_anaemia_treatment"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff00"
+            android:text="ANAEMIA"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/space22"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffff00"
+            android:text="@string/anaemia_treatment"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/textView121"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:background="#90ee90"
+            android:text="NO MALARIA"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/signsDehydration11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#90ee90"
+            android:text="@string/no_anaemia_treatment"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</ScrollView>

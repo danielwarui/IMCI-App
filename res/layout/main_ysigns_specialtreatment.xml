@@ -26,15 +26,7 @@
         android:layout_marginLeft="103dp"
         android:orientation="vertical" >
 
-        <EditText
-            android:id="@+id/inputSearch"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:background="#ff7777"
-            android:drawableRight="@android:drawable/ic_menu_search"
-            android:hint="Search Symptoms.."
-            android:inputType="textVisiblePassword" />
+        
     </LinearLayout>
 
 </RelativeLayout>

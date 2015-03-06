@@ -1,7 +1,6 @@
 package com.example.androidimci.followupcare.starter;
 
 
-import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
 import android.app.FragmentTransaction;
@@ -20,7 +19,6 @@ ActionBar.TabListener {
 	// Tab titles
 	private String[] tabs = {"Advice", "Treatment"};
 
-	@SuppressLint("NewApi")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

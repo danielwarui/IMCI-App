@@ -21,17 +21,21 @@
             android:orientation="vertical" >
         </LinearLayout>
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ff69b4"
-            android:text="SEVERE DEHYDRATION"
+            android:text="@string/young_topic_severe_dehydration"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/signsDehydrationPink"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -40,36 +44,44 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#FFFF00"
-            android:text="SOME DEHYDRATION"
+            android:text="@string/young_topic_some_dehydration"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/space2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#ffff00"
-            android:text="@string/signs_some_dehydration"
+            android:text="@string/young_signs_some_dehydration"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#90ee90"
-            android:text="NO DEHYDRATION"
+            android:text="@string/young_topic_no_dehydration"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/signsDehydration"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -78,17 +90,21 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ff69b4"
-            android:text="SEVERE PROLONGED DIARRHOEA"
+            android:text="@string/young_topic_severe_prolonged_diarrhoea"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/TextView01"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -97,17 +113,21 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/TextView02"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#ff69b4"
-            android:text="POSSIBLE SERIOUS ABDOMINAL PROBLEM"
+            android:text="@string/young_topic_possible_serious_abdominal_prob"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/TextView03"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

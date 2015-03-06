@@ -5,6 +5,7 @@
     <string name="symptoms">SYMPTOMS</string>
     <string name="Pdiseases">Possible diseases</string>
     <string name="treatments">Treatments</string>
+    <string name="oral_drugs">Oral drugs at home</string>
     <string name="submit">Submit</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
@@ -12,31 +13,42 @@
     <string name="menu_settings">Settings</string>
     <string name="pick_time">Pick time</string>
     <string name="selectdate">Select Date of Visit</string>
+
+    <!-- Labels -->
+    <string name="lbl_Assessment">Assess,\n Classify &amp; \nIdentify Treatment</string>
+    <string name="lbl_Follow_Up">Follow up Care</string>
+    <string name="lbl_Eid_Testing">Hiv care for children</string>
+    <string name="lbl_Treat_The_Child">Treat the Infant/Child</string>
+    <string name="lbl_Paeds_ARVs">Paeds ARVs Drug Dosing</string>
+    <string name="lbl_Counsel_Mother">Counsel the Mother</string>
+    <string name="lbl_Nvp">EID Testing Algorithm</string>
+    <string name="lbl_MainMenu">Main Menu</string>
     <string name="lbl_cough">Does the child have cough or difficult breathing?</string>
     <string name="lbl_diarrhoea">Does the child have diarrhoea?</string>
     <string name="lbl_fever">Does the child have fever?</string>
     <string name="lbl_ear_problem">Does the child have an ear problem?</string>
     <string name="lbl_hiv">Check for HIV exposure and infection</string>
-    <string name="lbl_malnutrition">Check for malnutrition and anaemia</string>
+    <string name="lbl_malnutrition">Check for malnutrition</string>
+    <string name="lbl_anaemia">Check for anaemia</string>
     <string name="lbl_specialtreatment">Check for special treatmnet needs</string>
     <string name="lbl_jaundice">Check for jaundice</string>
     <string name="lbl_eyeproblem">Check for eye infections</string>
     <string name="lbl_feeding">Check for feeding problem, low weight or low birthweight</string>
     <string name="lbl_severedisease">Does the child have a severe disease</string>
+    <string name="lbl_immunization">Check the child\'s immunization, vitamin A amp; Deworming status </string>
     <string name="lbl_Starter_Follow_Persistent_Diarrhoea">Follow up persistent diarrhoea</string>
     <string name="lbl_Starter_Follow_Dysentry">Follow up dysentry</string>
     <string name="lbl_Starter_Follow_EyeInfection">Follow up eye infection</string>
     <string name="lbl_Starter_Follow_EarInfection">Follow up ear infection</string>
     <string name="lbl_Starter_Follow_EyeMouth">Follow up eye or mouth complications of measles</string>
     <string name="lbl_Starter_Follow_Feeding">Follow up feeding problem</string>
-    <string name="lbl_Starter_Follow_FeverNoMalaria">Follow up fever:no malaria</string>
+    <string name="lbl_Starter_Follow_FeverNoMalaria">Follow up fever: no malaria</string>
     <string name="lbl_Starter_Follow_HivExposed">Follow up HIV exposed</string>
     <string name="lbl_Starter_Follow_LowWeight">Follow up low weight</string>
     <string name="lbl_Starter_Follow_Malaria">Follow up malaria</string>
     <string name="lbl_Starter_Follow_Pallor">Follow up pallor</string>
     <string name="lbl_Starter_Follow_Pneumonia">Follow up pneumonia</string>
     <string name="lbl_Starter_Follow_Wheezing">Follow up wheezing</string>
-    <string name="lbl_What_To_Check">Assessment</string>
     <string name="lbl_YoungStarter_Follow_Bacterial">Follow up bacterial infection</string>
     <string name="lbl_YoungStarter_Follow_Diarrhoea">Follow up diarrhoea</string>
     <string name="lbl_YoungStarter_Follow_EyeInfection">Follow up eyeinfection</string>
@@ -44,9 +56,32 @@
     <string name="lbl_YoungStarter_Follow_Jaundice">Follow up jaundice</string>
     <string name="lbl_YoungStarter_Follow_LowWeight">Follow up lowweight</string>
     <string name="lbl_YoungStarter_Follow_ThrushMouthUlcers">Follow up thrush or mouth ulcers</string>
-    <string name="btn_assess">Assess,\n Classify &amp; \nTreat</string>
-    <string name="follow_up_intro">            • Care for the child who returns for follow up visit using all the boxes that match the child\'s previous classifications.\n
-            • If the child has any new problem, assess, classify fully and treat as on the assess classify and treat on the mainmenu.</string>
+    <string name="lbl_Oral_Drugs">Teach the mother to give oral drugs at home</string>
+    <string name="lbl_Local_Infection">Teach the mother to treat local infecetions at home</string>
+    <string name="lbl_health_facility">Give these treatments in health facility only</string>
+    <string name="lbl_rehydration_and_feeding">Rehydration therapy &amp; feeding for diarrhoea</string>
+    <string name="lbl_rehydration_severe_malnutrition">Rehydration therapy for diarrhoea for children with severe malnutrition</string>
+    <string name="lbl_treat_eye_infection">Treat Eye Infection with Tetracycline</string>
+    <string name="lbl_dry_ear_wicking">Dry the Ear by Wicking</string>
+    <string name="lbl_treat_mouth_ulcer">Treat Mouth Ulcers with Gentian Violet</string>
+    <string name="lbl_oral_thrush">Treat for Oral Thrush with Nystatin or GV</string>
+    <string name="lbl_soothe_throat">Soothe the Throat, Relieve the Cough with Safe Remedy</string>
+    <string name="lbl_treat_convulsing_now">Treat for Convulsing now</string>
+    <string name="lbl_give_intramusclar_antibiotic">Give an Intramuscular Antibiotic</string>
+    <string name="lbl_treat_for_severe_malaria">Treatment of Severe Malaria</string>
+    <string name="lbl_treat_for_low_blood_sugar">Treat Child for Low Blood Sugar</string>
+    <string name="lbl_treat_for_wheezing">Treat Wheezing</string>
+    <string name="lbl_care_for_development">Care for Development</string>
+    <string name="lbl_resuscitate_young_infant">Resuscitate young infant</string>
+    <string name="lbl_keep_young_infant_warm">Keep the young infant warm</string>
+    <string name="lbl_supplement_multivitamin">Give Multivitamin/ Mineral supplement for persistent diarrhoea</string>
+    <string name="lbl_infant_immunization_status">Check for Infant\'s Immunization Status</string>
+    <string name="lbl_age_upto_six">Up to 6 months of age</string>
+    <string name="lbl_age_six_to_twleve">6 months up to 12 months</string>
+    <string name="lbl_age_twelve_up_to_two_years">12 months up to 2 years</string>
+    <string name="lbl_age_two_years_older">2 years and older</string>
+    <string name="btn_immunization_tbl">View Immunization Table</string>
+    <string name="follow_up_intro">        • Care for the child who returns for follow up visit using all the boxes that match the child\'s previous classifications.\n• If the child has any new problem, assess, classify fully and treat as on the assess classify and treat on the mainmenu.</string>
 
     <!-- Nav Drawer Menu Items -->
     <string-array name="nav_drawer_items">
@@ -54,6 +89,23 @@
         <item>Assessment</item>
         <item>EID testing algorithm</item>
         <item>Follow Up Care</item>
+        <item>treat the infant/child</item>
+        <item>Paeds ARV Drugs Dosing Chart</item>
+    </string-array>
+    <!-- NVP Items -->
+    <string-array name="nvp_items">
+        <item >Algorithm for Early diagnosis of HIV in Children(2009)</item>
+        <item >Guidelines on Nevirapine prophylaxis for HIV exposed infants</item>
+        <item >Nevirapine prophylaxis dosage for HIV exposed infants</item>
+        <item >Dose of prophylactic cotrimoxazole</item>
+        <item >Paediatric ARV dosage(October 2014)</item>
+    </string-array>
+    <string-array name="trt_mother_local_infection">
+        <item>Treat Eye Infection with Tetracycline Eye Ointment</item>
+        <item>Dry the Ear by Wicking</item>
+        <item>Treat Mouth Ulcers with Gentian Voilet</item>
+        <item>Treat for Oral Thrush with Nystatin or GV</item>
+        <item>Soothe the Throat, Relieve the Cough with Safe Remedy</item>
     </string-array>
     <string-array name="fragment_follow_up">
         <item>Pneumonia</item>
@@ -87,56 +139,88 @@
         <item>Low Weight</item>
         <item>Thrush and Mouth Ulcers</item>
     </string-array>
-    <!-- Nav Drawer List Item Icons -->
-    <!-- Keep them in order as the titles are in -->
-    <array name="nav_drawer_icons">
-        <item>@drawable/ic_home</item>
-        <item>@drawable/ic_people</item>
-        <item>@drawable/ic_photos</item>
-        <item>@drawable/ic_communities</item>
-        <item>@drawable/ic_pages</item>
-        <item>@drawable/ic_whats_hot</item>
-    </array>
-
-    <!-- Content Description -->
-    <string name="desc_list_item_icon">Item Icon</string>
-
-    <string-array name="menus">
-        <item>Home</item>
-        <item>Disease Treatments</item>
-        <item>Health Management Form 2mths- 5years</item>
-        <item>Health Management Form 0 - 2moths</item>
-        <item>MCH Intergration</item>
-        <item>HIV Care:EID and NVP Prophylaxis</item>
+    <string-array name="trt_oral_drugs_at_home">
+        <item>Give an Appropriate Oral Antibiotic</item>
+        <item>Give Metronidazole</item>
+        <item>Give an Oral Antimalarial</item>
+        <item>Give Vitamin A</item>
+        <item>Give Iron and folate</item>
+        <item>Give Zinc Sulphate</item>
+        <item>Give Paracetamol for Fever or Ear Pain</item>
+        <item>Give Mebendazole or Albendazole</item>
+    </string-array>
+    <string-array name="health_facility_only">
+        <item>Give an Intramuscular Antibiotic</item>
+        <item>Treat for Convulsing now</item>
+        <item>Treatment of Severe Malaria</item>
+        <item>Treat Wheezing</item>
+        <item>Treat the Child for Low Blood Sugar</item>
+    </string-array>
+    <string-array name="young_health_facility_only">
+        <item>Give an Intramuscular Antibiotic</item>
+        <item>Treat the Child for Low Blood Sugar</item>
+    </string-array>
+    <string-array name="young_oral_drugs">
+        <item>Give an Appropriate Oral Antibiotic</item>
+        <item>Give Zinc Sulphate</item>
+    </string-array>
+    <string-array name="young_local_infections_at_home">
+        <item>To Treat Skin Pustules or Umbilical Infection</item>
+        <item>To Treat Thrush (white patches in mouth) or Mouth Ulcers.</item>
+        <item>Treat Eye infection with Tetracycline Eye Ointment</item>
+        <item>Immunize Every Sick Young Infant as Needed</item>
+        <item>To Treat Diarrhoea</item>
+        <item>To Counsel Mother about care for development problem.</item>
+    </string-array>
+    <string-array name="young_teach_correct_positioning">
+        <item>Teach Correct Positioning and Attachment
+for Breastfeeding</item>
+        <item>Teach the Mother to treat breast or nipple problems</item>
+        <item>Counsel the HIV positive mother who has chosen not to breastfeed</item>
     </string-array>
 
-    <string name="drawer_open">Open Drawer</string>
-    <string name="intro">        <b>Key Elements of IMCI\n</b>
-         <b>1. Assessment</b> \n
-         \tAssess for general danger signs \n
-         \tAssess for common illnesses \n
-         
-        
-<b>2. Classification</b> </string>
-    <string name="intro2">\n
-<b>3. Identify Treatment</b>
+    <!-- treat the infant/child string variables -->
+
+    <string name="header_instructions_teach_the_mother_oral_drugs">    Follow the instructions below for every oral drug to be given at home.
+Also follow the instructions listed with each drug\’s dosage table.\n</string>
+    <string name="instructions_teach_the_mother_oral_drugs">• Determine the appropriate drugs and dosage for the child\'s weight and age.\n• Tell the mother the reason for giving the drug to the child.\n• Demonstrate how to measure a dose.\n• Watch the mother practise measuring a dose for herself.\n• Ask the mother to give the first dose to the child.\n• Explain carefully how to give the drug, then label and package the drug.\n• If more than one drug will be given, collect, countand package each drug separately.\n• Explain that all the oral drug tablets or syrups must be used to finish the
+course of treatment, even if the child gets better.\n• Check the mother\’s understanding before she leaves the clinic.</string>
+    <string name="instructions_teach_the_mother_local_infections">• Explain to the mother what the treatment is and why it should be given.\n• Describe the treatment steps listed in the appropriate box.\n• Watch the mother as she gives the first treatment in the clinic (except remedy for cough
+or sore throat).\n• Explain to the mother how often to give the treatment at home.\n• If needed for treatment at home, give mother the tube of tetracycline ointment or a small
+bottle of gentian violet.\n• Check the mother\’s understanding before she leaves the clinic.\n</string>
+    <string name="trt_eye_infection">• Clean both eyes 3 times daily: \n\n\t\t• Wash hands.\n\t\t• Ask child to close the eye.\n\t\t• Use clean cloth and water to gently wipe away pus from inside out.\n\n\n• Then apply tetracycline eye ointment in both eyes 3 times daily.\n\n\t\t• Ask the child to look up.\n\t\t• Squirt a small amount of ointment on the inside of the lower lid.\n\t\t• Wash hands again.\n\n• Treat until redness is gone.\n\n• Do not use other eye ointments or drops, or put anything else in the eye.</string>
+    <string name="dry_ear_by_wicking">• Dry the ear at least three times daily.\n\n\t\t• Roll clean absorbent cloth or soft, strong tissue paper into a wick.\n\t\t• Place the wick in the child\'s ear.\n\t\t• Remove the wick when wet.\n\t\t• Replace the wick with a clean one and repeat these steps until the ear is dry.\n   </string>
+    <string name="trt_mouth_ulcers">• Treat the mouth ulcers twice daily: \n\n\t\t• Wash hands.\n\t\t• Wash the child\'s mouthwith clean soft cloth wrapped around the finger and wet with salt and water.\n\t\t• Paint the mouth with half-strength gentian-violet.\n\t\t• Wash hands again.</string>
+    <string name="trt_oral_thrush">    • Clean the mouth as for mouth ulcers.\n• instill Nystatin 1ml 4 times a day or treat with GV and avoid
+    feeding for 20 minutes after medication.\n• If breastfed advise mother to wash her breasts after feeds and apply the 
+    same medicine on the areola.\n• If severe reccurent or pharyngeal thrush refer for HIV testing.\n</string>
+    <string name="soothe_the_throat">• Safe remedies to recommend: \n\t\t-Breastmilk for breastfeeding children.\n
+    \t\t-Warm water with lemon and honey (children > 6 months)\n• Harmful remedies to discourage: \n
+     \t\t-Codeine and ephedrine containing cough mixtures.</string>
+    <string name="instructions_immunization_tbl">• If BCG not given at birth, it should not be given to children with symptomatic HIV /AIDS.\n• Measles vaccine at 6 months is for HIV exposed /infected children.\n• Yellow fever vaccine should not be given to children with symptomatic HIV /AIDS.\n• Yellow fever vaccine is only offered in (Koibatek, Baringo, Keiyo) in Rift valley.\n• Rota virus vaccine-should not be given to children over 15 months.</string>
+    <string name="immunization_other_problems"><b>ASSESS FOR OTHER PROBLEMS THAT THE CHILD MAY HAVE</b></string>
+    <string name="immunization_to_make_sure">• Make sure a child with any general danger sign is referred: \n
+    \t - After first dose of appropriate antibiotic and other urgent treatments.\n
+    \t - Exception: Rehydration of the child according to Plan C may resolve danger signs so that referral is no longer needed.</string>
+
+    <!-- End of treat the infant/child string variables -->
+
+    <string name="intro"><b>Key Elements of IMCI\n</b><b>1. Assessment\n</b>          \tRoutinely assess for general danger signs. \n
+         \tAssess for common illnesses in children look for other health problems.\n <b>2. Classification\n</b></string>
+    <string name="intro2"><b>3. Identify Treatment\n</b>  \bRefer to the identify treatment column. If the child has more than one classification look at more than one treatment table.
+ 
+\n <b>4. Treat\n</b> Treat means giving treatment in the facility, prescribing drugs or other treatments to be given at home and teaching the caregiver how to administer treatment at home.
+
 \n
+\n <b>5. Counsel\n</b> \bTeach the mother how to recognize signs indicating that the child should be brought back to the facility immediately.
+
 \n
-<b>4. Treat\n</b>
-\tTreat means giving prescribed treatment in the facility, 
-prescribing other drugs or other treatments to be administered at home
-\n
-\n
-<b>5. Counsel\n</b>
-\t Educate the mother on signs indicating child requires urgent follow up, feeding and care for development
-\n
-\n
-<b>6. Follow up</b>
-\n
+\n <b>6. Follow up\n</b> \bIf follow up care is indicated, teach the mother when to return to the clinic, refer to the IMCI guideline for appropriate follow up care.
+ 
 \n</string>
-    <string name="MyPage"><a href="http://www.publichealth.go.ke">publichealth.go.ke</a></string>
-    <string name="two_months">Child 0 to 2 months</string>
-    <string name="sixty_months">Child 2 to 60months(5years)</string>
+    <string name="MyPage"><a href="http: //www.publichealth.go.ke">publichealth.go.ke</a></string>
+    <string name="two_months">Age up to 2 months</string>
+    <string name="sixty_months">Age 2 months up to 5 years</string>
     <string name="proceed">Proceed</string>
     <string name="general">        1. Determine whether it is the initial visit or just a follow up of an illness\n\n
 2. If it is a follow up head to Treatment Chart in the Treat Child Tab\n\n
@@ -148,313 +232,259 @@ Ask the mother what the child\'s problems are
 \n
 \t\t 1. Determine whether it is the initial visit or just a follow up of an illness
 if it is a follow up use the follow up button on the mainmenu.\n
-if it is an initial visit assess the child as follow:
+if it is an initial visit assess the child as follow: 
 \n
 ---
 \n</string>
-    <string name="check_general">Ask \n
-
-\t • Is the child able to breastfeed or drink?\n
-
-\t • Does the child vomit everything? \n
-
-\t • Has the child had convulsions?
+    <string name="check_general"><b><u>Ask:</u></b> \n\t • Is the child able to breastfeed or drink?\n\t • Does the child vomit everything? \n\t • Has the child had convulsions?
 \n
-\n
-
-Look:\n
+\n<b><u>Look:</u></b> \n
  
-\t • See if child is lethargic or unconscious \n
-
-\t • Is the child convulsing now ? \n
+\t • See if child is lethargic or unconscious \n\t • Is the child convulsing now ? \n
 If yes treat immediately. \n
 If not proceed to ask for main symptoms.</string>
     <string name="ask_mother_young_infant">        Determine if this is an initial or follow-up visit for this problem \n
 
 \t - If follow-up, use the follow-up on the mainmenu. \n
 
-\t - If it is an initial visit, assess the young infant as follows:\n</string>
-    <string name="look_60_cough">Does the child have Cough or difficult breathing ?\n
-IF YES ASK \n
-For how long?\n
-LOOK, LISTEN, FEEL \n
-•	Count the breaths  in one minute.\n
-•	Look for chest indrawing.\n
-•	Look and listen for stridor.\n
-•	Look and listen for wheeze.\n
+\t - If it is an initial visit, assess the young infant as follows: \n</string>
+    <string name="look_60_cough">Does the child have Cough or difficult breathing ?\n<u>IF YES ASK</u> \n
+For how long?\n<u>LOOK, LISTEN, FEEL</u> \n•   Count the breaths  in one minute.\n•   Look for chest indrawing.\n•   Look and listen for stridor.\n•   Look and listen for wheeze.\n
 
 Child must be calm\n
-IF CHILD IS:        \n                             
-•	2 months up to 12 months fast breathing is 50 breaths per minute or more.\n
-•	12 months up to 5 years fast breathing is 40 breaths per minute or more.\n
+IF CHILD IS:         \n                             
+•   2 months up to 12 months fast breathing is 50 breaths per minute or more.\n•   12 months up to 5 years fast breathing is 40 breaths per minute or more.\n
 PLEASE CLASSIFY IF IT\'S A COUGH OR DIFFICULT BREATHING</string>
     <string name="look_60_diarrhoea">   Does the child have diarrhoea?\n \n
     FOR HOW LONG?\n
 Is there blood in the stool?\n
 LOOK, LISTEN, FEEL \n
-•	Look at the child’s general condition.\n
-•	Is the child: Lethargic or unconscious?\n Is the child restless and irritable?\n
-•	Look for sunken eyes.\n
-•	Offer the child fluid. Is the child not able to drink or drinking poorly?\n
-•	Pinch the skin of the abdomen. Does it go back: \nVery slowly(SEVERE DEHYDRATION) (longer than 2 sec.), \nSlowly(SOME DEHYDRATION), \nImmediately(NO DEHYDRATION)?
+•   Look at the child’s general condition.\n•   Is the child: Lethargic or unconscious?\n Is the child restless and irritable?\n•   Look for sunken eyes.\n•    Offer the child fluid. Is the child not able to drink or drinking poorly?\n•    Pinch the skin of the abdomen. Does it go back:  \nVery slowly(SEVERE DEHYDRATION) (longer than 2 sec.), \nSlowly(SOME DEHYDRATION), \nImmediately(NO DEHYDRATION)?
     
    \n\n PLEASE CLASSIFY FOR: 1.DEHYDRATION  \n2.DIARRHOEA FOR 14 DAYS OR MORE(PERSISTENT DIARRHOEA) \n3.IF BLOOD IN THE STOOL(DYSENTRY)</string>
-    <string name="look_60_fever">    Does the child have fever?\n
- IF YES ASK \n
-Has the child travelled to a high risk Malaria area in the last one month ?\n
-THEN ASK:\n
+    <string name="look_60_fever">    Does the child have fever?\n<u>IF YES ASK</u> \n
+Has the child travelled to a high risk Malaria area in the last one month ?\n<u>THEN ASK:</u> \n
 For how long?\n
 If more than 7 days , has fever been present every day?\n
-Has the child had signs of measles within the last 3 months?\n\n
-
-LOOK AND FEEL\n 
-•	Look and feel for stiff neck.\n
-•	Look for runny nose.\n
-•	Look for signs of measles …generalized rash and one of these runny nose, cough or red eyes.\n
-\n
+Has the child had signs of measles within the last 3 months?\n\n<u>LOOK AND FEEL</u>\n 
+•   Look and feel for stiff neck.\n•    Look for runny nose.\n• Look for signs of measles …generalized rash and one of these runny nose, cough or red eyes.\n
+\n\n
 DO A MALARIA TEST\n
-IF (Test = positive){\n
+IF Test is Positive\n
 P.falciparum PRESENT\n
-P.vivax PRESENT}\n
-ELSE {\n
+P.vivax PRESENT\n
+ELSE \n
 P.falciparum ABSENT\n
 P.vivax ABSENT\n
-}\n
+\n
 
 NOTE: if you can’t test, don’t withhold treatment\n
 
 Check for complications of Measles\n
-•	Look for mouth ulcers, are they deep or extensive?\n
-•	Look for pus draining from the eye.\n
-•	Look for clouding of their cornea.\n
+•   Look for mouth ulcers, are they deep or extensive?\n•   Look for pus draining from the eye.\n•   Look for clouding of their cornea.\n
     CLASSIFICATIONS \n
     1.High malaria risk\n
     2.Low malaria risk\n
     3.Measles\n</string>
-    <string name="look_60_earinfection">    Does the child have an ear problem\n
-IF YES ASK \n
+    <string name="look_60_earinfection">    Does the child have an ear problem\n<u>IF YES ASK </u>\n
 Is there ear pain?\n
-Is there ear discharge? If yes, how long?\n
-LOOK, AND FEEL \n
-•	Look for pus draining from the ear.\n
-•	Feel for tender swelling behind the ear?</string>
-    <string name="look_60_malnutrition">    Check for Malnutrition and anaemia\n
-
-ASK: Is there history of TB contact?\n
-LOOK, LISTEN, FEEL \n
-•	Take the child’s weight and plot it against mother / child health booklet to determine the z-score.\n
-•	Take the child’s length/height for age and plot on mother /child health booklet to determine the z_score.\n
-•	Determine the growth patter: is the growth faltering?(Weight curve is flattening or dropping for at least 2 consecutive months? )\n
-•	Look for oedema of both feet\n
-•	Look for visible severe wasting.\n
-For children aged 6 months up to 59 months, determine MUAC:\n
-•	less than 11.5cm\n
-•	11.5-12.5cm\n
-•	12.5-13.5cm\n
-Determine Z score for the same :\n
-•	les than-3\n
-•	-3 to less than -2\n
-•	-2 to less than -1\n
-•	 -1 to +2\n\n
-CHECK FOR ANAEMIA\n
-Look for palmar pallor, is it:\n
-•	Severe  palmar pallor?\n
-•	Some palmar pallor?\n
-•	No palmar pallor?</string>
-    <string name="look_60_hiv">  CHECK FOR HIV EXPOSURE AND INFECTION\n
-ASK\n
-•	Ask for mother’s HIV status to establish child’s HIV exposure…reactive, non reactive, unknown.\n
-•	Ask if child has had any TB contact.\n
-
-LOOK, FEEL AND DIAGNOSE:\n
-For child less than 18 months\n
-•	If mother’s HIV status is unknown, conduct an antibody test (rapid test)on either r mother or child.\n
-•	If mother’s or child’s antibody test is POSITIVE the child is HIV exposed. Take DBS for DNA PCR testing at six weeks or earliest contact thereafter\n
+Is there ear discharge? If yes, how long?\n<u>LOOK, AND FEEL </u>\n
+•   Look for pus draining from the ear.\n•   Feel for tender swelling behind the ear?</string>
+    <string name="look_60_malnutrition">    Check for Malnutrition \n\n<u>ASK:</u> Is there history of TB contact?\n\n<u>LOOK, LISTEN, FEEL</u> \n
+•   Take the child\’s weight and plot it against mother / child health booklet to determine the z-score.\n•   Take the child\’s length/height for age and plot on mother /child health booklet to determine the z_score.\n•   Determine the growth patter:  is the growth faltering?(Weight curve is flattening or dropping for at least 2 consecutive months? )\n•   Look for oedema of both feet\n•   Look for visible severe wasting.\n\n
+For children aged 6 months up to 59 months, determine MUAC: \n•   less than 11.5cm\n•   11.5-12.5cm\n•   12.5-13.5cm\n
+Determine Z score for the same : \n•   less than-3\n•   -3 to less than -2\n•   -2 to less than -1\n•    -1 to +2\n\n</string>
+    <string name="look_60_anaemia">CHECK FOR ANAEMIA\n
+Look for palmar pallor, is it: \n•   Severe  palmar pallor?\n•   Some palmar pallor?\n•   No palmar pallor?</string>
+    <string name="look_60_hiv">  CHECK FOR HIV EXPOSURE AND INFECTION\n<u>ASK</u>\n
+•   Ask for mother’s HIV status to establish child’s HIV exposure…reactive, non reactive, unknown.\n•   Ask if child has had any TB contact.\n<u>LOOK, FEEL AND DIAGNOSE:</u> \n<b>For child less than 18 months</b>\n•   If mother’s HIV status is unknown, conduct an antibody test (rapid test)on either r mother or child.\n•   If mother’s or child’s antibody test is POSITIVE the child is HIV exposed. Take DBS for DNA PCR testing at six weeks or earliest contact thereafter\n
  For child >18 months 
 If Mother is POSITIVE conduct rapid test on child as the child is exposed.</string>
-    <string name="look_young_special_treatment">    ASK AND CHECK RECORD FOR SPECIAL TREATMENT NEEDS \n\n
- • Has the mother had within 2 weeks of delivery:\n
+    <string name="look_young_special_treatment"><u>ASK AND CHECK RECORD FOR SPECIAL TREATMENT NEEDS</u> \n\n
+ • Has the mother had within 2 weeks of delivery: \n
  \t\t-fever?\n
- \t\t-infectiontreated with antibiotic?  \n
- • Membranes raptured for over 18 hours before delivery?\n
- • Foul smelling liquor.\n
- • Mother tested VDRL positive?\n
- • Mother tested HIV positive?\n
+ \t\t-infectiontreated with antibiotic?  \n • Membranes raptured for over 18 hours before delivery?\n • Foul smelling liquor.\n• Mother tested VDRL positive?\n • Mother tested HIV positive?\n
  \t\t-Is or has been on ARVs?\n
- \t\t-Has received infant feeding counselling?\n
- • Is the mother receiving TB treatment which began less than 2 months ago?</string>
-    <string name="diarrhoea_assessment">        IF YES ASK \n
+ \t\t-Has received infant feeding counselling?\n • Is the mother receiving TB treatment which began less than 2 months ago?</string>
+    <string name="diarrhoea_assessment"><u>IF YES ASK</u> \n
 \t\tFor how long?\n
 \t\tIs there blood in the stool? \n\n
 LOOK, LISTEN, FEEL \n
-•	Look at the child’s general condition.\n
-•	Is the child: Lethargic or unconscious? Is the child restless and irritable?\n
-•	Look for sunken eyes.\n
-•	Offer the child fluid. Is the child not able to drink or drinking poorly?\n
-•	Pinch the skin of the abdomen. Does it go back: Very slowly (longer than 2 sec.), Slowly, Immediately?</string>
-    <string name="look_young_hiv">    ASK\n
-    • Ask for mother\'s HIV status to establish child\'s HIV exposure.Is it:\n
+•   Look at the child’s general condition.\n•   Is the child: Lethargic or unconscious? Is the child restless and irritable?\n•   Look for sunken eyes.\n•   Offer the child fluid. Is the child not able to drink or drinking poorly?\n•   Pinch the skin of the abdomen. Does it go back:  Very slowly (longer than 2 sec.), Slowly, Immediately?</string>
+    <string name="look_young_hiv"><u>ASK</u>\n
+    • Ask for mother\'s HIV status to establish child\'s HIV exposure.Is it: \n
     \t\t-Reactive.\n
     \t\t-Non reactive.\n
-    \t\t-Unknown.\n
-    • Ask if child has had any TB contact.\n\n
-    	LOOK,FEEL AND DIAGNOSE:\n
-    	Child less than 18 months\n
-    	• If Mother\'s HIV status is unknown,conduct an antibady test(rapid test) on 
-    	mother or child to determine HIV exposure.\n
-    	•If mother\'s or child\'s antibody test is POSITIVE the child is HIV exposed.
-    	Take DBS for DNA PCR test at six weeks or earliest contact thereafter.</string>
-    <string name="look_young_feeding_problem">    ASK:\n
-    • Is the infant breastfed?\n 
-    If yes,how many times during the day__During the night__ How many times in 24 hours?__\n
-    If no, ask why?__\n
-    • Does the infant usually receive any other foods or drinks?\n
-    • How do you prepare the feeds?\n
-    • What do you use to feed the infant?\n
-    LOOK, LISTEN, FEEL: \n
-    
-    Determine weight for age.\n
-    • Look for ulcers or white patches in the mouth(thrush).\n
-    • Determine mother\'s HIV status:\n
+    \t\t-Unknown.\n• Ask if child has had any TB contact.\n\n<u>LOOK,FEEL AND DIAGNOSE:</u> \n<b>Child less than 18 months</b>\n• If Mother\'s HIV status is unknown,conduct an antibady test(rapid test) on 
+        mother or child to determine HIV exposure.\n•If mother\'s or child\'s antibody test is POSITIVE the child is HIV exposed.
+        Take DBS for DNA PCR test at six weeks or earliest contact thereafter.</string>
+    <string name="look_young_feeding_problem"><u>ASK:</u> \n
+    • Is the infant breastfed?\n <b>IF YES:</b>\n-How many times during the day?\n-How many times during the night?\n-How many times in 24 hours?\n<b>IF NO, why?</b>    \n• Does the infant usually receive any other foods or drinks?\n• How do you prepare the feeds?\n• What do you use to feed the infant?\n<u>LOOK, LISTEN, FEEL:</u>  \n<b>Determine weight for age.</b>\n• Look for ulcers or white patches in the mouth(thrush).\n• <b>Determine mother\'s HIV status:</b> \n
     \t\t-Reactive.\n
     \t\t-Non reactive.\n
-    \t\t-Unknown.\n
-    • Determine HIV exposed Infant\'s HIV status:\n
+    \t\t-Unknown.\n• <b>Determine HIV exposed Infant\'s HIV status:</b> \n
     \t-Positive.\n
     \t-Negative.\n
     \t-Unknown.
-    \n\n
-    If the infant has no indications for urgent referral to hospital from previous assessment:\n
-    • Discuss infant feeding options with the mother.\n
-    • FOR A MOTHER WHO HAS DECIDED TO BREASTFEED:\n
-    ASSESS BREASTFEEDING:\n
-    • Has the infant breastfed in the previous hour?\n
-    • If the infant has not fed in the previous hour,ask the mother to put her infant to the breast.
-    Observe the breastfeed for 4 minutes.\n
-    • (If the infant was fed during the last hour, ask the mother if she can wait and tell you when the
-    infant is willing to feed again.)\n\n
-    TO CHECK CORRECT POSITIONING, LOOK FOR:\n
+    \n\n<b><s>If the infant has no indications for urgent referral to hospital from previous assessment:</s></b> \n• Discuss infant feeding options with the mother.\n\n <u>FOR A MOTHER WHO HAS DECIDED TO BREASTFEED:</u> \n<b>ASSESS BREASTFEEDING:</b> \n• Has the infant breastfed in the previous hour?\n• If the infant has not fed in the previous hour, ask the mother to put her infant to the breast.
+    Observe the breastfeed for 4 minutes.\n• (If the infant was fed during the last hour, ask the mother if she can wait and tell you when the
+    infant is willing to feed again.)\n\n<u>TO CHECK CORRECT POSITIONING, LOOK FOR:</u> \n
     -Infant\'s head and body straight.\n
     -Infant facing the mother\'s breast with nose opposite the nipple.\n
     -Infant\'s body close to the mother\'s body.\n
     -Mother supporting infant\'s whole body.\n
-    Is the child well positioned?\n
-    • Well positioned\n
-    • Not well positioned.\n
-    \n
-    TO CHECK ATTACHMENT, LOO FOR:\n
+    Is the child well positioned?\n• Well positioned\n• Not well positioned.\n
+    \n<u>TO CHECK ATTACHMENT, LOOK FOR:</u> \n
     \t-Chin touching breast.\n
     \t-Mouth wide open.\n
-    \t-Lower lipturn outward.\n
+    \t-Lower lip turned outward.\n
     \t-More areola visible above than below the mouth.\n
-    (All of these signs should be present if the attachment is good.)\n
-    • Is the infant able to attach?\n
+    (All of these signs should be present if the attachment is good.)\n• Is the infant able to attach?\n
     \t-not well attached.\n
-    \t-good attachment.\n
-    • Is the infant sucking effectively(that is, slow deep sucks,sometimes pausing)?\n
+    \t-good attachment.\n• Is the infant sucking effectively(that is, slow deep sucks,sometimes pausing)?\n
     \t-not sucking effectively.\n
-    \t-sucking effectively.\n  
-    • Clear a blocked nose if it interferes with breastfeeding.\n
-    • Look for ulcers or white patches in the mouth(Thrush).</string>
-    <string name="look_young_diarrhoea"><b> IF YES ASK</b> :\n
+    \t-sucking effectively.\n• <u>Clear a blocked nose</u> if it interferes with breastfeeding.\n• <u>Look for ulcers</u> or white patches in the mouth(Thrush).</string>
+
+    <!-- Assess Infant Severe Disease -->
+
+    <string name="look_young_very_severe_disease"><u>ASK and LOOK</u>\n
+\t\tHas the infant had convulsions?\n
+\t\tIs the infant not able to feed or breast feed?\n<u>LOOK,LISTEN,FEEL:</u> \n\n•   Look for breathing: Is the baby gasping or not breathing at all even when stimulated.\n•   Count the breaths in one minute. Repeat the count if elevated.\n•   Look for severe chest indrawing .\n•   Look and listen for grunting or wheezing.\n•   Look for nasal flaring.\n•   Look for central cyanosis.\n•   Look and feel for bulging fontanel.\n•   Look for pus draining from the ear.\n•   Look at the umbilicus. Is it red or draining pus?\n•   Measure temperature or feel for low or high body temperature.\n•   Look for skin pustules.\n•   See if the young infant is drowsy (Lethargic) or unconscious.\n•   Look at the young infant’s movements. Does the infant not move even when stimulated?\n•   Listen for very high pitched cry.\n•   Look for stiff neck.\n   </string>
+
+    <!-- Topics Infants Severe Disease -->
+    <string name="young_topic_very_severe_disease">VERY SEVERE DISEASE</string>
+    <string name="young_topic_local_bacterial_infection">LOCAL BACTERIAL INFECTION</string>
+    <string name="young_topic_very_severe_disease__or_local_bact">VERY SEVERE DISEASE OR LOCAL BACTERIAL INFECTION UNLIKELY</string>
+    <string name="young_topic_low_body_temperature">LOW BODY TEMPERATURE</string>
+
+    <!-- Classify Infant Severe Disease -->
+
+    <string name="young_signs_very_severe_disease">      Any of the following signs:\n  
+	  • Gasping or not breathing at all even when stimulated \n
+      • Respiratoy rate less than 20 breaths per minute\n
+      • Convulsions or convulsing now\n
+      • Not able to feed or breastfeed \n
+      • Fast breathing (60 breaths per minute or more)\n
+      • Severe chest indrawing\n
+      • Nasal flaring\n
+      • Central cyanosis\n
+      • Bulging fontanelle\n
+      • Pus draining from the ear \n
+      • Fever above 37.5°C celcius\n
+      • Very low body temperature\n
+      • Drowsy (Lethargic) or unconscious\n
+      • No movements even when stimulated\n
+      • Very high pitched cry \n
+      • Stiff neck.</string>
+    <string name="young_signs_local_bacterial_infection">         • Red umbilicus or draining pus or\n• Skin pustules.  </string>
+    <string name="young_signs_unlikely_bact_severe_disease">        • None ot the signs or very severe disease</string>
+    <string name="young_signs_low_body_temperature">        • Temperature 35.5-36.4.</string>
+    <!-- Identify Treatment Infant Severe Disease -->
+    <string name="young_treatment_very_severe_disease">  • Immediately resuscitate using a bag and mask if the baby: \n\t-Is not breathing at all even when stimulated or\n\t-Is gasping or\n\t Has a respiratory rate less 20 breaths per minute.\n• If convulsing now, give anticonvulsants.\n• Give first dose of Benzylpenicillin and Gentamicin.\n• Treat to prevent low blood sugar.\n• Advise mother how to keep the infant warm an the way to the hospital.\n• Admit or refer URGENTLY to hospital.</string>
+    <string name="young_treatment_local_bacterial_infection">    • Give Cotrimoxazole.\n• Teach the mother to treat local infections at home.\n• Advise mother to give home care for young infant.\n• Follow-up in two days.</string>
+    <string name="young_treatment_unlikely_localbactandseveredisease">        • Advise mother to give home care to the young infant.</string>
+    <string name="young_treatment_low_body_temperature">    • Re-warm young infant and reassess after 1 hour.Read on kangaroo warming.\n• Treat to prevent low blood sugar.\n• Advise mother to give home care to the young infant.\n• Advise mother when to return immediately. </string>
+
+    <!-- Assess Infant Diarrhoea -->
+
+    <string name="look_young_diarrhoea"><u>IF YES ASK</u> : \n
 For how long?\n
-Is there blood in the stool?\n\n <b>LOOK,LISTEN,FEEL:</b>\n
+Is there blood in the stool?\n\n <u>LOOK,LISTEN,FEEL: </u>\n
 Look at the young infant’s general condition.\n\n
-Is the infant:\n
-•	Lethargic or unconscious?\n
-•	Restless and irritable?\n
+Is the infant: \n•   Lethargic or unconscious?\n•   Restless and irritable?\n
 \t\t-Look for sunken eyes.\n
 \t\t-Pinch the skin of the abdomen.\n
-\t\t-Does it go back:\n
-•	Very slowly(longer than 2 seconds)?\n
-•	Slowly?\n
-•	Immediately?\n</string>
-    <string name="signs_diarrhoea_0_2">•	Lethargic or unconscious.\n
-•	Sunken eyes.\n
-•	Skin pinch goes back very slowly\n</string>
-    <string name="signs_diarrhoea_0_2Y ">  •	Restless,irritable\n
-•	Sunken Eyes\n
-•	Drink eagerly,thirsty\n
-•	Skin pinch goes back slowly\n</string>
-    <string name="signs_diarrhoea_0_2G ">     Not enough signs to classify as some or severe dehydration</string>
-    <string name="DiseaseSDehydration">    SEVERE DEHYDRATION</string>
-    <string name="DiseaseSDehydration1">    SOME DEHYDRATION</string>
-    <string name="DiseaseSDehydration2">    NO DEHYDRATION</string>
-    <string name="look_young_very_severe_disease">ASK\n
-\t\tHas the infant had convulsions?\n
-\t\tIs the infant not able to feed or breast feed?\n <b>LOOK,LISTEN,FEEL:</b>\n\n
-•	Look for breathing: Is the baby gasping or not breathing at all even when stimulated.\n
-•	Count the breaths in one minute. Repeat the count if elevated.\n
-•	Look for severe chest indrawing .\n
-•	Look and listen for grunting or wheezing.\n
-•	Look for nasal flaring.\n
-•	Look for central cyanosis.\n
-•	Look and feel for bulging fontanel.\n
-•	Look for pus draining from the ear.\n
-•	Look at the umbilicus. Is it red or draining pus?\n
-•	Measure temperature or feel for low or high body temperature.\n
-•	Look for skin pustules.\n
-•	See if the young infant is drowsy (Lethargic) or unconscious.\n
-•	Look at the young infant’s movements. Does the infant not move even when stimulated?\n
-•	Listen for very high pitched cry.\n
-•	Look for stiff neck.\n   </string>
-    <string name="young_severe_disease">    VERY SEVERE DISEASE</string>
-    <string name="young_severe_disease1">    LOCAL BACTERIAL INFECTION</string>
-    <string name="young_severe_disease2">    VERY SEVERE DISEASE OR LOCAL BACTERIAL INFECTION UNLIKELY</string>
-    <string name="young_severe_disease3">    LOW BODY TEMPERATURE</string>
-    <string name="look_young_jaundice">ASK\n
-•	Does the young infant have yellow discoloration of palms and soles? Check if this is so.\n
-•	If yes, for how long?\n 
-\n
-LOOK \n
-• Look at the young infants palms and soles.
+\t\t-Does it go back: \n•   Very slowly(longer than 2 seconds)?\n•   Slowly?\n•   Immediately?\n</string>
+    <!-- Topics Infants Diarrhoea -->
+    <string name="young_topic_severe_dehydration">SEVERE DEHYDRATION</string>
+    <string name="young_topic_some_dehydration">SOME DEHYDRATION</string>
+    <string name="young_topic_no_dehydration">NO DEHYDRATION</string>
+    <string name="young_topic_severe_prolonged_diarrhoea">SEVERE PROLONGED DIARRHOEA</string>
+
+    <!-- Classify Infant Diarrhoea -->
+
+    <string name="young_signs_severe_dehydration">        • Lethargic or unconscious\n• Sunken eyes\n• Not able to drink or drink poorly\n• Skin pinch goes back very slowly\n</string>
+    <string name="young_signs_some_dehydration">        • Restless, irritable\n• Sunken eyes\n• Drinks eagerly,thirsty\n• Skin pinch goes back slowly    </string>
+    <string name="young_signs_no_dehydration">        • Not enough signs to classify as some or severe dehydration.\n</string>
+    <string name="young_signs_severe_prolonged">        • Diarrhoea lasting 7 days or more.\n</string>
+    <string name="young_topic_possible_serious_abdominal_prob">POSSIBLE SERIOUS ABDOMINAL PROBLEM</string>
+    <string name="young_signs_dysentry">        • Blood in the stool.</string>
+
+    <!-- Identify Treatment Infant Diarrhoea -->
+
+    <string name="young_treatment_severe_dehydration">    • Admit or refer URGENTLY TO HOSPITAL with mother giving frequent sips of ORS on the way.Advise mother to continue breatfeeding.\n• Advice mother to keep the young infant warm on the way to hospital or...\n• If infant does not have VERY SEVERE DISEASE: Give fluid for severe dehydration.\n• Give Zinc Sulphate.</string>
+    <string name="young_treatment_some_dehydration">  • Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.\n• Advise mother to continue breastfeeding.\n• Give fluid and food for some dehydration.\n• Give zinc sulphate.</string>
+    <string name="young_treatment_no_dehydration">    • Give fluids to treat diarrhoea at home.\n• Give zinc sulphate.\n• Advise mother when to return immediately.\n• Follow up in 5 days if not improving.</string>
+    <string name="young_treatment_severe_prolonged_diarrhoea">   • If the young infant is dehydrated, treat dehydration before referral unless the infant has also a VERY SEVERE DISEASE.\n• Admit or refer to hospital.</string>
+    <string name="young_treatment_severe_abdominal_problem">    • Give first dose of Benzylpenicillin and Gentamicin.\n• Treat the infant/child for or prevent low blood sugar.\n• Admit or refer URGENTLY to hospital.\n• Advise mother how to keep the infant warm on the way.</string>
+
+    <!-- Assess Infant Eye Infection -->
+
+    <string name="young_eye"><b>LOOK AND FEEL:</b>\nEye discharge, \n\n
+           if yes how long?\n<u>Check for:</u> \n
+•   Crossed eyes\n
+•   Excessive tearing.\n
+•   Fear of light.\n
+•   Clouding of the cornea .\n
+•   Squeezing of the eyes.\n
+•   Red eyes.\n
+•   Whiteness in the pupil.\n
+•   Eye discharge, if yes for how long?\n
+•   Eyes draining pus.\n
+•   Swollen eyes.\n   </string>
+    <!-- Topics Infants Diarrhoea -->
+    <string name="young_topic_squint">SQUINT</string>
+    <string name="young_topic_congenital_cancer_of_the_eye">CONGENITAL CANCER OF THE EYE</string>
+    <string name="young_topic_congenital_glaucoma">CONGENITAL GLAUCOMA</string>
+    <string name="young_topic_severe_eye_infection">SEVERE EYE INFECTION</string>
+    <string name="young_topic_eye_infection">EYE INFECTION</string>
+    <string name="young_topic_congenital_condition">CONGENITAL CONDITION OR EYE INFECTION UNLIKELY</string>
+
+    <!-- Classify Infant Eye Infection -->
+    <string name="young_signs_squint">        • Crossed eyes.</string>
+    <string name="young_signs_congenital_cancer_of_the_eye">        • White spot on pupil.\n• Crossed eyes.</string>
+    <string name="young_signs_congenital_glaucoma">         • Clouding of the cornea and no signs of measles,\n• Fear of light and excessive tearing.</string>
+    <string name="young_signs_severe_eye_infection">         • Eyes swollen and draining pus.</string>
+    <string name="young_signs_eye_infection">        • Eyes are red or have a discharge.</string>
+    <string name="young_signs_unlikely_congenital">        • No signs to classify for congenital or eye infection.</string>
+
+    <!-- Identify Treatment Eye Infection -->
+    <string name="young_treatment_squint">        • Admit or refer immediately to the hospital or appropriate unit within the facility.</string>
+    <string name="young_treatment_congenital_cancer_of_the_eye">        • Admit or refer immediately to the hospital or appropriate unit within the facility.</string>
+    <string name="young_treatment_congenital_glaucoma">        • Admit or refer immediately to the hospital or appropriate unit within the facility.</string>
+    <string name="young_treatment_severe_eye_infection">    • Give fisrt dose of Benzylpenicillin and Gentamicin.\n• Apply first dose of Tetracycline.\n• Treat to prevent low blood sugar.\n• Admit or refer URGENTLY to hospital.\n• Advise mother on how to keep the baby warm on the way to the hospital.</string>
+    <string name="young_treatment_eye_infection">    • Teach mother how to treat eye infection at home.\n• Advise the mother to give home care.\n• Follow up in 2 days.</string>
+    <string name="young_treatment_unlikely_congenital_or_eyeinfection">        • Advise the mother to give home care for the child.</string>
+    <string name="signs_diarrhoea_0_2">•    Lethargic or unconscious.\n•   Sunken eyes.\n•   Skin pinch goes back very slowly\n</string>
+    <string name="signs_diarrhoea_0_2Y ">  •    Restless,irritable\n•   Sunken Eyes\n•   Drink eagerly,thirsty\n•   Skin pinch goes back slowly\n</string>
+    <string name="signs_diarrhoea_0_2G ">        Not enough signs to classify as some or severe dehydration</string>
+    <string name="DiseaseSDehydration">        SEVERE DEHYDRATION</string>
+    <string name="DiseaseSDehydration1">        SOME DEHYDRATION</string>
+    <string name="DiseaseSDehydration2">        NO DEHYDRATION</string>
+    <string name="young_severe_disease">        VERY SEVERE DISEASE</string>
+    <string name="young_severe_disease1">        LOCAL BACTERIAL INFECTION</string>
+    <string name="young_severe_disease2">        VERY SEVERE DISEASE OR LOCAL BACTERIAL INFECTION UNLIKELY</string>
+    <string name="young_severe_disease3">        LOW BODY TEMPERATURE</string>
+    <string name="look_young_jaundice"><u>ASK</u>\n
+•   Does the young infant have yellow discoloration of palms and soles? Check if this is so.\n•   If yes, for how long?\n 
+\n<u>LOOK</u> \n• Look at the young infants palms and soles.
 \n \t-Are they yellow?
 \n\n Classify Jaundice.</string>
-    <string name="look_young_eye">    IF YES, ASK:\n\n
-For how long?\n\n <b>LOOK AND FEEL:</b>\n
-•	Crossed eyes\n
-•	Excessive tearing.\n
-•	Fear of light.\n
-•	Clouding of the cornea.\n
-•	Squeezing of the eyes.\n
-•	Red eyes.\n
-•	Whiteness in the pupil.\n
-•	Eyes discharge, if yes for how long?\n
-•	Eyes draining pus.\n
-•	Swollen eyes. </string>
-    <string name="young_hiv">        ASK
-        \n
-• Ask for mother\’s  HIV status  to establish child’s  HIV   exposure.\n
-Is it:\n
+    <string name="young_hiv"><u>ASK</u>        \n• Ask for mother\’s  HIV status  to establish child’s  HIV   exposure.\n
+Is it: \n
 \t\t-Reactive\n
 \t\t-Non reactive\n
-\t\t-Unknown\n
-• Ask if child has had any TB contact.\n\n
-LOOK, FEEL AND  DIAGNOSE:\n\n <b> Child less 18months\n</b> • If Mother’s  HIV status  is unknown, conduct an  antibody test (rapid test)  on mother or child to
-determine Hiv exposure.\n
-• If mother  is or child’s  antibody test is  POSITIVE  the child  is HIV exposed.\n
+\t\t-Unknown\n• Ask if child has had any TB contact.\n\n<u>LOOK, FEEL AND  DIAGNOSE:</u> \n\n <b> Child less 18months\n</b>  • If Mother’s  HIV status  is unknown, conduct an  antibody test (rapid test)  on mother or child to
+determine Hiv exposure.\n• If mother  is or child’s  antibody test is  POSITIVE  the child  is HIV exposed.\n
 Take DBS  for DNA PCR  testing at six weeks or  earliest contact thereafter.\n
-PRESUMPTIVE SYMPTOMATIC DIAGNOSIS OF HIV INFECTION IN CHILDREN 18MONTHS\n
-LOOK and FEEL\n
-•	Pneumonia***\n
-•	Oral Candidiasis / thrush\n
-•	Severe sepsis\n
-•	Other AIDS defining conditions**\n</string>
-    <string name="young_eyeinfection">    CHECK FOR EYE INFECTIONS\n
-IF YES, ASK: \n
-For how long?\n
-LOOK AND FEEL:\n
-•	Crossed eyes\n
-•	Excessive tearing\n
-•	Fear of light\n
-•	Clouding of the cornea\n
-•	Squeezing of the eyes\n
-•	Red eyes\n
-•	Whiteness in the pupil\n
-•	Eyes discharge, if yes for how long?\n
-•	Eyes draining pus\n
-•	Swollen eyes\n</string>
-    <string name="young_diseaseEye">    SQUINT
+PRESUMPTIVE SYMPTOMATIC DIAGNOSIS OF HIV INFECTION IN CHILDREN 18MONTHS\n<u>LOOK and FEEL</u>\n
+•   Pneumonia***\n
+•   Oral Candidiasis / thrush\n
+•   Severe sepsis\n
+•   Other AIDS defining conditions**\n</string>
+    <string name="young_eyeinfection">    CHECK FOR EYE INFECTIONS\n<u>IF YES, ASK:</u>  \n
+For how long?\n<u>LOOK AND FEEL:</u> \n•   Crossed eyes\n•   Excessive tearing\n•   Fear of light\n•   Clouding of the cornea\n•   Squeezing of the eyes\n•   Red eyes\n•   Whiteness in the pupil\n•   Eyes discharge, if yes for how long?\n•   Eyes draining pus\n•   Swollen eyes\n</string>
+    <string name="young_diseaseEye">        SQUINT
 \n\n
 CONGENITAL CANCER OF THE EYE
 \n\n
@@ -466,169 +496,84 @@ SEVERE EYE INFECTION</string>
     <string name="young_diseaseEye1">    EYE INFECTION</string>
     <string name="SignsEyeInfection1"></string>
     <string name="Signs"></string>
-    <string name="cough_assessment">          Does the child have Cough or difficult breathing ?\n
-IF YES ASK    \n\n                  
-For how long?\n\n
-LOOK, LISTEN, FEEL\n\n
-•	Count the breaths in one minute.\n
-•	Look for chest indrawing.\n
-•	Look and listen for stridor.\n
-•	Look and listen for wheeze.\n
+    <string name="cough_assessment">        Does the child have Cough or difficult breathing ?\n<u>IF YES ASK</u>    \n\n                  
+For how long?\n\n<u>LOOK, LISTEN, FEEL</u>\n\n
+•   Count the breaths in one minute.\n•   Look for chest indrawing.\n•   Look and listen for stridor.\n•   Look and listen for wheeze.\n
 
 Child must be calm\n\n
-IF CHILD IS:        \n                             
-•	2 months up to 12 months fast breathing is 50 breaths per minute or more.\n
-•	12 months up to 5 years fast breathing is 40 breaths per minute or more.\n</string>
-    <string name="fever_assessment">        Does the child have fever? \n
-IF YES ASK \n\n
-Has the child travelled to a high risk Malaria area in the last one month ?\n
-THEN ASK:\n
+IF CHILD IS:         \n                             
+•   2 months up to 12 months fast breathing is 50 breaths per minute or more.\n•   12 months up to 5 years fast breathing is 40 breaths per minute or more.\n</string>
+    <string name="fever_assessment">        Does the child have fever? \n<u>IF YES ASK </u>\n\n
+Has the child travelled to a high risk Malaria area in the last one month ?\n<u>THEN ASK:</u> \n
 For how long?\n
 If more than 7 days , has fever been present every day?\n
-Has the child had signs of measles within the last 3 months?\n
-
-LOOK AND FEEL \n
-•	Look and feel for stiff neck.\n
-•	Look for runny nose.\n
-•	Look for signs of measles …generalized rash and one of these runny nose, cough or red eyes.\n
+Has the child had signs of measles within the last 3 months?\n<u>LOOK AND FEEL</u> \n
+•   Look and feel for stiff neck.\n
+•   Look for runny nose.\n
+•   Look for signs of measles …generalized rash and one of these runny nose, cough or red eyes.\n\n
 
 DO A MALARIA TEST\n
-IF (Test = positive){\n
-P.falciparum PRESENT and
-P.vivax PRESENT}\n\n
-or ELSE {\n
-P.falciparum ABSENT and
-P.vivax ABSENT\n
-}\n\n\n
+IF Test is positive\n
+\t P.falciparum PRESENT and\n
+\t P.vivax PRESENT\n\n
+or ELSE \n
+\t P.falciparum ABSENT and\n
+\t P.vivax ABSENT\n
+\n
 
 NOTE: if you can’t test, don’t withhold treatment\n\n
 
 Check for complications of Measles\n
-•	Look for mouth ulcers, are they deep or extensive?\n
-•	Look for pus draining from the eye.\n
-•	Look for clouding of their cornea.\n</string>
-    <string name="signs_severe_pneumonia">    • Any general danger sign\n
-      • Chest indrawing\n
-      • Stridor in calm child\n
-      • Fast breathing\n
-      • No signs of pneumonia or very severe disease. </string>
-    <string name="signs_pneumonia">    • Fast Breathing\n</string>
-    <string name="signs_no_pneumonia">    • No signs of pneumonia or very severe disease.\n</string>
-    <string name="signs_severe_dehydration">• Lethargic or unconscious\n
-        • Sunken eyes\n
-        • Not able to drink or drink poorly\n
-        • Skin pinch goes back very slowly\n</string>
-    <string name="young_signs_severe_dehydration">• Lethargic or unconscious\n
+•   Look for mouth ulcers, are they deep or extensive?\n
+•   Look for pus draining from the eye.\n
+•   Look for clouding of their cornea.\n</string>
 
-        • Sunken eyes\n
-        • Skin pinch goes back very slowly.</string>
-    <string name="young_signs_severe_prolonged">• Diarrhoea lasting 7 days or more.\n</string>
-    <string name="young_signs_no_feeding_problem">     • Not low weight for age and no other signs of inadequate feeding.</string>
-    <string name="signs_no_dehydration">         • Not enough signs to classify as some or severe dehydration.\n</string>
-    <string name="signs_some_dehydration">        • Restless, irritable\n
-        • Sunken eyes\n
-        • Drinks eagerly,thirsty\n
-        • Skin pinch goes back slowly    </string>
-    <string name="young_signs_some_dehydration">        • Restless, irritable\n
-         • Sunken eyes\n
-         • Skin pinch goes back slowly    </string>
-    <string name="signs_severe_persistent_diarrhoea">    • Dehydration present.</string>
-    <string name="signs_persistent_diarrhoea">    • No Dehydration.</string>
-    <string name="signs_dysentry">    • Blood in the stool.</string>
+    <string name="signs_severe_pneumonia">      • Any general danger sign\n• Chest indrawing\n• Stridor in calm child\n• Fast breathing\n• No signs of pneumonia or very severe disease. </string>
+    <string name="signs_pneumonia">        • Fast Breathing\n</string>
+    <string name="signs_no_pneumonia">        • No signs of pneumonia or very severe disease.\n</string>
+
+<string name="young_signs_severe_prolonged_diarrhoea">Diarrhoea testing 7 days or more</string>
+   
+<string name="young_signs_no_feeding_problem">        • Not low weight for age and no other signs of inadequate feeding.</string>
+    <string name="signs_no_dehydration">        • Not enough signs to classify as some or severe dehydration.\n</string>
+    <string name="signs_some_dehydration">        • Restless, irritable\n• Sunken eyes\n• Drinks eagerly,thirsty\n• Skin pinch goes back slowly    </string>
+    <string name="signs_severe_dehydration">        • Lethargic or unconscious\n• Sunken eyes\n• Not able to drink or drink poorly\n• Skin pinch goes back very slowly\n</string>
+    <string name="signs_severe_persistent_diarrhoea">        • Dehydration present.</string>
+    <string name="signs_persistent_diarrhoea">        • No Dehydration.</string>
+    <string name="signs_dysentry">        • Blood in the stool.</string>
     <string name="signs_mastoditis">        • Tender swelling behind the ear\n</string>
-    <string name="signs_acute_ear_infection">       • Pus is seen draining from the ear\n
-        • Discharge is reported for less than 14 days,or ear pain\n</string>
-    <string name="signs_chronic_infection">             • Pus is seen draining from the ear or discharge is reported for 14 days or more.</string>
+    <string name="signs_acute_ear_infection">        • Pus is seen draining from the ear\n• Discharge is reported for less than 14 days,or ear pain\n</string>
+    <string name="signs_chronic_infection">        • Pus is seen draining from the ear or discharge is reported for 14 days or more.</string>
     <string name="signs_no_ear_infection">        • No ear pain and No pus seen or reported draining from ear.</string>
-    <string name="signs_very_severe_febrile_disease"> • Any general danger sign.\n 
-            • Stiff neck.</string>
-    <string name="signs_malaria">              • Malaria test POSITIVE.</string>
-    <string name="signs_fever_no_malaria">             • Malaria test NEGATIVE.\n
-       • Runny nose PRESENT.\n
-       • Measles PRESENT.\n
-      • Other causes of fever PRESENT.</string>
-    <string name="signs_fever_no_malaria_low">             • No general danger sign.\n
-       • No stiff neck.\n
-       • Malaria test negative.</string>
+    <string name="signs_very_severe_febrile_disease">        • Any general danger sign.\n• Stiff neck.</string>
+    <string name="signs_malaria">        • Malaria test POSITIVE.</string>
+    <string name="signs_fever_no_malaria">        • Malaria test NEGATIVE.\n• Runny nose PRESENT.\n• Measles PRESENT.\n• Other causes of fever PRESENT.</string>
+    <string name="signs_fever_no_malaria_low">       • No general danger sign.\n• No stiff neck.\n• Malaria test negative.</string>
     <string name="signs_suspected_measles">        • Generalized rash of measles and One of cough,runny nose</string>
-    <string name="signs_severe_complications_of_measles">          • Clouding of cornea.\n
-        • Deep or extensive mouth ulcers.</string>
-    <string name="signs_eye_mouth">            • Pus draining from the eye.\n
-     • Mouth ulcers.</string>
-    <string name="signs_no_eye_mouth">            • No pus draining from the eyes or mouth ulcers.</string>
-    <string name="signs_severe_acute_malnutrition">          • With visible wasting.\n
-        • Oedema of both feet. \n
-• less than-3 Z Score ( weight for or weight
-for height/length)\n
-FOR CHILDREN 6MONTHS UPTO 
-MUAC less than 11.5cm</string>
-    <string name="signs_moderate_acute_malnutrition">          • Static weight or losing.\n 
-• 3 to less than -2 Z- Score\n
-IF AGE 6 MONTHS UPTO 59 MONTHS
-MUAC 11.5 TO 12.5cm</string>
-    <string name="signs_at_risk_malnutrition">          • Static weight or losing weight\n
-• 2 to less than -1 Z-Score\n
-"IF AGE 6MONTHS UPTO 59 MONTHS
-MUAC 12.5 TO 13.5cm"</string>
-    <string name="signs_no_malnutrition">     • weight -1 to +2.</string>
-    <string name="signs_severe_anaemia">       • Severe palmar pallor.</string>
-    <string name="signs_anaemia">         • Some palmar pallor.</string>
-    <string name="signs_no_anaemia">          • No palmar pallor.</string>
-    <string name="signs_confirmed_hiv">        • Child less 18 months and DNA PCR test POSITIVE.\n
-      • Child above 18 months and Antibody test  POSITIVE.</string>
+    <string name="signs_severe_complications_of_measles">        • Clouding of cornea.\n• Deep or extensive mouth ulcers.</string>
+    <string name="signs_eye_mouth">        • Pus draining from the eye.\n• Mouth ulcers.</string>
+    <string name="signs_no_eye_mouth">        • No pus draining from the eyes or mouth ulcers.</string>
+    <string name="signs_severe_acute_malnutrition">        • With visible wasting.\n• Oedema of both feet. \n• less than-3 Z Score ( weight for or weight for height/length)\n FOR CHILDREN 6MONTHS UPTO MUAC less than 11.5cm</string>
+    <string name="signs_moderate_acute_malnutrition">        • Static weight or losing.\n• 3 to less than -2 Z- Score\nIF AGE 6 MONTHS UPTO 59 MONTHS MUAC 11.5 TO 12.5cm</string>
+    <string name="signs_at_risk_malnutrition">        • Static weight or losing weight\n• 2 to less than -1 Z-Score\n"IF AGE 6MONTHS UPTO 59 MONTHS MUAC 12.5 TO 13.5cm"</string>
+    <string name="signs_no_malnutrition">        • weight -1 to +2.</string>
+    <string name="signs_severe_anaemia">        • Severe palmar pallor.</string>
+    <string name="signs_anaemia">        • Some palmar pallor.</string>
+    <string name="signs_no_anaemia">        • No palmar pallor.</string>
+    <string name="signs_confirmed_hiv">        • Child less 18 months and DNA PCR test POSITIVE.\n• Child above 18 months and Antibody test  POSITIVE.</string>
     <string name="young_signs_confirmed_hiv">        • Child less 18 months and DNA PCR test POSITIVE.</string>
-    <string name="young_signs_feeding_problem">        • Not well attached to breast or. \n
-        • Not sucking effectively.\n
-        • Breastfeeds less than 8 times in 24 hours or.\n
-        • Receives other foods or drinks or.\n
-        • Low weight for age or \n
-        • Thrush (white patches in mouth)or\n
-        • Mouth ulcers</string>
+    <string name="young_signs_feeding_problem">        • Not well attached to breast or. \n• Not sucking effectively.\n• Breastfeeds less than 8 times in 24 hours or.\n• Receives other foods or drinks or.\n• Low weight for age or \n• Thrush (white patches in mouth)or\n• Mouth ulcers</string>
     <string name="young_no_feeding_problem">        • Not low weight for age and no other signs of inadequate feeding. \n</string>
     <string name="young_signs_very_low_birth_weight">        • Weight less than 2 kg. </string>
     <string name="young_signs_low_birth_weight">        • Weight between 2 kg and 2.5kg. </string>
     <string name="young_signs_normal_birth_weight">        • Weight 2.5kg or more. </string>
-    <string name="signs_hiv_exposed">       • If mother\'s HIV status is POSITIVE and no result for child.\n or \n
-        • If child antibody test shows POSITIVE.\n or \n
-        • If DNA PCR test is negative.</string>
-    <string name="signs_suspected_symptomatic_hiv_infection">         •No test results for child or mother. \n
-        • 2 or more of the following conditions: \n
-       \t\t -Severe Pneumonia\n
-       \t\t -Candidiasis/thrush\n
-       \t\t -Severe Sepsis\n or \n
-       • An AIDS defining condition.</string>
-    <string name="signs_unlikely_hiv_infection">        •If child is 18 less months with UNKNOWN mother\'s HIV tests Negative \n       
-        •If child is above 18 months and tests antibody NEGATIVE.</string>
-    <string name="young_signs_very_severe_disease">        • Gasping or not breathing at all even when stimulated \n
-    • Respiratoy rate less than 20 breaths per minute\n
-      • Convulsions or convulsing now\n
-      • Not able to feed or breastfeed \n
-      • Fast breathing (60 breaths per minute or more)\n
-       • Severe chest indrawing\n
-       • Nasal flaring\n
-       • Central cyanosis\n
-     • Bulging fontanelle\n
-      • Pus draining from the ear \n
-       • Fever above 37.5 degrees celcius\n
-      • Very low body temperature\n
-       • Drowsy (Lethargic) or unconscious\n
-       • No movements even when stimulated\n
-     • Very high pitched cry \n
-      • Stiff neck.</string>
-    <string name="young_signs_local_bacterial_infection">         • Red umbilicus or draining pus or\n
-         • Skin pustules.  </string>
-    <string name="young_signs_unlikely_bact_severe_disease"> • None ot the signs or very severe disease</string>
-    <string name="young_signs_low_body_temperature">          • Temperature 35.5-36.4.</string>
-    <string name="young_risk_of_bacterial_infection">    • Baby less 1 day old and membranes ruptured for more than 18hrs before delivery or\n
-    • Foul smelling liqour or\n
-    • Mother being treated for antibiotics for infection or\n
-    • Mother has fever:temperature above 38 degrees.</string>
-    <string name="young_risk_of_congenital_syphilis">    • Mother tested VDRL positive.</string>
-    <string name="young_risk_of_hiv_transmission">    • Mother confirmed HIV positive and not on ARV\'s.\n
-    • Mother has not been counseled on infant feeding.\n
-    • Mother chose breastfeeding.\n
-    • Mother chose replacement breastfeeding.</string>
-    <string name="young_risk_of_tuberculosis">   • Mother started TB treatment less than 2 months before delivery. </string>
+    <string name="signs_hiv_exposed">        • If mother\'s HIV status is POSITIVE and no result for child.\n or \n• If child antibody test shows POSITIVE.\n or \n• If DNA PCR test is negative.</string>
+    <string name="signs_suspected_symptomatic_hiv_infection">        • No test results for child or mother. \n• 2 or more of the following conditions:  \n\t\t -Severe Pneumonia\n\t\t -Candidiasis/thrush\n\t\t -Severe Sepsis\n or \n• An AIDS defining condition.</string>
+    <string name="signs_unlikely_hiv_infection">        • If child is 18 less months with UNKNOWN mother\'s HIV tests Negative \n• If child is above 18 months and tests antibody NEGATIVE.</string>
+    <string name="young_risk_of_bacterial_infection">    • Baby less 1 day old and membranes ruptured for more than 18hrs before delivery or\n• Foul smelling liqour or\n• Mother being treated for antibiotics for infection or\n• Mother has fever: temperature above 38°C.</string>
+    <string name="young_risk_of_congenital_syphilis">        • Mother tested VDRL positive.</string>
+    <string name="young_risk_of_hiv_transmission">    • Mother confirmed HIV positive and not on ARV\'s.\n• Mother has not been counseled on infant feeding.\n• Mother chose breastfeeding.\n• Mother chose replacement breastfeeding.</string>
+    <string name="young_risk_of_tuberculosis">        • Mother started TB treatment less than 2 months before delivery. </string>
 
     <string-array name="array_cough">
         <item>Any general danger sign    </item>
@@ -718,7 +663,7 @@ MUAC 12.5 TO 13.5cm"</string>
         <item>Central cyanosis</item>
         <item>Bulging fontanelle</item>
         <item>Pus draining from the ear </item>
-        <item>Fever above 37.5 degrees celcius</item>
+        <item>Fever above 37.5°C celcius</item>
         <item>Very low body temperature</item>
         <item>Drowsy (Lethargic) or unconscious</item>
         <item>No movements even when stimulated</item>
@@ -729,19 +674,9 @@ MUAC 12.5 TO 13.5cm"</string>
         <item>Temperature 35.5-36.4</item>
     </string-array>
 
-    <string name="young_signs_severe_jaundice">        • Yellow palms and soles at any age. \n
-       • Any jaundice if age less than 24 hours OR more than 14 days of age.\n</string>
-    <string name="young_signs_jaundice">        • No yellow palms and soles. \n
-       • Jaundice appearing between 24 hours and 14 days of age.\n</string>
-    <string name="young_signs_no_jaundice">           • No signs to classify as severe jaundice.</string>
-    <string name="young_signs_squint">        • Crossed eyes.</string>
-    <string name="young_signs_congenital_cancer_of_the_eye">         • White spot on pupil.\n
-         • Crossed eyes.</string>
-    <string name="young_signs_congenital_glaucoma">        • Clouding of the cornea and signs of Measles,\n
-         • Fear of light and excessive tearing.</string>
-    <string name="young_signs_severe_eye_infection">        • Eyes swollen and draining pus.</string>
-    <string name="young_signs_eye_infection">        • Eyes are red or have a discharge.</string>
-    <string name="young_signs_unlikely_congenital">        • No signs to classify for congenital or eye infection.</string>
+    <string name="young_signs_severe_jaundice">       • Yellow palms and soles at any age. \n• Any jaundice if age less than 24 hours OR more than 14 days of age.\n</string>
+    <string name="young_signs_jaundice">       • No yellow palms and soles. \n• Jaundice appearing between 24 hours and 14 days of age.\n</string>
+    <string name="young_signs_no_jaundice">        • No signs to classify as severe jaundice.</string>
 
     <string-array name="young_array_jaundice">
         <item>Yellow palms and soles at any age </item>
@@ -793,301 +728,115 @@ MUAC 12.5 TO 13.5cm"</string>
         <item>Polio</item>
     </string-array>
 
-    <string name="Malaria_Treatment">        •	Give Artemeter + Lumefantrine (AL).\n
-•	Give one dose of paracetamol in clinic for high fever (>38.5 degrees).\n
-•	Give Vitamin A.\n
-•	Follow up in 2 days if fever persists.\n
+    <string name="Malaria_Treatment"><b>MALARIA\n</b>•  Give Artemeter + Lumefantrine (AL).\n
+•   Give one dose of paracetamol in clinic for high fever (>38.5°C).\n
+•   Give Vitamin A.\n
+•   Follow up in 2 days if fever persists.\n
 •   Advise when to return immediately .\n
-•	If fever is present every day > 7 days assess or refer.\n</string>
-    <string name="Severe_Pneumonia_Treatment">         •Give first dose of Chloramphenicol \n
-•Treat for and to prevent low blood sugar \n
-•Keep the child warm\n
-•Treat wheeze if present \n
-•Admit or refer URGENTLY to hospital"\n</string>
-    <string name="pneumonia_treatment">        •  Give Cotrimoxazole for 5 days \n
-•Give Vitamin A. \n
-•Treat wheeze if present \n
-•Soothe the throat and relieve the cough with a safe remedy\n
-•If coughing for 14 days or more,Screen for TB or refer\n
-•Check for Hiv infection \n
-•Advise mother when to return immediately\n
-•Follow-up in 2 days \n</string>
-    <string name="no_pneumonia_treatment">        • If coughing for 14 days or more screen for TB or refer\n
-•Treat wheeze of present\n
-•Soothe the throat and relieve the cough with a safe remedy\n
-•Advise mother when to return immediately.\n
-•Follow-up in 5 days if not improving.</string>
-    <string name="severe_dehydration">        •Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.Advise the mother to continue breatsfeeding.\n
-•Give fluid for severe dehdration\n
-•Give vitamin A \n
-•Give Zinc Sulphate \n
-•If there is no other severe classification\n
-•If child is 2yrs or older and there is cholera in your area give Erythromycin \n</string>
-    <string name="some_dehydration_treatment">      •   If the child has a severe classification \n
-•Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.Advise the mother to continue breatsfeeding.\n
-•Give fluid and food for some dehydration \n
-•Give vitamin A \n
-•Give Zinc Sulphate \n
-•Follow-up in 2days if not improving\n</string>
-    <string name="no_dehydration_treatment">  •  If the child has a severe classification \n
-•Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.Advise the mother to continue breatsfeeding.\n
-•Give fluid and food for some dehydration \n
-•Give vitamin A\n
-•Give Zinc Sulphate\n 
-•Follow-up in 5 days if not improving\n</string>
-    <string name="severe_persistent_diarrhoea_treatment">•Treat dehydration before referral unless the child has another severe classification \n
-•Give vitamin A \n
-•Give Zinc Sulphate\n
-•Give Multivitamin / Mineral supllements \n
-•Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way\n</string>
-    <string name="persistent_diarrhoea_treatment">• Advise the mother on feeding a child who has PERSISTENT DIARRHOEA\n
-•Give vitamin A \n
-•Give Zinc Sulphate \n
-•Give Multivitamin supplements \n
-•Check for HIV infection \n
-•Follow up in 5 days </string>
-    <string name="young_treatment_very_severe_disease">  • Immediately resuscitate using a bag and mask if the baby:\n
-  \t-Is not breathing at all even when stimulated or\n
-  \t-Is gasping or\n
-  \t Has a respiratory rate less 20 breaths per minute.\n
-  • If convulsing now, give anticonvulsants.\n
-  • Give first dose of Benzylpenicillin and Gentamicin.\n
-  • Treat to prevent low blood sugar.\n
-  • Advise mother how to keep the infant warm an the way to the hospital.\n
-  • Admit or refer URGENTLY to hospital.</string>
-    <string name="young_treatment_local_bacterial_infection">    • Give Cotrimoxazole.\n
-    • Teach the mother to treat local infections at home.\n
-    • Advise mother to give home care for young infant.\n
-    • Follow-up in two days.</string>
-    <string name="young_treatment_unlikely_localbactandseveredisease">   • Advise mother to give home care to the young infant.</string>
-    <string name="young_treatment_low_body_temperature">     • Re-warm young infant and reassess after 1 hour.Read on kangaroo warming.\n
-    • Treat to prevent low blood sugar.\n
-    • Advise mother to give home care to the young infant.\n
-    • Advise mother when to return immediately. </string>
-    <string name="young_treatment_severe_jaundice">    • Treat to prevent low blood sugar.\n
-   • Advise mother how to keep the baby warm on the way to the hospital.\n
-   • Admit or refer URGENTLY to hospital. </string>
-    <string name="young_treatment_jaundice">    • Advise caregiver to expose the baby to the direct sunlight for at least an hour a day.\n
-    • Advise mother when to return immediately.\n
-    • Advise mother to give home care to the infant.\n
-    • Follow up in 2 days.</string>
-    <string name="young_treatment_no_jaundice">    • Advise mother to give home care to the infant.</string>
-    <string name="young_treatment_squint">    • Admit or refer immediately to the hospital or appropriate unit within the facility.</string>
-    <string name="young_treatment_congenital_cancer_of_the_eye"> • Admit or refer immediately to the hospital or appropriate unit within the facility.</string>
-    <string name="young_treatment_congenital_glaucoma"> • Admit or refer immediately to the hospital or appropriate unit within the facility.</string>
-    <string name="young_treatment_severe_eye_infection">    • Give fisrt dose of Benzylpenicillin and Gentamicin.\n
-    • Apply first dose of Tetracycline.\n
-    • Treat to prevent low blood sugar.\n
-    • Admit or refer URGENTLY to hospital.\n
-    • Advise mother on how to keep the baby warm on the way to the hospital.</string>
-    <string name="young_treatment_eye_infection">    • Teach mother how to treat eye infection at home.\n
-    • Advise the mother to give home care.\n
-    • Follow up in 2 days.</string>
-    <string name="young_treatment_unlikely_congenital_or_eyeinfection">    • Advise the mother to give home care for the child.</string>
-    <string name="young_treatment_severe_dehydration">        • Admit or refer URGENTLY TO HOSPITAL with mother giving frequent sips of ORS on the
-    way.Advise mother to continue breatfeeding.\n
-    • Advice mother to keep the young infant warm on the way to hospital or...\n
-    • If infant does not have VERY SEVERE DISEASE: Give fluid for severe dehydration.\n
-    • Give Zinc Sulphate.</string>
-    <string name="young_treatment_some_dehydration">  • Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.\n
-  • Advise mother to continue breastfeeding.\n
-  • Give fluid and food for some dehydration.\n
-  • Give zinc sulphate.</string>
-    <string name="young_treatment_no_dehydration">    • Give fluids to treat diarrhoea at home.\n
-    • Give zinc sulphate.\n
-    • Advise mother when to return immediately.\n
-    • Follow up in 5 days if not improving.</string>
-    <string name="young_treatment_severe_prolonged_diarrhoea">        • If the young infant is dehydrated, treat dehydration before
-   referral unless the infant has also a VERY SEVERE DISEASE.\n
-   • Admit or refer to hospital.</string>
-    <string name="young_treatment_severe_abdominal_problem">    • Give first dose of Benzylpenicillin and Gentamicin.\n
-    • Treat the child for or prevent low blood sugar.\n
-    • Admit or refer URGENTLY to hospital.\n
-    • Advise mother how to keep the infant warm on the way.</string>
-    <string name="young_treatment_confirmed_hivinfection">    • Treat, counsel and follow up existing infections.\n
-    • Initiate or continue with Cotrimoxazole prophylaxis.\n
-    • Give vitamin A.\n
-    • Assess child\'s feeding and provide appropriate counselling to mother.\n
-    • For children with positive TB contact, screen for TB and manage
-    accordingly or refer to appropriate unit.\n
-    • Follow up after one month.\n
-    • Offer comprehensive management of HIV or refer to appropriate unit.</string>
-    <string name="young_treatment_hiv_exposed">   • Treat, counsel and follow up existing infections.\n
-    • Initiate or continue with Cotrimoxazole prophylaxis.\n
-  • Give and continue with Nevirapine prophylaxisas per the national PMTCT guidelines.\n
-  • Give vitamin A.\n
-  • Assess child\'s feeding and provide appropriate counselling to mother.</string>
-    <string name="young_treatment_symptomatic">    • Treat, counsel and follow up existing infections.\n
-    • Initiate or continue with Cotrimoxazole prophylaxis.\n
-  • Give vitamin A.\n 
-   • Assess child\'s feeding and provide appropriate counselling to mother.\n
-   • Test to confirm HIV infection.\n
-   • Follow up after one month.\n
-   • Offer comprehensive management of HIV or refer to appropriate unit.</string>
-    <string name="young_treatment_hiv_infection_unlikely">         • Manage presenting conditions according to IMCI and other recommended National guidelines.\n
-   • Advise the mother about feeding and about her own health.</string>
-    <string name="young_treatment_feeding_problem">         • Advise the mother to breastfeed as often and for as long as the infant wants,day and night.\n
-    • If not well attached or suckling effectively,teach and show correct positioning and attachment.\n
-  • If breastfeeding less than 8 times in 24 hours,advise to increase frequency of feeding.\n 
-   • If receiving other foods or drinks,counsel mother about breastfeeding more, reducing
-   other foods or drinks, and using a cup.\n
-   • If not breastfeeding at all:\n
-   \t- Refer for breastfeeding counselling and possible relactation.\n
-   • Advise about correctly preparing breast milk substitutes and using a cup.\n
-   • If a HIV positive mother has chosen not to breastfeed, give feeding advice. Give Vitamin A.\n
-   • If thrush or mouth ulcers, tach the mother to treat thrush and mouth ulcers at home.\n
-   • Check for HIV infection.\n
-   • Advise mother to give home care for the young infant.\n
-   • Follow any feeding problem,thrush or mouth ulcers in 2 days.\n
-   • Follow up low weight for age in 14 days.</string>
-    <string name="young_treatment_no_feeding_problem">         • Advise mother to give home care for the young infant. \n
-         • Praise the mother for feeding the infant well.</string>
-    <string name="young_treatment_very_low_birth">         • Treat to prevent low blood sugar. \n
-         • Keep baby warm.\n
-         • Advise mother to keep the baby warm.\n
-         • Admit or refer urgently to hospital.</string>
-    <string name="young_treatment_low_birth_weight">         • Manage as for FEEDING PROBLEM OR LOW WEIGHT. \n
-         • Advice mother to keep the young infant warm.\n
-         • Followup in 14 days.</string>
-    <string name="young_treatment_normal_birth_weight">         • Advise mother to give home care to the young infant.</string>
-    <string name="young_treatment_risk_bact">         • Give babay 1st dose of Benzylpenicillin and Gentamicin.\n
-         • Treatment to prevent low blood sugar.\n
-         • Keep warm.\n
-         • Admit or refer urgently to hospital.</string>
-    <string name="young_treatment_risk_syphilis">         • Give baby single dose of bentathine penicilin.\n
-         • Ensure mother and partner are treated.
-         • Follow up in 14days.</string>
-    <string name="young_treatment_risk_transmission_hiv">         • Give ARV prophylaxis to the newborn.\n
-         • Counsel on infant feeding options.\n
-         • Give special counselling to breast feeding omther.Emphasize on exclusive breastfeeding for 6 months.\n
-         • Teach the mother replacement feeding if that\'s her choice and meets AFASS criteria.\n
-         • Inform mother of DNA PCR test at 6 weeks.\n
-         • Follow up in 14 days.</string>
-    <string name="young_treatment_risk_TB">         • Give infant Isoniazid prophylaxis for 6 months.\n
-         • Give BCG vaccination to the infant only when baby\'s treatment is completed.\n
-         • Follow up in 14 days.</string>
-    <string name="dysentry_treatment">•Treat with Ciproflaxacin \n
-•Give vitamin A \n
-•Give Zinc Sulphate \n
-•Follow-up in 2 Days </string>
-    <string name="very_severe_febrile_treatment"> •Give first dose of Artesunate for severe malaria \n
-•Give first dose of Chloramphenicol  \n
-•Treat the child to prevent low blood sugar\n 
-•Give one dose of parcetamol in clinic for high fever( >38.5 degrees Celsius)</string>
-    <string name="fever_no_malaria_treatment">•Give one dose of parcetamol in clinic for high fever( >38.5 degrees Celsius)\n
-•Assess for other posible causes of fever \n
-•Follow up in two days if fever persists\n
-•If fever is present every day for more than 7days assess further or refer </string>
-    <string name="suspected_measles_treatment"> •Give vitamin A \n
-•Notify, take blood sample for confirmation\n
-•Advise mother when to return immediately\n</string>
-    <string name="severe_febrile_disease_treatment"> •Give first dose of Artesunate for severe malaria \n
-•Give first dose of Chloramphenicol \n
-•Treat the child to prevent low blood sugar \n
-•Give one dose of parcetamol in clinic for high fever( >38.5 degrees Celsius)</string>
-    <string name="severe_complications_measles"> •Give Vitamin A \n
-•If pus draining from the eye, treat eye infection with tetracycline eye ointment\n
-•Notify, take blood sample for confirmation, refer or Admit URGENTLY to hospital \n</string>
-    <string name="eye_mouth_measles_treatment">•Give Vitamin A \n
-•If pus draining from the eye, treat eye infection with tetracycline eye ointment\n
-•If mouth ulcers,treat with gentian voilet or nystatin\n
-•Follow-up in two days\n
-•If child has no indication for referral,notify and draw blood sample for confirmation of measles</string>
-    <string name="no_eye_mouth_treatment">•Give vitamin A if not received in th last 1 month\n
-•If child has no indication for referral,draw blood and send for confirmation</string>
-    <string name="mastoditis_treatment">•Give first dose of Chloramphenicol \n
-•Give first dose of paracetamol for pain\n
-•Admit or refer URGENTLY to hospital.</string>
-    <string name="acute_ear_infection_treatment">•Give Cotrimoxazole for 5 days \n
-•Give paracetamol for pain\n
-•Dry the ear by wicking \n
-•Check for HIV infection\n
-•Follow-up in 5 days</string>
-    <string name="chronic_ear_infection_treatment"> •Dry the ear by wicking \n
-•Follow-up in 5 days \n
-•Check for HIV infection</string>
-    <string name="no_ear_infection_treatment">    • No additional treatment\n</string>
-    <string name="severe_acute_malnutrition_treatment">•Give Vitamin A \n
-•Treat for and to prevent low blood sugar\n
-•Keep the child warm\n
-•Admit or refer URGENTLY to hospital \n</string>
-    <string name="moderate_acute_malnutrition_treatment"> •Assess the child\'s feeding and counsel the mother on feeding \n
-•If growth is faltering for 2 consecutive months,assess further or refer to the hospital \n
-•Give Iron and Folate \n
-•Give vitamin A \n
-•Give Artemeter + Lumefantrine (AL) if high malaria risk\n
-•Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months \n
-•If T.B. contact positive assess further or refer.\n
-•Check for HIV infection\n
-•Advise mother when to come immediately\n
-•Follow up in 5 days</string>
-    <string name="at_risk_malnutrition_treatment">•Assess the child\'s feeding and counsel the mother on feeding \n
-•If growth is faltering for 2 consecutive months,assess further or refer to the hospital \n
-•Give Iron and Folate \n
-•Give vitamin A \n
-•Give Artemeter + Lumefantrine (AL) if high malaria risk\n
-•Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months\n
-•If T.B. contact positive assess further or refer.\n
-•Check for HIV infection\n
-•Advise mother when to come immediately\n
-•Follow up in 14 days</string>
-    <string name="no_malnutrition_treatment">•Counsel the mother on feeling according to the food box on \n
-•Give Mebendazole or Albendazole if child is 1 year or older and has not had a dose in the previous 6 months  </string>
-    <string name="severe_anaemia_treatment">•Treat for and to prevent low blood sugar  
-•Keep the child warm 
-•Admit or refer URGENTLY to hospital </string>
-    <string name="anaemia_treatment">•Assess the child\'s feeding and counsel the mother on feeding \n
-•If growth is faltering for 2 consecutive months,assess further or refer to the hospital \n
-•Give Iron and Folate\n 
-•Give vitamin A \n
-•Give Artemeter + Lumefantrine (AL) if high malaria risk\n
-•Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months \n
-•If T.B. contact positive assess further or refer.\n
-•Check for HIV infection\n
-•Advise mother when to come immediately\n
-•Follow up in 14 days</string>
-    <string name="no_anaemia_treatment">•Counsel the mother on feeling according to the food box on  \n
-•Give Mebendazole or Albendazole if child is 1 year or older and has not had a dose in the previous 6 months </string>
-    <string name="confrimed_hiv_infection_treatment"> •Treat, counsel and follow up existing infection\n
-•Initiate or continue with Cotrimoxazole prophylaxis\n 
-•Give vitamin A \n
-•Assess child\'s feeding and provide appropriate counseling to mother \n
-•For children with positive TB contact,screen for TB and manage accordingly or refer to appropriate unit\n
-•Follow up after one month.\n
-•Offer comprehensive management ofHIV or refer to appropriate unit </string>
-    <string name="hiv_exposed_treatment">        •Treat, counsel and follow up existing infection\n
-•Initiate or continue with Cotrimoxazole prophylaxis\n 
-•Give and continue with Nevirapine prophylaxis as per the national PMTCT guidelines \n
-•Give vitamin A \n
-•Assess child\'s feeding and provide appropriate counselling to mother \n
-•Offer routine follow up for growth and development, nutrition, immunization\n
-•Follow up after one month \n
-•Repeat HIV antibody test at 9 Months, if negative, repeat test again at 18 months and continue with normal under fives clinic\n
-•If antibody test at 9 months is positive, collect DBS sample for confirmatory DNA PCR test.</string>
+•   If fever is present every day > 7 days assess or refer.\n</string>
+    <string name="Severe_Pneumonia_Treatment">• Give first dose of Chloramphenicol \n
+• Treat for and to prevent low blood sugar \n
+• Keep the child warm\n
+• Treat wheeze if present \n
+• Admit or refer URGENTLY to hospital"\n</string>
+    <string name="pneumonia_treatment">• Give Cotrimoxazole for 5 days \n• Give Vitamin A. \n• Treat wheeze if present \n• Soothe the throat and relieve the cough with a safe remedy\n• If coughing for 14 days or more,Screen for TB or refer\n• Check for Hiv infection \n• Advise mother when to return immediately\n• Follow-up in 2 days \n</string>
+    <string name="no_pneumonia_treatment">• If coughing for 14 days or more screen for TB or refer\n• Treat wheeze of present\n• Soothe the throat and relieve the cough with a safe remedy\n• Advise mother when to return immediately.\n• Follow-up in 5 days if not improving.</string>
+    <string name="severe_dehydration">• Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.Advise the mother to continue breatsfeeding.\n• Give fluid for severe dehdration\n• Give vitamin A \n• Give Zinc Sulphate \n• If there is no other severe classification\n• If child is 2yrs or older and there is cholera in your area give Erythromycin \n</string>
+    <string name="some_dehydration_treatment">• If the child has a severe classification \n• Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.Advise the mother to continue breatsfeeding.\n• Give fluid and food for some dehydration \n• Give vitamin A \n• Give Zinc Sulphate \n• Follow-up in 2days if not improving\n</string>
+    <string name="no_dehydration_treatment">• If the child has a severe classification \n• Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.Advise the mother to continue breatsfeeding.\n• Give fluid and food for some dehydration \n• Give vitamin A\n• Give Zinc Sulphate\n• Follow-up in 5 days if not improving\n</string>
+    <string name="severe_persistent_diarrhoea_treatment">• Treat dehydration before referral unless the child has another severe classification \n• Give vitamin A \n• Give Zinc Sulphate\n• Give Multivitamin / Mineral supplements \n• Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way\n</string>
+    <string name="persistent_diarrhoea_treatment">• Advise the mother on feeding a child who has PERSISTENT DIARRHOEA.\n• Give vitamin A.\n• Give Zinc Sulphate.\n• Give Multivitamin supplements.\n• Check for HIV infection.\n• Follow up in 5 days.</string>
+    <string name="young_treatment_severe_jaundice">• Treat to prevent low blood sugar.\n• Advise mother how to keep the baby warm on the way to the hospital.\n• Admit or refer URGENTLY to hospital. </string>
+    <string name="young_treatment_jaundice">• Advise caregiver to expose the baby to the direct sunlight for at least an hour a day.\n• Advise mother when to return immediately.\n• Advise mother to give home care to the infant.\n• Follow up in 2 days.</string>
+    <string name="young_treatment_no_jaundice">• Advise mother to give home care to the infant.</string>
+    <string name="young_treatment_confirmed_hivinfection">• Treat, counsel and follow up existing infections.\n• Initiate or continue with Cotrimoxazole prophylaxis.\n• Give vitamin A.\n• Assess child\'s feeding and provide appropriate counselling to mother.\n• For children with positive TB contact, screen for TB and manage accordingly or refer to appropriate unit.\n• Follow up after one month.\n• Offer comprehensive management of HIV or refer to appropriate unit.</string>
+    <string name="young_treatment_hiv_exposed">• Treat, counsel and follow up existing infections.\n• Initiate or continue with Cotrimoxazole prophylaxis.\n• Give and continue with Nevirapine prophylaxisas per the national PMTCT guidelines.\n• Give vitamin A.\n• Assess child\'s feeding and provide appropriate counselling to mother.</string>
+    <string name="young_treatment_symptomatic">• Treat, counsel and follow up existing infections.\n• Initiate or continue with Cotrimoxazole prophylaxis.\n• Give vitamin A.\n• Assess child\'s feeding and provide appropriate counselling to mother.\n   • Test to confirm HIV infection.\n• Follow up after one month.\n• Offer comprehensive management of HIV or refer to appropriate unit.</string>
+    <string name="young_treatment_hiv_infection_unlikely">   • Manage presenting conditions according to IMCI and other recommended National guidelines.\n• Advise the mother about feeding and about her own health.</string>
+    <string name="young_treatment_feeding_problem">   • Advise the mother to breastfeed as often and for as long as the infant wants,day and night.\n• If not well attached or suckling effectively,teach and show correct positioning and attachment.\n• If breastfeeding less than 8 times in 24 hours,advise to increase frequency of feeding.\n• If receiving other foods or drinks,counsel mother about breastfeeding more, reducing other foods or drinks, and using a cup.\n• If not breastfeeding at all: \n\t- Refer for breastfeeding counselling and possible relactation.\n• Advise about correctly preparing breast milk substitutes and using a cup.\n• If a HIV positive mother has chosen not to breastfeed, give feeding advice. Give Vitamin A.\n• If thrush or mouth ulcers, tach the mother to treat thrush and mouth ulcers at home.\n• Check for HIV infection.\n• Advise mother to give home care for the young infant.\n• Follow any feeding problem,thrush or mouth ulcers in 2 days.\n• Follow up low weight for age in 14 days.</string>
+    <string name="young_treatment_no_feeding_problem">         • Advise mother to give home care for the young infant. \n• Praise the mother for feeding the infant well.</string>
+    <string name="young_treatment_very_low_birth">         • Treat to prevent low blood sugar. \n• Keep baby warm.\n• Advise mother to keep the baby warm.\n• Admit or refer urgently to hospital.</string>
+    <string name="young_treatment_low_birth_weight">         • Manage as for FEEDING PROBLEM OR LOW WEIGHT. \n• Advice mother to keep the young infant warm.\n• Followup in 14 days.</string>
+    <string name="young_treatment_normal_birth_weight">        • Advise mother to give home care to the young infant.</string>
+    <string name="young_treatment_risk_bact">         • Give babay 1st dose of Benzylpenicillin and Gentamicin.\n• Treatment to prevent low blood sugar.\n• Keep warm.\n• Admit or refer urgently to hospital.</string>
+    <string name="young_treatment_risk_syphilis">         • Give baby single dose of bentathine penicilin.\n• Ensure mother and partner are treated.\n• Follow up in 14 days.</string>
+    <string name="young_treatment_risk_transmission_hiv">         • Give ARV prophylaxis to the newborn.\n• Counsel on infant feeding options.\n• Give special counselling to breast feeding omther.Emphasize on exclusive breastfeeding for 6 months.\n• Teach the mother replacement feeding if that\'s her choice and meets AFASS criteria.\n• Inform mother of DNA PCR test at 6 weeks.\n• Follow up in 14 days.</string>
+    <string name="young_treatment_risk_TB">         • Give infant Isoniazid prophylaxis for 6 months.\n• Give BCG vaccination to the infant only when baby\'s treatment is completed.\n• Follow up in 14 days.</string>
+    <string name="dysentry_treatment"><b>DYSENTRY\n</b>• Treat with Ciproflaxacin \n• Give vitamin A \n• Give Zinc Sulphate \n• Follow-up in 2 Days </string>
+    <string name="very_severe_febrile_treatment">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol  \n• Treat the child to prevent low blood sugar\n• Give one dose of parcetamol in clinic for high fever( >38.5°C Celsius)</string>
+<string name="very_severe_febrile_treatment_low_risk">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol  \n• Treat the child to prevent low blood sugar\n• Check for Hiv infection\n• Give one dose of parcetamol in clinic for high fever( >38.5°C Celsius)
+</string>
+    <string name="fever_no_malaria_treatment">• Give one dose of parcetamol in clinic for high fever( >38.5°C Celsius)\n• Assess for other posible causes of fever \n• Follow up in two days if fever persists\n• If fever is present every day for more than 7 days assess further or refer </string>
+<string name="severe_complications_measles_treatment">
+    • Give Vitamin A \n• If pus draining from the eye, treat eye infection with tetracycline eye ointment\n• Notify, take blood sample for confirmation, refer or Admit URGENTLY to hospital \n
+</string>
+    <string name="suspected_measles_treatment">• Give vitamin A \n• Notify, take blood sample for confirmation\n• Advise mother when to return immediately\n</string>
+    <string name="lblvery_severe_febrile">VERY SEVERE FEBRILE DISEASE</string>
+    <string name="lblmalaria">MALARIA</string>
+    <string name="lblfever_no_malaria">FEVER: NO MALARIA</string>
+    <string name="lblsevere_complications_of_measles">SEVERE COMPLICATIONS OF MEASLES</string>
+    <string name="lbleye_mouth_complications">EYE OR MOUTH COMPLICATIONS OF MEASLES</string>
+    <string name="lblno_eye_mouth_complications">NO EYE OR MOUTH COMPLICATIONS OF MEASLES</string>
+    <string name="lblsuspected_measles">SUSPECTED MEASLES</string>
+   
+    
+    <string name="low_malaria_treatment">•  Give Artemeter + Lumefantrine (AL).\n•   Give one dose of paracetamol in clinic for high fever (>38.5°C).\n•   Give Vitamin A.\n•   Follow up in 2 days if fever persists.\n•   Advise when to return immediately .\n•   If fever is present every day > 7 days assess or refer.\n </string>
+    <string name="severe_febrile_disease_treatment">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol \n• treat the child to prevent low blood sugar \n• Give one dose of parcetamol in clinic for high fever( >38.5°C Celsius)</string>
+  
+    <string name="eye_mouth_measles_treatment">• Give Vitamin A \n• If pus draining from the eye, treat eye infection with tetracycline eye ointment\n• If mouth ulcers,treat with gentian voilet or nystatin\n• Follow-up in two days\n• If child has no indication for referral,notify and draw blood sample for confirmation of measles</string>
+    <string name="no_eye_mouth_treatment"> • Give vitamin A if not received in th last 1 month\n • If child has no indication for referral,draw blood and send for confirmation</string>
+    <string name="mastoditis_treatment">• Give first dose of Chloramphenicol \n• Give first dose of paracetamol for pain\n• Admit or refer URGENTLY to hospital.</string>
+    <string name="acute_ear_infection_treatment">• Give Cotrimoxazole for 5 days \n• Give paracetamol for pain\n• Dry the ear by wicking \n• Check for HIV infection\n• Follow-up in 5 days </string>
+    <string name="chronic_ear_infection_treatment">• Dry the ear by wicking \n• Follow-up in 5 days \n• Check for HIV infection</string>
+    <string name="no_ear_infection_treatment">        • No additional treatment\n</string>
+    <string name="severe_acute_malnutrition_treatment">• Give Vitamin A \n• Treat for and to prevent low blood sugar\n• Keep the child warm\n• Admit or refer URGENTLY to hospital \n</string>
+    <string name="moderate_acute_malnutrition_treatment">• Assess the child\'s feeding and counsel the mother on feeding \n• If growth is faltering for 2 consecutive months,assess further or refer to the hospital \n• Give Iron and Folate \n• Give vitamin A \n• Give Artemeter + Lumefantrine (AL) if high malaria risk\n• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months \n• If T.B. contact positive assess further or refer.\n• Check for HIV infection\n• Advise mother when to come immediately\n• Follow up in 5 days</string>
+    <string name="at_risk_malnutrition_treatment">• Assess the child\'s feeding and counsel the mother on feeding \n• If growth is faltering for 2 consecutive months,assess further or refer to the hospital \n• Give Iron and Folate \n• Give vitamin A \n• Give Artemeter + Lumefantrine (AL) if high malaria risk\n• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months\n• If T.B. contact positive assess further or refer.\n• Check for HIV infection\n• Advise mother when to come immediately\n• Follow up in 14 days</string>
+    <string name="no_malnutrition_treatment">• Counsel the mother on feeling according to the food box on \n• Give Mebendazole or Albendazole if child is 1 year or older and has not had a dose in the previous 6 months  </string>
+    <string name="severe_anaemia_treatment">• Treat for and to prevent low blood sugar\n• Keep the child warm \n• Admit or refer URGENTLY to hospital\n </string>
+    <string name="anaemia_treatment">• Assess the child\'s feeding and counsel the mother on feeding \n• If growth is faltering for 2 consecutive months,assess further or refer to the hospital \n• Give Iron and Folate\n• Give vitamin A \n• Give Artemeter + Lumefantrine (AL) if high malaria risk\n• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months \n• If T.B. contact positive assess further or refer.\n• Check for HIV infection\n• Advise mother when to come immediately\n• Follow up in 14 days</string>
+    <string name="no_anaemia_treatment">• Counsel the mother on feeling according to the food box on  \n
+• Give Mebendazole or Albendazole if child is 1 year or older and has not had a dose in the previous 6 months </string>
+    <string name="confirmed_hiv_infection_treatment">• Treat, counsel and follow up existing infection\n
+• Initiate or continue with Cotrimoxazole prophylaxis\n 
+• Give vitamin A \n
+• Assess child\'s feeding and provide appropriate counseling to mother \n
+• For children with positive TB contact,screen for TB and manage accordingly or refer to appropriate unit\n
+• Follow up after one month.\n
+• Offer comprehensive management ofHIV or refer to appropriate unit </string>
+    <string name="hiv_exposed_treatment">• Treat, counsel and follow up existing infection\n
+• Initiate or continue with Cotrimoxazole prophylaxis\n 
+• Give and continue with Nevirapine prophylaxis as per the national PMTCT guidelines \n
+• Give vitamin A \n
+• Assess child\'s feeding and provide appropriate counselling to mother \n
+• Offer routine follow up for growth and development, nutrition, immunization\n
+• Follow up after one month \n
+• Repeat HIV antibody test at 9 Months, if negative, repeat test again at 18 months and continue with normal under fives clinic\n
+• If antibody test at 9 months is positive, collect DBS sample for confirmatory DNA PCR test.</string>
     <string name="ad_follow_up_pneumonia">        After 2 days \n    
-    Check the child for general danger signs.\n
- Assess the child for diarrhoea.\n
- Ask:\n
- \t-Is the child breathing slower.\n
+ • Check the child for general danger signs.\n
+ • Assess the child for diarrhoea.\n
+ Ask: \n
+ \t-Is the child breathing slower?\n
     \t-Is there less fever?\n
     \t-Is the child eating better?\n</string>
     <string name="follow_up_pneumonia">    • If chest indrawing or a danger sign give intramuscular antibiotic. Then admit or refer urgently to Hospital.\n
-    •If breathing rate,fever and eating have not improved, change to secondline antibiotic and advise the mother to return in
+    • If breathing rate,fever and eating have not improved, change to secondline antibiotic and advise the mother to return in
     2 days or refer.(If this child had measles within the last 3 months or is known or suspected to have symptomatic
     HIV infections,refer.)
     \n
-    •If breathing slower, less fever, or eating better, complete the 5 days of antibiotic.</string>
+    • If breathing slower, less fever, or eating better, complete the 5 days of antibiotic.</string>
     <string name="ad_follow_up_dysentry"> After 2 days\n    
  Assess the child for diarrhoea.\n
- Ask:\n
+ Ask: \n
  \t-Are there fewer stools.\n
     \t-Is there less blood in the stool?\n
     \t-Is there less fever?\n
     \t-Is there less abdominal pain?\n
     \t-Is the child eating better?\n</string>
-    <string name="follow_up_dysentry">    •If the child is dehydrated, treat dehyration according to classification.\n
-    •If number of stools, fever, abdominnal pain, or eating is worse:Admit or refer to hospital.\n
-    •If the condition is the same: add metronidazole to the treatment.\n
+    <string name="follow_up_dysentry">    • If the child is dehydrated, treat dehyration according to classification.\n
+    • If number of stools, fever, abdominnal pain, or eating is worse: Admit or refer to hospital.\n
+    • If the condition is the same: add metronidazole to the treatment.\n
     \t Give it for 5 days. Advise the mother to continue ciproflaxin and zinc and to return in 2 days.
     Exceptions if the child\n
     \t 1. Is less than 12 months old 
@@ -1099,7 +848,7 @@ MUAC 12.5 TO 13.5cm"</string>
     • If fewer stools, less blood in the stools, less fever, less abdominal pain, and eating better,
     continue giving ciproflaxin and zinc until finished.</string>
     <string name="ad_follow_up_persistent_diarrhoea">        After 5 days\n
-      Ask: \n
+      Ask:  \n
       -Has the Diarrhoea stopped.\n
       -how many loose stools is the child having per day?</string>
     <string name="follow_up_persistent_diarrhoea">       • If the diarrhoea has not stopped(child is still having 3 or more loose 
@@ -1109,11 +858,11 @@ MUAC 12.5 TO 13.5cm"</string>
        Ask her to continue giving zinc foe total of 10 days.\n\n
        • NB: Attention to diet is an essential part of the management of a child with persistent diarrhoea.</string>
     <string name="ad_follow_up_wheezing">        After 2 days \n
-    Check the child for general danger signs or chest indrawing\n
-    Assess the child for cough or difficult breathing.\n\n
-     Ask: \n
+    • Check the child for general danger signs or chest indrawing\n
+    • Assess the child for cough or difficult breathing.\n\n
+     Ask:  \n
     \t-Is the child breathing slower?\n
-    \t-Is the child stillwheezing.\n
+    \t-Is the child still wheezing.\n
     \t-Is the child eating better.\n</string>
     <string name="follow_up_wheezing">         Child under 1 year  \n\n
     • If chest indrawing or a danger sign give intramuscular antibiotic.Then admit or
@@ -1124,65 +873,65 @@ MUAC 12.5 TO 13.5cm"</string>
     • If breathing rate and eating have not improved, change to second line antibiotic, and if still
     wheezing continue oral bronchodilator. Advise the mother to return in 2 days.\n
     • If breathing slower,no wheezing and eating better,continue the treatment for 5 days.</string>
-    <string name="ad_follow_up_malaria">        If fever persists after 2 days, or recurs within 14 days:\n
-  Do a full reassessment of the child.\n
-  Assess for other causes of fever\n</string>
+    <string name="ad_follow_up_malaria">  • If fever persists after 2 days, or recurs within 14 days: \n
+  • Do a full reassessment of the child.\n
+  • Assess for other causes of fever\n</string>
     <string name="follow_up_malaria">  • If the child has any general danger sign or stiff neck, treat as VERY SEVERE FEBRILE DISEASE.\n
   • If the child has any cause of fever other than malaria, provide treatment.\n
-  • If malaria is the only apparent cause of fever:Give Oral 
+  • If malaria is the only apparent cause of fever: Give Oral 
   DIHYDROARTEMISININ-PIPERAQUINE(DHA-PPQ).Give paracetamol.If child is ubder 5 kg and was given DHA-PPQ
   assess further.\n
   • Advice mother to return again in 2 days if the fever persists
   \n\t\t - if the fever has been present every day 7 days,refer for assessment.</string>
-    <string name="ad_follow_up_fever_nomalaria">        After 5 days: \n  
-  Do a full reassessment of the child.\n
-  Assess for other causes of fever.\n</string>
+    <string name="ad_follow_up_fever_nomalaria">        After 5 days:  \n  
+ • Do a full reassessment of the child.\n
+ • Assess for other causes of fever.\n</string>
     <string name="follow_up_fever_nomalaria">  • If the child has any general danger sign or stiff neck, treat as VERY SEVERE FEBRILE DISEASE.\n
-  • If the child has any cause of fever other then malaria, provide treatment.
-  • If malaria is the only apparent cause of fever:\n
-  \t\t Treat with the first-line antimalarial.Give paracetamol.Advise the mother to return again in 2 days if the fever persists.\n
-  \t\t If fever has been present every day for 7 days, referfor assessment.</string>
-    <string name="ad_follow_up_earinfection">        After 5 days: \n 
+  • If the child has any cause of fever other then malaria, provide treatment.\n
+  • If malaria is the only apparent cause of fever: \n
+  \t\t -Treat with the first-line antimalarial.Give paracetamol.Advise the mother to return again in 2 days if the fever persists.\n
+  \t\t -If fever has been present every day for 7 days, refer for assessment.</string>
+    <string name="ad_follow_up_earinfection">        After 5 days:  \n 
    • Reassess for ear problem.\n
    • Measure the child\'s temperature.\n\n</string>
-    <string name="follow_up_earinfection">    • If there is tender swelling behind the ear or high fever, admit or refer URGENTLY
+    <string name="follow_up_earinfection">    • If there is a tender swelling behind the ear or high fever, admit or refer URGENTLY
     to hospital.\n
-    • Acute ear infection:if ear pain continues or discharge persists,treat with 5 more days of the same antibiotic.
+    • Acute ear infection: If ear pain continues or discharge persists, treat with 5 more days of the same antibiotic.
     Conitnue wicking to dry the ear.Follow up in 5 days.\n
-    • Chronic ear infection:Check that the mother is wicking the ear correctly.Encourage her to continue.
+    • Chronic ear infection: Check that the mother is wicking the ear correctly.Encourage her to continue.
     Review in 2 weeks.\n
-    If ear discharge continues for more than 2 months:Admit or refer to hospital.\n
+    If ear discharge continues for more than 2 months: Admit or refer to hospital.\n
     • If no ear pain or discharge, praise the mother for her careful treatment.If she has not yet finished the 5 days of 
     antibiotic, tell her to use it till treatmentis completed.</string>
-    <string name="ad_follow_up_eyemouth">        After 2 days: \n  
+    <string name="ad_follow_up_eyemouth">        After 2 days:  \n  
  • Look for red eyes and pus draining from the eyes.\n
  • Look at mouth ulcers.\n
  • Smell the mouth.</string>
     <string name="follow_up_eyemouth">  • If pus is draining from the eye, ask the mother to describe how she has treated the eye infection.\n
   \t\t-If treatment has been correct, admit or refer to hospital.\n \t\t-If treatment has not been correct, teach mother correct treatment.\n
   • If the pus is gone but redness remains,continue the treatment.\n
-  • If no pus or redness,stop the treatment.</string>
-    <string name="ad_follow_up_feedingproblem">         After 5 days: \n  
- Reassess feeding: See questions according to counsel the mother tips.</string>
-    <string name="follow_up_feedingproblem"> • Counsel the mother about any new or continuing feeding problems. If you counsel the mother to make significant changes in feeding, ask her to bring the child back after 5 Days.\n
+  • If no pus or redness, stop the treatment.</string>
+    <string name="ad_follow_up_feedingproblem">         After 5 days:  \n  
+ • Reassess feeding: See questions according to counsel the mother tips.</string>
+    <string name="follow_up_feedingproblem"> • Counsel the mother about any new or continuing feeding problems. If you counsel the mother to make significant changes in feeding, ask her to bring the child back after 5 days.\n
  • If the child is very low weight for age, ask the mother to return 14 days after the initial visit to measure the child\'s weight gain.  </string>
-    <string name="follow_up_pallor">        After 14 days: \n   
-   • Give iron and folate.Advise mother to return in 14 days formore Iron and Folate.\n
+    <string name="follow_up_pallor">        After 14 days:  \n   
+   • Give iron and folate.Advise mother to return in 14 days for more Iron and Folate.\n
    • Continue giving Iron and Folate every 14 days for 2 months.\n
-   • If the child has palmar pallor after 2 months, refer for assessment</string>
-    <string name="ad_follow_up_lowweight">    After 14 days: \n 
-   Weigh the child and determine if the child is still very low weight for age.
+   • If the child has palmar pallor after 2 months, refer for assessment.</string>
+    <string name="ad_follow_up_lowweight">    After 14 days:  \n 
+  • Weigh the child and determine if the child is still very low weight for age.
 reassess feeding\n</string>
-    <string name="follow_up_lowweight"> • If the child is no longer very low weight for age, praise the mother and encourage her to continue with
+    <string name="follow_up_lowweight"> • If the child is no longer having a very low weight for age, praise the mother and encourage her to continue with
  the feeding until catch up growth is realized.\n
  • If child is still very low weight for age but gaining weight,encourage the mother to continue with feeding. Counsel the mother
  about any feeding problem found. Ask the mother to return again in 14 days.\n
- Continue to see the child every one month until the child is normal weight for age.
+ Continue to see the child every one month until the child is normal weight for age.\n
  • Admit or refer if the child has lost weight. You do not think that feeding will improve or the child continues to lose weight.</string>
     <string name="ad_follow_up_hivexposed">  HIV INFECTED CHILD      \n
- After one month: \n
+ After one month:  \n
 • Assess the child\s general condition. Do a full reassessment.\n
-• Treat the child for any condition found.\n
+• treat the child for any condition found.\n
 • Ask for any feeding problems, counsel the mother about any new or continuing feeding problems.\n
 • Advise mother to bring the child back If any new illness develops or she is worried.\n
 • Counsel the mother or any other problems and rescue community support is being given 
@@ -1193,109 +942,385 @@ reassess feeding\n</string>
     <string name="follow_up_hivexposed">         HIV INFECTED CHILD TESTED NEGATIVE FOR DNA PCR  \n
 • Assess the child\'s general condition. DO a full reassessment.\n
 • Ask for any feeding problems or poor appetite,counsel the mother or continue feeding problems.\n
-• Treat the child for any condition found.\n
+• treat the child for any condition found.\n
 • Start or continue with nevirapine prophylaxis.\n
 • Continue with routine follow up for growth and development,nutrition, immunization, vitamin A, deworming.\n
-• Follow up schedule of HIV Exposed infant: 6weeks, 10 weeks, 14 weeks, 6 months, 9months, 12 months, 15months, 18months.\n
+• Follow up schedule of HIV Exposed infant: 6 weeks, 10 weeks, 14 weeks, 6 months, 9months, 12 months, 15 months, 18 months.\n
 • Refer to early infant Diagnosis (EID) algorithm for confirmation of HIV status.\n
 • Refer to the HIV exposed infant follow up card and register for further follow up instructions.</string>
-    <string name="ad_young_follow_up_local_bacterialinfection">     After 2 Days: \n 
-    Look at the umbilicus.Is it red or draining pus?\n
-    Does redness extend to the skin?\n
-    Look at the skin pustules. Are there many or severe pustsles?\n
-    Look at the eyes.Is there pus? Is there associated swelling or redness of the eyelids?\n\n</string>
+    <string name="ad_young_follow_up_local_bacterialinfection">     After 2 Days:  \n 
+   • Look at the umbilicus.Is it red or draining pus?\n    
+   • Does redness extend to the skin?\n
+   • Look at the skin pustules. Are there many or severe pustsles?\n
+   • Look at the eyes.Is there pus? Is there associated swelling or redness of the eyelids?\n\n</string>
     <string name="young_follow_up_local_bacterialinfection">    • If pus or redness remains or is worse, admit or refer to hospital.\n
     • If pus and redness are improved, tell the mother to continue giving the
     5 days of antibiotic and continue treating the local infection at home.
     \n\n
     • If the pustules are same or worse, admit or refer to hospital.\n
     • If skin pustules are improved, tell the mother to continue treating the local infection at home.</string>
-    <string name="ad_young_follow_up_jaundice">      After 2 Days: \n
-   -Are palms and soles yellow?.\n\n</string>
-    <string name="young_follow_up_jaundice">        \t\t • If palms and soles are yellow or age 14 days or more, admit or refer to hospital.\n
+    <string name="ad_young_follow_up_jaundice">      After 2 Days:  \n
+   -Are palms and soles yellow?\n\n</string>
+    <string name="young_follow_up_jaundice">   \t\t • If palms and soles are yellow or age 14 days or more, admit or refer to hospital.\n
    \t\t • If palms and soles are not yellow and age is less than 14 days, advise on home care and when to return immediately.</string>
-    <string name="ad_young_follow_up_eyeinfection">    After 2 Days: \n
-   Look for pus from the eyes.\n\n</string>
+    <string name="ad_young_follow_up_eyeinfection">    After 2 Days:  \n
+  • Look for pus from the eyes.\n\n</string>
     <string name="young_follow_up_eyeinfection">   \t\t • If pus draining from the eyes, ask the mother to describe how 
    she has treated the eye infection. \n
    \t\t\t - If treatment has been correct, admit or refer ro hospital.\n
    \t\t\t - If treatment has not been correct, teach the mother correct
    treatment and advise her to give treatment for 5 days. \nFollow up in 2 days.
-\n\t\t • If no pus,ask th mother to continue treatment for 5 days.</string>
-    <string name="ad_young_follow_up_diarrhoea">    After 2 Days:\n
-    Ask - Has the diarrhoea stopped ?.\n</string>
+\n\t\t • If no pus, ask the mother to continue treatment for 5 days.</string>
+    <string name="ad_young_follow_up_diarrhoea">    After 2 Days: \n
+   • Ask if the diarrhoea stopped ?\n</string>
     <string name="young_follow_up_diarrhoea">   \t\t • If the diarrhoea has not stopped.Assess and treat the young infant for diarrhoea.\n
    \t\t • If the diarrhoea has stopped, tell the mother to continue exclusive breastfeeding . Advise her to continue giving zinc to complete 10 days.</string>
-    <string name="ad_young_follow_up_feeding_problem">        After 2 days :\n
+    <string name="ad_young_follow_up_feeding_problem">        After 2 days : \n
    Reassess feeding.\n  
-    Ask   about any feeding problem found on the initial visit\n</string>
-    <string name="young_follow_up_feeding_problem">        \t\t • Counsel the mother about any new or continuing feeding problem. If you counsel the mother to make significant changes in feeding. ask her to bring the young infant back
+    • Ask   about any feeding problem found on the initial visit\n</string>
+    <string name="young_follow_up_feeding_problem">   \t\t • Counsel the mother about any new or continuing feeding problem. If you counsel the mother to make significant changes in feeding. ask her to bring the young infant back
    after 2 days.\n
    \t\t • If the young infant is low weight for age, ask the mother to return 14 days after the visit to measure the young infant\'s 
 weight gain.
 \n
-\t\t Exception:  \n
+\t\t Exception:   \n
 \tIf you do not think that feeding will improve, or if the young infant has not lost weight, admit or refer the child.    </string>
     <string name="ad_young_follow_up_lowweight">   After 2 days\n
-  Weigh the young infant and determine if the infant is still low weight for age.\n</string>
+ • Weigh the young infant and determine if the infant is still low weight for age.\n</string>
     <string name="young_follow_up_lowweight">   Reassess feeding.\n 
-   \t\t • Counsel the mother about any new or continuing problems. If you counsel the mother to make significant changes in feeding,ask her to bring the young infant
+   \t\t • Counsel the mother about any new or continuing problems. If you counsel the mother to make significant changes in feeding, ask her to bring the young infant
    back after 2 days\n
-   \t\t • If the young infant is low weight for age,ask the mother to return 14 days after the initial visit to measure the young infant\'s weight gain.
+   \t\t • If the young infant is low weight for age, ask the mother to return 14 days after the initial visit to measure the young infant\'s weight gain.
    \n\n
-    Exception: \n
+    Exception:  \n
    If you do not think that feeding will improve, or if the young infant has lost weight, admit or refer the child.</string>
     <string name="ad_young_follow_up_thrush_mouth">   After 2 days\n
-   Look for ulcers or patches in the mouth ulcers(thrush).\n</string>
+  • Look for ulcers or patches in the mouth ulcers(thrush).\n</string>
     <string name="young_follow_up_thrush_mouth">   Reassess feeding.\n
    \t\t •If thrush or mouth ulcers are worse or the infant has problems with attachmentor sucking.admit or refer to hospital. \n
    \t\t •If thrush or mouth ulcers are the same or better, and the baby is feeding well continue with Gentian or Nystatin for a total of 5 days. \n</string>
-    <string name="young_severe">ASK\n
-Has the infant had convulsions?\n
-ASK and LOOK:\n
-Is the infant not able to feed or breast feed?\n
-LOOK, LISTEN, FEEL \n\n
-•	Look for breathing: Is the baby gasping or not breathing at all even when stimulated.\n
-•	Count the breaths in one minute. Repeat the count if elevated.\n
-•	Look for severe chest indrawing .\n
-•	Look and listen for grunting or wheezing.\n
-•	Look for nasal flaring.\n
-•	Look for central cyanosis.\n
-•	Look and feel for bulging fontanel.\n
-•	Look for pus draining from the ear.\n
-•	Look at the umbilicus. Is it red or draining pus?\n
-•	Measure temperature or feel for low or high body temperature.\n
-•	Look for skin pustules.\n
-•	See if the young infant is drowsy (Lethargic) or unconscious.\n
-•	Look at the young infant’s movements. Does the infant not move even when stimulated?\n
-•	Listen for very high pitched cry.\n
-•	Look for stiff neck.\n   </string>
-    <string name="young_eye">IF YES, ASK:\n
-For how long?\n
-LOOK AND FEEL:n
-•	Crossed eyes\n
-•	Excessive tearing.\n
-•	Fear of light.\n
-•	Clouding of the cornea.\n
-•	Squeezing of the eyes.\n
-•	Red eyes.\n
-•	Whiteness in the pupil.\n
-•	Eyes discharge, if yes for how long?\n
-•	Eyes draining pus.\n
-•	Swollen eyes.\n   </string>
-    <string name="SignsEyeInfection">    CHECK FOR EYE INFECTIONS\n
-IF YES, ASK: \n
-For how long?\n
-LOOK AND FEEL:\n
-•	Crossed eyes\n
-•	Excessive tearing\n
-•	Fear of light\n
-•	Clouding of the cornea\n
-•	Squeezing of the eyes\n
-•	Red eyes\n
-•	Whiteness in the pupil\n
-•	Eyes discharge, if yes for how long?\n
-•	Eyes draining pus\n
-•	Swollen eyes\n</string>
+    <string name="young_severe"><u>ASK</u>\n
+Has the infant had convulsions?\n<u>ASK and LOOK:</u> \n
+Is the infant not able to feed or breast feed?\n<u>LOOK, LISTEN, FEEL</u> \n\n
+•   Look for breathing: Is the baby gasping or not breathing at all even when stimulated.\n
+•   Count the breaths in one minute. Repeat the count if elevated.\n
+•   Look for severe chest indrawing .\n
+•   Look and listen for grunting or wheezing.\n
+•   Look for nasal flaring.\n
+•   Look for central cyanosis.\n
+•   Look and feel for bulging fontanel.\n
+•   Look for pus draining from the ear.\n
+•   Look at the umbilicus. Is it red or draining pus?\n
+•   Measure temperature or feel for low or high body temperature.\n
+•   Look for skin pustules.\n
+•   See if the young infant is drowsy (Lethargic) or unconscious.\n
+•   Look at the young infant’s movements. Does the infant not move even when stimulated?\n
+•   Listen for very high pitched cry.\n
+•   Look for stiff neck.\n   </string>
+    <string name="SignsEyeInfection">    CHECK FOR EYE INFECTIONS\n<u>IF YES, ASK:</u>  \n
+For how long?\n<u>LOOK AND FEEL:</u> \n
+•   Crossed eyes\n•   Excessive tearing\n•   Fear of light\n•   Clouding of the cornea\n•   Squeezing of the eyes\n•   Red eyes\n•   Whiteness in the pupil\n•   Eyes discharge, if yes for how long?\n•   Eyes draining pus\n•   Swollen eyes\n</string>
+    <string name="Plan_A_Counsel_The_Mother"><b>Counsel the mother on the 4 Rules of Home Treatment: \n\n
+Give Extra Fluids, Give Zinc Sulphate, Continue Feeding,\n\n
+Advise when to Return</b></string>
+    <string name="Plan_A_One"><b>1. GIVE EXTRA FLUID(Give ORS and other fluids- as much as the child will take)</b>\n</string>
+    <string name="Plan_A_Advise_Mother">    • ADVISE THE MOTHER\n\t-Breastfeed frequently and for longer at each feed.\n\t-If the child is exclusively breastfed,give ORS in addition to breast milk.\n\t-If the child is not exclusively, give one more of the following:  ORS solution, food-based fluids(Soup, enriched uji and yoghurt drinks e.g.mala), or safe water.\n\t-Give fresh fruit juice or mashed bananas to provide potassium.\n\t-Advise mothers to continue giving ORS as instructed.\n</string>
+    <string name="Plan_A_Teach_To_Give_ORS">    • TEACH THE MOTHER HOW TO MIX AND GIVE ORS. GIVE THE MOTHER 4 PACKETS OF ORS TO USE AT HOME.\n</string>
+    <string name="Plan_A_Show_Mother">    • SHOW THE MOTHER HOW MUCH FLUID TO GIVE IN ADDITIONTO THE USUAL FLUID INTAKE: \n\n Up to 2 years    50 to 100 ml after each loose stool.\n2 years or more     100 to 200 ml after each loose stool.\n
+    
+    Advise the mother to: \n
+    \t-Give frequent small sips from a cup.\n
+   \t-If the child vomits, wait 10 minutes.Then continue, but more slowly.\n
+   \t-Continue giving extra fluids until the diarrhoea stops.\n</string>
+    <string name="Plan_A_Two"><b>2. GIVE ZINC SULPHATE AND VITAMIN A</b>\n</string>
+    <string name="Plan_A_Zinc_Sulphate">        • TELL THE MOTHER HOW MUCH ZINC SULPHATE TO GIVE: \n\t-Up to 6 months 1/2 tablet per days for 10 days\n\t-6 months or more, 1 tablet per day for 10 days\n</string>
+    <string name="Plan_A_Show_Mother_Zinc_Sulphate">    • SHOW THE MOTHER HOW TO GIVE ZINC SULPHATE: \n\t-Infants: Dissolve the tablet in a small amount of expressed breast milk, ORS or safe
+water, in a small cup or spoon\n\t-Older children: Tablets can be chewed or dissolvedin small amounts of ORS or safe.\n\n
+REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS</string>
+    <string name="Continue_Feeding"><b>3. CONTINUE FEEDING</b></string>
+    <string name="When_To_Return"><b>4. WHEN TO RETURN</b></string>
+    <string name="Plan_B_Give_Four_Hour"><b>Give in clinic recommended amount of ORS over 4-hour period</b></string>
+    <string name="Plan_B_Determine_ORS">1.DETERMINE AMOUNT OF ORS TO GIVE DURING FIRST 4 HOURS.\n
+    • The appropriate amount of ORS required(in ml) should be calculated by multiplying the child\'s weight(in kgs) with 
+    75: \n• Use the child\'s weight only when you do not know the weight.\n• If the child wants more ORS than shown, give more.\n• For infants under 6 months who are not breastfed, also give 100-200 ml clean water during this period.</string>
+    <string name="Plan_B_Show_Mother">        2.SHOW MOTHER HOW TO GIVE ORS SOLUTION.\n
+        • Give frequently small sips from a cup(or a spoon every 1-2 minutes for a child under 2 years).\n• Check from time to time to see if there are any problems. If the child vomits,
+        wait for 10 minutes then continue but more slowly.\n• Continue breastfeeding whenever the child wants.\n• If the child\'s eyelids become puffy, stop ORS and give plain water or breast milk. Give ORS according to plan A
+        when puffiness is gone.\n</string>
+    <string name="Plan_B_After_Four_Hours">        3.AFTER 4 HOURS.\n
+        • Reassess the child and classify for dehydration.\n• Select the appropriate plan to continue treatment.\n• Begin feeding the child in the clinic.</string>
+    <string name="Plan_B_Mother_Leave">        4.IF THE MOTHER MUST LEAVE BEFORE COMPLETING TREATMENT: \n
+        • Show her how to prepare ORS solution at home.\n• Show her how much ORS to give to finish 4-hour treatment at home.\n• Give her enough ORS satchets to complete rehydration under this plan.Also give her 
+        4 ORS satchets to continue  with plan A. Explain the four rules of home treatment.\n
+        \t\t-GIVE EXTRA FLUID.\n
+        \t\t-GIVE ZINC SULPHATE AND VITAMIN A.\n
+        \t\t-CONTINUE FEEDING.\n
+        \t\t-WHEN TO RETURN.</string>
+    <string name="instructions_health_facility">      • Explain to the mother why the drug is given.\n• Determine the appropriate dose for the child weight(or age).\n• Use a sterile needle and sterile syringe. Measure the dose accurately.\n•Do NOT mix benzyl penicillin with gentamicin\n• Give the drug as an intramusclular injection.\n</string>
+    <string name="Give_an_intramuscular_antibiotics"><b>FOR CHILDREN BEING REFERRED URGENTLY.</b>\n
+        • Give first dose pf intramuscular chloramphenicol and refer child to 
+        hospital.\n\n <b>IF REFERRAL IS NOT POSSIBLE: </b>\n
+        • Treat to prevent hypoglycemia.\n• Repeat the chloramphenicol injection every 12 hours for 5 days.\n• Then change to an appropriate oral antibiotic to complete 10 days of treatment.\n• Give oral chloramphenicol as oral antibiotic if meningitis is highly suspected.\n• Give Vitamin A.</string>
+    <string name="treat_for_convulsion_now">        • Turn the child to the side and clear the airway.\n• Avoid putting things in his/her mouth while he/she is convulsing.\n• Give 0.5 mg/kg diazepam injection solution per rectum using a syringe
+        without needle using a catheter.\n• Check the blood sugar level if possible/treat for low blood sugar.\n• Repeat diazepam 10 minutes later if still convulsing.\n• Give oxygen if available and refer.</string>
+    <string name="treatment_of_severe_malaria"><b>1. Artesunate for Severe Malaria</b>\n
+        • Dissolve artesunic powder with 5 percent sodium bicarbonate solution(provided with vial).Dilute resultant solution with
+        5ml of 5 percent dextrose.\n• Administer 2.4mg/kg stat by slow IV injection then 1.2mg/kg at 12 hrs
+        and 24 hrs then 1.2 mg/kg daily until the patient is able to tolerate oral medications.\n• Artesunate can be given IM at the same dosage and intervals.\n• Thereafter a complete course of artemetherlumefantrine (AL) is given.</string>
+    <string name="quinine_dilution">        • To dilute injection 50mg/ml, draw 5ml of water for injection into a syringe
+        and then draw 1ml of quinine injection 300mg/ml into the same syringe or 3 ml
+        of water for injection and 1 ml of quinine 200mg/ml. Shake gently to mix.</string>
+    <string name="quinine_for_severe_malaria"><b>2. Quinine for Severe Malaria</b>\n
+        FOR CHILDREN BEING REFERRED WITH VERY SEVERE FEBRILE DISEASE: \n• Give fisrt dose of intramuscular quinine(20mg/kg-lodaing dose)
+        and refer child urgently to hospital.\n
+        IF REFERRAL IS NOT POSSIBLE: \n• Give first dose of IM quinine(20mg/kg-loading dose). The child
+        should remain lying down for one hour.\n• Treat to prevent hypoglycemia.\n• Repeat the quinine injection every 8 hours(maintenance dose at 10mg/kg)
+        until the child is able to take an oral antimalarial. Do not continue quinine
+        injections for more than 1 week.\n• If low risk of malaria, do not give quinine to a child less than 4 months of age.\n• Give Vitamin A.</string>
+    <string name="artemether_for_severe_malaria"><b>3. Artemether for Severe Malaria</b>\n
+        • Administer a loading dose of 3.2mg/kg IM stat then 1.6mg/kg 
+        daily until the patient is able to tolerate oral medications.\n
+        • Thereafter a complete course of AL is given.\n
+        • Admit or refer patients with the following: \n
+        \t • Severe anaemia(Hb level of below 5g/dl or haemotocrit of below 15 percent)\n
+        \t • Two or more convulsions within a 24-hr period.\n
+        \t • Hyperparasitaemia and are stable. These patients can be treated with 
+        AL, DHA-PPQ or oral quinine where ACT is not available. However,they need to be closely monitored.</string>
+    <string name="treat_child_for_low_blood_sugar"><b>• If the child is able to breastfeed</b>\n
+        Ask the mother to breastfeed the child.\n <b>• Is the child is not able to breastfeed but is able to swallow: </b>\n
+        Give expressed breast milk or a breast milk substitute.\n
+        If neither of these is available give sugar water.\n
+        Give 30-50 ml of milk or sugar water before depature.\n\n <b>To make sugar water : Dissolve 4 level teaspoons of sugar (20grams) in a 200 ml cup</b> \n<b>• If the child is not able to swallow: </b>\n
+        Give 50 ml of milk or sugar water by nasogastric tube.\n <b>For suspected low blood sugar</b>\n
+        Give 10 percent glucose 5ml/kg by nasogastric tube OR \n
+        Give the same amount slowly intravenously if a line is available.\n
+        Keep warm.\n <b>Admit or Refer urgently to hospital</b>\n<i>Low blood sugar(hypoglycemia) may be suspected in any infant or child who is convulsing or has loss of consciousness for which there is no obvious cause&#59; has a rectal temperateure of below 35.5 degrees celcius is drowsy or sweating, is lethargic, floppy or jittery particularly when less than 2 months old.\n To constitute 10 percent glucose from 50 percent glucose&#58; Mix i part of 50 percent glucose with 4 parts of water for injection.</i></string>
+    <string name="nb_low_sugar">       - Low blood sugar(hypoglycemia) may be suspected in any
+       infant or child who is convulsing or has loss of consciousness for which there
+       is no obviuos cause; has a rectal temperature of below 35.5°C, is drowsy
+       or sweating, is lethargic, floppy or jittery- particularly when less than 2 months old\n
+       - To constitute 10 percent glucose from 50 percent glucose: Mix I part of 50 percent glucose
+       with 4 parts of water for injection.</string>
+    <string name="evaluate_baby_breathing"><b>Evaluate the baby\'s breathing after stimulation: </b>\n
+    • A baby who is gasping or not breathing at all will require resuscitation.</string>
+    <string name="keep_baby_warm"><b>Keep the baby warm</b>\n• Place the baby onto a firm, clean and warm surface.\n
+    • Inform the mother that the baby has difficulty breathing and that you will help the baby breathe.\n
+    • Keep the baby wrapped and under a radiant heater if possible.</string>
+    <string name="open_airway"><b>Open the airway</b>\n
+    • Position the head so that it is slightly extended.\n
+    • Suction the mouth and then the nose.\n
+    • Introduce the suction tube into the newborn\'s mouth 5cm from lips and suck while withdraw.\n
+    • Introduce the suction tube 3cm into each nostril and suck while withdraw until no mucus.\n
+    • Repeat each suction if necessary but no more than twice and no more than 20 seconds in total.</string>
+    <string name="if_still_no_breathing"><b>If still no breathing, ventilate</b>\n• Place mask to cover chin, mouth and nose.\n
+    • Form seal.\n
+    • Squeeze bag attached to the mask with 2 fingers or whole hand, according to bagsize, 2 or 3 times\n
+    • Obsevre rise of chest. If chest not rising : \n
+    \t\t\t• Reposition head.\n
+    \t\t\t• Check mask heal.\n
+    \t\t\t• Squeeze bag harder.\n
+    • Once good seal and chest rising, ventilate at 40 squeezes per minute until baby starts breathing spontaneously.</string>
+    <string name="breathing_or_crying"><b>If breathing or crying, stop ventilating</b>\n
+    • Look at the chest for indrawing.\n
+    • Count breaths per minute.\n
+    • If breathing more than 30 breaths per minute and no severe chest drawing: \n
+    \t\t\t• Do not ventilate any more.\n
+    \t\t\t• Put the baby in skin to skin contact on mother\'s chest and continue care.\n    
+    \t\t\t• Monitor every 15 minutes for breathing and warmth.\n
+    \t\t\t• Tell the mother that the baby will probably be well.\n
+    • Once good seal and chest rising, ventilate at 40 squeezes per minute until baby starts breathing spontaneously.
+    \n\n<b>DO NOT LEAVE THE BABY ALONE</b>\n</string>
+    <string name="breathing_less_severe"><b>If breathing less than 30 breaths per minute or severe chest indrawing:</b>\n
+    • Continue ventilating.\n
+    • Arrange for immediate referral.\n
+    • Explain to the mother what has happened,what are you doing and why?\n
+    • Ventilate during referral.\n
+    • Record the event on the referral form .</string>
+    <string name="breathing_gasping"><b>If no breathing or gasping at all after 20 minutes ventilation</b> \n
+    • Stop ventilating, the baby is dead.\n
+    • Explain to the mother and give supportive care.\n
+    • Record the event.</string>
+    <!-- KEEP THE YOUNG INFANT WARM -->
+    <string name="keep_young_warm"><b>KEEP THE YOUNG INFANT WARM</b>\n <b>• Warm the young infant using skin to skin contact: Kangaroo Mother Care</b>\n
+    \t- Provide privacy to the mother. If mother isnot available, skin to skin contact can be provided by the father or any other adult.\n
+    \t- Request the mother to sit or recline comfortably.\n
+    \t- Undress the baby gently, except for cap,nappy and socks.\n
+    \t- Ask the mother to wear light, loose clothing that is comfortable inthe ambient temperature, and can accommodate the young infant.\n
+    \t- Place the young infant on the mother\'s chest prone in an upright and extended posture, between her breasts in skin contact; turn the baby\'s head to one side and keep always clear.\n
+    \t- Ensure that the young infant\'s feet and elbows are flexed into a frog-like position and the head and chest are on the mother\'s chest,
+    with the head in a slighty extended position.\n
+    \t- cover the infant with mother\'s clothes; wrap the mother-baby duo with an added blanket or shawl.\n
+    \t- After positioning the young infant, allow mother to rest with the young infant.\n
+    \t- Breast feed the young infant frequently.\n
+    \t- If possible, warm the room above 25°C with a heating device.</string>
+    <string name="if_skin_to_skin_impossible"><b>• If skin to skin contact is not possible: </b>\n
+    \t- If radiant warmer is available use it warm the young infant or.\n
+    \t- Warm the room 25°C with heating device and clothe the young infant in 3-4 layers of warm clothes, cover
+    the head with a cap(include gloves and socks) and cover with a blanket or shawl. </string>
+    <string name="reassess_after_one_hour"><b>• Reassess after 1 hour: </b>\n
+   \t- Assess for signs of Very Severe Disease.\n
+   \t- Measure axillary temperature by placing the thermometer in the axillary for 5 minutes(or feel for low body temperature)</string>
+    <string name="if_any_signs_very_severe_disease"><b>• If any signs of "very severe disease" or temperature still 36.5°C.</b>\n
+     \t- Admit or refer URGENTLY to hospital after giving pre-referral treatment for "Very Severe Disease".  </string>
+    <string name="if_no_signs_very_severe_disease"><b>• If no signs of "very severe disease" or temperature still 36.5°C.</b>\n
+     \t- Advise how to keep the young infant warm at home.\n
+     \t- Advise mother to give home care.\n
+     \t- Advise mother when to return immediately.   </string>
+    <string name="teach_the_mother_on_way_to_hospital"><b>Teach the Mother How to Keep the Young Infant Warm on the way To the Hospital\n</b>             • Provide skin to skin contact OR \n
+            • Keep the infant clothed or covered as much as possible all the time. Dress the young infant in 3-4 layers of clothes(including hat, gloves, socks)
+            and wrap him/her in a soft dry cloth and cover with shawl or blanket. Hold the baby close to your body.</string>
+    <string name="give_these_treatments_in_health_facility"><b>GIVE THESE TREATMENT IN HEALTH FACILITY ONLY</b> \n
+    • Explain to the mother why the drug is being given.\n
+    • Determine the dose appropriate for the infant\'s weight(or age).\n
+    • Use a sterile needle and sterile syringe to accurately measure the dose.\n
+    • Do not mix benzyl penicillin with Gentamicin.\n
+    • Give the drug as intramuscular injection.\n
+    • If the infant cannot be referred, follow instructions provided in the section 
+    Where Referral is not Possible found below the table on the right.</string>
+    <string name="young_teach_mother_to_give_oral_drugs"><b>TEACH THE MOTHER TO GIVE ORAL DRUGS AT HOME</b>\n
+    Follow the instructions below for every oral drug to be given at home.\n
+    Also follow the instructions listed with each drug\'s dosage table.\n
+    • Determine the appropriate drugs and dosage for child\'s age or weight.\n
+    • Tell the mother the reason for giving the drug to the child.\n
+    • Demonstrate how to measure a dose.\n
+    • Watch the mother practise measuring a dose by herself.\n
+    • Ask the mother to give the first dose to her child.\n
+    • Explain carefully how to give, then label and package the drug.\n
+    • If more than one drug will be given, collect, count and package each drug separately.\n
+    • Explain that all oral drug tablets or syrups must be used to finish the course of treatment, even if the child gets better.\n
+    • Check the mother\'s understanding before she leaves the clinic.</string>
+    <string name="young_teach_mother_treat_local_infections"><b>Teach the Mother How to Treat Local Infections at Home</b>\n
+        • Explain how the treatment is given.\n
+        • Watch her as she does the first treatment in the clinic.\n
+        • She should return to the clinic if the infection worsens.\n
+        • Check the mother\'s understanding before she leaves the clinic.\n</string>
+    <string name="to_treat_skin_pustules"><b>To Treat Skin Pustules or Umbilical Infection</b>\n
+        Apply Gentian Violet twice daily.\n
+        The mother should: \n
+        \t• Wash hands.\n
+        \t• Gently wash off pus and crusts with soap and water.\n
+        \t• Dry the area.\n
+        \t• Paint with gentiam voilet.\n
+        \t• Wash hands</string>
+    <string name="to_treat_thrush"><b>To Treat Thrush(white patches in mouth)or Mouth Ulcers</b>\n
+            The mother should: \n
+            \t• Wash hands.\n
+            \t• Wash mouth with clean soft cloth wrapped around the finger and wet with salt water.\n
+            \t• Paint the mouth with half-strength gentian voilet or instill Nystatin.\n
+            \t• Wash hands.\n
+            If breastfed, advise the mother to wash her breast after feeds and apply the same medicine on the areola.</string>
+    <string name="treat_eye_infection_with_tetracycline"><b>Treat Eye Infection with Tetracycline Eye Ointment</b>\n
+                • Clean both eyes 3 times daily.\n
+                \t\t• Wash hands.\n
+                \t\t• Use clean cloth and water to gently wipe away pus.\n
+                • Then apply tetracycline eye ointment in both eyes 3 times daily.\n
+                \t\t• Open the eyes of the young infant.\n
+                \t\t• Squirt a small amount of ointment on the inside of the lower lid.\n
+                \t\t• Wash hands again.\n
+                • Treat until redness is gone.\n
+                • Do not use other eye ointments or drops,or put anything else in the eye.</string>
+    <string name="teach_correct_positioning_and_attachment"><b>Teach Correct Positioning and Attachment for Breastfeeding</b>\n
+    • Show the mother how to hold her infant.\n
+    \t- with the infant\'s head and body her straight.\n
+    \t- facing her breast, with infant\'s nose opposite her nipple.\n
+    \t- with infant\'s body close to her body.\n
+    \t- supporting infant\'s whole body, not just neck and shoulders.\n\n
+    • Show her how to help the infant to attach. She should: \n
+    \t- touch her infant\'s lips with her nipple.\n
+    \t- wait until her infant\'s mouth is opening wide.\n
+    \t- move her infant quickly ontoher breast, aiming the infant\'s lower lip well below the nipple.\n
+    • Look for signs of good attachment and effective suckling. If attachment or suckling is not good, try again.\n
+    • If still not suckling effectively, ask the mother to express breast milk and feed with cup in the clinic.\n
+    • If able to feed with a cup advise mother to continue breastfeeding the infant and at the end of each feed express breast milk and feed a cup.\n
+    • If not able to feed with a cup. Admit or refer to hospital.</string>
+    <string name="teach_mother_to_treat_breast_or_nipple "><b>Teach the Mother to treat breast or nipple problems</b>\n
+        • If the nipple is flat or inverted, evert the nipple several times with fingers before each feed and put the baby on the breast.\n
+        • If the nipple is sore, apply breast milk for soothing effect and ensure correct positioning and attachment of the baby. If mother continues discomfort feed 
+        expressed breast milk with cup.\n
+        • If breasts are engorged, let the baby continue to suck if possible. If the baby cannot suckle effectively, help the mother to express the milk and then put the young infant to the breast.
+        Putting warm compress on the breast may help.\n
+        • If breasts abscess, advice the mother to feed from the other breast then admit or refer to hospital. If the young infant wants more milk give appropriate formula milk using a cup.</string>
+<string name="teach_mother_how_to_keep_young_infant_warm_with_low_weight"><b>Teach the mother how to keep the young infant with low weight or low body temperature warm at home:</b>\n
+        • Do not bathe young infant with low weight or body temperature; instead sponge with lukewarm water to clean(in a warm room).\n
+        • Provide skin to skin contact(Kangaroo mother care)as much as possible, day and night.\n
+        • When not in skin to skin contact or if this is not possible,\n
+        \t- Warm the room (>25&#xb0;) with a home heater.\n
+        \t- Clothe the young infant in 3-4 layers of warm clothes, cover the head with a cap(include gloves and socks) and wrap him/her in a soft dry cloth and cover with a 
+        warm blanket or shawl.\n
+        \t- Let the baby and mother lie together on a soft, thick bedding.\n
+        \t- Change clothes(e.g. napkins) whenever they are wet.\n\n
+        <b>FEEL THE FEET OF THE BABY PERIODICALLY --BABY\'S FEET SHOULD BE ALWAYS WARM TO TOUCH</b>
+        
+        
+        </string>
+
+    <string name="treat_young_infant_prevent_low_sugar"><b>Treat the Young Infant to prevent Low Blood Sugar</b>\n
+        • If the infant is able to breastfeed: Ask the mother to breastfeed the infant.\n
+        • If not able to breastfeed but is able to swallow: Give 20-50 ml (10ml/kg)
+        expressed breast milk and if not available, give 20-50 ml (10ml/kg) sugar water before referral. \n
+        To make sugar water: Dissolve 4 level teaspoons of sugar (20 grams) in a 200-ml cup of clean water.\n   
+        • If the child is not able to swallow: Give 20-50ml(10ml/mg) expressed breast milk or sugar water by NG tube.\n
+        • If low blood sugar is suspected: Give 10 percent glucose 10ml/kg by nasogastric tube give same amount intravenously.(To make 10% glucose mix one 
+        part of 50 percent glucose with 4 parts water for injection). \n
+        * Low blood sugar (hypoglycemia) may be suspected in any infant there is no obvious cause; has a rectal temperature of below 35.5degrees is drowsy or sweating,
+        is lethargic, floppy of jittery.</string>
+    <string name="advise_mother_to_give_home_care_for_the_young_infant">        • FOOD\n• FLUIDS\n• WHEN RETURN\n• WHEN SURE THE YOUNG INFANT STAYS AT ALL TIMES.\n
+        \n\t\tAFASS(Affordable, Feasible,Acceptable, Sustainable and Safe) In cool weather, cover the infant\'s head and feet and dress the infant with extra clothing.\n
+        • Breastfeed frequently, as often and for long as the infant wants, day or night, during sickness and health.\n
+        • If baby cannot be breastfed, counsel on alternative feeding.</string>
+    <string name="counsel_mother_on_infant_feeding">• Exclusive breastfeeding, giving breast milk only, for 6 months is the best way to feed her baby whether she is HIV positive or not\n•Exclusive breastfeeding is recommended for HIV Positive mothers unless formula is AFASS(Affordable, Feasible,Acceptable, Sustainable and Safe)•\nIf mother chooses to breastfeed,  she will be provided with medication to reduce the chance of infecting her infant during breastfeeding period.\n•mixed feeding(giving breast milk
+        and other milks, water and foods before six months increases the risk of transmitting HIV to her infant and the risk of diarrhoea and other illnesses)\n•At 6 months her child needs nutritions locally available family foods in addition to breast milk.
+        \n\n<b>Infant Feeding Options</b>\n
+        Inform theother of the two main recommended infant feeding options for HIV-exposed infants:\n<b>1. Exclusive breastfeeding with ARVs.</b>\n
+        Exclusive breastfeeding is recommended for HIV-positive women for the first 6 months of life unless exclusive replacement feeding is acceptable, feasible, affordable, sustainable and safe. After 6 months, appropriate complementary
+feeds should be introduced and breastfeeding continued for the first year of life of the infant. Thereafter, breastfeeding may be stopped gradually if a nutritionally acceptable and safe diet can be provided.
+ \n<b>2. Exclusive replacement feeding</b>\n
+ Exclusive replacement feeding involves giving the baby only commercial breast milk substitutes.Exclusive replacement is recommended if AFASS(Affordable, Feasible,Acceptable, Sustainable and Safe) criteria is met</string>
+    <string name="feeding_advice_HIV_mother_chose_breastfeed">        Make sure that the mother or caretaker understands that mixed feeding (giving breast milk and other milks, water and foods) before 6 months increases the risk of transmitting HIV to the infant and the risk of death from diarrhoea and other illnesses.\n
+       • Reinforce exclusive breastfeeding for 6 months, Initiation of breastfeeding within 1 hour after birth, Emphasize on positioning, attachment care of the breast and management of breast conditions.\n• Advice the mother to introduce appropriate complementary feeds from age six months while continuing to breast feed up to 12 months or beyond.\n• Advice mother that breastfeeding should stop once a nutrtionally adequate and safe diet without breast milk can be provided.\n• Emphasize on adherence to ARVs.</string>
+    <string name="feeding_advice_HIV_mother_chose_not_breastfeed">    The mother/caregiver should have received full counselling before making the decision not to breastfeed.\n
+    • Give information on replacement feeding and the risk of mixed feeding.\n• Give information on safe preparation, storage and appropriate feeding techniques for chosen artificial feeds.\n• Demonstrate on how to prepare and feed the infant.\n•Counsel on care of the breast to avoid engorgement.\n•Provide reliable family planning.\n•For low birth weightbabies(1.5kg)and pre-term babies advise on special infant formula.\n•Ensure to the code of marketing of breast milk substitutes.\n• HIV- exposed infants not breastfeeding should be given ART prophylaxis for 6 weeks only.</string>
+    <string name="If_the_child_is_not_the_above"><b>• If the mother reports difficulty with breastfeeding, assess breastfeeding as needed,show the mother correct positioning and attachment for breastfeeding.  </b>\n<b>• If the child is less than 6 months old and is taking other milk or foods: </b>\n
+   \t- Build mother\'s confidence that she can produce all the breast milk that the child needs.\n
+   \t- Suggest giving more frequent, longer breastfeeds day or night,and gradually reducing other milk or foods.\n\n<b>• If other milk needs to be continued,counsel the mother to:</b>\n
+   \t- Breastfeed as much as possible, including at night.\n
+   \t- Make sure that other milk is a locally appropriate breast milk substitute.\n
+   \t- Make sure other milk is correctly and hygienically prepared and given in adequate amounts\n
+   \t- Make sure that left over feeds are not fed to the baby.\n\n<b>• If the mother is using a bottle to feed the child:</b>\n
+   \t- Recommend reinstating breastfeeding if possible\n
+   \t- Recommend substituting a cup for bottle.\n
+   \t- Show the mother how to feed the child with a cup\n
+   \t- Re emphasize hand washing and hygiene.\n\n<b>• If the child is not being fed actively, counsel the mother to:</b>\n
+   \t- Sit with the child and encourage eating.\n
+   \t- Give the child an adequate serving in a separate plate or bowl.\n\n<b>• If the child is not feeding well during illness, counsel the mother to:</b>\n
+   \t- Clear a blocked nose if it interferes with feeding.\n
+   \t- Breastfeed more frequently and for longer if possible.\n
+   \t- For the child under 6 months who is not breastfed, increase the number of milk feeds.\n
+   \t- For a child already on complementary feeds,give soft,varied,appetizing,enriched favoritefoods including milk the child to eat as much as possible.\n
+   \t- Offer small frequent feeds.\n
+   \t- Give snacks between meals and check regularly for oral thrush or ulcers.\n
+\t- Expect that appetite will improve as child gets better.   <b>• If mixed feeding in the child less than 6 months whose mother is HIV positive:\n</b>    \t- Counsel the mother to make informed decision either to breastfeed exclusively or give replacement feeding.\n
+    \t- If she chooses to exclusively breastfeed, build her confidence and counsel as above.\n
+    \t- If she chooses replacement feeding, counsel her as in <i>recommendation during feeding</i> \n<b>• Follow-up any feeding problem in 5 days.</b>\n<b>• If the child is not being cared for as described on <i>page 20</i>. Counsel the caregiver accordingly.In addition:</b>\n<b>• If the child cannot be breastfed, counsel the Caregiver to:</b>\n
+     \t - Hold the child close when feeding, look at the child, and talk or sing to him/her.\n      <b>• If the caregiver does not know what his/her child does to play or communicate:</b>\n
+      \t - Inform her/him that children play and communicate from birth.\n
+      \t - Demonstrate for her/him how the child responds to activitiies.\n<b>• If the caregiver feels he/she does not have enough time to provide care for development, encourage him/her to:</b>\n
+      \t - Combine care for development with other care for the child(feeding, bathing, dressing).\n
+      \t - Ask other family members to help provide care for development or help her/him with other tasks.\n<b>• If the caregiver has no toys for the child to play with, counsel the caregiver to:</b>\n
+      \t - Use any household objects that are clean and safe.\n
+      \t - Make simple toys.\n
+      \t - Play with the child, as the child will learn by playing with her/him and other people.\n<b>• If the child is not responding, or seems "slow":</b>\n
+      \t - Encourage the caregiver to do extra care for development.\n
+      \t - Check to see whether the child is able to see and to hear.\n
+      \t - Refer the child with difficulties seeing or hearing to special services.\n
+      \t - Encourage the caregiver and other family members to play and communicate with the child through touch movement.<b>• If the child being raised by someone other than the mother, help the caretaker to:</b>\n
+      \t - Identify at least one person who can care for the child regularly and give the child love and attention.\n
+      \t - Expect that, with love and special attention, the child can recover from the lose of a patient.\n<b>• Follow-up any feeding problem in 5 days.</b><b>• Follow-up any feeding problem in 5 days.</b>\n
+
+  
+  </string>  
+    
+    <string name="if_child_sore_mouth_ulcers">    • Recommend soft foods that will not burn the mouth such as thick enriched porridge, eggs, mashed potatoes, bananas, pumpkin or avocado.\n• Chop foods finely.\n• Avoid salty, spicy; acidic foods that may irritate the child.\n• Give cold nutritious drinks- they\'ll not make the child sick or sicker.</string>
+    <string name="hygiene"><b>Ensure\n• Clean hands\n• Clean food\n• Clean utensil\n• Clean storage\n</b></string>
 
 </resources>

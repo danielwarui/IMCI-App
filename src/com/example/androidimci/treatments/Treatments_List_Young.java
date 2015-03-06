@@ -36,7 +36,7 @@ public class Treatments_List_Young extends Activity {
 	@Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.treatments_list);
+    setContentView(R.layout.young_treatments_list);
     fiilliste = getResources().getStringArray(R.array.fragment_young_follow_up); 
     
   vlist=(ListView)findViewById(R.id.list1);

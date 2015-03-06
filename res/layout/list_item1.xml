@@ -4,7 +4,7 @@
     android:layout_height="55dip"
     android:orientation="vertical" >
 
-    <TextView
+     <TextView
         android:id="@+id/lblListItem"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -15,7 +15,9 @@
         android:textSize="17dip" />
     <!-- Product id (pid) - will be HIDDEN - used to pass to other activity -->
 
-    <TextView
+     <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
         android:id="@+id/id"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -23,7 +25,7 @@
 
     <!-- Name Label -->
 
-    <TextView
+     <TextView
         android:id="@+id/sign"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

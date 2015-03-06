@@ -5,30 +5,21 @@
     android:background="#f4eaa3"
     android:orientation="vertical" >
 
-    <!--
-     <EditText
-        android:id="@+id/search"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="#F0E68C"
-        android:drawableRight="@android:drawable/ic_menu_search"
-        android:hint="Search Symptoms.."
-        android:inputType="textVisiblePassword" />
-    -->
-
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="match_parent"
+        android:id="@+id/folowUpIntro"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#f4eab2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000000"
         android:text="@string/follow_up_intro"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textStyle="italic" />
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <ListView
         android:id="@+id/list1"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:background="#000000" >
     </ListView>
 
 </LinearLayout>

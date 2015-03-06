@@ -21,152 +21,101 @@
             android:orientation="vertical" >
         </LinearLayout>
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/tableRow3"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
             android:background="#ff69b4"
             android:text="SEVERE ACUTE MALNUTRITION"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/signsDehydrationPink"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#ff69b4"
             android:text="@string/severe_acute_malnutrition_treatment"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ffff00"
             android:text="MODERATE ACUTE MALNUTRITION"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/space2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/signsDehydrationPink"
             android:background="#ffff00"
             android:text="@string/moderate_acute_malnutrition_treatment"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView5"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView4"
-            android:layout_below="@+id/space2"
             android:background="#90ee90"
             android:text="AT RISK OF ACUTE MALNUTRITION"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/signsDehydration"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/textView5"
             android:background="#90ee90"
             android:text="@string/at_risk_malnutrition_treatment"
             android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/textView5"
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/textView51"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView4"
-            android:layout_below="@+id/space2"
             android:background="#90ee90"
             android:text="NO MALNUTRITION"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/signsDehydration"
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:id="@+id/signsDehydration2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/textView5"
             android:background="#90ee90"
             android:text="@string/no_malnutrition_treatment"
             android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
             android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/tableRow3"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:background="#ff69b4"
-            android:text="Classify Anaemia: \n SEVERE ANAEMIA"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/signsDehydrationPink"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#ff69b4"
-            android:text="@string/severe_anaemia_treatment"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/tableRow3"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:background="#ffff00"
-            android:text="ANAEMIA"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/space2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/signsDehydrationPink"
-            android:background="#ffff00"
-            android:text="@string/anaemia_treatment"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/tableRow3"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_weight="0.03"
-            android:background="#90ee90"
-            android:text="NO MALARIA"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/signsDehydration"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#90ee90"
-            android:text="@string/no_anaemia_treatment"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textSize="20sp" />
+      
     </LinearLayout>
 
 </ScrollView>

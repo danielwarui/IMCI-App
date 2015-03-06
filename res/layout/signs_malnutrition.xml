@@ -21,7 +21,9 @@
             android:orientation="vertical" >
         </LinearLayout>
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -31,7 +33,9 @@
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/signsDehydrationPink"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -40,7 +44,9 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -50,7 +56,9 @@
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/space2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -61,7 +69,9 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -73,7 +83,9 @@
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/signsDehydration"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -85,7 +97,9 @@
             android:textColor="#000000"
             android:textSize="20sp" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -97,7 +111,9 @@
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/signsDehydration1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -109,72 +125,7 @@
             android:textColor="#000000"
             android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/textView11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/tableRow3"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:background="#ff69b4"
-            android:text="Classify Anaemia: \n SEVERE ANAEMIA"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#000000"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/signsDehydrationPink1"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#ff69b4"
-            android:text="@string/signs_severe_anaemia"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#000000" />
-
-        <TextView
-            android:id="@+id/textView1111"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/tableRow3"
-            android:background="#ffff00"
-            android:text="ANAEMIA"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#000000"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/space21"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/signsDehydrationPink"
-            android:background="#ffff00"
-            android:text="@string/signs_anaemia"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#000000" />
-
-        <TextView
-            android:id="@+id/textView111"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/tableRow3"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:background="#90EE90"
-            android:text="NO MALARIA"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#000000"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/signsDehydration11111"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#90ee90"
-            android:text="@string/signs_no_anaemia"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="#000000"
-            android:textSize="20sp" />
+       
     </LinearLayout>
 
 </ScrollView>

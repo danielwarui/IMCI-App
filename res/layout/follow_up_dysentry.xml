@@ -11,7 +11,9 @@
         android:background="#F0E68C"
         android:orientation="vertical" >
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -13,7 +13,9 @@
         android:background="#FAFAD2"
         android:orientation="vertical" >
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/TextView06"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,7 +25,9 @@
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/TextView04"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -32,7 +36,9 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -42,7 +48,9 @@
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/TextView03"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -51,7 +59,9 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/TextView01"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,7 +71,9 @@
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/TextView02"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -70,7 +82,9 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/TextView07"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -80,7 +94,9 @@
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/signsDehydrationPink"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -89,7 +105,9 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -99,7 +117,9 @@
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/space2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -108,7 +128,9 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000000" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -118,7 +140,9 @@
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+         <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:id="@+id/signsDehydration"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

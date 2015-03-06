@@ -3,6 +3,7 @@ package com.example.androidimci;
 import java.util.HashMap; 
 import java.util.List;
 
+import com.chai.imci.Assessment.Fragment.Signs_Diarrhoea;
 import com.chai.imciapplication.R;
 
 import android.content.Context;
@@ -26,7 +27,12 @@ public class AdapterExpandable extends BaseExpandableListAdapter {
 		this._listDataHeader = listDataHeader;
 		this._listDataChild = listChildData;
 	}
-// int of header and int of child parameter getter
+public AdapterExpandable(Signs_Diarrhoea signs_Diarrhoea,
+			List<String> listDataHeader,
+			HashMap<String, List<String>> listDataChild) {
+		// TODO Auto-generated constructor stub
+	}
+	// int of header and int of child parameter getter
 	@Override
 	public Object getChild(int groupPosition, int childPosititon) {
 		return this._listDataChild.get(this._listDataHeader.get(groupPosition))

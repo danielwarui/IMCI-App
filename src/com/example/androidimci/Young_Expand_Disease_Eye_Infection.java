@@ -4,15 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import com.chai.imciapplication.R;
-import com.example.treatments.Treatment_No_Pneumonia_Cold;
-import com.example.treatments.Treatment_Pneumonia;
-import com.example.treatments.Treatment_Severe_Pneumonia;
-import com.example.treatments.Young_Treatment_Congenital_Cancer;
-import com.example.treatments.Young_Treatment_Congenital_Glaucoma;
-import com.example.treatments.Young_Treatment_Severe_Eye_Infection;
-import com.example.treatments.Young_Treatment_Squint;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -24,9 +15,14 @@ import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
 import android.widget.Toast;
 
+import com.chai.imciapplication.R;
+import com.example.treatments.Young_Treatment_Congenital_Cancer;
+import com.example.treatments.Young_Treatment_Congenital_Glaucoma;
+import com.example.treatments.Young_Treatment_Squint;
+
 public class Young_Expand_Disease_Eye_Infection extends Activity {
 
-	ExpandableListAdapter listAdapter;
+	AdapterExpandable listAdapter;
 	ExpandableListView expListView;
 	List<String> listDataHeader;
 	HashMap<String, List<String>> listDataChild;
@@ -42,7 +38,7 @@ public class Young_Expand_Disease_Eye_Infection extends Activity {
 		// preparing list data
 		prepareListData();
 
-		listAdapter = new ExpandableListAdapter(this, listDataHeader,
+		listAdapter = new AdapterExpandable(this, listDataHeader,
 				listDataChild);
 
 		// setting list adapter

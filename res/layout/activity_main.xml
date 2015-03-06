@@ -1,7 +1,8 @@
 <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="#ffa833" >
 
     <!-- Framelayout to display Fragments -->
 
@@ -9,7 +10,7 @@
         android:id="@+id/frame_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#ffffff" />
+        android:background="#ffa833" />
 
     <!-- Listview to display slider menu -->
 
@@ -18,9 +19,9 @@
         android:layout_width="240dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="#ffffff"
+        android:background="#ffa833"
         android:choiceMode="singleChoice"
-        android:divider="#000000"
+        android:divider="#ffffff"
         android:dividerHeight="1dp"
         android:listSelector="#ffffff" />
 
@@ -29,7 +30,7 @@
         android:layout_width="240dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="#000000"
+        android:background="#ffa833"
         android:choiceMode="singleChoice"
         android:divider="#000000"
         android:dividerHeight="1dp"

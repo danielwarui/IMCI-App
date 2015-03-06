@@ -22,7 +22,7 @@ import android.widget.Toast;
 
 public class Young_Expand_FeedingProblems extends Activity {
 
-	ExpandableListAdapter listAdapter;
+	AdapterExpandable listAdapter;
 	ExpandableListView expListView;
 	List<String> listDataHeader;
 	HashMap<String, List<String>> listDataChild;
@@ -38,7 +38,7 @@ public class Young_Expand_FeedingProblems extends Activity {
 		// preparing list data
 		prepareListData();
 
-		listAdapter = new ExpandableListAdapter(this, listDataHeader,
+		listAdapter = new AdapterExpandable(this, listDataHeader,
 				listDataChild);
 
 		// setting list adapter

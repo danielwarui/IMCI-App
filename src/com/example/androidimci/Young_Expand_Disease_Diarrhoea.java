@@ -4,17 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import com.chai.imciapplication.R;
-import com.example.treatments.Treatment_No_Pneumonia_Cold;
-import com.example.treatments.Treatment_Pneumonia;
-import com.example.treatments.Treatment_Severe_Dehydration;
-import com.example.treatments.Treatment_Severe_Pneumonia;
-import com.example.treatments.Young_Treatment_No_Dehydr;
-import com.example.treatments.Young_Treatment_Serious_Adbominal;
-import com.example.treatments.Young_Treatment_Severe_Prolonged_Diarrhoea;
-import com.example.treatments.Young_Treatment_Severe_dehydr;
-import com.example.treatments.Young_Treatment_Some_Dehydr;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -26,9 +15,16 @@ import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
 import android.widget.Toast;
 
+import com.chai.imciapplication.R;
+import com.example.treatments.Young_Treatment_No_Dehydr;
+import com.example.treatments.Young_Treatment_Serious_Adbominal;
+import com.example.treatments.Young_Treatment_Severe_Prolonged_Diarrhoea;
+import com.example.treatments.Young_Treatment_Severe_dehydr;
+import com.example.treatments.Young_Treatment_Some_Dehydr;
+
 public class Young_Expand_Disease_Diarrhoea extends Activity {
 
-	ExpandableListAdapter listAdapter;
+	AdapterExpandable listAdapter;
 	ExpandableListView expListView;
 	List<String> listDataHeader;
 	HashMap<String, List<String>> listDataChild;
@@ -44,7 +40,7 @@ public class Young_Expand_Disease_Diarrhoea extends Activity {
 		// preparing list data
 		prepareListData();
 
-		listAdapter = new ExpandableListAdapter(this, listDataHeader,
+		listAdapter = new AdapterExpandable(this, listDataHeader,
 				listDataChild);
 
 		// setting list adapter
