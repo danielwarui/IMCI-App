@@ -1,11 +1,4 @@
-package org.chai.imci.assessment.Fragment;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
-import org.chai.imci.R;
-import org.chai.imci.assessment.adapter.AdapterExpandable;
+package org.chai.imci.assessment.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -15,11 +8,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
-import android.widget.Toast;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
+import android.widget.Toast;
+
+import org.chai.imci.R;
+import org.chai.imci.assessment.adapter.AdapterExpandable;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 public class Treatment_Fever extends Fragment {
 	String DDS;

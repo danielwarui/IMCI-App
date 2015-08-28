@@ -5,9 +5,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import org.chai.imci.assessment.Fragment.Diagnosing_Fever;
-import org.chai.imci.assessment.Fragment.SignFever;
-import org.chai.imci.assessment.Fragment.TreatmentFever;
+import org.chai.imci.assessment.fragment.Diagnosing_Fever;
+import org.chai.imci.assessment.fragment.SignFever;
+import org.chai.imci.assessment.fragment.TreatmentFever;
 
 public class TabsPagerAdapterFever extends FragmentPagerAdapter {
 

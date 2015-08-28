@@ -1,4 +1,4 @@
-package org.chai.imci.assessment.Fragment;
+package org.chai.imci.assessment.fragment;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -14,7 +14,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import org.chai.imci.R;
-
 import org.chai.imci.assessment.model.Product;
 import org.chai.imci.assessment.model.Product.SubCategory;
 import org.chai.imci.assessment.model.Product.SubCategory.ItemList;

@@ -1,12 +1,12 @@
 package org.chai.imci.assessment;
 
-import android.support.v4.app.Fragment; 
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import org.chai.imci.assessment.Fragment.Diagnosing_Anaemia;
-import org.chai.imci.assessment.Fragment.Signs_Anaemia;
-import org.chai.imci.assessment.Fragment.Treatment_Anaemia;
+import org.chai.imci.assessment.fragment.Diagnosing_Anaemia;
+import org.chai.imci.assessment.fragment.Signs_Anaemia;
+import org.chai.imci.assessment.fragment.Treatment_Anaemia;
 
 public class TabsPagerAdapterAnaemia extends FragmentPagerAdapter {
 

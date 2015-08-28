@@ -1,4 +1,4 @@
-package org.chai.imci.assessment.Fragment;
+package org.chai.imci.assessment.fragment;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

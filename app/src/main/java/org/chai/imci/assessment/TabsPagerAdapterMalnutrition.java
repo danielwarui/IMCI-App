@@ -4,9 +4,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import org.chai.imci.assessment.Fragment.Diagnosing_Malnutrition;
-import org.chai.imci.assessment.Fragment.Signs_Malnutrition;
-import org.chai.imci.assessment.Fragment.Treatment_Malnurtition;
+import org.chai.imci.assessment.fragment.Diagnosing_Malnutrition;
+import org.chai.imci.assessment.fragment.Signs_Malnutrition;
+import org.chai.imci.assessment.fragment.Treatment_Malnurtition;
 
 public class TabsPagerAdapterMalnutrition extends FragmentPagerAdapter {
 

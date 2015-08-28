@@ -5,9 +5,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import org.chai.imci.assessment.Fragment.Diagnosing_Diarrhoea;
-import org.chai.imci.assessment.Fragment.SignDiarrhoea;
-import org.chai.imci.assessment.Fragment.TreatmentDiarrhoea;
+import org.chai.imci.assessment.fragment.Diagnosing_Diarrhoea;
+import org.chai.imci.assessment.fragment.SignDiarrhoea;
+import org.chai.imci.assessment.fragment.TreatmentDiarrhoea;
 
 public class TabsPagerAdapterDiarrhoea extends FragmentPagerAdapter {
 

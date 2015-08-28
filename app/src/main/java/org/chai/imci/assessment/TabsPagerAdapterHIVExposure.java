@@ -1,13 +1,13 @@
 package org.chai.imci.assessment;
 
 
-import org.chai.imci.assessment.Fragment.Diagnosing_HIVExposure;
-import org.chai.imci.assessment.Fragment.Signs_HIVExposure;
-import org.chai.imci.assessment.Fragment.Treatment_Hiv;
-
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import org.chai.imci.assessment.fragment.Diagnosing_HIVExposure;
+import org.chai.imci.assessment.fragment.Signs_HIVExposure;
+import org.chai.imci.assessment.fragment.Treatment_Hiv;
 
 public class TabsPagerAdapterHIVExposure extends FragmentPagerAdapter {
 

@@ -1,13 +1,13 @@
 package org.chai.imci.assessment;
 
 
-import org.chai.imci.assessment.Fragment.Diagnosing_Cough;
-import org.chai.imci.assessment.Fragment.Signs_Cough;
-import org.chai.imci.assessment.Fragment.Treatment_Cough;
-
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import org.chai.imci.assessment.fragment.Diagnosing_Cough;
+import org.chai.imci.assessment.fragment.Signs_Cough;
+import org.chai.imci.assessment.fragment.Treatment_Cough;
 
 public class TabsPagerAdapterCough extends FragmentPagerAdapter {
 

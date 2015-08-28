@@ -1,21 +1,25 @@
-package org.chai.imci;
-
+package org.chai.imci.assessment;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class TreatTheChildActivity extends Activity implements View.OnClickListener{
+import org.chai.imci.R;
+
+public class AssessmentActivity extends Activity {
     Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_treatthechild);
+        setContentView(R.layout.activity_assessment);
+        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
 
         Button btnTwo = (Button) findViewById(R.id.two_months);
         Button btnSixty = (Button) findViewById(R.id.sixty_months);
@@ -24,9 +28,9 @@ public class TreatTheChildActivity extends Activity implements View.OnClickListe
 
             @Override
             public void onClick(View v) {
-        /*		intent = new Intent(TreatTheChildActivity.this,
-						com.example.androidimci.treatthechild.Oral_Drugs_0_2_At.class);
-				startActivity(intent);*/
+                intent = new Intent(AssessmentActivity.this,
+                        What_to_Check_0_2.class);
+                startActivity(intent);
 
             }
         });
@@ -34,9 +38,9 @@ public class TreatTheChildActivity extends Activity implements View.OnClickListe
 
             @Override
             public void onClick(View v) {
-	/*			intent = new Intent(TreatTheChildActivity.this,
-						com.example.androidimci.treatthechild.Oral_Drugs_2_60_At.class);
-				startActivity(intent);*/
+                intent = new Intent(AssessmentActivity.this,
+                        What_to_Check_2_60.class);
+                startActivity(intent);
 
             }
         });
@@ -51,19 +55,10 @@ public class TreatTheChildActivity extends Activity implements View.OnClickListe
     }
 
     @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.two_months:
- /*		intent = new Intent(TreatTheChildActivity.this,
-						com.example.androidimci.treatthechild.Oral_Drugs_0_2_At.class);
-				startActivity(intent);*/
-                break;
-            case R.id.sixty_months:
-/*			intent = new Intent(TreatTheChildActivity.this,
-						com.example.androidimci.treatthechild.Oral_Drugs_2_60_At.class);
-				startActivity(intent);*/
-                break;
-        }
-    }
-}
+    public boolean onOptionsItemSelected(MenuItem item) {
+        onBackPressed();
+        return true;
 
+    }
+
+}

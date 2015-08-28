@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0E68C">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:background="#F0E68C"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/care4dev1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/care_4_development"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/care4dev2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/care_4_development_2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/care4dev3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/care_4_development_3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:clickable="true"
+            android:textColor="#33b5e5" />
+    </LinearLayout>
+
+</ScrollView>

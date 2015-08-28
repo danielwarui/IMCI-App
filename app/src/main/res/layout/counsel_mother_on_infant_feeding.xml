@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F0E68C">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0E68C"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/counsel_the_mother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/counsel_mother_on_infant_feeding"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000000" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#F0E68C"
+            android:orientation="vertical">
+
+            <ExpandableListView
+                android:id="@+id/lvExp"
+                android:layout_width="fill_parent"
+                android:layout_height="134dp"
+                android:cacheColorHint="#3ed695"
+                android:childDivider="#FFFFFF"
+                android:dividerHeight="3dp"
+                android:drawSelectorOnTop="true"></ExpandableListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

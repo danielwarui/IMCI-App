@@ -5,9 +5,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import org.chai.imci.assessment.Fragment.Diagnosing_0_2SpecialTreatments;
-import org.chai.imci.assessment.Fragment.Sign_0_2Special_Treatment;
-import org.chai.imci.assessment.Fragment.Treatment_0_2Special_Treatment;
+import org.chai.imci.assessment.fragment.Diagnosing_0_2SpecialTreatments;
+import org.chai.imci.assessment.fragment.Sign_0_2Special_Treatment;
+import org.chai.imci.assessment.fragment.Treatment_0_2Special_Treatment;
 
 public class TabsPagerAdapter0_2SpecialTreatment extends FragmentPagerAdapter {
 

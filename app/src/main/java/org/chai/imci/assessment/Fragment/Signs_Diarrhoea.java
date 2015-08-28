@@ -1,11 +1,4 @@
-package org.chai.imci.assessment.Fragment;
-
-import java.util.ArrayList;  
-import java.util.HashMap;
-import java.util.List;
-
-import org.chai.imci.R;
-import org.chai.imci.assessment.adapter.AdapterExpandable;
+package org.chai.imci.assessment.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -19,6 +12,13 @@ import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
+
+import org.chai.imci.R;
+import org.chai.imci.assessment.adapter.AdapterExpandable;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 public class Signs_Diarrhoea extends Fragment {
 	String DDS;

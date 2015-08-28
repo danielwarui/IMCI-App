@@ -1,11 +1,11 @@
 	package org.chai.imci.assessment;
 
-import android.support.v4.app.Fragment; 
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+	import android.support.v4.app.Fragment;
+	import android.support.v4.app.FragmentManager;
+	import android.support.v4.app.FragmentPagerAdapter;
 
-import org.chai.imci.assessment.Fragment.Fragment_Vitamin_A;
-import org.chai.imci.assessment.Fragment.Immunization_Table;
+	import org.chai.imci.assessment.fragment.Fragment_Vitamin_A;
+	import org.chai.imci.assessment.fragment.Immunization_Table;
 
 	public class TabsPagerAdapterImmunization extends FragmentPagerAdapter {
 
