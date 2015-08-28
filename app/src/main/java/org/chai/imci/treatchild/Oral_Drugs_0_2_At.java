@@ -95,15 +95,7 @@ public class Oral_Drugs_0_2_At extends Activity {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
-                // TODO Auto-generated method stub
-				/*Toast.makeText(
-						getApplicationContext(),
-						listDataHeader.get(groupPosition)
-								+ " : "
-								+ listDataChild.get(
-										listDataHeader.get(groupPosition)).get(
-										childPosition), Toast.LENGTH_SHORT)
-						.show();*/
+
                 if (groupPosition == 0 && childPosition == 0) {
                     Intent intent = new Intent(Oral_Drugs_0_2_At.this,
                             Treat_Child_Activity_0_2.class);
