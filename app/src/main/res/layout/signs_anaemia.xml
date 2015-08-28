@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrl_2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F0E68C"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/scrl_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FAFAD2"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/tbl_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tableRow3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#ff69b4"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="SEVERE ANAEMIA"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/signsDehydrationPink1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff69b4"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/signs_severe_anaemia"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView1111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tableRow3"
+            android:background="#ffff00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="ANAEMIA"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/space21"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/signsDehydrationPink"
+            android:background="#ffff00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/signs_anaemia"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tableRow3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#90EE90"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="NO MALARIA"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/signsDehydration11111"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#90ee90"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/signs_no_anaemia"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+
+</ScrollView>
