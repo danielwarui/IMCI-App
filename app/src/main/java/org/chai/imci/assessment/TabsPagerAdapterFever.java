@@ -5,9 +5,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import org.chai.imci.assessment.fragment.Classify_Fever;
 import org.chai.imci.assessment.fragment.Diagnosing_Fever;
-import org.chai.imci.assessment.fragment.SignFever;
-import org.chai.imci.assessment.fragment.TreatmentFever;
+import org.chai.imci.assessment.fragment.IDTreatment_Fever;
 
 public class TabsPagerAdapterFever extends FragmentPagerAdapter {
 
@@ -22,9 +22,9 @@ public class TabsPagerAdapterFever extends FragmentPagerAdapter {
 		case 0:
 			return new Diagnosing_Fever();
 		case 1:
-			return new SignFever();
+			return new Classify_Fever();
 		case 2:
-			return new TreatmentFever();
+			return new IDTreatment_Fever();
 		}
 
 		return null;

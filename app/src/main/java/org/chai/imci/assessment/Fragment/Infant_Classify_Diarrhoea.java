@@ -76,8 +76,8 @@ public class Infant_Classify_Diarrhoea extends Fragment {
         pSubItemArrayList.add(new SubCategory("No Dehydration", mItemListArrayP2));
 
 
-        pSubItemArrayList2.add(new SubCategory("SEVERE PROLONGED DIARRHOEA", mItemListArray2));
-        pSubItemArrayList3.add(new SubCategory("POSSIBLE SERIOUS ABDOMINAL PROBLEM", mItemListArray3));
+        pSubItemArrayList2.add(new SubCategory("Severe Prolonged Diarrhoea", mItemListArray2));
+        pSubItemArrayList3.add(new SubCategory("Possible Serious Abdominal Problem", mItemListArray3));
 		/*
 		 * pSubItemArrayList.add(new SubCategory("Color", mItemListArray));
 		 * pSubItemArrayList2.add(new SubCategory("Cloths", mItemListArray2));

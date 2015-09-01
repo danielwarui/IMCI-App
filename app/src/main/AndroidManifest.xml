@@ -79,6 +79,13 @@
         <activity
             android:name=".assessment.Starter_2_60_Malnutrition"
             android:label="@string/app_name"></activity>
+        <activity
+            android:name=".follow_up.FollowUpMain"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".follow_up.starter.Starter_Follow_0_60"
+            android:label="@string/app_name"/>
+
 
     </application>
 

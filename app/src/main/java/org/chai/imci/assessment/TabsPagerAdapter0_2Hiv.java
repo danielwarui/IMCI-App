@@ -6,8 +6,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import org.chai.imci.assessment.fragment.Diagnosing_0_2Hiv;
-import org.chai.imci.assessment.fragment.Sign_0_2Hiv;
-import org.chai.imci.assessment.fragment.Treatment_0_2Hiv;
+import org.chai.imci.assessment.fragment.Infant_Classify_HIVExposure;
+import org.chai.imci.assessment.fragment.Infant_IDTreatment_HIVExposure;
 
 public class TabsPagerAdapter0_2Hiv extends FragmentPagerAdapter {
 
@@ -24,10 +24,10 @@ public class TabsPagerAdapter0_2Hiv extends FragmentPagerAdapter {
 			return new Diagnosing_0_2Hiv();
 		case 1:
 			
-			return new Sign_0_2Hiv();
+			return new Infant_Classify_HIVExposure();
 		case 2:
 			
-			return new Treatment_0_2Hiv();
+			return new Infant_IDTreatment_HIVExposure();
 		}
 
 		return null;

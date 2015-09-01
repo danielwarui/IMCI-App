@@ -681,7 +681,7 @@ Check for complications of Measles\n
     <string name="signs_no_pneumonia">        • No signs of pneumonia or very severe disease.\n
 </string>
 
-    <string name="young_signs_severe_prolonged_diarrhoea">Diarrhoea testing 7 days or more</string>
+    <string name="young_signs_severe_prolonged_diarrhoea">        • Diarrhoea testing 7 days or more</string>
 
 <string name="young_signs_no_feeding_problem">        • Not low weight for age and no other signs of inadequate feeding.
 </string>
@@ -930,7 +930,7 @@ Check for complications of Measles\n
 •   Advise when to return immediately .\n
 •   If fever is present every day > 7 days assess or refer.\n
 </string>
-    <string name="Severe_Pneumonia_Treatment">• Give first dose of Chloramphenicol \n
+    <string name="severe_pneumonia_treatment">• Give first dose of Chloramphenicol \n
 • Treat for and to prevent low blood sugar \n
 • Keep the child warm\n
 • Treat wheeze if present \n
@@ -999,11 +999,11 @@ Check for complications of Measles\n
 </string>
     <string name="dysentry_treatment">• Treat with Ciproflaxacin \n• Give vitamin A \n• Give Zinc Sulphate \n• Follow-up in 2 Days
 </string>
-    <string name="very_severe_febrile_treatment">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol  \n• Treat the child to prevent low blood sugar\n• Give one dose of parcetamol in clinic for high fever( >38.5°C  )
+    <string name="very_severe_febrile_treatment">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol  \n• Treat the child to prevent low blood sugar\n• Give one dose of paracetamol in clinic for high fever( >38.5°C  )
 </string>
-<string name="very_severe_febrile_treatment_low_risk">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol  \n• Treat the child to prevent low blood sugar\n• Check for HIV infection\n• Give one dose of parcetamol in clinic for high fever( >38.5°C  )
+<string name="very_severe_febrile_treatment_low_risk">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol  \n• Treat the child to prevent low blood sugar\n• Check for HIV infection\n• Give one dose of paracetamol in clinic for high fever( >38.5°C  )
 </string>
-    <string name="fever_no_malaria_treatment">• Give one dose of parcetamol in clinic for high fever( >38.5°C  )\n• Assess for other posible causes of fever \n• Follow up in two days if fever persists\n
+    <string name="fever_no_malaria_treatment">• Give one dose of paracetamol in clinic for high fever( >38.5°C  )\n• Assess for other posible causes of fever \n• Follow up in two days if fever persists\n
         • Advise when to return immediately\n• Check for HIV infection.\n
         • If fever is present every day for more than 7 days assess further or refer
 </string>
@@ -1023,7 +1023,7 @@ Check for complications of Measles\n
 
     <string name="low_malaria_treatment">•  Give Artemether + Lumefantrine (AL).\n•   Give one dose of paracetamol in clinic for high fever (>38.5°C).\n•   Give Vitamin A.\n•   Follow up in 2 days if fever persists.\n•   Advise when to return immediately .\n•   If fever is present every day > 7 days assess or refer.\n
 </string>
-    <string name="severe_febrile_disease_treatment">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol \n• treat the child to prevent low blood sugar \n• Give one dose of parcetamol in clinic for high fever( >38.5°C  )
+    <string name="severe_febrile_disease_treatment">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol \n• treat the child to prevent low blood sugar \n• Give one dose of paracetamol in clinic for high fever( >38.5°C  )
 </string>
 
     <string name="eye_mouth_measles_treatment">• Give Vitamin A \n• If pus draining from the eye, treat eye infection with tetracycline eye ointment\n• If mouth ulcers,treat with gentian voilet or nystatin\n• Follow-up in two days\n• If child has no indication for referral,notify and draw blood sample for confirmation of measles

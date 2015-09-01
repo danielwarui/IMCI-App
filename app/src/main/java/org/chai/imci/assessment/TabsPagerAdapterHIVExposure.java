@@ -5,9 +5,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import org.chai.imci.assessment.fragment.Classify_HIVExp;
 import org.chai.imci.assessment.fragment.Diagnosing_HIVExposure;
-import org.chai.imci.assessment.fragment.Signs_HIVExposure;
-import org.chai.imci.assessment.fragment.Treatment_Hiv;
+import org.chai.imci.assessment.fragment.IDTreatment_HIVExp;
 
 public class TabsPagerAdapterHIVExposure extends FragmentPagerAdapter {
 
@@ -24,10 +24,10 @@ public class TabsPagerAdapterHIVExposure extends FragmentPagerAdapter {
 			return new Diagnosing_HIVExposure();
 		case 1:
 			
-			return new Signs_HIVExposure();
+			return new Classify_HIVExp();
 		case 2:
 			
-			return new Treatment_Hiv();
+			return new IDTreatment_HIVExp();
 		}
 
 		return null;

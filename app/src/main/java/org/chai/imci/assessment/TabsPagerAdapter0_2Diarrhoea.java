@@ -5,9 +5,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import org.chai.imci.assessment.fragment.CopyOfSign_0_2Diarrhoea;
 import org.chai.imci.assessment.fragment.Diagnosing_0_2Diarrhoea;
-import org.chai.imci.assessment.fragment.Treatment0_2Diarrhoea;
+import org.chai.imci.assessment.fragment.Infant_Classify_Diarrhoea;
+import org.chai.imci.assessment.fragment.Infant_IDTreatment_Diarrhoea;
 
 public class TabsPagerAdapter0_2Diarrhoea extends FragmentPagerAdapter {
 
@@ -22,9 +22,9 @@ public class TabsPagerAdapter0_2Diarrhoea extends FragmentPagerAdapter {
 		case 0:
 			return new Diagnosing_0_2Diarrhoea();
 		case 1:
-			return new CopyOfSign_0_2Diarrhoea();
+			return new Infant_Classify_Diarrhoea();
 		case 2:
-			return new Treatment0_2Diarrhoea();
+			return new Infant_IDTreatment_Diarrhoea();
 		}
 
 		return null;

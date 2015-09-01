@@ -5,9 +5,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import org.chai.imci.assessment.fragment.Classify_Cough_Difficulty;
 import org.chai.imci.assessment.fragment.Diagnosing_Cough;
-import org.chai.imci.assessment.fragment.Signs_Cough;
-import org.chai.imci.assessment.fragment.Treatment_Cough;
+import org.chai.imci.assessment.fragment.IDTreatment_Cough_Difficulty;
 
 public class TabsPagerAdapterCough extends FragmentPagerAdapter {
 
@@ -24,10 +24,10 @@ public class TabsPagerAdapterCough extends FragmentPagerAdapter {
 			return new Diagnosing_Cough();
 		case 1:
 			
-			return new Signs_Cough();
+			return new Classify_Cough_Difficulty();
 		case 2:
 			
-			return new Treatment_Cough();
+			return new IDTreatment_Cough_Difficulty();
 		}
 
 		return null;

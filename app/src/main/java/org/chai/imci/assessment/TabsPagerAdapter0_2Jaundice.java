@@ -7,7 +7,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import org.chai.imci.assessment.fragment.Diagnosing_0_2Jaundice;
 import org.chai.imci.assessment.fragment.Infant_Classify_Jaundice;
-import org.chai.imci.assessment.fragment.Treatment_0_2Jaundice;
+import org.chai.imci.assessment.fragment.Infant_IDTreatment_Jaundice;
 
 public class TabsPagerAdapter0_2Jaundice extends FragmentPagerAdapter {
 
@@ -27,7 +27,7 @@ public class TabsPagerAdapter0_2Jaundice extends FragmentPagerAdapter {
 			return new Infant_Classify_Jaundice();
 		case 2:
 			
-			return new Treatment_0_2Jaundice();
+			return new Infant_IDTreatment_Jaundice();
 		}
 
 		return null;

@@ -4,9 +4,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import org.chai.imci.assessment.fragment.Classify_Malnutrition;
 import org.chai.imci.assessment.fragment.Diagnosing_Malnutrition;
-import org.chai.imci.assessment.fragment.Signs_Malnutrition;
-import org.chai.imci.assessment.fragment.Treatment_Malnurtition;
+import org.chai.imci.assessment.fragment.IDTreatment_Malnutrition;
 
 public class TabsPagerAdapterMalnutrition extends FragmentPagerAdapter {
 
@@ -22,9 +22,9 @@ public class TabsPagerAdapterMalnutrition extends FragmentPagerAdapter {
 		
 			return new Diagnosing_Malnutrition();
 		case 1:
-			return new Signs_Malnutrition();
+			return new Classify_Malnutrition();
 		case 2:
-			return new Treatment_Malnurtition();
+			return new IDTreatment_Malnutrition();
 		}
 
 		return null;

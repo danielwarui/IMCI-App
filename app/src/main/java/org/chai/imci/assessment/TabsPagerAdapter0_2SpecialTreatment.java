@@ -6,8 +6,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import org.chai.imci.assessment.fragment.Diagnosing_0_2SpecialTreatments;
-import org.chai.imci.assessment.fragment.Sign_0_2Special_Treatment;
-import org.chai.imci.assessment.fragment.Treatment_0_2Special_Treatment;
+import org.chai.imci.assessment.fragment.Infant_Classify_SpecialTreatment;
+import org.chai.imci.assessment.fragment.Infant_IDTreatment_SpecialTreatment;
 
 public class TabsPagerAdapter0_2SpecialTreatment extends FragmentPagerAdapter {
 
@@ -24,10 +24,10 @@ public class TabsPagerAdapter0_2SpecialTreatment extends FragmentPagerAdapter {
 			return new Diagnosing_0_2SpecialTreatments();
 		case 1:
 			
-			return new Sign_0_2Special_Treatment();
+			return new Infant_Classify_SpecialTreatment();
 		case 2:
 			
-			return new Treatment_0_2Special_Treatment();
+			return new Infant_IDTreatment_SpecialTreatment();
 		}
 
 		return null;

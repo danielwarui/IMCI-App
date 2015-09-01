@@ -5,9 +5,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import org.chai.imci.assessment.fragment.Classify_Ear_Problem;
 import org.chai.imci.assessment.fragment.Diagnosing_Ear_Infection;
-import org.chai.imci.assessment.fragment.Signs_EarProblem;
-import org.chai.imci.assessment.fragment.Treatment_EarProblem;
+import org.chai.imci.assessment.fragment.IDTreatment_Ear_Problem;
 
 public class TabsPagerAdapterEarproblem extends FragmentPagerAdapter {
 
@@ -24,10 +24,10 @@ public class TabsPagerAdapterEarproblem extends FragmentPagerAdapter {
 			return new Diagnosing_Ear_Infection();
 		case 1:
 			
-			return new Signs_EarProblem();
+			return new Classify_Ear_Problem();
 		case 2:
 			
-			return new Treatment_EarProblem();
+			return new IDTreatment_Ear_Problem();
 		}
 
 		return null;
