@@ -5,8 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import org.chai.imci.assessment.AssessmentActivity;
 import org.chai.imci.assessment.treatchild.TreatTheChildActivity;
-import org.chai.imci.counselmother.CounselMotherMain;
 
 public class HomeActivity extends Activity implements View.OnClickListener {
     Intent intent;
@@ -43,20 +43,20 @@ public class HomeActivity extends Activity implements View.OnClickListener {
                 startActivity(intent);
                 break;
             case R.id.btnFollowUp:
-                intent = new Intent(HomeActivity.this, FollowUpCareActivity.class);
-                startActivity(intent);
+                /*intent = new Intent(HomeActivity.this, FollowUpCareActivity.class);
+                startActivity(intent);*/
                 break;
             case R.id.btnNVP:
-//                intent = new Intent(HomeActivity.this, NVPMain.class);
-//                startActivity(intent);
+               /* intent = new Intent(HomeActivity.this, NVPMain.class);
+                startActivity(intent);*/
                 break;
             case R.id.btnTreatTheChild:
                 intent = new Intent(HomeActivity.this, TreatTheChildActivity.class);
                 startActivity(intent);
                 break;
             case R.id.btnCounselMother:
-                intent = new Intent(HomeActivity.this, CounselMotherMain.class);
-                startActivity(intent);
+              /*  intent = new Intent(HomeActivity.this, CounselMotherMain.class);
+                startActivity(intent);*/
                 break;
 
         }

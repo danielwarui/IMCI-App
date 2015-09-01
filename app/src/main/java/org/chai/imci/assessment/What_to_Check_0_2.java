@@ -13,7 +13,6 @@ import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
 import android.widget.Toast;
 
-import org.chai.imci.FollowUpCareActivity;
 import org.chai.imci.R;
 import org.chai.imci.assessment.adapter.AdapterExpandable;
 
@@ -105,11 +104,11 @@ public class What_to_Check_0_2 extends Activity {
                                 listDataHeader.get(groupPosition)).get(
                                 childPosition), Toast.LENGTH_SHORT)
                         .show();
-                if (groupPosition == 0 && childPosition == 1) {
+             /*   if (groupPosition == 0 && childPosition == 1) {
                     Intent intent = new Intent(What_to_Check_0_2.this, FollowUpCareActivity.class);
                     startActivity(intent);
 
-                }
+                }*/
                 if (groupPosition == 1 && childPosition == 0) {
                     Intent intent = new Intent(What_to_Check_0_2.this, Starter_0_2_Severe_Disease.class);
                     startActivity(intent);
@@ -145,7 +144,6 @@ public class What_to_Check_0_2 extends Activity {
                     startActivity(intent);
 
                 }
-
 
                 /*Underway*/
                 if (groupPosition == 1 && childPosition == 7) {

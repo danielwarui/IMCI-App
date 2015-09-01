@@ -14,7 +14,7 @@ import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
 
 import org.chai.imci.R;
-import org.chai.imci.treatthechild.AdapterExpandable;
+import org.chai.imci.assessment.adapter.AdapterExpandable;
 
 import java.util.ArrayList;
 import java.util.HashMap;
