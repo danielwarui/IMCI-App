@@ -1,4 +1,4 @@
-package org.chai.imci.assessment.treatchild;
+package org.chai.imci.treatchild;
 
 
 import android.app.Activity;
@@ -26,9 +26,9 @@ public class TreatTheChildActivity extends Activity implements View.OnClickListe
 
             @Override
             public void onClick(View v) {
-        /*		intent = new Intent(TreatTheChildActivity.this,
-						com.example.androidimci.treatthechild.Oral_Drugs_0_2_At.class);
-				startActivity(intent);*/
+        		intent = new Intent(TreatTheChildActivity.this,
+						Oral_Drugs_0_2_At.class);
+				startActivity(intent);
 
             }
         });
@@ -36,9 +36,9 @@ public class TreatTheChildActivity extends Activity implements View.OnClickListe
 
             @Override
             public void onClick(View v) {
-	/*			intent = new Intent(TreatTheChildActivity.this,
-						com.example.androidimci.treatthechild.Oral_Drugs_2_60_At.class);
-				startActivity(intent);*/
+				intent = new Intent(TreatTheChildActivity.this,
+						Oral_Drugs_2_60_At.class);
+				startActivity(intent);
 
             }
         });

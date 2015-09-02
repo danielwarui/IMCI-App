@@ -6,9 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 
 import org.chai.imci.assessment.AssessmentActivity;
-import org.chai.imci.assessment.counsel_mother.CounselMother;
-import org.chai.imci.assessment.treatchild.TreatTheChildActivity;
+import org.chai.imci.counsel_mother.CounselMother;
 import org.chai.imci.follow_up.FollowUpMain;
+import org.chai.imci.hiv_care_children.NVPMain;
+import org.chai.imci.treatchild.TreatTheChildActivity;
 
 public class HomeActivity extends Activity implements View.OnClickListener {
     Intent intent;
@@ -49,8 +50,8 @@ public class HomeActivity extends Activity implements View.OnClickListener {
                 startActivity(intent);
                 break;
             case R.id.btnNVP:
-               /* intent = new Intent(HomeActivity.this, NVPMain.class);
-                startActivity(intent);*/
+                intent = new Intent(HomeActivity.this, NVPMain.class);
+                startActivity(intent);
                 break;
             case R.id.btnTreatTheChild:
                 intent = new Intent(HomeActivity.this, TreatTheChildActivity.class);

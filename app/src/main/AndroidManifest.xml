@@ -23,13 +23,16 @@
             android:name=".HomeActivity"
             android:label="@string/app_name"></activity>
         <activity
-            android:name=".assessment.counsel_mother.CounselMother"
+            android:name=".hiv_care_children.NVPMain"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".counsel_mother.CounselMother"
             android:label="@string/app_name"></activity>
         <activity
             android:name=".assessment.AssessmentActivity"
             android:label="@string/app_name"></activity>
         <activity
-            android:name=".assessment.treatchild.TreatTheChildActivity"
+            android:name=".treatchild.TreatTheChildActivity"
             android:label="@string/app_name"></activity>
         <activity
             android:name=".assessment.What_to_Check_0_2"
@@ -97,7 +100,12 @@
         <activity
             android:name=".follow_up.starter.Starter_Follow_0_2"
             android:label="@string/app_name"/>
-
+        <activity
+            android:name=".treatchild.Oral_Drugs_0_2_At"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".treatchild.Oral_Drugs_2_60_At"
+            android:label="@string/app_name"/>
 
     </application>
 

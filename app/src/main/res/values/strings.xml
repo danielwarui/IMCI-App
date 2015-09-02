@@ -20,9 +20,9 @@
     <string name="lbl_Assessment">Assess, Classify &amp; Identify Treatment</string>
     <string name="lbl_Follow_Up">Follow up Care</string>
     <string name="lbl_Eid_Testing">HIV Care for Children</string>
-    <string name="lbl_Treat_The_Child">Treat the Infant/Child</string>
+    <string name="lbl_Treat_The_Child">Treat the \n Infant/Child</string>
     <string name="lbl_Paeds_ARVs">Paeds ARVs Drug Dosing</string>
-    <string name="lbl_Counsel_Mother">Counsel the Mother</string>
+    <string name="lbl_Counsel_Mother">Counsel \n the Mother</string>
     <string name="lbl_Nvp">EID Testing Algorithm</string>
     <string name="lbl_MainMenu">Main Menu</string>
     <string name="lbl_cough">Does the child have cough or difficult breathing?</string>

@@ -37,7 +37,7 @@
                     android:layout_height="fill_parent"
                     android:text="@string/lbl_Assessment"
                     android:textColor="#ffffff"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
             </RelativeLayout>
         </LinearLayout>
 
@@ -59,11 +59,11 @@
                 <Button
                     android:id="@+id/btnCounselMother"
                     style="?android:attr/buttonBarButtonStyle"
-                    android:layout_width="wrap_content"
+                    android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:text="@string/lbl_Counsel_Mother"
                     android:textColor="#ffffff"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -84,7 +84,7 @@
                     android:layout_height="fill_parent"
                     android:text="@string/lbl_Follow_Up"
                     android:textColor="#ffffff"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
             </LinearLayout>
         </RelativeLayout>
 
@@ -106,11 +106,11 @@
                 <Button
                     android:id="@+id/btnTreatTheChild"
                     style="?android:attr/buttonBarButtonStyle"
-                    android:layout_width="wrap_content"
+                    android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:text="@string/lbl_Treat_The_Child"
                     android:textColor="#ffffff"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -131,7 +131,7 @@
                     android:layout_height="fill_parent"
                     android:text="@string/lbl_Eid_Testing"
                     android:textColor="#ffffff"
-                    android:textSize="25sp" />
+                    android:textSize="20sp" />
             </LinearLayout>
         </RelativeLayout>
     </LinearLayout>

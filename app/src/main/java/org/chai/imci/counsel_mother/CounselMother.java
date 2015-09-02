@@ -1,4 +1,4 @@
-package org.chai.imci.assessment.counsel_mother;
+package org.chai.imci.counsel_mother;
 
 import android.app.Activity;
 import android.content.Intent;
