@@ -3,6 +3,13 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/accent</item>
+        //red is the color of the pressed state and activated state
+        <item name="colorControlActivated">@color/accent</item>
+        //black is the color of the normal state
+        <item name="colorControlNormal">@color/primary</item>
 
             <item name="android:textViewStyle">@style/TextviewAppTheme</item>
             <item name="android:editTextStyle">@style/EditTextAppTheme</item>
@@ -12,7 +19,7 @@
             <item name="android:imageButtonStyle">@style/ImageButtonAppTheme</item>
     </style>
     <style name="styleOne">
-        <item name="android:textColor" >@color/textColor</item>
+        <item name="android:textColor" >@color/white</item>
         <item name="android:childDivider">#000000</item>
 
     </style>

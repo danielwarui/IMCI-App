@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import org.chai.imci.assessment.AssessmentActivity;
+import org.chai.imci.assessment.counsel_mother.CounselMother;
 import org.chai.imci.assessment.treatchild.TreatTheChildActivity;
 import org.chai.imci.follow_up.FollowUpMain;
 
@@ -56,8 +57,8 @@ public class HomeActivity extends Activity implements View.OnClickListener {
                 startActivity(intent);
                 break;
             case R.id.btnCounselMother:
-              /*  intent = new Intent(HomeActivity.this, CounselMotherMain.class);
-                startActivity(intent);*/
+                intent = new Intent(HomeActivity.this, CounselMother.class);
+                startActivity(intent);
                 break;
 
         }
