@@ -96,7 +96,7 @@
             android:layout_height="wrap_content"
             android:onClick="NextActivity"
             android:text="Proceed"
-            android:textColor="#ffffff" />
+            />
     </LinearLayout>
 
 </ScrollView>
