@@ -109,20 +109,20 @@ public class CounselMother extends Activity{
                     startActivity(intent);
                 }
 
-              /*  if(groupPosition == 2 && childPosition == 0){
+
+                if(groupPosition == 2 && childPosition == 0){
                     Intent intent = new Intent(getApplicationContext(),Counsel_Mother_Infant_Feeding.class);
                     startActivity(intent);
                 }
                 if(groupPosition == 2 && childPosition == 1){
-                    Intent intent = new Intent(getApplicationContext(),FeedingAdviceHIV.class);
-                    intent.putExtra("CareForDevelopmentAndNvp", childPosition);
+                    Intent intent = new Intent(getApplicationContext(),FeedingAdvice_Breastfeed.class);
                     startActivity(intent);
                 }
                 if(groupPosition == 2 && childPosition == 2){
-                    Intent intent = new Intent(getApplicationContext(),FeedingAdviceHIV.class);
-                    intent.putExtra("CareForDevelopmentAndNvp", childPosition);
+                    Intent intent = new Intent(getApplicationContext(),FeedingAdvice_NotBreastfeed.class);
                     startActivity(intent);
-                }*/
+                }
+
 
                 if(groupPosition == 3 && childPosition == 0){
                     Intent intent = new Intent(getApplicationContext(),FeedingProblem.class);
@@ -137,32 +137,9 @@ public class CounselMother extends Activity{
                     startActivity(intent);
                 }
                 if(groupPosition == 6 && childPosition == 0){
-                    Intent intent = new Intent(getApplicationContext(),CounselMotherHerOwnHealth.class);
+                    Intent intent = new Intent(getApplicationContext(),Counsel_Her_OwnHealth.class);
                     startActivity(intent);
                 }
-                /**
-                 *
-                 if (i == 3 && j == 0)
-                 {
-                 expandablelistview = new Intent(getApplicationContext(), com/example/androidimci/counselmother/Feeding_Problem);
-                 startActivity(expandablelistview);
-                 }
-                 if (i == 4 && j == 0)
-                 {
-                 expandablelistview = new Intent(getApplicationContext(), com/example/androidimci/counselmother/Counsel_CareforDevelopment_Problems);
-                 startActivity(expandablelistview);
-                 }
-                 if (i == 5 && j == 0)
-                 {
-                 expandablelistview = new Intent(getApplicationContext(), com/example/androidimci/counselmother/Counsel_Mother_Fluids);
-                 startActivity(expandablelistview);
-                 }
-                 if (i == 6 && j == 0)
-                 {
-                 expandablelistview = new Intent(getApplicationContext(), com/example/androidimci/counselmother/Counsel_Mother_Her_Own_Health);
-                 startActivity(expandablelistview);
-                 }
-                 */
 
                 return false;
             }
@@ -208,7 +185,7 @@ public class CounselMother extends Activity{
 
         List<String> suspmeasles = new ArrayList<String>();
         suspmeasles.add("Counsel mother on infant feeding");
-        suspmeasles.add("Feeding advice for a child of a HIV positive mothe who has chosen to breastfeed");
+        suspmeasles.add("Feeding advice for a child of a HIV positive mother who has chosen to breastfeed");
         suspmeasles.add("Feeding advice for a child of a HIV positive mother who has chosen not to breastfeed or child who cannot be breastfed");
 
         List<String> feedingProblems = new ArrayList<String>();

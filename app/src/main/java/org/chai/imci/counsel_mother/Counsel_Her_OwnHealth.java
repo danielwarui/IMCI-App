@@ -83,140 +83,55 @@ public class Counsel_Her_OwnHealth extends Activity {
         });
 
         // Listview on child click listener
-        expListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
-
-            @Override
-            public boolean onChildClick(ExpandableListView parent, View v,
-                                        int groupPosition, int childPosition, long id) {
-             /*   if (groupPosition == 0 && childPosition == 0) {
-                    Intent intent = new Intent(getApplicationContext(), AgeSixMonths.class);
-                    startActivity(intent);
-                }
-                if (groupPosition == 0 && childPosition == 1) {
-                    Intent intent = new Intent(getApplicationContext(), AgeSixMonthstoTwelveMonths.class);
-                    startActivity(intent);
-                }
-                if (groupPosition == 0 && childPosition == 2) {
-                    Intent intent = new Intent(getApplicationContext(), AgeTwelveMonthstoTwoYears.class);
-                    startActivity(intent);
-                }
-                if (groupPosition == 0 && childPosition == 3) {
-                    Intent intent = new Intent(getApplicationContext(), AgeTwoYearsandOlder.class);
-                    startActivity(intent);
-                }
-                if (groupPosition == 1) {
-                    Intent intent = new Intent(getApplicationContext(), CareForDevelopmentUniversal.class);
-                    intent.putExtra("CareForDevelopmentAndNvp", childPosition);
-                    startActivity(intent);
-                }*/
-
-              /*  if(groupPosition == 2 && childPosition == 0){
-                    Intent intent = new Intent(getApplicationContext(),Counsel_Mother_Infant_Feeding.class);
-                    startActivity(intent);
-                }
-                if(groupPosition == 2 && childPosition == 1){
-                    Intent intent = new Intent(getApplicationContext(),FeedingAdviceHIV.class);
-                    intent.putExtra("CareForDevelopmentAndNvp", childPosition);
-                    startActivity(intent);
-                }
-                if(groupPosition == 2 && childPosition == 2){
-                    Intent intent = new Intent(getApplicationContext(),FeedingAdviceHIV.class);
-                    intent.putExtra("CareForDevelopmentAndNvp", childPosition);
-                    startActivity(intent);
-                }*/
-
-                /**
-                 *
-                 if (i == 3 && j == 0)
-                 {
-                 expandablelistview = new Intent(getApplicationContext(), com/example/androidimci/counselmother/Feeding_Problem);
-                 startActivity(expandablelistview);
-                 }
-                 if (i == 4 && j == 0)
-                 {
-                 expandablelistview = new Intent(getApplicationContext(), com/example/androidimci/counselmother/Counsel_CareforDevelopment_Problems);
-                 startActivity(expandablelistview);
-                 }
-                 if (i == 5 && j == 0)
-                 {
-                 expandablelistview = new Intent(getApplicationContext(), com/example/androidimci/counselmother/Counsel_Mother_Fluids);
-                 startActivity(expandablelistview);
-                 }
-                 if (i == 6 && j == 0)
-                 {
-                 expandablelistview = new Intent(getApplicationContext(), com/example/androidimci/counselmother/Counsel_Mother_Her_Own_Health);
-                 startActivity(expandablelistview);
-                 }
-                 */
-
-                return false;
-            }
-        });
+        expListView.setClickable(false);
     }
 
     /*
      * Preparing the list data
      */
     private void prepareListData() {
-        String cannotBreastfeed = getResources().getString(R.string.child_cannot_be_breastfed);
-        String notPlay = getResources().getString(R.string.caregiver_not_does_to_play);
-        String enoughPlayTime = getResources().getString(R.string.caregiver_enough_time);
-        String noToys = getResources().getString(R.string.caregiver_no_toys);
-        String notResponding = getResources().getString(R.string.child_not_responding);
-        String notMother = getResources().getString(R.string.raised_not_by_mother);
+        String motherSick = getResources().getString(R.string.mother_sick_provide);
+        String sureAccess = getResources().getString(R.string.she_has_access_to);
+        String motherHIV = getResources().getString(R.string.mother_hiv_positive);
+        String babyMonths = getResources().getString(R.string.baby_less_than_two);
+        String nothing = getResources().getString(R.string.nothing);
 
         listDataHeader = new ArrayList();
         listDataChild = new HashMap();
         //0
-        listDataHeader.add("If the child is not being cared for as described on the Care for Development section, counsel " +
-                "the caregiver accordingly.");
+        listDataHeader.add("If the mother is sick, provide care for help, or refer for help");
         //1
-        listDataHeader.add("If the child cannot be breastfed, counsel the caregiver to:");
+        listDataHeader.add("Make sure she has access to:");
         //2
-        listDataHeader.add("If the caregiver does not know what her/ his child does to play or communicate:");
+        listDataHeader.add("If the mother is HIV positive");
         //3
-        listDataHeader.add("If the caregiver feel he/she does not have enough time to provide care for development, /n" +
-                "encourage him/her to:");
+        listDataHeader.add("If baby is less than 2 months:");
         //4
-        listDataHeader.add("If the caregiver has no toys for the child to play with, Counsel him/her to:");
+        listDataHeader.add("Remind her of post partum schedule (Within 48 hours, 2-4 weeks, 4-6 weeks");
         //5
-        listDataHeader.add("If the child is not responding or seems slow:");
-        //6
-        listDataHeader.add("If the child is being raised by someone else other than the mother, help the caregiver to:");
-        //7
 
         List<String> array0 = new ArrayList<String>();
-        array0.add("");
+        array0.add(motherSick);
 
         List<String> array1 = new ArrayList<String>();
-        array1.add(cannotBreastfeed);
+        array1.add(sureAccess);
 
         List<String> array2 = new ArrayList<String>();
-        array2.add(notPlay);
+        array2.add(motherHIV);
 
         List<String> array3 = new ArrayList<String>();
-        array3.add(enoughPlayTime);
+        array3.add(babyMonths);
 
         List<String> array4 = new ArrayList<String>();
-        array4.add(noToys);
+        array4.add(nothing);
 
-        List<String> array5 = new ArrayList<String>();
-        array5.add(notResponding);
 
-        List<String> array6 = new ArrayList<String>();
-        array6.add(notMother);
-
-        List<String> array7 = new ArrayList<String>();
-        array7.add("");
 
         listDataChild.put((String) listDataHeader.get(0), array0);
         listDataChild.put((String) listDataHeader.get(1), array1);
         listDataChild.put((String) listDataHeader.get(2), array2);
         listDataChild.put((String) listDataHeader.get(3), array3);
         listDataChild.put((String) listDataHeader.get(4), array4);
-        listDataChild.put((String) listDataHeader.get(5), array5);
-        listDataChild.put((String) listDataHeader.get(6), array6);
-        listDataChild.put((String) listDataHeader.get(7), array7);
     }
 
     @Override

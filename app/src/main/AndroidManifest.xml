@@ -112,11 +112,9 @@
         <activity
             android:name=".treatchild.Treat_Child_Activity_0_2"
             android:label="@string/app_name" />
-
         <activity
             android:name=".treatchild.Young_Treatment_Health_Facility"
             android:label="@string/app_name" />
-
         <activity
             android:name=".treatchild.healthfacility.Young_Intramuscular_Antibiotic"
             android:label="@string/app_name" />
@@ -167,6 +165,15 @@
             android:label="@string/app_name" />
         <activity
             android:name=".counsel_mother.FeedingProblem"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".counsel_mother.Counsel_Her_OwnHealth"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".counsel_mother.FeedingAdvice_Breastfeed"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".counsel_mother.FeedingAdvice_NotBreastfeed"
             android:label="@string/app_name" />
     </application>
 
