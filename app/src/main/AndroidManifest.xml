@@ -140,6 +140,42 @@
             android:name=".treatchild.Young_Teach_Correct_Positioning_Instruct"
             android:label="@string/app_name" />
         <activity
+            android:name=".treatchild.Plan_A_Treat_Diarrhoea"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".treatchild.Plan_B_Treat_Diarrhoea"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".treatchild.Plan_C_Treat_Diarrhoea"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".treatchild.Treatment_Health_Facility"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".treatchild.Activity_immunization_table"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".treatchild.healthfacility.Convulsing_Now"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".treatchild.healthfacility.Chloramphenicol_Table"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".treatchild.healthfacility.First_Dose_of_Choramphenicol"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".treatchild.healthfacility.Treat_Wheezing"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".treatchild.healthfacility.Low_Blood_Sugar"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".treatchild.healthfacility.Intramuscular_Antibiotic"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".treatchild.healthfacility.Treatment_Severe_Malaria"
+            android:label="@string/app_name" />
+        <activity
             android:name=".counsel_mother.AgeSixMonths"
             android:label="@string/app_name" />
         <activity

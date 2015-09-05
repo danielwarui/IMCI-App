@@ -21,14 +21,13 @@ import org.chai.imci.treatchild.Plan_A_Treat_Diarrhoea;
 import org.chai.imci.treatchild.Plan_B_Treat_Diarrhoea;
 
 public class Young_Local_Infections_At_Home extends Activity {
-	private ListView vlist;
 	EditText ara;
 	String[] fiilliste;
 	Intent intent;
-
 	// String [] fiilliste=
 	// getResources().getStringArray(R.array.fragment_array_treatment);
 	ArrayAdapter<String> adapter;
+	private ListView vlist;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -59,46 +58,29 @@ public class Young_Local_Infections_At_Home extends Activity {
 				intent.putExtra("Position", position);
 				startActivity(intent);
 				}else{
-					  AlertDialog.Builder myDialog 
-			            = new AlertDialog.Builder(Young_Local_Infections_At_Home.this);
-			            
-			            myDialog.setTitle("Treat local infections at home");
+					AlertDialog.Builder myDialog = new AlertDialog.Builder(Young_Local_Infections_At_Home.this);
+
+					myDialog.setTitle("Treat local infections at home");
 			            
 			            TextView dialogTxt_id = new TextView(Young_Local_Infections_At_Home.this);
-			            LayoutParams dialogTxt_idLayoutParams 
-			             = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
-			            dialogTxt_id.setLayoutParams(dialogTxt_idLayoutParams);
-//			            dialogTxt_id.setText("");
-			            
-			            final EditText dialogC1_id = new EditText(Young_Local_Infections_At_Home.this);
-			            LayoutParams dialogC1_idLayoutParams 
-			             = new LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT);
-			            dialogC1_id.setLayoutParams(dialogC1_idLayoutParams);
-//			            dialogC1_id.setText("");
-			            
-			            final EditText dialogC2_id = new EditText(Young_Local_Infections_At_Home.this);
-			            LayoutParams dialogC2_idLayoutParams 
-			             = new LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT);
-			            dialogC2_id.setLayoutParams(dialogC2_idLayoutParams);
-//			            dialogC2_id.setText("");
+					LayoutParams dialogTxt_idLayoutParams = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
+					dialogTxt_id.setLayoutParams(dialogTxt_idLayoutParams);
 			            
 			            LinearLayout layout = new LinearLayout(Young_Local_Infections_At_Home.this);
 			            layout.setOrientation(LinearLayout.VERTICAL);
 			            layout.addView(dialogTxt_id);
-			            layout.addView(dialogC1_id);
-			            layout.addView(dialogC2_id);
 			            myDialog.setView(layout);
-			            
-			            myDialog.setPositiveButton("Immunize Infant as Needed", new DialogInterface.OnClickListener() {
-			                // do something when the button is clicked
+
+					myDialog.setPositiveButton("Immunize \n Infant \nas Needed", new DialogInterface.OnClickListener() {
+						// do something when the button is clicked
 			                public void onClick(DialogInterface arg0, int arg1) {
 			                	Intent intent = new Intent(Young_Local_Infections_At_Home.this,Plan_B_Treat_Diarrhoea.class);
 								startActivity(intent);
 			                 }
 			                });
-			            
-			            myDialog.setNeutralButton("Treat Diarrhoea", new DialogInterface.OnClickListener() {
-			                // do something when the button is clicked
+
+					myDialog.setNeutralButton("Treat \n Diarrhoea", new DialogInterface.OnClickListener() {
+						// do something when the button is clicked
 			                public void onClick(DialogInterface arg0, int arg1) {
 			                	Intent intent = new Intent(Young_Local_Infections_At_Home.this,Plan_A_Treat_Diarrhoea.class);
 								startActivity(intent);

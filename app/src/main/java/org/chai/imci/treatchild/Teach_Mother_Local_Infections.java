@@ -19,12 +19,12 @@ import org.chai.imci.treatchild.local_infections.Trt_Mouth_Ulcers;
 import org.chai.imci.treatchild.local_infections.Trt_Oral_Thrush;
 
 public class Teach_Mother_Local_Infections extends Activity{
-	private ListView vlist;
 	EditText ara;
 	String[] fiilliste;
 	Intent intent;
-
 	ArrayAdapter<String> adapter;
+	private ListView vlist;
+
 @Override
 protected void onCreate(Bundle savedInstanceState) {
 	super.onCreate(savedInstanceState);
@@ -45,28 +45,23 @@ protected void onCreate(Bundle savedInstanceState) {
 				int position, long arg3) {
 			switch (position) {
 			case 1:
-				Intent intent = new Intent(getApplication(),
-						Dry_Ear_By_Wicking.class);
+				Intent intent = new Intent(getApplication(), Dry_Ear_By_Wicking.class);
 				startActivity(intent);
 				break;
 			case 4:
-				intent = new Intent(getApplication(),
-						Soothe_Throat.class);
+				intent = new Intent(getApplication(), Soothe_Throat.class);
 				startActivity(intent);
 				break;
 			case 0:
-				intent = new Intent(getApplication(),
-						Trt_Eye_Infection.class);
+				intent = new Intent(getApplication(), Trt_Eye_Infection.class);
 				startActivity(intent);
 				break;
 			case 2:
-				intent = new Intent(getApplication(),
-						Trt_Mouth_Ulcers.class);
+				intent = new Intent(getApplication(), Trt_Mouth_Ulcers.class);
 				startActivity(intent);
 				break;
 			case 3:
-				intent = new Intent(getApplication(),
-						Trt_Oral_Thrush.class);
+				intent = new Intent(getApplication(), Trt_Oral_Thrush.class);
 				startActivity(intent);
 				break;
 			

@@ -55,9 +55,6 @@ public class Oral_Drugs_0_2_At extends Activity {
             @Override
             public boolean onGroupClick(ExpandableListView parent, View v,
                                         int groupPosition, long id) {
-                // Toast.makeText(getApplicationContext(),
-                // "Group Clicked " + listDataHeader.get(groupPosition),
-                // Toast.LENGTH_SHORT).show();
                 return false;
             }
 
@@ -68,9 +65,6 @@ public class Oral_Drugs_0_2_At extends Activity {
 
             @Override
             public void onGroupExpand(int groupPosition) {
-                /*Toast.makeText(getApplicationContext(),
-						listDataHeader.get(groupPosition) + " Expanded",
-						Toast.LENGTH_SHORT).show();*/
             }
         });
 
@@ -79,9 +73,6 @@ public class Oral_Drugs_0_2_At extends Activity {
 
             @Override
             public void onGroupCollapse(int groupPosition) {
-				/*Toast.makeText(getApplicationContext(),
-						listDataHeader.get(groupPosition) + " Collapsed",
-						Toast.LENGTH_SHORT).show();*/
 
             }
         });
@@ -96,7 +87,6 @@ public class Oral_Drugs_0_2_At extends Activity {
                     Intent intent = new Intent(Oral_Drugs_0_2_At.this,Treat_Child_Activity_0_2.class);
                     intent.putExtra("position", 1);
                     startActivity(intent);
-
                 }
                 if (groupPosition == 1 && childPosition == 0) {
 
@@ -106,9 +96,8 @@ public class Oral_Drugs_0_2_At extends Activity {
 
                 }
 				if (groupPosition == 2 && childPosition == 0) {
-					Intent intent = new Intent(Oral_Drugs_0_2_At.this,
-							Young_Treatment_Health_Facility.class);
-					intent.putExtra("position", 3);
+                    Intent intent = new Intent(Oral_Drugs_0_2_At.this, Young_Treatment_Health_Facility.class);
+                    intent.putExtra("position", 3);
 					startActivity(intent);
 
 				}
@@ -119,9 +108,8 @@ public class Oral_Drugs_0_2_At extends Activity {
 
 				}
 				if (groupPosition == 4 && childPosition == 0) {
-					Intent intent = new Intent(Oral_Drugs_0_2_At.this,
-							Young_Local_Infections_At_Home.class);
-					intent.putExtra("position", 5);
+                    Intent intent = new Intent(Oral_Drugs_0_2_At.this, Young_Local_Infections_At_Home.class);
+                    intent.putExtra("position", 5);
 					startActivity(intent);
 
 				}
