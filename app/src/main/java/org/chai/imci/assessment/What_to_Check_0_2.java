@@ -11,10 +11,11 @@ import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
-import android.widget.Toast;
 
 import org.chai.imci.R;
 import org.chai.imci.assessment.adapter.AdapterExpandable;
+import org.chai.imci.counsel_mother.CareForDevelopmentUniversal;
+import org.chai.imci.follow_up.FollowUpMain;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -71,9 +72,9 @@ public class What_to_Check_0_2 extends Activity {
 
             @Override
             public void onGroupExpand(int groupPosition) {
-                Toast.makeText(getApplicationContext(),
+                /*Toast.makeText(getApplicationContext(),
                         listDataHeader.get(groupPosition) + " Expanded",
-                        Toast.LENGTH_SHORT).show();
+                        Toast.LENGTH_SHORT).show();*/
             }
         });
 
@@ -82,9 +83,9 @@ public class What_to_Check_0_2 extends Activity {
 
             @Override
             public void onGroupCollapse(int groupPosition) {
-                Toast.makeText(getApplicationContext(),
+              /*  Toast.makeText(getApplicationContext(),
                         listDataHeader.get(groupPosition) + " Collapsed",
-                        Toast.LENGTH_SHORT).show();
+                        Toast.LENGTH_SHORT).show();*/
 
             }
         });
@@ -95,7 +96,7 @@ public class What_to_Check_0_2 extends Activity {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
-                // TODO Auto-generated method stub
+               /* // TODO Auto-generated method stub
                 Toast.makeText(
                         getApplicationContext(),
                         listDataHeader.get(groupPosition)
@@ -103,12 +104,17 @@ public class What_to_Check_0_2 extends Activity {
                                 + listDataChild.get(
                                 listDataHeader.get(groupPosition)).get(
                                 childPosition), Toast.LENGTH_SHORT)
-                        .show();
+                        .show();*/
              /*   if (groupPosition == 0 && childPosition == 1) {
                     Intent intent = new Intent(What_to_Check_0_2.this, FollowUpCareActivity.class);
                     startActivity(intent);
 
                 }*/
+                if (groupPosition == 0 && childPosition == 1) {
+                    Intent intent = new Intent(What_to_Check_0_2.this, FollowUpMain.class);
+                    startActivity(intent);
+
+                }
                 if (groupPosition == 1 && childPosition == 0) {
                     Intent intent = new Intent(What_to_Check_0_2.this, Starter_0_2_Severe_Disease.class);
                     startActivity(intent);
@@ -140,19 +146,17 @@ public class What_to_Check_0_2 extends Activity {
 
                 }
                 if (groupPosition == 1 && childPosition == 6) {
-                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_0_2_FeedingProblem.class);
+                    Intent intent = new Intent(What_to_Check_0_2.this, CareForDevelopmentUniversal.class);
+                    intent.putExtra("CareForDevelopmentAndNvp", 10);
                     startActivity(intent);
-
                 }
-
-                /*Underway*/
                 if (groupPosition == 1 && childPosition == 7) {
-                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_0_2_FeedingProblem.class);
+                    Intent intent = new Intent(What_to_Check_0_2.this, CareForDevelopment.class);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 1 && childPosition == 8) {
-                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_0_2_FeedingProblem.class);
+                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_0_2_SpecialTreatments.class);
                     startActivity(intent);
 
                 }

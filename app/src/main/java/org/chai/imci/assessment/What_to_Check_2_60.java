@@ -74,9 +74,9 @@ public class What_to_Check_2_60 extends Activity {
 
             @Override
             public void onGroupExpand(int groupPosition) {
-                Toast.makeText(getApplicationContext(),
+               /* Toast.makeText(getApplicationContext(),
                         listDataHeader.get(groupPosition) + " Expanded",
-                        Toast.LENGTH_SHORT).show();
+                        Toast.LENGTH_SHORT).show();*/
             }
         });
 
@@ -86,9 +86,9 @@ public class What_to_Check_2_60 extends Activity {
             @Override
             public void onGroupCollapse(int groupPosition) {
 
-                Toast.makeText(getApplicationContext(),
+               /* Toast.makeText(getApplicationContext(),
                         listDataHeader.get(groupPosition) + " Collapsed",
-                        Toast.LENGTH_SHORT).show();
+                        Toast.LENGTH_SHORT).show();*/
 
             }
         });
@@ -100,7 +100,7 @@ public class What_to_Check_2_60 extends Activity {
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
 
-                // TODO Auto-generated method stub
+              /*  // TODO Auto-generated method stub
                 Toast.makeText(
                         getApplicationContext(),
                         listDataHeader.get(groupPosition)
@@ -108,7 +108,7 @@ public class What_to_Check_2_60 extends Activity {
                                 + listDataChild.get(
                                 listDataHeader.get(groupPosition)).get(
                                 childPosition), Toast.LENGTH_SHORT)
-                        .show();
+                        .show();*/
                 if (groupPosition == 1 && childPosition == 0) {
                     Intent intent = new Intent(What_to_Check_2_60.this,
                             Starter_2_60_Cough.class);

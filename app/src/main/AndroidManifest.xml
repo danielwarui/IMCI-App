@@ -8,13 +8,17 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Splash"
+            android:name=".Splash_Blur"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name">
         </activity>
         <activity
             android:name=".First_Main"
@@ -100,6 +104,9 @@
         <activity
             android:name=".follow_up.starter.Starter_Follow_0_2"
             android:label="@string/app_name" />
+        <activity
+            android:name=".assessment.CareForDevelopment"
+            android:label="@string/app_name"></activity>
         <activity
             android:name=".treatchild.Oral_Drugs_0_2_At"
             android:label="@string/app_name" />

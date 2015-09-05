@@ -1,12 +1,14 @@
 package org.chai.imci.assessment;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
 
 import org.chai.imci.R;
+import org.chai.imci.counsel_mother.Counsel_Mother_Infant_Feeding;
 
 public class CareForDevelopment extends Activity {
     @Override
@@ -19,8 +21,8 @@ public class CareForDevelopment extends Activity {
 
             @Override
             public void onClick(View v) {
-                           /*Intent intent = new Intent(getApplicationContext(), Counsel_Mother_Infant_Feeding.class);
-                startActivity(intent);*/
+                Intent intent = new Intent(getApplicationContext(), Counsel_Mother_Infant_Feeding.class);
+                startActivity(intent);
             }
         });
     }

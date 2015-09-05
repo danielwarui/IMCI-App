@@ -174,58 +174,33 @@ signsSquint = getString(R.string.young_risk_of_bacterial_infection);
                 }
                 if (i == 1 && j == 0) {
                     mLinearView2.setBackgroundColor((Color
-                            .parseColor("#ff69b4")));
+                            .parseColor("#FFFF00")));
                     mSubItemName.setBackgroundColor((Color
-                            .parseColor("#ff69b4")));
+                            .parseColor("#FFFF00")));
                     mLinearSecondArrow.setBackgroundColor((Color
-                            .parseColor("#ff69b4")));
+                            .parseColor("#FFFF00")));
 
                 }
                 if (i == 2 && j == 0) {
                     mLinearView2.setBackgroundColor((Color
-                            .parseColor("#ff69b4")));
+                            .parseColor("#FFFF00")));
                     mSubItemName.setBackgroundColor((Color
-                            .parseColor("#ff69b4")));
+                            .parseColor("#FFFF00")));
                     mLinearSecondArrow.setBackgroundColor((Color
-                            .parseColor("#ff69b4")));
+                            .parseColor("#FFFF00")));
 //                    mLinearScrollThird.setBackgroundColor((Color
 //                            .parseColor("#90EE90")));
 
                 }
                 if (i == 3 && j == 0) {
                     mLinearView2.setBackgroundColor((Color
-                            .parseColor("#ff69b4")));
-                    mSubItemName.setBackgroundColor((Color
-                            .parseColor("#ff69b4")));
-                    mLinearSecondArrow.setBackgroundColor((Color
-                            .parseColor("#ff69b4")));
-//                    mLinearScrollThird.setBackgroundColor((Color
-//                            .parseColor("#90EE90")));
-
-                }
-                if (i == 4 && j == 0) {
-                    mLinearView2.setBackgroundColor((Color
                             .parseColor("#FFFF00")));
                     mSubItemName.setBackgroundColor((Color
                             .parseColor("#FFFF00")));
                     mLinearSecondArrow.setBackgroundColor((Color
                             .parseColor("#FFFF00")));
-//                    mLinearScrollThird.setBackgroundColor((Color
-//                            .parseColor("#90EE90")));
 
                 }
-                if (i == 5 && j == 0) {
-                    mLinearView2.setBackgroundColor((Color
-                            .parseColor("#90EE90")));
-                    mSubItemName.setBackgroundColor((Color
-                            .parseColor("#90EE90")));
-                    mLinearSecondArrow.setBackgroundColor((Color
-                            .parseColor("#90EE90")));
-//                    mLinearScrollThird.setBackgroundColor((Color
-//                            .parseColor("#90EE90")));
-
-                }
-
 
                 final String catName = pProductArrayList.get(i).getmSubCategoryList().get(j).getpSubCatName();
                 mSubItemName.setText(catName);

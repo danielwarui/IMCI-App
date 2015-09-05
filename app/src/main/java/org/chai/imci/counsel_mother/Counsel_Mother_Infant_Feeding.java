@@ -9,7 +9,6 @@ import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
-import android.widget.Toast;
 
 import org.chai.imci.R;
 import org.chai.imci.assessment.adapter.AdapterExpandable;
@@ -60,9 +59,9 @@ public class Counsel_Mother_Infant_Feeding extends Activity {
 
 			@Override
 			public void onGroupExpand(int groupPosition) {
-				Toast.makeText(getApplicationContext(),
+				/*Toast.makeText(getApplicationContext(),
 						listDataHeader.get(groupPosition) + " Expanded",
-						Toast.LENGTH_SHORT).show();
+						Toast.LENGTH_SHORT).show();*/
 			}
 		});
 
@@ -71,10 +70,10 @@ public class Counsel_Mother_Infant_Feeding extends Activity {
 
 			@Override
 			public void onGroupCollapse(int groupPosition) {
-				Toast.makeText(getApplicationContext(),
+				/*Toast.makeText(getApplicationContext(),
 						listDataHeader.get(groupPosition) + " Collapsed",
 						Toast.LENGTH_SHORT).show();
-
+*/
 			}
 		});
 

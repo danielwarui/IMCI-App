@@ -68,6 +68,10 @@ public class CareForDevelopmentUniversal extends Activity{
 			  setContentView(R.layout.paeds_activity);
 
 		}
+	  else if (id == 10) {
+		  setContentView(R.layout.young_immunization_status);
+
+	  }
 //	  End of the NVP Section
 	  imageDetail = (ImageView) findViewById(R.id.imageview_zoomview);
 	  /**
