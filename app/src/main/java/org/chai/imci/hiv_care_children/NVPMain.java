@@ -13,17 +13,17 @@ import android.widget.EditText;
 import android.widget.ListView;
 
 import org.chai.imci.R;
+import org.chai.imci.counsel_mother.CareForDevelopmentUniversal;
 
 public class NVPMain extends Activity {
 
-	private ListView vlist;
 	EditText ara;
 	String[] fiilliste;
 	Intent intent;
-
 	// String [] fiilliste=
 	// getResources().getStringArray(R.array.fragment_array_treatment);
 	ArrayAdapter<String> adapter;
+	private ListView vlist;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -45,10 +45,10 @@ public class NVPMain extends Activity {
 			public void onItemClick(AdapterView<?> arg0, View arg1,
 					int position, long arg3) {
 				// TODO Auto-generated method stub
-			/*	position += 5;
+				position += 5;
 				Intent i = new Intent(getApplication(), CareForDevelopmentUniversal.class);
 				i.putExtra("CareForDevelopmentAndNvp", position);
-				startActivity(i);*/
+				startActivity(i);
 				
 			}
 

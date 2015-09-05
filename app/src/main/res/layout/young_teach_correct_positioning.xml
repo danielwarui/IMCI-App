@@ -13,5 +13,5 @@
         android:id="@+id/list_correct_positioning"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-       ></ListView>
+        android:background="#000000"></ListView>
 </LinearLayout>

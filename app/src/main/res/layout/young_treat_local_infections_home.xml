@@ -11,12 +11,12 @@
 
 
     <TextView
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#f4eab2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:text="@string/young_teach_mother_treat_local_infections"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#000000"
@@ -26,6 +26,6 @@
         android:id="@+id/list1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        ></ListView>
+        android:background="#000000"></ListView>
 
 </LinearLayout>

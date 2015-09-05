@@ -10,13 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin">
 
     <TextView
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
         android:id="@+id/instructions_health_facility"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:text="@string/instructions_health_facility"
+        android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#000000" />
 
 
@@ -24,6 +24,6 @@
         android:id="@+id/list1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-       ></ListView>
+        android:background="#000000"></ListView>
 
 </LinearLayout>
