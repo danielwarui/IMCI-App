@@ -96,52 +96,78 @@
             android:label="@string/app_name"></activity>
         <activity
             android:name=".follow_up.starter.Starter_Follow_0_60"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".follow_up.starter.Starter_Follow_0_2"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".treatchild.Oral_Drugs_0_2_At"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".treatchild.Oral_Drugs_2_60_At"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".treatchild.healthfacility.HealthFacility0_2"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".treatchild.Treat_Child_Activity_0_2"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
 
         <activity
             android:name=".treatchild.Young_Treatment_Health_Facility"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
 
         <activity
             android:name=".treatchild.healthfacility.Young_Intramuscular_Antibiotic"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".treatchild.oral_drugs.Oral_Antibiotic"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".treatchild.Low_Blood_Sugar"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".treatchild.oral_drugs.Young_Oral_Drugs_At_Home"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".treatchild.local_infections.Young_Local_Infection_Instruct"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".treatchild.local_infections.Young_Local_Infections_At_Home"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".treatchild.Young_Teach_Correct_Positioning"
-            android:label="@string/app_name"/>
+            android:label="@string/app_name" />
         <activity
             android:name=".treatchild.Young_Teach_Correct_Positioning_Instruct"
-            android:label="@string/app_name"/>
-
+            android:label="@string/app_name" />
+        <activity
+            android:name=".counsel_mother.AgeSixMonths"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".counsel_mother.AgeSixMonthstoTwelveMonths"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".counsel_mother.AgeTwelveMonthstoTwoYears"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".counsel_mother.AgeTwoYearsandOlder"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".counsel_mother.CareForDevelopmentUniversal"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".counsel_mother.Counsel_Mother_Infant_Feeding"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".counsel_mother.Counsel_Mother_Fluids"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".counsel_mother.Counsel_CareforDevelopment"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".counsel_mother.FeedingProblem"
+            android:label="@string/app_name" />
     </application>
 
 </manifest>

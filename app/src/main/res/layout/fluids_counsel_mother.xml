@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0E68C"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/for_any_sick"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/followUp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Follow Up Visit" />
+
+    <Button
+        android:id="@+id/whenToRet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="When to Return" />
+
+</LinearLayout>

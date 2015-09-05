@@ -16,15 +16,16 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Created by InclusionOne on 9/2/2015.
+ * Created by InclusionOne on 9/3/2015.
  */
-public class CounselMother extends Activity{
+public class FeedingProblem extends Activity {
     Intent intent;
 
     ExpandableListAdapter listAdapter;
     ExpandableListView expListView;
     List<String> listDataHeader;
     HashMap<String, List<String>> listDataChild;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
@@ -63,7 +64,7 @@ public class CounselMother extends Activity{
 
             @Override
             public void onGroupExpand(int groupPosition) {
-				/*Toast.makeText(getApplicationContext(),
+                /*Toast.makeText(getApplicationContext(),
 						listDataHeader.get(groupPosition) + " Expanded",
 						Toast.LENGTH_SHORT).show();*/
             }
@@ -87,24 +88,24 @@ public class CounselMother extends Activity{
             @Override
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
-                if(groupPosition == 0 && childPosition == 0){
-                    Intent intent = new Intent(getApplicationContext(),AgeSixMonths.class);
+                if (groupPosition == 0 && childPosition == 0) {
+                    Intent intent = new Intent(getApplicationContext(), AgeSixMonths.class);
                     startActivity(intent);
                 }
-                if(groupPosition == 0 && childPosition == 1){
-                    Intent intent = new Intent(getApplicationContext(),AgeSixMonthstoTwelveMonths.class);
+                if (groupPosition == 0 && childPosition == 1) {
+                    Intent intent = new Intent(getApplicationContext(), AgeSixMonthstoTwelveMonths.class);
                     startActivity(intent);
                 }
-                if(groupPosition == 0 && childPosition == 2){
-                    Intent intent = new Intent(getApplicationContext(),AgeTwelveMonthstoTwoYears.class);
+                if (groupPosition == 0 && childPosition == 2) {
+                    Intent intent = new Intent(getApplicationContext(), AgeTwelveMonthstoTwoYears.class);
                     startActivity(intent);
                 }
-                if(groupPosition == 0 && childPosition == 3){
-                    Intent intent = new Intent(getApplicationContext(),AgeTwoYearsandOlder.class);
+                if (groupPosition == 0 && childPosition == 3) {
+                    Intent intent = new Intent(getApplicationContext(), AgeTwoYearsandOlder.class);
                     startActivity(intent);
                 }
-                if(groupPosition == 1){
-                    Intent intent = new Intent(getApplicationContext(),CareForDevelopmentUniversal.class);
+                if (groupPosition == 1) {
+                    Intent intent = new Intent(getApplicationContext(), CareForDevelopmentUniversal.class);
                     intent.putExtra("CareForDevelopmentAndNvp", childPosition);
                     startActivity(intent);
                 }
@@ -124,20 +125,20 @@ public class CounselMother extends Activity{
                     startActivity(intent);
                 }*/
 
-                if(groupPosition == 3 && childPosition == 0){
-                    Intent intent = new Intent(getApplicationContext(),FeedingProblem.class);
+                if (groupPosition == 3 && childPosition == 0) {
+                    Intent intent = new Intent(getApplicationContext(), FeedingProblem.class);
                     startActivity(intent);
                 }
-                if(groupPosition == 4 && childPosition == 0){
-                    Intent intent = new Intent(getApplicationContext(),Counsel_CareforDevelopment.class);
+                if (groupPosition == 4 && childPosition == 0) {
+                    Intent intent = new Intent(getApplicationContext(), CounselCareForDevelopment.class);
                     startActivity(intent);
                 }
-                if(groupPosition == 5 && childPosition == 0){
-                    Intent intent = new Intent(getApplicationContext(),Counsel_Mother_Fluids.class);
+                if (groupPosition == 5 && childPosition == 0) {
+                    Intent intent = new Intent(getApplicationContext(), CounselMotherFluids.class);
                     startActivity(intent);
                 }
-                if(groupPosition == 6 && childPosition == 0){
-                    Intent intent = new Intent(getApplicationContext(),CounselMotherHerOwnHealth.class);
+                if (groupPosition == 6 && childPosition == 0) {
+                    Intent intent = new Intent(getApplicationContext(), CounselMotherHerOwnHealth.class);
                     startActivity(intent);
                 }
                 /**
@@ -173,66 +174,66 @@ public class CounselMother extends Activity{
      * Preparing the list data
      */
     private void prepareListData() {
+        String lessMilk = getResources().getString(R.string.child_less_than_other_milk);
+        String otherMilk = getResources().getString(R.string.milk_needs);
+        String usingBottle = getResources().getString(R.string.using_bottle);
+        String beingFed = getResources().getString(R.string.not_being_actively_fed);
+        String blockedNose = getResources().getString(R.string.not_feeding_well);
+        String lessHIV = getResources().getString(R.string.mixed_feeding);
 
+        listDataHeader = new ArrayList();
+        listDataChild = new HashMap();
+        //0
+        listDataHeader.add("If the mother reports difficulty with breastfeeding, assess breastfeeding as needed,show the mother correct positioning and attachment for breastfeeding.");
+        //1
+        listDataHeader.add("If the child is less than 6 months old and is taking other milk or foods:");
+        //2
+        listDataHeader.add("If other milk needs to be continued,counsel the mother to:");
+        //3
+        listDataHeader.add("If the mother is using a bottle to feed the child:");
+        //4
+        listDataHeader.add("If the child is not being fed actively, counsel the mother to:");
+        //5
+        listDataHeader.add("If the child is not feeding well during illness, counsel the mother to:");
+        //6
+        listDataHeader.add("If mixed feeding in the child less than 6 months whose mother is HIV positive:");
+        //7
+        listDataHeader.add("Follow-up any feeding problem in 5 days.");
 
-        listDataHeader = new ArrayList<String>();
-        listDataChild = new HashMap<String, List<String>>();
+        List<String> array0 = new ArrayList<String>();
+        array0.add("");
 
-        // Adding child data
-        listDataHeader.add("Recommendations for feeding during sickness and health");
-        listDataHeader.add("Recommendations for Care for Development");
-        listDataHeader.add("Feeding Options:HIV Exposed and Infected");
-        listDataHeader.add("Feeding Problems");
-        listDataHeader.add("Counsel the caregiver about care for development problems");
-        listDataHeader.add("Counsel the mother on fluids and when to return");
-        listDataHeader.add("Counsel mother about her own health");
-        // Adding child data
-        List<String> malaria = new ArrayList<String>();
-        // adding sublists to the entity top250
-        malaria.add("Up to 6 months of age");
-        malaria.add("6 months up to 12 months");
-        malaria.add("12 months up to 2 years");
-        malaria.add("2 years and older");
+        List<String> array1 = new ArrayList<String>();
+        array1.add(lessMilk);
 
-        List<String> careDev = new ArrayList<String>();
-        // adding sublists to the entity top250
-        careDev.add("Age up to 4 months");
-        careDev.add("Age 4 up to six months");
-        careDev.add("6 months up to 12 months");
-        careDev.add("12 months up to 2 years");
-        careDev.add("2 years and older");
+        List<String> array2 = new ArrayList<String>();
+        array2.add(otherMilk);
 
-        List<String> febrile = new ArrayList<String>();
-        febrile.add("Follow for care for development problems");
+        List<String> array3 = new ArrayList<String>();
+        array3.add(usingBottle);
 
+        List<String> array4 = new ArrayList<String>();
+        array4.add(beingFed);
 
-        List<String> suspmeasles = new ArrayList<String>();
-        suspmeasles.add("Counsel mother on infant feeding");
-        suspmeasles.add("Feeding advice for a child of a HIV positive mothe who has chosen to breastfeed");
-        suspmeasles.add("Feeding advice for a child of a HIV positive mother who has chosen not to breastfeed or child who cannot be breastfed");
+        List<String> array5 = new ArrayList<String>();
+        array5.add(blockedNose);
 
-        List<String> feedingProblems = new ArrayList<String>();
-        feedingProblems.add("Follow for instructions on counselling the mother about her health");
+        List<String> array6 = new ArrayList<String>();
+        array6.add(lessHIV);
 
-        List<String> nomalaria = new ArrayList<String>();
-        nomalaria.add("Follow for instructions on counselling the mother on fluids and when to return");
+        List<String> array7 = new ArrayList<String>();
+        array7.add("");
 
-
-        List<String> compmeasles = new ArrayList<String>();
-        compmeasles.add("Follow for instructions on counselling the mother about her health");
-
-
-
-
-        listDataChild.put(listDataHeader.get(0), malaria); // Header, Child data
-        listDataChild.put(listDataHeader.get(1), careDev);
-        listDataChild.put(listDataHeader.get(2), suspmeasles);
-        listDataChild.put(listDataHeader.get(3), feedingProblems);
-        listDataChild.put(listDataHeader.get(4), febrile);
-        listDataChild.put(listDataHeader.get(5), nomalaria);
-        listDataChild.put(listDataHeader.get(6), compmeasles);
-
+        listDataChild.put((String) listDataHeader.get(0), array0);
+        listDataChild.put((String) listDataHeader.get(1), array1);
+        listDataChild.put((String) listDataHeader.get(2), array2);
+        listDataChild.put((String) listDataHeader.get(3), array3);
+        listDataChild.put((String) listDataHeader.get(4), array4);
+        listDataChild.put((String) listDataHeader.get(5), array5);
+        listDataChild.put((String) listDataHeader.get(6), array6);
+        listDataChild.put((String) listDataHeader.get(7), array7);
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         onBackPressed();
@@ -246,6 +247,7 @@ public class CounselMother extends Activity{
 	    return super.onOptionsItemSelected(item);
 	*/
     }
+
     @Override
     public void onStart() {
         // TODO Auto-generated method stub
@@ -253,5 +255,4 @@ public class CounselMother extends Activity{
         System.out.println("----Fragmentactivity---onStart---");
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
     }
-
 }
