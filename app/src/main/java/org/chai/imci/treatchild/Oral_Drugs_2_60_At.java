@@ -1,6 +1,7 @@
 package org.chai.imci.treatchild;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ExpandableListAdapter;
@@ -43,7 +44,7 @@ public class Oral_Drugs_2_60_At extends Activity {
         // setting list adapter
         expListView.setAdapter(listAdapter);
         /*
-		 * expListView.expandGroup(0); expListView.expandGroup(1);
+         * expListView.expandGroup(0); expListView.expandGroup(1);
 		 * expListView.expandGroup(2); expListView.expandGroup(3);
 		 * expListView.expandGroup(4);
 		 */
@@ -67,8 +68,8 @@ public class Oral_Drugs_2_60_At extends Activity {
 
             @Override
             public void onGroupExpand(int groupPosition) {
-				/*Toast.makeText(getApplicationContext(),
-						listDataHeader.get(groupPosition) + " Expanded",
+                /*Toast.makeText(getApplicationContext(),
+                        listDataHeader.get(groupPosition) + " Expanded",
 						Toast.LENGTH_SHORT).show();*/
             }
         });
@@ -92,69 +93,53 @@ public class Oral_Drugs_2_60_At extends Activity {
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
                 // TODO Auto-generated method stub
-				/*Toast.makeText(
-						getApplicationContext(),
-						listDataHeader.get(groupPosition)
-								+ " : "
-								+ listDataChild.get(
-										listDataHeader.get(groupPosition)).get(
-										childPosition), Toast.LENGTH_SHORT)
-						.show();*/
-			/*	if (groupPosition == 0 && childPosition == 0) {
-					Intent intent = new Intent(
-							Oral_Drugs_2_60_At.this,
-							com.chai.imci.treatchild.Teach_Mother_Oral_Drugs.class);
-					startActivity(intent);
 
-				}
-*/
-			/*	if (groupPosition == 1 && childPosition == 0) {
-					Intent intent = new Intent(
-							Oral_Drugs_2_60_At.this,
-							com.chai.imci.treatchild.Teach_Mother_Local_Infections.class);
-					startActivity(intent);
+                if (groupPosition == 0 && childPosition == 0) {
+                    Intent intent = new Intent(
+                            Oral_Drugs_2_60_At.this, Teach_Mother_Oral_Drugs.class);
+                    startActivity(intent);
 
-				}*/
-				/*if (groupPosition == 2 && childPosition == 0) {
-					Intent intent = new Intent(
-							Oral_Drugs_2_60_At.this,
-							com.chai.imci.treatchild.Treatment_Health_Facility.class);
-					startActivity(intent);
+                }
+                if (groupPosition == 1 && childPosition == 0) {
+                    Intent intent = new Intent(
+                            Oral_Drugs_2_60_At.this, Teach_Mother_Local_Infections.class);
+                    startActivity(intent);
 
-				}*/
-				/*if (groupPosition == 3 && childPosition == 0) {
-					Intent intent = new Intent(
-							Oral_Drugs_2_60_At.this,
-							com.chai.imci.treatchild.Plan_A_Treat_Diarrhoea.class);
-					startActivity(intent);
+                }
+                if (groupPosition == 2 && childPosition == 0) {
+                    Intent intent = new Intent(
+                            Oral_Drugs_2_60_At.this, Treatment_Health_Facility.class);
+                    startActivity(intent);
 
-				}*/
-			/*	if (groupPosition == 3 && childPosition == 1) {
-					Intent intent = new Intent(
-							Oral_Drugs_2_60_At.this,
-							com.chai.imci.treatchild.Plan_B_Treat_Diarrhoea.class);
-					startActivity(intent);
+                }
+                if (groupPosition == 3 && childPosition == 0) {
+                    Intent intent = new Intent(
+                            Oral_Drugs_2_60_At.this, Plan_A_Treat_Diarrhoea.class);
+                    startActivity(intent);
 
-				}*/
-				/*if (groupPosition == 3 && childPosition == 2) {
-					Intent intent = new Intent(
-							Oral_Drugs_2_60_At.this,
-							com.chai.imci.treatchild.Plan_C_Treat_Diarrhoea.class);
-					startActivity(intent);
+                }
+                if (groupPosition == 3 && childPosition == 1) {
+                    Intent intent = new Intent(
+                            Oral_Drugs_2_60_At.this, Plan_B_Treat_Diarrhoea.class);
+                    startActivity(intent);
 
-				}*/
-				/*if (groupPosition == 4 && childPosition == 0) {
-					Intent intent = new Intent(Oral_Drugs_2_60_At.this,
-							Rehydration_Severe_Malnutrition.class);
-					startActivity(intent);
+                }
+                if (groupPosition == 3 && childPosition == 2) {
+                    Intent intent = new Intent(
+                            Oral_Drugs_2_60_At.this, Plan_C_Treat_Diarrhoea.class);
+                    startActivity(intent);
 
-				}*/
-				/*if (groupPosition == 5 && childPosition == 0) {
-					Intent intent = new Intent(Oral_Drugs_2_60_At.this,
-							Supplement_multivitamin.class);
-					startActivity(intent);
+                }
+                if (groupPosition == 4 && childPosition == 0) {
+                    Intent intent = new Intent(Oral_Drugs_2_60_At.this, Rehydration_Severe_Malnutrition.class);
+                    startActivity(intent);
 
-				}*/
+                }
+                if (groupPosition == 5 && childPosition == 0) {
+                    Intent intent = new Intent(Oral_Drugs_2_60_At.this, Supplement_multivitamin.class);
+                    startActivity(intent);
+
+                }
 
                 return false;
             }

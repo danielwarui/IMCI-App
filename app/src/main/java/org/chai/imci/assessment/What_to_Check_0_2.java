@@ -34,7 +34,6 @@ public class What_to_Check_0_2 extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
         setContentView(R.layout.what_to_check);
         System.out.println("----Secondactivity activity---onCreates---");
         // Create custom dialog object
@@ -105,11 +104,7 @@ public class What_to_Check_0_2 extends Activity {
                                 listDataHeader.get(groupPosition)).get(
                                 childPosition), Toast.LENGTH_SHORT)
                         .show();*/
-             /*   if (groupPosition == 0 && childPosition == 1) {
-                    Intent intent = new Intent(What_to_Check_0_2.this, FollowUpCareActivity.class);
-                    startActivity(intent);
 
-                }*/
                 if (groupPosition == 0 && childPosition == 1) {
                     Intent intent = new Intent(What_to_Check_0_2.this, FollowUpMain.class);
                     startActivity(intent);
@@ -202,4 +197,12 @@ public class What_to_Check_0_2 extends Activity {
 
         // data
     }
+    @Override
+    public void onStart() {
+        // TODO Auto-generated method stub
+        super.onStart();
+        System.out.println("----Fragmentactivity---onStart---");
+        overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
+    }
+
 }

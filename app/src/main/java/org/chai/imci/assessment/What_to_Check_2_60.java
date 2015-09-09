@@ -11,7 +11,6 @@ import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
-import android.widget.Toast;
 
 import org.chai.imci.R;
 import org.chai.imci.assessment.adapter.AdapterExpandable;
@@ -31,7 +30,8 @@ public class What_to_Check_2_60 extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
+        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         setContentView(R.layout.what_to_check);
         System.out.println("----Secondactivity activity---onCreates---");
 
@@ -209,4 +209,12 @@ public class What_to_Check_2_60 extends Activity {
         listDataChild.put(listDataHeader.get(2), conditions);
 
     }
+    @Override
+    public void onStart() {
+        // TODO Auto-generated method stub
+        super.onStart();
+        System.out.println("----Fragmentactivity---onStart---");
+        overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
+    }
+
 }

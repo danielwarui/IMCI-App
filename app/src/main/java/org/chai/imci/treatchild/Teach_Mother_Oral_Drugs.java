@@ -43,51 +43,7 @@ protected void onCreate(Bundle savedInstanceState) {
 			Intent i = new Intent(getApplication(), Oral_Antibiotic.class);
 			i.putExtra("Position", position);
 			startActivity(i);
-			/*switch (position) {
-			case 0:
-				Intent intent = new Intent(getApplication(),
-						com.example.androidimci.treatthechild.oral_drugs.Oral_Antibiotic.class);
-				startActivity(intent);
-				break;
-			case 1:
-				intent = new Intent(getApplication(),
-						com.example.androidimci.treatthechild.oral_drugs.Metronidazole.class);
-				startActivity(intent);
-				break;
-			case 2:
-				intent = new Intent(getApplication(),
-						com.example.androidimci.treatthechild.oral_drugs.Oral_Antimalarial.class);
-				startActivity(intent);
-				break;
-			case 3:
-				intent = new Intent(getApplication(),
-						com.example.androidimci.treatthechild.oral_drugs.Vitamin_A.class);
-				startActivity(intent);
-				break;
-			case 4:
-				intent = new Intent(getApplication(),
-						com.example.androidimci.treatthechild.oral_drugs.Iron_Folate.class);
-				startActivity(intent);
-				break;
-			case 5:
-				intent = new Intent(getApplication(),
-						com.example.androidimci.treatthechild.oral_drugs.Zinc_Sulphate.class);
-				startActivity(intent);
-				break;
-			case 6:
-				intent = new Intent(getApplication(),
-						com.example.androidimci.treatthechild.oral_drugs.Paracetamol_For_Fever_Or_Ear_Pain.class);
-				startActivity(intent);
-				break;
-			case 7:
-				intent = new Intent(getApplication(),
-						com.example.androidimci.treatthechild.oral_drugs.Mebendazole_Or_Albendazole.class);
-				startActivity(intent);
-				break;
-			
-			default:
-				break;
-			}*/
+
 		}
 
 	});
