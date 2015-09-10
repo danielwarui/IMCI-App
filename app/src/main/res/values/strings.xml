@@ -31,6 +31,7 @@
     <string name="lbl_MainMenu">Main Menu</string>
     <string name="lbl_cough">Does the child have cough or difficult breathing?</string>
     <string name="lbl_diarrhoea">Does the child have diarrhoea?</string>
+    <string name="lbl_young_diarrhoea">Does the infant have diarrhoea?</string>
     <string name="lbl_fever">Does the child have fever?</string>
     <string name="lbl_ear_problem">Does the child have an ear problem?</string>
     <string name="lbl_hiv">Check for HIV exposure and infection</string>
