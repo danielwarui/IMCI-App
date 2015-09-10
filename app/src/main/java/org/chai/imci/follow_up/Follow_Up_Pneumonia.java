@@ -14,6 +14,7 @@ import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
 
 import org.chai.imci.R;
+import org.chai.imci.assessment.adapter.AdapterExpandable;
 import org.chai.imci.assessment.fragment.Infant_IDTreatment_HIVExposure;
 
 import java.util.ArrayList;
@@ -37,7 +38,7 @@ public class Follow_Up_Pneumonia extends Fragment{
 		// preparing list data
 		prepareListData();
 
-//		listAdapter = new AdapterExpandable(this, listDataHeader, listDataChild);
+		listAdapter = new AdapterExpandable(getActivity(), listDataHeader, listDataChild);
 
 		// setting list adapter
 		expListView.setAdapter(listAdapter);

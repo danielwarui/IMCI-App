@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.Window;
 
 public class Splash extends Activity {
-	private int displayTime = 4000;
+	private int displayTime = 2700;
 
 	/** Called when the activity is first created. */
 	@Override
@@ -31,8 +31,6 @@ public class Splash extends Activity {
 				}
 
 				finally {
-					// Intent intent = new
-					// Intent(splashActivity.this,toutMain.class);
 					Intent intent = new Intent(Splash.this, First_Main.class);
 					startActivity(intent);
 					finish();
