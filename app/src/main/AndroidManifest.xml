@@ -199,31 +199,31 @@
             android:label="@string/app_name" />
         <activity
             android:name=".counsel_mother.AgeSixMonths"
-            android:label="@string/app_name" />
+            android:label="Recommendations for feeding during sickness and health" />
         <activity
             android:name=".counsel_mother.AgeSixMonthstoTwelveMonths"
-            android:label="@string/app_name" />
+            android:label="Recommendations for feeding during sickness and health" />
         <activity
             android:name=".counsel_mother.AgeTwelveMonthstoTwoYears"
-            android:label="@string/app_name" />
+            android:label="Recommendations for feeding during sickness and health" />
         <activity
             android:name=".counsel_mother.AgeTwoYearsandOlder"
-            android:label="@string/app_name" />
+            android:label="Recommendations for feeding during sickness and health" />
         <activity
             android:name=".counsel_mother.CareForDevelopmentUniversal"
             android:label="@string/app_name" />
         <activity
             android:name=".counsel_mother.Counsel_Mother_Infant_Feeding"
-            android:label="@string/app_name" />
+            android:label="Feeding Options:HIV Exposed" />
         <activity
             android:name=".counsel_mother.Counsel_Mother_Fluids"
             android:label="@string/app_name" />
         <activity
             android:name=".counsel_mother.Counsel_CareforDevelopment"
-            android:label="@string/app_name" />
+            android:label="Counsel on Care for Development Problems" />
         <activity
             android:name=".counsel_mother.FeedingProblem"
-            android:label="@string/app_name" />
+            android:label="Feeding Problems" />
         <activity
             android:name=".counsel_mother.Counsel_Her_OwnHealth"
             android:label="@string/app_name" />

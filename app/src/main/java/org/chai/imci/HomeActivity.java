@@ -43,8 +43,8 @@ public class HomeActivity extends Activity implements View.OnClickListener {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.help:
-                Intent intent = new Intent(HomeActivity.this ,ScreenSlideActivity.class);
-                startActivity(intent);
+               /* Intent intent = new Intent(HomeActivity.this ,ScreenSlideActivity.class);
+                startActivity(intent);*/
             break;
         }
         return super.onOptionsItemSelected(item);

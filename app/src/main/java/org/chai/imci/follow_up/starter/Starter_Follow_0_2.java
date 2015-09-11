@@ -156,5 +156,12 @@ public class Starter_Follow_0_2 extends FragmentActivity
 	@Override
 	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
 	}
+	@Override
+	public void onStart() {
+		// TODO Auto-generated method stub
+		super.onStart();
+		System.out.println("----Fragmentactivity---onStart---");
+		overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
+	}
 
 }

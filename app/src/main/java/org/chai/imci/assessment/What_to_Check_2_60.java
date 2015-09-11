@@ -110,51 +110,43 @@ public class What_to_Check_2_60 extends Activity {
                                 childPosition), Toast.LENGTH_SHORT)
                         .show();*/
                 if (groupPosition == 1 && childPosition == 0) {
-                    Intent intent = new Intent(What_to_Check_2_60.this,
-                            Starter_2_60_Cough.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Cough.class);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 1 && childPosition == 1) {
-                    Intent intent = new Intent(What_to_Check_2_60.this,
-                            Starter_2_60_Diarr.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Diarr.class);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 1 && childPosition == 2) {
-                    Intent intent = new Intent(What_to_Check_2_60.this,
-                            Starter_2_60_Fever.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Fever.class);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 1 && childPosition == 3) {
-                    Intent intent = new Intent(What_to_Check_2_60.this,
-                            Starter_2_60_Ear_Problem.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Ear_Problem.class);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 2 && childPosition == 0) {
-                    Intent intent = new Intent(What_to_Check_2_60.this,
-                            Starter_2_60_Malnutrition.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Malnutrition.class);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 2 && childPosition == 1) {
-                    Intent intent = new Intent(What_to_Check_2_60.this,
-                            Starter_2_60_Anaemia.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Anaemia.class);
                     startActivity(intent);
 
                 }
 
                 if (groupPosition == 2 && childPosition == 2) {
-                    Intent intent = new Intent(What_to_Check_2_60.this,
-                            Starter_2_60_Hiv.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Hiv.class);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 2 && childPosition == 3) {
-                    Intent intent = new Intent(What_to_Check_2_60.this,
-                            Starter_2_60_Immunization.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Immunization.class);
                     startActivity(intent);
 
                 }
@@ -209,6 +201,7 @@ public class What_to_Check_2_60 extends Activity {
         listDataChild.put(listDataHeader.get(2), conditions);
 
     }
+
     @Override
     public void onStart() {
         // TODO Auto-generated method stub

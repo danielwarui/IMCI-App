@@ -27,6 +27,7 @@ public class Counsel_Mother_Infant_Feeding extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		getActionBar().setSubtitle("Counsel mother on infant feeding");
 		setContentView(R.layout.counsel_mother_on_infant_feeding);
 
 		// get the listview

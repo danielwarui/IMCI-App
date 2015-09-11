@@ -33,18 +33,23 @@ public class CareForDevelopmentUniversal extends Activity {
         setRowIdFromIntent();
         HIVlbl = getResources().getString(R.string.lbl_hiv);
         if (id == 0) {
+            getActionBar().setTitle("Recommendations for Care for Development");
             setContentView(R.layout.care_for_development_upto_4months);
 
         } else if (id == 1) {
+            getActionBar().setTitle("Recommendations for Care for Development");
             setContentView(R.layout.care_for_development_4_6);
 
         } else if (id == 2) {
+            getActionBar().setTitle("Recommendations for Care for Development");
             setContentView(R.layout.care_for_development_upto_6_12);
 
         } else if (id == 3) {
+            getActionBar().setTitle("Recommendations for Care for Development");
             setContentView(R.layout.care_for_develpmont_upto_12_2years);
 
         } else if (id == 4) {
+            getActionBar().setTitle("Recommendations for Care for Development");
             setContentView(R.layout.care_for_development_upto_2years_and_older);
 
         }
@@ -77,10 +82,28 @@ public class CareForDevelopmentUniversal extends Activity {
         }
         // end of nvp sections
         else if (id == 10) {
+            getActionBar().setSubtitle("Infant Immunization Status");
             setContentView(R.layout.young_immunization_status);
 
         } else if (id == 11) {
+            getActionBar().setSubtitle(" Quinine Dosage");
             setContentView(R.layout.quinine_dosage);
+
+        }
+        else if (id == 12) {
+            getActionBar().setTitle("Rehydration Therapy Plan B");
+            getActionBar().setSubtitle("ORS Dosage");
+            setContentView(R.layout.ors_dosage);
+
+        }
+        else if (id == 13) {
+            getActionBar().setTitle("Follow Up Visit");
+            setContentView(R.layout.follow_up_visit);
+
+        }
+        else if (id == 14) {
+            getActionBar().setTitle("When to Return");
+            setContentView(R.layout.when_to_return);
 
         }
 //	  End of the NVP Section

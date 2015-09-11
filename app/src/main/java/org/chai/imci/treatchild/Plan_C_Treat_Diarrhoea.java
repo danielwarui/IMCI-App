@@ -26,6 +26,8 @@ public class Plan_C_Treat_Diarrhoea extends Activity {
 	 @Override
 	 public void onCreate(Bundle savedInstanceState) {
 	  super.onCreate(savedInstanceState);
+		 getActionBar().setTitle("Rehydration Therapy Plan C");
+		 getActionBar().setSubtitle("Treat Severe Dehydration");
 	  setContentView(R.layout.plan_c_treat);
 	  imageDetail = (ImageView) findViewById(R.id.imageview_zoomview);
 	  /**

@@ -74,5 +74,13 @@ public class Starter_2_60_Cough extends FragmentActivity implements
 	@Override
 	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
 	}
+	@Override
+	public void onStart() {
+		// TODO Auto-generated method stub
+		super.onStart();
+		System.out.println("----Fragmentactivity---onStart---");
+		overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
+	}
+
 
 }

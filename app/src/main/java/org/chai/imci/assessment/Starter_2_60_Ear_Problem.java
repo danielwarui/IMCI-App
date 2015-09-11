@@ -71,5 +71,12 @@ ActionBar.TabListener {
 	@Override
 	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
 	}
+	@Override
+	public void onStart() {
+		// TODO Auto-generated method stub
+		super.onStart();
+		System.out.println("----Fragmentactivity---onStart---");
+		overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
+	}
 
 }
