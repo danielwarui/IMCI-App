@@ -26,13 +26,11 @@ public class FollowUpMain extends Activity implements View.OnClickListener {
 	public void onClick(View v) {
 switch (v.getId()){
 	case R.id.two_months:
-		intent = new Intent(FollowUpMain.this,
-			Infant_Follow_UpMain.class);
+		intent = new Intent(FollowUpMain.this,Infant_Follow_UpMain.class);
 		startActivity(intent);
 		break;
 	case R.id.sixty_months:
-		intent = new Intent(FollowUpMain.this,
-				Follow_UpMainTwo.class);
+		intent = new Intent(FollowUpMain.this,Follow_UpMainTwo.class);
 		startActivity(intent);
 		break;
 }

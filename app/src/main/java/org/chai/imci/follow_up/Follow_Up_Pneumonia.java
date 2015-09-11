@@ -1,21 +1,19 @@
 package org.chai.imci.follow_up;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
-import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
 
 import org.chai.imci.R;
 import org.chai.imci.assessment.adapter.AdapterExpandable;
-import org.chai.imci.assessment.fragment.Infant_IDTreatment_HIVExposure;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -23,32 +21,32 @@ import java.util.List;
 
 
 public class Follow_Up_Pneumonia extends Fragment{
+	String DDS;
 	ExpandableListAdapter listAdapter;
-	ExpandableListView expListView;
 	List<String> listDataHeader;
 	HashMap<String, List<String>> listDataChild;
 
+	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
-		View rootView = inflater
-				.inflate(R.layout.follow_up_pneumonia, container, false);
-		// get the listview
-		expListView = (ExpandableListView) rootView.findViewById(R.id.lvExp);
-
+							 Bundle savedInstanceState) {
+		View v = inflater.inflate(R.layout.what_to_check, null);
+		final ExpandableListView elv = (ExpandableListView) v
+				.findViewById(R.id.lvExp1);
 		// preparing list data
 		prepareListData();
+		//
+		listAdapter = new AdapterExpandable(getActivity(), listDataHeader,
+				listDataChild);
+		// set the adapter
+		elv.setAdapter(listAdapter);
 
-		listAdapter = new AdapterExpandable(getActivity(), listDataHeader, listDataChild);
 
-		// setting list adapter
-		expListView.setAdapter(listAdapter);
-
-		// Listview Group click listener
-		expListView.setOnGroupClickListener(new OnGroupClickListener() {
+		Log.d(DDS, "List adapter set!");
+		elv.setOnGroupClickListener(new OnGroupClickListener() {
 
 			@Override
 			public boolean onGroupClick(ExpandableListView parent, View v,
-					int groupPosition, long id) {
+										int groupPosition, long id) {
 				// Toast.makeText(getApplicationContext(),
 				// "Group Clicked " + listDataHeader.get(groupPosition),
 				// Toast.LENGTH_SHORT).show();
@@ -57,45 +55,33 @@ public class Follow_Up_Pneumonia extends Fragment{
 		});
 
 		// Listview Group expanded listener
-		expListView.setOnGroupExpandListener(new OnGroupExpandListener() {
+		elv.setOnGroupExpandListener(new OnGroupExpandListener() {
 
 			@Override
 			public void onGroupExpand(int groupPosition) {
-				
+			/*	Toast.makeText(getActivity(),
+						listDataHeader.get(groupPosition) + " Expanded",
+						Toast.LENGTH_SHORT).show();*/
 			}
 		});
 
 		// Listview Group collasped listener
-		expListView.setOnGroupCollapseListener(new OnGroupCollapseListener() {
+		elv.setOnGroupCollapseListener(new OnGroupCollapseListener() {
 
 			@Override
 			public void onGroupCollapse(int groupPosition) {
-				
+//				elv.getChildAt(0).setBackgroundColor(Color.BLACK);
+
+		/*		Toast.makeText(getActivity(),
+						listDataHeader.get(groupPosition) + " Collapsed",
+						Toast.LENGTH_SHORT).show();*/
 
 			}
 		});
 
 		// Listview on child click listener
-		expListView.setOnChildClickListener(new OnChildClickListener() {
-
-			@Override
-			public boolean onChildClick(ExpandableListView parent, View v,
-					int groupPosition, int childPosition, long id) {
-				// TODO Auto-generated method stub
-				
-				if(groupPosition == 0){
-				 Intent intent = new Intent(getActivity(),
-			               Infant_IDTreatment_HIVExposure/*Sypmtoms_and_treatment*/.class);
-				    startActivity(intent);
-				}
-			
-				return false;
-			}
-		});
-		
-		
-
-		return rootView;
+		elv.setClickable(false);
+		return v;
 	}
 
 	/*

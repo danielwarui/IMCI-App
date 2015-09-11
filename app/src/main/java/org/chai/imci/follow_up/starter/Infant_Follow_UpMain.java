@@ -27,8 +27,9 @@ public class Infant_Follow_UpMain extends Activity {
 	@Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.young_treatments_list);
-    fiilliste = getResources().getStringArray(R.array.fragment_young_follow_up); 
+        setContentView(R.layout.young_treatments_list);
+        getActionBar().setSubtitle(getResources().getString(R.string.two_months));
+        fiilliste = getResources().getStringArray(R.array.fragment_young_follow_up);
     
   vlist=(ListView)findViewById(R.id.list1);
    adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_single_choice, fiilliste);

@@ -29,6 +29,7 @@ public class Follow_UpMainTwo extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.treatments_list);
+		getActionBar().setSubtitle(getResources().getString(R.string.sixty_months));
 		fiilliste = getResources().getStringArray(R.array.fragment_follow_up);
 
 		vlist = (ListView) findViewById(R.id.list1);

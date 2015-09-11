@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "org.chai.imci"
-        minSdkVersion 11
+        minSdkVersion 13
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -26,4 +26,5 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.android.support:support-v13:23.0.0'
 }
