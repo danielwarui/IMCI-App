@@ -35,7 +35,7 @@
                     style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="match_parent"
                     android:layout_height="fill_parent"
-                    android:text="@string/lbl_Assessment"
+                    android:text="@string/lbl_assessment_cap"
                     android:textColor="#ffffff"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -84,7 +84,7 @@
                     style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:text="@string/lbl_Follow_Up"
+                    android:text="@string/lbl_follow_up_cap"
                     android:textColor="#ffffff"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -133,7 +133,7 @@
                     style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:text="@string/lbl_Eid_Testing"
+                    android:text="@string/lbl_eid_testing_cap"
                     android:textColor="#ffffff"
                     android:textSize="20sp"
                     android:textStyle="bold" />

@@ -30,8 +30,8 @@
                 android:id="@+id/llAssessment"
                 android:layout_width="fill_parent"
                 android:layout_height="150.0dip"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
+                android:layout_marginLeft="155dp"
+                android:layout_marginRight="310dp"
                 android:background="#ff4444"
                 android:orientation="vertical"
                 android:padding="1dp">
@@ -41,7 +41,7 @@
                     style="?android:attr/buttonStyleSmall"
                     android:layout_width="match_parent"
                     android:layout_height="fill_parent"
-                    android:text="@string/lbl_Assessment"
+                    android:text="@string/lbl_assessment_cap"
                     android:textSize="25sp" />
             </RelativeLayout>
         </LinearLayout>
@@ -50,36 +50,35 @@
             android:id="@+id/linear_counsel_follow"
             android:layout_width="fill_parent"
             android:layout_height="155.0dip"
+            android:gravity="center_vertical"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:id="@+id/llcounselmother"
                 android:layout_width="150.0dp"
                 android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:background="#AA66CC"
-                android:orientation="vertical"
-                android:padding="1dp"
                 android:layout_toLeftOf="@+id/llFolloUp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true">
+                android:orientation="vertical"
+                android:padding="1dp">
 
                 <Button
                     android:id="@+id/btnCounselMother"
                     style="?android:attr/buttonStyleSmall"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="@string/lbl_Counsel_Mother"
-                    android:textSize="25sp"
-                    android:layout_alignParentTop="true"
-                    android:layout_toRightOf="@+id/llTreatTheChild"
-                    android:layout_toEndOf="@+id/llTreatTheChild" />
+                    android:text="@string/lbl_counsel_cap"
+                    android:textSize="25sp" />
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/llFolloUp"
                 android:layout_width="150.0dp"
                 android:layout_height="fill_parent"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
                 android:background="#ffbb33"
                 android:orientation="vertical"
                 android:padding="1dp">
@@ -87,9 +86,9 @@
                 <Button
                     android:id="@+id/btnFollowUp"
                     style="?android:attr/buttonStyleSmall"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:text="@string/lbl_Follow_Up"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/lbl_follow_up_cap"
                     android:textSize="25sp" />
             </LinearLayout>
 
@@ -99,6 +98,8 @@
             android:id="@+id/linear_treat_hiv"
             android:layout_width="fill_parent"
             android:layout_height="155.0dip"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -108,15 +109,16 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:background="#99cc00"
+                android:layout_toLeftOf="@+id/llHivCare"
                 android:orientation="vertical"
                 android:padding="1dp">
 
                 <Button
                     android:id="@+id/btnTreatTheChild"
                     style="?android:attr/buttonStyleSmall"
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:text="@string/lbl_Treat_The_Child"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/lbl_treat_cap"
                     android:textSize="25sp" />
             </LinearLayout>
 
@@ -124,26 +126,19 @@
                 android:id="@+id/llHivCare"
                 android:layout_width="150.0dp"
                 android:layout_height="fill_parent"
-                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
                 android:background="#33b5e5"
                 android:orientation="vertical"
-                android:padding="1dp"
-                android:layout_toRightOf="@+id/llTreatTheChild"
-                android:layout_toEndOf="@+id/llTreatTheChild">
+                android:padding="1dp">
 
+                <Button
+                    android:id="@+id/btnNVP"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/lbl_eid_testing_cap"
+                    android:textSize="25sp" />
             </LinearLayout>
-
-            <Button
-                android:id="@+id/btnNVP"
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:text="@string/lbl_Eid_Testing"
-                android:textSize="25sp"
-                android:layout_alignParentBottom="true"
-                android:layout_toRightOf="@+id/llTreatTheChild"
-                android:layout_alignRight="@+id/llHivCare"
-                android:layout_alignEnd="@+id/llHivCare" />
 
         </RelativeLayout>
     </LinearLayout>

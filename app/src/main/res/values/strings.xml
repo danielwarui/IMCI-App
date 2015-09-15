@@ -27,14 +27,17 @@
     <string name="selectdate">Select Date of Visit</string>
 
     <!-- Labels -->
-    <string name="lbl_Assessment">Assess, Classify &amp; Identify Treatment</string>
-    <string name="lbl_Follow_Up">Follow up Care</string>
-    <string name="lbl_Eid_Testing">HIV Care for Children</string>
-    <string name="lbl_Treat_The_Child">Treat the Infant/Child</string>
+    <string name="lbl_assessment">Assess, Classify &amp; Identify Treatment</string>
+    <string name="lbl_assessment_cap">ASSESS, CLASSIFY &amp; IDENTIFY TREATMENT</string>
+    <string name="lbl_follow_up">Follow up Care</string>
+    <string name="lbl_follow_up_cap">FOLLOW UP CARE</string>
+    <string name="lbl_eid_testing">HIV Care for Children</string>
+    <string name="lbl_eid_testing_cap">HIV CARE FOR CHILDREN</string>
+    <string name="lbl_treat_the_child">Treat the Infant/Child</string>
+    <string name="lbl_treat_cap">TREAT THE INFANT/ CHILD</string>
     <string name="lbl_Paeds_ARVs">Paeds ARVs Drug Dosing</string>
     <string name="lbl_counsel_cap">COUNSEL THE MOTHER</string>
-    <string name="lbl_treat_cap">TREAT THE INFANT/ CHILD</string>
-    <string name="lbl_Counsel_Mother">Counsel the Mother</string>
+    <string name="lbl_counsel_mother">Counsel the Mother</string>
     <string name="lbl_Nvp">EID Testing Algorithm</string>
     <string name="lbl_MainMenu">Main Menu</string>
     <string name="lbl_cough">Does the child have cough or difficult breathing?</string>
