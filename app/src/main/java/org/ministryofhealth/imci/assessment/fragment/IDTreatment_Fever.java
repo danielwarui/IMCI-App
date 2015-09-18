@@ -104,11 +104,11 @@ public class IDTreatment_Fever extends Fragment {
         pSubItemArrayList2.add(new SubCategory("Malaria", mItemListArray2));
         pSubItemArrayList2.add(new SubCategory("Fever: No Malaria", mItemListArrayP1));
 
-        pSubItemArrayList3.add(new SubCategory("Suspected Measles", mItemListArrayP2));
+        pSubItemArrayList3.add(new SubCategory("Suspected MEASLES", mItemListArrayP2));
 
-        pSubItemArrayList4.add(new SubCategory("Severe Complications of Measles", mItemListArrayP3));
-        pSubItemArrayList4.add(new SubCategory("Eye OR Mouth Complications of Measles", mItemListArrayP4));
-        pSubItemArrayList4.add(new SubCategory("No Eye OR Mouth Complications of Measles", mItemListArrayP5));
+        pSubItemArrayList4.add(new SubCategory("Severe Complications of MEASLES", mItemListArrayP3));
+        pSubItemArrayList4.add(new SubCategory("Eye OR Mouth Complications of MEASLES", mItemListArrayP4));
+        pSubItemArrayList4.add(new SubCategory("No Eye OR Mouth Complications of MEASLES", mItemListArrayP5));
 		/*
 		 * pSubItemArrayList.add(new SubCategory("Color", mItemListArray));
 		 * pSubItemArrayList2.add(new SubCategory("Cloths", mItemListArray2));
@@ -119,7 +119,7 @@ public class IDTreatment_Fever extends Fragment {
         pProductArrayList = new ArrayList<Product>();
         pProductArrayList.add(new Product("Classify Fever: High Risk Malaria", pSubItemArrayList));
         pProductArrayList.add(new Product("Classify Fever: Low or No Malaria Risk", pSubItemArrayList2));
-        pProductArrayList.add(new Product("Classify Measles", pSubItemArrayList3));
+        pProductArrayList.add(new Product("Classify MEASLES", pSubItemArrayList3));
         pProductArrayList.add(new Product("Measles Now or Within Last 3 Months", pSubItemArrayList4));
 
         /***

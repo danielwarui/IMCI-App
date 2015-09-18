@@ -109,10 +109,11 @@ public class What_to_Check_2_60 extends Activity {
                                 listDataHeader.get(groupPosition)).get(
                                 childPosition), Toast.LENGTH_SHORT)
                         .show();*/
+                // Check for Changes
                 if (groupPosition == 1 && childPosition == 0) {
                     Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Cough.class);
                     startActivity(intent);
-
+                    // Check for Changes
                 }
                 if (groupPosition == 1 && childPosition == 1) {
                     Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Diarr.class);

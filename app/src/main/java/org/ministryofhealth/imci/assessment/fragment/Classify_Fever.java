@@ -118,7 +118,7 @@ public class Classify_Fever extends Fragment {
 
         pProductArrayList = new ArrayList<Product>();
         pProductArrayList.add(new Product("Classify Fever: High Risk Malaria", pSubItemArrayList));
-        pProductArrayList.add(new Product("Classify Fever: Low or No Malaria Risk", pSubItemArrayList2));
+        pProductArrayList.add(new Product("Classify Fever: Low Risk Malaria & No Malaria Risk", pSubItemArrayList2));
         pProductArrayList.add(new Product("Classify Measles", pSubItemArrayList3));
         pProductArrayList.add(new Product("Measles Now or Within Last 3 Months", pSubItemArrayList4));
 

@@ -96,7 +96,7 @@ public class IDTreatment_Diarrhoea extends Fragment {
 
         pProductArrayList = new ArrayList<Product>();
         pProductArrayList.add(new Product("for dehydration", pSubItemArrayList));
-        pProductArrayList.add(new Product("if diarrhoea 7 days or more", pSubItemArrayList2));
+        pProductArrayList.add(new Product("if diarrhoea is 14 days or more", pSubItemArrayList2));
         pProductArrayList.add(new Product("if blood in the stool", pSubItemArrayList3));
 
         /***

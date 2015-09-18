@@ -381,12 +381,12 @@ If Mother is POSITIVE conduct rapid test on child as the child is exposed.
     <string name="diarrhoea_assessment"><b><u>IF YES ASK</u></b>\n
 \t\tFor how long?\n
 \t\tIs there blood in the stool? \n\n
-<b><u>LOOK, LISTEN, FEEL</u></b> \n
-•   Look at the child’s general condition.\n•   Is the child:\n• Lethargic or unconscious?\n• Restless and irritable?\n\n
+<b><u>LOOK, LISTEN, FEEL</u></b>
+        \n•   Look at the child’s general condition.\n•   Is the child:\n• Lethargic or unconscious?\n• Restless and irritable?\n\n
 • Look for sunken eyes.\n
  \n•   Offer the child fluid. Is the child:\n• Not able to drink or drinking poorly?\n
  • Drinking eargerly,thirsty?
-  \n• Pinch the skin of the abdomen. Does it go back:\n • Very slowly (longer than 2 sec.)?\n• Slowly?\n• Immediately?
+        \n\n• Pinch the skin of the abdomen. Does it go back:\n\t • Very slowly (longer than 2 sec.)?\n\t• Slowly?\n\t• Immediately?
 </string>
     <string name="look_young_hiv"><b><u>ASK</u></b>\n
     • Ask for mother\'s HIV status to establish child\'s HIV exposure.Is it: \n
@@ -654,8 +654,11 @@ For how long?\n\n
 <b><u>LOOK, LISTEN, FEEL</u></b>\n\n
 •   Count the breaths in one minute.\n•   Look for chest indrawing.\n•   Look and listen for stridor.\n•   Look and listen for wheeze.\n
 
-Child must be calm\n\n
-IF CHILD IS:         \n
+\n<b>CHILD MUST BE CALM</b>\n\n
+
+        Classify cough or difficult breathing\n
+\n <b>NB:</b> \n
+        IF CHILD IS:         \n
 •   2 months up to 12 months: fast breathing is 50 breaths per minute or more.\n•   12 months up to 5 years: fast breathing is 40 breaths per minute or more.\n
 </string>
     <string name="fever_assessment">
@@ -689,7 +692,7 @@ Check for complications of Measles\n
 •   Look for clouding of their cornea.\n
 </string>
 
-    <string name="signs_severe_pneumonia">      • Any general danger sign\n• Chest indrawing\n• Stridor in calm child\n.
+    <string name="signs_severe_pneumonia">      • Any general danger sign OR\n• Chest indrawing OR\n• Stridor in calm child\n.
 </string>
     <string name="signs_pneumonia">        • Fast Breathing\n
 </string>
@@ -958,23 +961,23 @@ Check for complications of Measles\n
     <string name="severe_dehydration">
       <b>If child has no other severe classification:</b>\n
         &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.Advise the mother to continue breatsfeeding.\n
-        - If child has no other severe classification:\n
-        • Give fluid for severe dehdration\n• Give vitamin A \n• Give Zinc Sulphate \n• If there is no other severe classification\n• If child is 2yrs or older and there is cholera in your area give Erythromycin \n
+        \n\n\t\t\t\t<b>OR</b>\n\nIf child has no other severe classification:
+        \t\n• Give fluid for severe dehdration(Plan C)\t\n• Give vitamin A \t\n• Give Zinc Sulphate \n• If there is no other severe classification\n• If child is 2yrs or older and there is cholera in your area give Erythromycin \n
 </string>
     <string name="some_dehydration_treatment"><b>If the child also has a severe classification:</b>\n
         &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.Advise the mother to continue breatsfeeding.\n
-        - If the child has no severe classification:
-        • Give fluid and food for some dehydration \n• Give vitamin A \n• Give Zinc Sulphate \n• Follow-up in 2days if not improving\n
+        \n\n\t\t\t\t<b>OR</b>\n\nIf child has no other severe classification:
+        • Give fluid and food for some dehydration(Plan B)\n• Give vitamin A \n• Give Zinc Sulphate \n\n• Advise the mother when to return immediately.\n• Follow-up in 2days if not improving\n
 </string>
     <string name="no_dehydration_treatment">
         - If the child also has a severe classification \n
         &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.Advise the mother to continue breatsfeeding.\n
-        - If the child has no severe classification.\n
-        • Give fluid and food for some dehydration \n• Give vitamin A\n• Give Zinc Sulphate\n• Follow-up in 5 days if not improving\n
+       \n\n\t\t\t\t<b>OR</b>\n\nIf child has no other severe classification:
+        • Give fluid and food for some dehydration(Plan A) \n• Give vitamin A\n• Give Zinc Sulphate\n\n• Advise the mother when to return immediately\n• Follow-up in 5 days if not improving\n
 </string>
     <string name="severe_persistent_diarrhoea_treatment">• Treat dehydration before referral unless the child has another severe classification \n• Give vitamin A \n• Give Zinc Sulphate\n• Give Multivitamin / Mineral supplements \n• Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way\n
 </string>
-    <string name="persistent_diarrhoea_treatment">• Advise the mother on feeding a child who has PERSISTENT DIARRHOEA.\n• Give vitamin A.\n• Give Zinc Sulphate.\n• Give Multivitamin supplements.\n• Check for HIV infection.\n• Follow up in 5 days.
+    <string name="persistent_diarrhoea_treatment">• Advise the mother on feeding a child who has PERSISTENT DIARRHOEA.\n• Give vitamin A.\n• Give Zinc Sulphate.\n• Give Multivitamin supplements/Mineral Supplements\n• Check for HIV infection.\n• Follow up in 5 days.
 </string>
     <string name="young_treatment_severe_jaundice">• Treat to prevent low blood sugar.\n• Advise mother how to keep the baby warm on the way to the hospital.\n• Admit or refer URGENTLY to hospital.
 </string>
@@ -1036,7 +1039,7 @@ Check for complications of Measles\n
     <string name="lblsuspected_measles">SUSPECTED MEASLES</string>
 
 
-    <string name="low_malaria_treatment">•  Give Artemether + Lumefantrine (AL).\n•   Give one dose of paracetamol in clinic for high fever (>38.5°C).\n•   Give Vitamin A.\n•   Follow up in 2 days if fever persists.\n•   Advise when to return immediately .\n•   If fever is present every day > 7 days assess or refer.\n
+    <string name="low_malaria_treatment">•  Give Artemether + Lumefantrine (AL).\n•   Give one dose of paracetamol in clinic for high fever (>38.5°C).\n•   Give Vitamin A.\n•   Follow up in 2 days if fever persists.\n•   Advise when to return immediately .\n•   If fever is present every day > 7 days assess further or refer.\n
 </string>
     <string name="severe_febrile_disease_treatment">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol \n• treat the child to prevent low blood sugar \n• Give one dose of paracetamol in clinic for high fever( >38.5°C  )
 </string>
