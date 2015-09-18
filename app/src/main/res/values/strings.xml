@@ -283,14 +283,13 @@ if it is an initial visit assess the child as follow:
 ---
 \n
 </string>
-    <string name="check_general"><b><u>Ask:</u></b> \n\t • Is the child able to breastfeed or drink?\n\t • Does the child vomit everything? \n\t • Has the child had convulsions?
+    <string name="check_general"><b><u>Ask:</u></b> \n\t • Is the child able to drink or breastfeed?\n\t • Does the child vomit everything? \n\t • Has the child had convulsions?
 \n
 \n
 <b><u>Look:</u></b> \n
 
 \t • See if child is lethargic or unconscious \n\t • Is the child convulsing now ? \n
-If yes treat immediately. \n
-If not proceed to ask for main symptoms.
+If yes treat immediately.
 </string>
     <!-- Ask the mother for the general signs of the young infant -->
     <string name="ask_mother_young_infant">        Determine if this is an initial or follow-up visit for this problem \n

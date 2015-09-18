@@ -169,20 +169,17 @@ public class What_to_Check_2_60 extends Activity {
 
         // Adding child data
         listDataHeader.add("Check for general signs");
-        listDataHeader.add("Then Ask Main Symptoms");
-        listDataHeader.add("Other Conditions");
+        listDataHeader.add("Then ask main symptoms:");
+        listDataHeader.add("Then check for:");
 
 
         // Adding child data
 
         // Adding child data
         List<String> generalsigns = new ArrayList<String>();
-        // adding sublists to the entity top250
         generalsigns.add(checkGeneral);
-        // top250 is an entry of the major list
-        // top250 is an entry of the major list
+
         List<String> symptoms = new ArrayList<String>();
-        // adding sublists to the entity top250
         symptoms.add("Does the child have cough or difficult breathing?");
         symptoms.add("Does the child have diarrhoea?");
         symptoms.add("Does the child have fever?");
@@ -190,7 +187,6 @@ public class What_to_Check_2_60 extends Activity {
 
 
         List<String> conditions = new ArrayList<String>();
-        // adding sublists to the entity top250
         conditions.add("Check for malnutrition");
         conditions.add("Check for anaemia");
         conditions.add("Check for HIV exposure and infection");
