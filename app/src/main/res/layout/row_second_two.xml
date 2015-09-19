@@ -10,16 +10,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#AAAAAA"
-        android:padding="15dp" >
+        android:padding="5dp" >
 
         <TextView
             android:id="@+id/textViewTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:text="TextView"
+            android:layout_marginLeft="5dp"
             android:textColor="@android:color/black"
-            android:textSize="20sp" />
+            android:textSize="17sp" />
 
     </RelativeLayout>
 
@@ -27,7 +26,7 @@
         android:id="@+id/linear_scroll_third"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="5dp"
         android:background="#F0E68C"
         android:orientation="vertical" />
 

@@ -42,7 +42,7 @@ public class Infant_Classify_Diarrhoea extends Fragment {
         /*
          * Declaration of String variables
 		 */
-        signsSevereDehydration = getString(R.string.signs_severe_dehydration);
+        signsSevereDehydration = getString(R.string.young_signs_severe_dehydration);
         signsSomeDehydration = getString(R.string.signs_some_dehydration);
         noDehydration = getString(R.string.signs_no_dehydration);
         severeProlonged = getString(R.string.young_signs_severe_prolonged_diarrhoea);
@@ -71,13 +71,13 @@ public class Infant_Classify_Diarrhoea extends Fragment {
         pSubItemArrayList2 = new ArrayList<SubCategory>();
         pSubItemArrayList3 = new ArrayList<SubCategory>();
 
-        pSubItemArrayList.add(new SubCategory("Severe Dehydration", mItemListArray));
-        pSubItemArrayList.add(new SubCategory("Some Dehydration", mItemListArrayP1));
-        pSubItemArrayList.add(new SubCategory("No Dehydration", mItemListArrayP2));
+        pSubItemArrayList.add(new SubCategory("SEVERE DEHYDRATION", mItemListArray));
+        pSubItemArrayList.add(new SubCategory("SOME DEHYDRATION", mItemListArrayP1));
+        pSubItemArrayList.add(new SubCategory("NO DEHYDRATION", mItemListArrayP2));
 
 
-        pSubItemArrayList2.add(new SubCategory("Severe Prolonged Diarrhoea", mItemListArray2));
-        pSubItemArrayList3.add(new SubCategory("Possible Serious Abdominal Problem", mItemListArray3));
+        pSubItemArrayList2.add(new SubCategory("SEVERE PROLONGED DIARRHOEA", mItemListArray2));
+        pSubItemArrayList3.add(new SubCategory("POSSIBLE SERIOUS ABDOMINAL PROBLEM", mItemListArray3));
 		/*
 		 * pSubItemArrayList.add(new SubCategory("Color", mItemListArray));
 		 * pSubItemArrayList2.add(new SubCategory("Cloths", mItemListArray2));
@@ -86,7 +86,7 @@ public class Infant_Classify_Diarrhoea extends Fragment {
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("for dehydration", pSubItemArrayList));
+        pProductArrayList.add(new Product("for DEHYDRATION", pSubItemArrayList));
         pProductArrayList.add(new Product("if diarrhoea 7 days or more", pSubItemArrayList2));
         pProductArrayList.add(new Product("if blood in the stool", pSubItemArrayList3));
 

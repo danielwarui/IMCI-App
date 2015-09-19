@@ -71,22 +71,16 @@ public class Infant_IDTreatment_Diarrhoea extends Fragment {
         pSubItemArrayList2 = new ArrayList<SubCategory>();
         pSubItemArrayList3 = new ArrayList<SubCategory>();
 
-        pSubItemArrayList.add(new SubCategory("Severe Dehydration", mItemListArray));
-        pSubItemArrayList.add(new SubCategory("Some Dehydration", mItemListArrayP1));
-        pSubItemArrayList.add(new SubCategory("No Dehydration", mItemListArrayP2));
+        pSubItemArrayList.add(new SubCategory("SEVERE DEHYDRATION", mItemListArray));
+        pSubItemArrayList.add(new SubCategory("SOME DEHYDRATION", mItemListArrayP1));
+        pSubItemArrayList.add(new SubCategory("NO DEHYDRATION", mItemListArrayP2));
 
 
-        pSubItemArrayList2.add(new SubCategory("Severe Prolonged Diarrhoea", mItemListArray2));
-        pSubItemArrayList3.add(new SubCategory("Possible Serious Abdominal Problem", mItemListArray3));
-		/*
-		 * pSubItemArrayList.add(new SubCategory("Color", mItemListArray));
-		 * pSubItemArrayList2.add(new SubCategory("Cloths", mItemListArray2));
-		 *//**
-         * ArrayList<Product> means it is an arraylist of the object Product...First level String variables
-         */
+        pSubItemArrayList2.add(new SubCategory("SEVERE PROLONGED DIARRHOEA", mItemListArray2));
+        pSubItemArrayList3.add(new SubCategory("POSSIBLE SERIOUS ABDOMINAL PROBLEM", mItemListArray3));
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("for dehydration", pSubItemArrayList));
+        pProductArrayList.add(new Product("for DEHYDRATION", pSubItemArrayList));
         pProductArrayList.add(new Product("if diarrhoea 7 days or more", pSubItemArrayList2));
         pProductArrayList.add(new Product("if blood in the stool", pSubItemArrayList3));
 

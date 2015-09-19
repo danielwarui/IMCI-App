@@ -45,50 +45,9 @@
             android:name=".assessment.What_to_Check_2_60"
             android:label="@string/lbl_assessment"></activity>
         <activity
-            android:name=".assessment.Starter_0_2_FeedingProblem"
-            android:label="@string/lbl_feeding"></activity>
-        <activity
-            android:name=".assessment.Starter_0_2_Diarrhoea"
-            android:label="@string/lbl_young_diarrhoea"></activity>
-        <activity
-            android:name=".assessment.Starter_0_2_EyeInfection"
-            android:label="@string/lbl_eyeproblem"></activity>
-        <activity
-            android:name=".assessment.Starter_0_2_HIVExposure"
-            android:label="@string/lbl_hiv"></activity>
-        <activity
-            android:name=".assessment.Starter_0_2_Jaundice"
-            android:label="@string/lbl_jaundice"></activity>
-        <activity
-            android:name=".assessment.Starter_0_2_SpecialTreatments"
-            android:label="@string/lbl_specialtreatment"></activity>
-        <activity
-            android:name=".assessment.Starter_0_2_Severe_Disease"
-            android:label="@string/lbl_severedisease"></activity>
-        <activity
-            android:name=".assessment.Starter_2_60_Cough"
-            android:label="@string/lbl_cough"></activity>
-        <activity
-            android:name=".assessment.Starter_2_60_Anaemia"
-            android:label="@string/lbl_anaemia"></activity>
-        <activity
-            android:name=".assessment.Starter_2_60_Diarr"
-            android:label="@string/lbl_diarrhoea"></activity>
-        <activity
-            android:name=".assessment.Starter_2_60_Ear_Problem"
-            android:label="@string/lbl_ear_problem"></activity>
-        <activity
-            android:name=".assessment.Starter_2_60_Fever"
-            android:label="@string/lbl_fever"></activity>
-        <activity
-            android:name=".assessment.Starter_2_60_Hiv"
-            android:label="@string/lbl_hiv"></activity>
-        <activity
-            android:name=".assessment.Starter_2_60_Immunization"
-            android:label="@string/lbl_immunization"></activity>
-        <activity
-            android:name=".assessment.Starter_2_60_Malnutrition"
-            android:label="@string/lbl_malnutrition"></activity>
+            android:name=".assessment.Starter_Universal"
+            android:label="@string/lbl_assessment"></activity>
+
         <activity
             android:name=".assessment.follow_up.FollowUpMain"
             android:label="@string/lbl_follow_up"></activity>

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
@@ -11,6 +12,7 @@ import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
+import android.widget.TextView;
 
 import org.ministryofhealth.imci.R;
 import org.ministryofhealth.imci.assessment.adapter.AdapterExpandable;
@@ -27,30 +29,45 @@ public class What_to_Check_0_2 extends Activity {
     List<String> listDataHeader;
     HashMap<String, List<String>> listDataChild;
     Fragment fragment;
-    String checkGeneral;
-    String checkGeneralContinue;
-    String clickhere;
+    TextView t, t0, t1, t2;
+    private String checkGeneral;
+    private String checkGeneralContinue;
+    private String clickhere;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.what_to_check);
-        System.out.println("----Secondactivity activity---onCreates---");
+        setContentView(R.layout.what_to_check_0_2);
+
+        getActionBar().setSubtitle("Age up to two months");
+        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         // Create custom dialog object
 
 
         // get the listview
         expListView = (ExpandableListView) findViewById(R.id.lvExp1);
+        t = (TextView) findViewById(R.id.header0);
+        t0 = (TextView) findViewById(R.id.text0);
+        t1 = (TextView) findViewById(R.id.text0_1);
+        t2 = (TextView) findViewById(R.id.text0_2);
 
         // preparing list data
         prepareListData();
 
+        t1.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(What_to_Check_0_2.this, FollowUpMain.class);
+                startActivity(intent);
+            }
+        });
         listAdapter = new AdapterExpandable(this, listDataHeader, listDataChild);
 
         // setting list adapter
         expListView.setAdapter(listAdapter);
         expListView.expandGroup(0);
-        expListView.expandGroup(1);
 
         // Listview Group click listener
         expListView.setOnGroupClickListener(new OnGroupClickListener() {
@@ -58,9 +75,6 @@ public class What_to_Check_0_2 extends Activity {
             @Override
             public boolean onGroupClick(ExpandableListView parent, View v,
                                         int groupPosition, long id) {
-                // Toast.makeText(getApplicationContext(),
-                // "Group Clicked " + listDataHeader.get(groupPosition),
-                // Toast.LENGTH_SHORT).show();
                 return false;
             }
 
@@ -71,9 +85,6 @@ public class What_to_Check_0_2 extends Activity {
 
             @Override
             public void onGroupExpand(int groupPosition) {
-                /*Toast.makeText(getApplicationContext(),
-                        listDataHeader.get(groupPosition) + " Expanded",
-                        Toast.LENGTH_SHORT).show();*/
             }
         });
 
@@ -95,63 +106,68 @@ public class What_to_Check_0_2 extends Activity {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
-               /* // TODO Auto-generated method stub
-                Toast.makeText(
-                        getApplicationContext(),
-                        listDataHeader.get(groupPosition)
-                                + " : "
-                                + listDataChild.get(
-                                listDataHeader.get(groupPosition)).get(
-                                childPosition), Toast.LENGTH_SHORT)
-                        .show();*/
 
-                if (groupPosition == 0 && childPosition == 1) {
+               /* if (groupPosition == 0 && childPosition == 1) {
                     Intent intent = new Intent(What_to_Check_0_2.this, FollowUpMain.class);
                     startActivity(intent);
+                }*/
 
-                }
-                if (groupPosition == 1 && childPosition == 0) {
-                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_0_2_Severe_Disease.class);
+                if (groupPosition == 0 && childPosition == 0) {
+                    //Severe Disease
+                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 6);
                     startActivity(intent);
 
                 }
-                if (groupPosition == 1 && childPosition == 1) {
-                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_0_2_Jaundice.class);
+                if (groupPosition == 0 && childPosition == 1) {
+                    //Jaundice
+                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 5);
                     startActivity(intent);
 
                 }
-                if (groupPosition == 1 && childPosition == 2) {
-                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_0_2_EyeInfection.class);
+                if (groupPosition == 0 && childPosition == 2) {
+                    //Eye Infection
+                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 2);
                     startActivity(intent);
 
                 }
-                if (groupPosition == 1 && childPosition == 3) {
-                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_0_2_Diarrhoea.class);
+                if (groupPosition == 0 && childPosition == 3) {
+                    //Diarrhoea
+                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 1);
                     startActivity(intent);
 
                 }
-                if (groupPosition == 1 && childPosition == 4) {
-                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_0_2_HIVExposure.class);
+                if (groupPosition == 0 && childPosition == 4) {
+                    //HIV
+                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 4);
                     startActivity(intent);
 
                 }
-                if (groupPosition == 1 && childPosition == 5) {
-                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_0_2_FeedingProblem.class);
+                if (groupPosition == 0 && childPosition == 5) {
+                    //Feeding Problem
+                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 3);
                     startActivity(intent);
 
                 }
-                if (groupPosition == 1 && childPosition == 6) {
+                if (groupPosition == 0 && childPosition == 6) {
                     Intent intent = new Intent(What_to_Check_0_2.this, CareForDevelopmentUniversal.class);
                     intent.putExtra("CareForDevelopmentAndNvp", 10);
                     startActivity(intent);
                 }
-                if (groupPosition == 1 && childPosition == 7) {
+                if (groupPosition == 0 && childPosition == 7) {
                     Intent intent = new Intent(What_to_Check_0_2.this, CareForDevelopment.class);
                     startActivity(intent);
 
                 }
-                if (groupPosition == 1 && childPosition == 8) {
-                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_0_2_SpecialTreatments.class);
+                if (groupPosition == 0 && childPosition == 8) {
+                    //Special Treatment
+                    Intent intent = new Intent(What_to_Check_0_2.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 7);
                     startActivity(intent);
 
                 }
@@ -167,19 +183,17 @@ public class What_to_Check_0_2 extends Activity {
         checkGeneral = getResources().getString(R.string.ask_mother_young_infant);
         clickhere = getResources().getString(R.string.click_here);
         checkGeneralContinue = getResources().getString(R.string.ask_mother_young_infant_continue);
+        t.setText("ASK THE MOTHER WHAT THE YOUNG INFANT'S PROBLEMS ARE:");
+        t0.setText(checkGeneral);
+        t1.setText(clickhere);
+        t2.setText(checkGeneralContinue);
 
         listDataHeader = new ArrayList<String>();
         listDataChild = new HashMap<String, List<String>>();
 
         // Adding child data
-        listDataHeader.add("ASK THE MOTHER WHAT THE YOUNG INFANT'S PROBLEMS ARE:");
         listDataHeader.add("CHECK FOR:");
 
-        // Adding child data
-        List<String> generalsigns = new ArrayList<String>();
-        generalsigns.add(checkGeneral);
-        generalsigns.add(clickhere);
-        generalsigns.add(checkGeneralContinue);
 
         List<String> listCheckFor = new ArrayList<String>();
         listCheckFor.add("Very severe disease");
@@ -192,11 +206,11 @@ public class What_to_Check_0_2 extends Activity {
         listCheckFor.add("Care for development");
         listCheckFor.add("Special treatment needs");
 
-        listDataChild.put(listDataHeader.get(0), generalsigns); // Header, Child
-        listDataChild.put(listDataHeader.get(1), listCheckFor);
+        listDataChild.put(listDataHeader.get(0), listCheckFor);
 
         // data
     }
+
     @Override
     public void onStart() {
         // TODO Auto-generated method stub
@@ -205,4 +219,10 @@ public class What_to_Check_0_2 extends Activity {
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        onBackPressed();
+        return true;
+
+    }
 }

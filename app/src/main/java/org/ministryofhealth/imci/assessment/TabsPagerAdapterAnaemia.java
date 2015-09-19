@@ -19,7 +19,6 @@ public class TabsPagerAdapterAnaemia extends FragmentPagerAdapter {
 
 		switch (index) {
 		case 0:
-		
 			return new Diagnosing_Anaemia();
 		case 1:
 			return new Classify_Anaemia();

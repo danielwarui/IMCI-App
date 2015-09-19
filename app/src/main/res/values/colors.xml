@@ -10,6 +10,7 @@
     <color name="icons">#212121</color>
     <color name="divider">#B6B6B6</color>
     <color name="white">#FFFFFF</color>
+    <color name="link">#33b5e5</color>
 
 
 </resources>

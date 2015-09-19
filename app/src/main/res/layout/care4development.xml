@@ -33,7 +33,7 @@
             android:text="@string/care_4_development_3"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:clickable="true"
-            android:textColor="#33b5e5" />
+            android:textColor="@color/link" />
     </LinearLayout>
 
 </ScrollView>

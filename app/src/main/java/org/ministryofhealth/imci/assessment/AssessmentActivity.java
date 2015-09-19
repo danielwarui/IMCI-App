@@ -38,8 +38,7 @@ public class AssessmentActivity extends Activity {
 
             @Override
             public void onClick(View v) {
-                intent = new Intent(AssessmentActivity.this,
-                        What_to_Check_2_60.class);
+                intent = new Intent(AssessmentActivity.this,What_to_Check_2_60.class);
                 startActivity(intent);
 
             }

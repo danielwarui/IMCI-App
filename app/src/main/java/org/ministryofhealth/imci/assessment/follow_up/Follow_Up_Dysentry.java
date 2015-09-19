@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
-import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
@@ -82,33 +81,7 @@ public class Follow_Up_Dysentry extends Fragment{
 		});
 
 		// Listview on child click listener
-		elv.setOnChildClickListener(new OnChildClickListener() {
-
-			@Override
-			public boolean onChildClick(ExpandableListView parent, View v,
-					int groupPosition, int childPosition, long id) {
-				// TODO Auto-generated method stub
-			/*	Toast.makeText(
-						getActivity(),
-						listDataHeader.get(groupPosition)
-								+ " : "
-								+ listDataChild.get(
-										listDataHeader.get(groupPosition)).get(
-										childPosition), Toast.LENGTH_SHORT)
-						.show();*/
-				/*
-				if (groupPosition == 1 && childPosition == 0) {
-					Intent intent = new Intent(getActivity(),
-							org.inclusion.imcione.Starter_2_60_Cough.class);
-					startActivity(intent);
-
-				}
-			
-
-				}*/
-				return false;
-			}
-		});
+		elv.setFocusable(false);
 		
 		return v;
 	}

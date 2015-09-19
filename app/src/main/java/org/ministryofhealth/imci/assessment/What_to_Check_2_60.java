@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
@@ -30,8 +31,11 @@ public class What_to_Check_2_60 extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        getActionBar().setSubtitle("Age 2 months to 5 years");
         getActionBar().setHomeButtonEnabled(true);
         getActionBar().setDisplayHomeAsUpEnabled(true);
+
         setContentView(R.layout.what_to_check);
         System.out.println("----Secondactivity activity---onCreates---");
 
@@ -100,54 +104,53 @@ public class What_to_Check_2_60 extends Activity {
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
 
-              /*  // TODO Auto-generated method stub
-                Toast.makeText(
-                        getApplicationContext(),
-                        listDataHeader.get(groupPosition)
-                                + " : "
-                                + listDataChild.get(
-                                listDataHeader.get(groupPosition)).get(
-                                childPosition), Toast.LENGTH_SHORT)
-                        .show();*/
                 // Check for Changes
                 if (groupPosition == 1 && childPosition == 0) {
-                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Cough.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 9);
                     startActivity(intent);
                     // Check for Changes
                 }
                 if (groupPosition == 1 && childPosition == 1) {
-                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Diarr.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 10);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 1 && childPosition == 2) {
-                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Fever.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 12);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 1 && childPosition == 3) {
-                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Ear_Problem.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 11);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 2 && childPosition == 0) {
-                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Malnutrition.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 15);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 2 && childPosition == 1) {
-                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Anaemia.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 8);
                     startActivity(intent);
 
                 }
 
                 if (groupPosition == 2 && childPosition == 2) {
-                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Hiv.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 13);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 2 && childPosition == 3) {
-                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_2_60_Immunization.class);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_Universal.class);
+                    intent.putExtra("Whattocheck", 14);
                     startActivity(intent);
 
                 }
@@ -206,5 +209,10 @@ public class What_to_Check_2_60 extends Activity {
         System.out.println("----Fragmentactivity---onStart---");
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
     }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        onBackPressed();
+        return true;
 
+    }
 }
