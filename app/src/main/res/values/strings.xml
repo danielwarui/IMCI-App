@@ -371,12 +371,12 @@ Determine Z score for the same : \n•   &lt;-3\n•   -3 to &lt; -2\n•   -2 t
  For child >18 months
 If Mother is POSITIVE conduct rapid test on child as the child is exposed.
 </string>
-    <string name="look_young_special_treatment"><b><u>ASK AND CHECK RECORD FOR SPECIAL TREATMENT NEEDS</u></b> \n\n
+    <string name="look_young_special_treatment"><b><u>Ask and check record for special treatment needs</u></b> \n\n
  • Has the mother had within 2 weeks of delivery: \n
  \t\t-fever?\n
- \t\t-infectiontreated with antibiotic?  \n • Membranes raptured for over 18 hours before delivery?\n • Foul smelling liquor.\n• Mother tested VDRL positive?\n • Mother tested HIV positive?\n
+ \t\t-infection treated with antibiotic?  \n\n • Membranes raptured &gt; 18 hours before delivery?\n • Foul smelling liquor?\n• Mother tested VDRL positive?\n • Mother tested HIV positive?\n
  \t\t-Is or has been on ARVs?\n
- \t\t-Has received infant feeding counselling?\n • Is the mother receiving TB treatment which began less than 2 months ago?
+ \t\t-Has received infant feeding counselling?\n • Is the mother receiving TB treatment which began &lt; 2 months ago?
 </string>
     <string name="diarrhoea_assessment"><b><u>IF YES ASK</u></b>\n
 \t\tFor how long?\n
@@ -778,7 +778,7 @@ Check for complications of Measles\n
 </string>
      <string name="young_signs_unlikely_hiv_infection">• If child is &lt; 18 months with UNKNOWN mother\'s HIV status tests antibody NEGATIVE.
 </string>
-    <string name="young_risk_of_bacterial_infection">    • Baby &lt; 1 day old and membranes ruptured for more than 18hrs before delivery or\n• Foul smelling liqour or\n• Mother being treated for antibiotics for infection or\n• Mother has fever: temperature above 38°C.
+    <string name="young_risk_of_bacterial_infection">    • Baby &lt; 1 day old and membranes ruptured for &gt; 18hrs before delivery \n or\n• Foul smelling liquor or\n• Mother being treated for antibiotics for infection or\n• Mother has fever: temperature &gt; 38°C.
 </string>
     <string name="young_risk_of_congenital_syphilis">        • Mother tested VDRL positive.
 </string>
@@ -1009,9 +1009,9 @@ Check for complications of Measles\n
 </string>
     <string name="young_treatment_normal_birth_weight">        • Advise mother to give home care to the young infant.
 </string>
-    <string name="young_treatment_risk_bact">         • Give baby 1st dose of Benzylpenicillin and Gentamicin.\n• Treatment to prevent low blood sugar.\n• Keep warm.\n• Admit or refer urgently to hospital.
+    <string name="young_treatment_risk_bact">• Give baby 1st dose of Benzylpenicillin &amp; Gentamicin.\n• Treatment to prevent low blood sugar.\n• Keep warm.\n• Admit or refer URGENTLY to hospital.
 </string>
-    <string name="young_treatment_risk_syphilis">         • Give baby single dose of benzathine penicilin.\n• Ensure mother and partner are treated.\n• Follow up in 14 days.
+    <string name="young_treatment_risk_syphilis">         • Give baby single dose of benzathine penicillin.\n• Ensure mother and partner are treated.\n• Follow up in 14 days.
 </string>
     <string name="young_treatment_risk_transmission_hiv">         • Give ARV prophylaxis to the newborn.\n• Counsel on infant feeding options.\n• Give special counselling to breast feeding omther.Emphasize on exclusive breastfeeding for 6 months.\n• Teach the mother replacement feeding if that\'s her choice and meets AFASS criteria.\n• Inform mother of DNA PCR test at 6 weeks.\n• Follow up in 14 days.
 </string>

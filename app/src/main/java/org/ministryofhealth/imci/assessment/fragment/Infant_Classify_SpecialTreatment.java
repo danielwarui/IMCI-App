@@ -38,15 +38,7 @@ public class Infant_Classify_SpecialTreatment extends Fragment {
         // mLinearListView = (LinearLayout) findViewById(R.id.linear_listview);
         mLinearListView = (LinearLayout) rootView
                 .findViewById(R.id.linear_listview);
-        /*
-         * Declaration of String variables
-		 */
-    /*    signsSevereDehydration = getString(R.string.signs_severe_dehydration);
-        signsSomeDehydration = getString(R.string.signs_some_dehydration);
-        noDehydration = getString(R.string.signs_no_dehydration);
-        severeProlonged = getString(R.string.young_signs_severe_prolonged_diarrhoea);
-        possibleAbdominal = getString(R.string.signs_dysentry);
-*/
+
 signsSquint = getString(R.string.young_risk_of_bacterial_infection);
         signsCongenitalCancer = getString(R.string.young_risk_of_congenital_syphilis);
         signsCongenitalGlaucoma = getString(R.string.young_risk_of_hiv_transmission);
@@ -81,10 +73,10 @@ signsSquint = getString(R.string.young_risk_of_bacterial_infection);
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Risk of Bacterial Infection", pSubItemArrayList));
-        pProductArrayList.add(new Product("Risk of Congenital Syphilis", pSubItemArrayList2));
-        pProductArrayList.add(new Product("Risk of HIV Transmission", pSubItemArrayList3));
-        pProductArrayList.add(new Product("Risk of Tuberculosis", pSubItemArrayList4));
+        pProductArrayList.add(new Product("RISK OF BACTERIAL INFECTION", pSubItemArrayList));
+        pProductArrayList.add(new Product("RISK OF CONGENITAL SYPHILIS", pSubItemArrayList2));
+        pProductArrayList.add(new Product("RISK OF HIV TRANSMISSION", pSubItemArrayList3));
+        pProductArrayList.add(new Product("RISK OF TUBERCULOSIS", pSubItemArrayList4));
 
 
         /***

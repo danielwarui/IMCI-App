@@ -81,10 +81,11 @@ public class Infant_IDTreatment_SpecialTreatment extends Fragment {
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Risk of Bacterial Infection", pSubItemArrayList));
-        pProductArrayList.add(new Product("Risk of Congenital Syphilis", pSubItemArrayList2));
-        pProductArrayList.add(new Product("Risk of HIV Transmission", pSubItemArrayList3));
-        pProductArrayList.add(new Product("Risk of Tuberculosis", pSubItemArrayList4));
+        pProductArrayList.add(new Product("RISK OF BACTERIAL INFECTION", pSubItemArrayList));
+        pProductArrayList.add(new Product("RISK OF CONGENITAL SYPHILIS", pSubItemArrayList2));
+        pProductArrayList.add(new Product("RISK OF HIV TRANSMISSION", pSubItemArrayList3));
+        pProductArrayList.add(new Product("RISK OF TUBERCULOSIS", pSubItemArrayList4));
+
 
 
         /***
