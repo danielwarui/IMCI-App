@@ -15,6 +15,8 @@ public class CareForDevelopment extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
+        getActionBar().setTitle("Age up to 2 months");
+        getActionBar().setSubtitle("Care for development");
         setContentView(R.layout.care4development);
         TextView tv = (TextView) findViewById(R.id.care4dev3);
         tv.setOnClickListener(new OnClickListener() {

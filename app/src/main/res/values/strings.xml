@@ -394,14 +394,23 @@ If Mother is POSITIVE conduct rapid test on child as the child is exposed.
     \t\t-Non reactive.\n
     \t\t-Unknown.\n• Ask if child has had any TB contact.\n\n
 <b><u>LOOK,FEEL AND DIAGNOSE:</u></b> \n
-<b>Child &lt; 18 months</b>\n• If Mother\'s HIV status is unknown,conduct an antibady test(rapid test) on
-        mother or child to determine HIV exposure.\n•If mother\'s or child\'s antibody test is POSITIVE the child is HIV exposed.
+<b>Child ≤ 18 months</b>\n• If Mother\'s HIV status is unknown,conduct an antibody test(rapid test) on
+        mother or child to determine HIV exposure.\n\n•If mother\'s or child\'s antibody test is POSITIVE the child is HIV exposed.
         Take DBS for DNA PCR test at six weeks or earliest contact thereafter.
-</string>
-    <string name="look_young_feeding_problem"><b><u>ASK:</u></b> \n
-    • Is the infant breastfed?\n
+\n\n<b>PRESUMPTIVE SYMPTOMATIC DIAGNOSIS OF HIV INFECTION IN
+        CHILDREN &lt; 18 MONTHS</b>\n\n
+        LOOK and FEEL:\n
+        • Pneumonia***\n
+        • Oral Candidiasis / thrush\n
+        • Severe sepsis.\n
+        • Other AIDS defining conditions**\n\n
+        Presumptive HIV diagnosis should be confirmed at the earliest opportunity.
+\n\n <b>CLASSIFY HIV STATUS</b>
+    </string>
+    <string name="look_young_feeding_problem"><b><u>ASK:</u></b>
+    \n\n• Is the infant breastfed?\n\n
 <b>IF YES:</b>\n-How many times during the day?\n-How many times during the night?\n-How many times in 24 hours?\n
-<b>IF NO, why?</b>    \n• Does the infant usually receive any other foods or drinks?\n• How do you prepare the feeds?\n• What do you use to feed the infant?\n
+<b>IF NO, why?</b>\n• Does the infant usually receive any other foods or drinks?\n• How do you prepare the feeds?\n• What do you use to feed the infant?\n
 <b><u>LOOK, LISTEN, FEEL:</u></b>  \n
 <b>Determine weight for age.</b>\n• Look for ulcers or white patches in the mouth(thrush).\n• <b>Determine mother\'s HIV status:</b> \n
     \t\t-Reactive.\n
@@ -411,7 +420,7 @@ If Mother is POSITIVE conduct rapid test on child as the child is exposed.
     \t-Negative.\n
     \t-Unknown.
     \n\n
-<b><s>If the infant has no indications for urgent referral to hospital from previous assessment:</s></b> \n• Discuss infant feeding options with the mother.\n\n <u>FOR A MOTHER WHO HAS DECIDED TO BREASTFEED:</u> \n
+<b><s><u>If the infant has no indications for urgent referral to hospital from previous assessment:</u></s></b> \n• Discuss infant feeding options with the mother.\n\n•<u>FOR A MOTHER WHO HAS DECIDED TO BREASTFEED:</u> \n
 <b>ASSESS BREASTFEEDING:</b> \n• Has the infant breastfed in the previous hour?\n• If the infant has not fed in the previous hour, ask the mother to put her infant to the breast.
     Observe the breastfeed for 4 minutes.\n• (If the infant was fed during the last hour, ask the mother if she can wait and tell you when the
     infant is willing to feed again.)\n\n
@@ -423,15 +432,16 @@ If Mother is POSITIVE conduct rapid test on child as the child is exposed.
     Is the child well positioned?\n• Well positioned\n• Not well positioned.\n
     \n
 <u>TO CHECK ATTACHMENT, LOOK FOR:</u> \n
-    \t-Chin touching breast.\n
+  <b>\t-Chin touching breast.\n
     \t-Mouth wide open.\n
     \t-Lower lip turned outward.\n
-    \t-More areola visible above than below the mouth.\n
-    (All of these signs should be present if the attachment is good.)\n• Is the infant able to attach?\n
+    \t-More areola visible above than below the mouth.\n\n
+    (All of these signs should be present if the attachment is good.)</b>  \n• Is the infant able to attach?\n
     \t-not well attached.\n
     \t-good attachment.\n• Is the infant sucking effectively(that is, slow deep sucks,sometimes pausing)?\n
     \t-not sucking effectively.\n
-    \t-sucking effectively.\n• <u>Clear a blocked nose</u> if it interferes with breastfeeding.\n• <u>Look for ulcers</u> or white patches in the mouth(Thrush).
+    \t-sucking effectively.\n• <u>Clear a blocked nose</u> if it interferes with breastfeeding.\n• <u>Look for ulcers</u> or white patches in the mouth(Thrush).\n\n
+        <b>Classify FEEDING</b>
 </string>
 
     <!-- Assess Infant Severe Disease -->
@@ -508,9 +518,9 @@ Look at the young infant’s general condition.Is the infant: \n\t•   Lethargi
 </string>
     <string name="young_treatment_no_dehydration"><b>• Give fluids to treat diarrhoea at home (Plan A).\n• Give zinc sulphate.</b>\n• Advise mother when to return immediately.\n• Follow up in 5 days if not improving.
 </string>
-    <string name="young_treatment_severe_prolonged_diarrhoea">   • If the young infant is dehydrated, treat dehydration before referral unless the infant has also a VERY SEVERE DISEASE.\n• Admit or refer to hospital.
+    <string name="young_treatment_severe_prolonged_diarrhoea"><b> • If the young infant is dehydrated, treat dehydration before referral unless the infant has also a VERY SEVERE DISEASE.\n• Admit or refer to hospital.</b>
 </string>
-    <string name="young_treatment_severe_abdominal_problem">    • Give first dose of Benzylpenicillin and Gentamicin.\n• Treat the infant/child for or prevent low blood sugar.\n• Admit or refer URGENTLY to hospital.\n• Advise mother how to keep the infant warm on the way.
+    <string name="young_treatment_severe_abdominal_problem"><b>• Give first dose of Benzylpenicillin &amp; Gentamicin.\n• Treat the infant/child for or prevent low blood sugar.\n• Admit or refer URGENTLY to hospital**.\n• Advise mother how to keep the infant warm on the way.</b>
 </string>
 
     <!-- Assess Infant Eye Infection -->
@@ -742,27 +752,33 @@ Check for complications of Measles\n
 </string>
     <string name="signs_no_anaemia">        • No palmar pallor.
 </string>
-    <string name="signs_confirmed_hiv">        • Child &lt;18 months and DNA PCR test POSITIVE.\n• Child above 18 months and Antibody test  POSITIVE.
+    <string name="signs_confirmed_hiv">        • Child &lt; 18 months and DNA PCR test POSITIVE.\n• Child above 18 months and Antibody test  POSITIVE.
 </string>
-    <string name="young_signs_confirmed_hiv">        • Child &lt;18 months and DNA PCR test POSITIVE.
+    <string name="young_signs_confirmed_hiv">• Child &lt; 18 months and DNA PCR test POSITIVE.
 </string>
-    <string name="young_signs_feeding_problem">        • Not well attached to breast or. \n• Not sucking effectively.\n• Breastfeeds &lt; 8 times in 24 hours or.\n• Receives other foods or drinks or.\n• Low weight for age or \n• Thrush (white patches in mouth)or\n• Mouth ulcers
+    <string name="young_signs_feeding_problem">• Not well attached to breast or. \n• Not sucking effectively.\n• Breastfeeds less than 8 times in 24 hours or.\n• Receives other foods or drinks or.\n• Low weight for age or \n• Thrush (white patches in mouth)or\n• Mouth ulcers
 </string>
-    <string name="young_no_feeding_problem">        • Not low weight for age and no other signs of inadequate feeding. \n
+    <string name="young_no_feeding_problem">Not low weight for age and no other signs of inadequate feeding.
 </string>
-    <string name="young_signs_very_low_birth_weight">        • Weight &lt; 2 kg.
+    <string name="young_signs_very_low_birth_weight">Weight less than 2 kg.
 </string>
-    <string name="young_signs_low_birth_weight">        • Weight between 2 kg and 2.5kg.
+    <string name="young_signs_low_birth_weight">Weight between 2 kg and 2.5kg.
 </string>
-    <string name="young_signs_normal_birth_weight">        • Weight 2.5kg or more.
+    <string name="young_signs_normal_birth_weight">Weight 2.5kg or more.
 </string>
-    <string name="signs_hiv_exposed"> <b>Children &lt;18months</b>       • If mother\'s HIV status is POSITIVE and no result for child.\n OR \n• If child antibody test shows POSITIVE.\n OR \n• If DNA PCR test is negative.
+    <string name="signs_hiv_exposed"> <b>Children &lt; 18 months</b>\n• If mother\'s HIV status is POSITIVE and no result for child.\n OR \n• If child antibody test shows POSITIVE.\n OR \n• If DNA PCR test is NEGATIVE.
 </string>
-    <string name="signs_suspected_symptomatic_hiv_infection">        • No test results for child or mother. \n• 2 or more of the following conditions:  \n\t\t -Severe Pneumonia\n\t\t -Candidiasis/thrush\n\t\t -Severe Sepsis\n or \n• An AIDS defining condition.
+     <string name="young_signs_hiv_exposed"> <b>Children &lt; 18 months</b>\n• If mother\'s HIV status is POSITIVE and no result for child.\n OR \n• If child antibody test shows POSITIVE.\n OR \n• If DNA PCR test is NEGATIVE.
 </string>
-    <string name="signs_unlikely_hiv_infection">        • If child is 18 &lt;months with UNKNOWN mother\'s HIV tests Negative \n• If child is above 18 months and tests antibody NEGATIVE.
+    <string name="signs_suspected_symptomatic_hiv_infection">        • No test results for child or mother. \n• 2 or more of the following conditions:  \n\t\t -Severe Pneumonia\n\t\t -Candidiasis/thrush\n\t\t -Severe Sepsis\n OR \n\n\t\t- An AIDS defining condition.
 </string>
-    <string name="young_risk_of_bacterial_infection">    • Baby &lt;1 day old and membranes ruptured for more than 18hrs before delivery or\n• Foul smelling liqour or\n• Mother being treated for antibiotics for infection or\n• Mother has fever: temperature above 38°C.
+     <string name="young_signs_suspected_symptomatic_hiv_infection">        • No test results for child or mother. \n• 2 or more of the following conditions:  \n\t\t -Severe Pneumonia\n\t\t -Candidiasis/thrush\n\t\t -Severe Sepsis\n OR \n\n\t\t- An AIDS defining condition.
+</string>
+    <string name="signs_unlikely_hiv_infection">        • If child is &lt; 18 months with UNKNOWN mother\'s HIV status tests antibody NEGATIVE \n• If child is above 18 months and tests antibody NEGATIVE.
+</string>
+     <string name="young_signs_unlikely_hiv_infection">• If child is &lt; 18 months with UNKNOWN mother\'s HIV status tests antibody NEGATIVE.
+</string>
+    <string name="young_risk_of_bacterial_infection">    • Baby &lt; 1 day old and membranes ruptured for more than 18hrs before delivery or\n• Foul smelling liqour or\n• Mother being treated for antibiotics for infection or\n• Mother has fever: temperature above 38°C.
 </string>
     <string name="young_risk_of_congenital_syphilis">        • Mother tested VDRL positive.
 </string>
@@ -971,15 +987,15 @@ Check for complications of Measles\n
 </string>
     <string name="young_treatment_no_jaundice">• Advise mother to give home care for the young infant.
 </string>
-    <string name="young_treatment_confirmed_hivinfection">• Treat, counsel and follow up existing infections.\n• Initiate or continue with Cotrimoxazole prophylaxis.\n• Give vitamin A.\n• Assess child\'s feeding and provide appropriate counselling to mother.\n• For children with positive TB contact, screen for TB and manage accordingly or refer to appropriate unit.\n• Follow up after one month.\n• Offer comprehensive management of HIV or refer to appropriate unit.
+    <string name="young_treatment_confirmed_hivinfection">• Treat, counsel and follow up existing infections.\n• Initiate or continue with Cotrimoxazole prophylaxis.\n• Give vitamin A.\n• Assess child\'s feeding and provide appropriate counselling to mother.\n• For children with positive TB contact, screen for TB and manage accordingly or refer to appropriate unit.\n• Follow up after one month.\n• Offer comprehensive management of HIV or refer to appropriate unit.<i>Follow the national ART guidelines for comprehensive HIV care of child</i>
 </string>
 <string name="treatment_hiv_exposed">• Treat, counsel and follow up existing infections.\n• Initiate or continue with Cotrimoxazole prophylaxis.\n• Give and continue with Nevirapine prophylaxisas per the national PMTCT guidelines.\n• Give vitamin A.\n• Assess child\'s feeding and provide appropriate counselling to mother.\n
     • Offer routine followup for growth and development,nutrition, immunization.\n• Follow up after 1 month.\n• Repeat HIV antibody test 9 months, if negative, repeat test again at 18 months and continue with normal Under fives clinic.\n
     • If antibody test at 9 months is POSITIVE, collect DBS sample for confirmatory DNA PCR test.
 </string>
-    <string name="young_treatment_hiv_exposed">• Treat, counsel and follow up existing infections.\n• Initiate or continue with Cotrimoxazole prophylaxis.\n• Give and continue with Nevirapine prophylaxisas per the national PMTCT guidelines.\n• Give vitamin A.\n• Assess child\'s feeding and provide appropriate counselling to mother.
+    <string name="young_treatment_hiv_exposed">• Treat, counsel and follow up existing infections.\n• Initiate or continue with Cotrimoxazole prophylaxis.\n• Give and continue with Nevirapine prophylaxis as per the national PMTCT guidelines.\n• Give vitamin A.\n• Assess child\'s feeding and provide appropriate counselling to mother.\n• Offer routine follow up for growth and development, nutrition, immunization.\n• Follow up after 1 month.\n• <i>*Refer to national ART guidelines/ job aids for comprehensive details on HIV care of the child.</i>
 </string>
-    <string name="young_treatment_symptomatic">• Treat, counsel and follow up existing infections.\n• Initiate Cotrimoxazole prophylaxis.\n• Give vitamin A.\n• Assess child\'s feeding and provide appropriate counselling to mother.\n   • Test to confirm HIV infection.\n• Follow up after one month.\n• Offer comprehensive management of HIV or refer to appropriate unit.
+    <string name="young_treatment_symptomatic">• Treat, counsel and follow up existing infections.\n• Initiate Cotrimoxazole prophylaxis.\n• Give vitamin A.\n• Assess child\'s feeding and provide appropriate counselling to mother.\n   • Test to confirm HIV infection.\n• Follow up after one month.\n• Offer comprehensive management of HIV or refer to appropriate unit.<i>Follow the national ART guidelines for comprehensive HIV care of child</i>
 </string>
     <string name="young_treatment_hiv_infection_unlikely">   • Manage presenting conditions according to IMCI and other recommended National guidelines.\n• Advise the mother about feeding and about her own health.
 </string>

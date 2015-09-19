@@ -76,13 +76,13 @@ public class Infant_IDTreatment_FeedingLow extends Fragment {
         pSubItemArrayList2 = new ArrayList<SubCategory>();
         pSubItemArrayList3 = new ArrayList<SubCategory>();
 
-        pSubItemArrayList.add(new SubCategory("Feeding Problem OR Low Birth Weight", mItemListArrayP1));
-        pSubItemArrayList.add(new SubCategory("No Feeding Problem OR Low Birth Weight", mItemListArrayP2));
+        pSubItemArrayList.add(new SubCategory("FEEDING PROBLEM OR LOW BIRTH WEIGHT", mItemListArrayP1));
+        pSubItemArrayList.add(new SubCategory("NO FEEDING PROBLEM OR LOW BIRTH WEIGHT", mItemListArrayP2));
 
 
-        pSubItemArrayList2.add(new SubCategory("Very Low Birth Weight", mItemListArray));
-        pSubItemArrayList2.add(new SubCategory("Low Birth Weight", mItemListArray2));
-        pSubItemArrayList2.add(new SubCategory("Normal Birth Weight", mItemListArray3));
+        pSubItemArrayList2.add(new SubCategory("VERY LOW BIRTH WEIGHT", mItemListArray));
+        pSubItemArrayList2.add(new SubCategory("LOW BIRTH WEIGHT", mItemListArray2));
+        pSubItemArrayList2.add(new SubCategory("NORMAL BIRTH WEIGHTS", mItemListArray3));
 		/*
 		 * pSubItemArrayList.add(new SubCategory("Color", mItemListArray));
 		 * pSubItemArrayList2.add(new SubCategory("Cloths", mItemListArray2));

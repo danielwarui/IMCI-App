@@ -81,10 +81,10 @@ public class Infant_IDTreatment_HIVExposure extends Fragment {
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Confirmed HIV infection", pSubItemArrayList));
-        pProductArrayList.add(new Product("HIV Exposed", pSubItemArrayList2));
-        pProductArrayList.add(new Product("Suspected Symptomatic HIV Infection", pSubItemArrayList3));
-        pProductArrayList.add(new Product("HIV Infection Unlikely", pSubItemArrayList3));
+        pProductArrayList.add(new Product("CONFIRMED HIV INFECTION", pSubItemArrayList));
+        pProductArrayList.add(new Product("HIV EXPOSED", pSubItemArrayList2));
+        pProductArrayList.add(new Product("SUSPECTED SYMPTOMATIC HIV INFECTION", pSubItemArrayList3));
+        pProductArrayList.add(new Product("HIV INFECTION UNLIKELY", pSubItemArrayList4));
 
 
         /***

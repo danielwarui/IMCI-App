@@ -149,8 +149,7 @@ public class What_to_Check_2_60 extends Activity {
 
                 }
                 if (groupPosition == 2 && childPosition == 3) {
-                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_Universal.class);
-                    intent.putExtra("Whattocheck", 14);
+                    Intent intent = new Intent(What_to_Check_2_60.this, Starter_Immunization.class);
                     startActivity(intent);
 
                 }

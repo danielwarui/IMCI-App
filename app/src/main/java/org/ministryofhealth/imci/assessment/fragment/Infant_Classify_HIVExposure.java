@@ -50,9 +50,9 @@ public class Infant_Classify_HIVExposure extends Fragment {
 */
 
         signsSevereDiseases = getString(R.string.young_signs_confirmed_hiv);
-        signsLocalBacteria = getString(R.string.signs_hiv_exposed);
-        signsUnlikelyBact = getString(R.string.signs_suspected_symptomatic_hiv_infection);
-        signsLowBodyTemp = getString(R.string.signs_unlikely_hiv_infection);
+        signsLocalBacteria = getString(R.string.young_signs_hiv_exposed);
+        signsUnlikelyBact = getString(R.string.young_signs_suspected_symptomatic_hiv_infection);
+        signsLowBodyTemp = getString(R.string.young_signs_unlikely_hiv_infection);
 		/*
          * Third level String variables
 		 */
@@ -81,10 +81,10 @@ public class Infant_Classify_HIVExposure extends Fragment {
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Confirmed HIV infection", pSubItemArrayList));
-        pProductArrayList.add(new Product("HIV Exposed", pSubItemArrayList2));
-        pProductArrayList.add(new Product("Suspected Symptomatic HIV Infection", pSubItemArrayList3));
-        pProductArrayList.add(new Product("HIV Infection Unlikely", pSubItemArrayList3));
+        pProductArrayList.add(new Product("CONFIRMED HIV INFECTION", pSubItemArrayList));
+        pProductArrayList.add(new Product("HIV EXPOSED", pSubItemArrayList2));
+        pProductArrayList.add(new Product("SUSPECTED SYMPTOMATIC HIV INFECTION", pSubItemArrayList3));
+        pProductArrayList.add(new Product("HIV INFECTION UNLIKELY", pSubItemArrayList4));
 
 
         /***

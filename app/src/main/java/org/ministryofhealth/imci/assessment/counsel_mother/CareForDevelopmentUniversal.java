@@ -82,7 +82,7 @@ public class CareForDevelopmentUniversal extends Activity {
         }
         // end of nvp sections
         else if (id == 10) {
-            getActionBar().setSubtitle("Infant Immunization Status");
+            getActionBar().setTitle("Infant Immunization Status");
             setContentView(R.layout.young_immunization_status);
 
         } else if (id == 11) {

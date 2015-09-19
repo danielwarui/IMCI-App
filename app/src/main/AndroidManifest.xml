@@ -47,7 +47,9 @@
         <activity
             android:name=".assessment.Starter_Universal"
             android:label="@string/lbl_assessment"></activity>
-
+        <activity
+            android:name=".assessment.Starter_Immunization"
+            android:label="@string/lbl_immunization"></activity>
         <activity
             android:name=".assessment.follow_up.FollowUpMain"
             android:label="@string/lbl_follow_up"></activity>

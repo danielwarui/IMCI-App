@@ -183,14 +183,7 @@ public class Starter_Universal extends FragmentActivity implements
                 mAdapter2_60HIV = new TabsPagerAdapterHIVExposure(getSupportFragmentManager());
                 viewPager.setAdapter(mAdapter2_60HIV);
                 break;
-            case 14:
 
-                Label = getResources().getString(R.string.lbl_immunization);
-                actionBar.setTitle(Label);
-
-                mAdapter2_60Immunization = new TabsPagerAdapterImmunization(getSupportFragmentManager());
-                viewPager.setAdapter(mAdapter2_60Immunization);
-                break;
             case 15:
                 Label = getResources().getString(R.string.lbl_malnutrition);
                 actionBar.setTitle(Label);
