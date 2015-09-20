@@ -30,7 +30,7 @@ public class IDTreatment_Fever extends Fragment {
     private LinearLayout mLinearListView;
     boolean isFirstViewClick = false;
     boolean isSecondViewClick = false;
-    String signsSevereFebrile, signsMalaria, signsnoMalaria,
+    String signsSevereFebrile, signsSevereFebriletwo, signsMalaria, signsnoMalaria,
             signsnoMalariaLow, signsSuspectedMeasles,
             signsSevereComplications,signsEye,signsNoEye;
 
@@ -44,10 +44,11 @@ public class IDTreatment_Fever extends Fragment {
         /*
          * Declaration of String variables
 		 */
-        signsSevereFebrile = getString(R.string.very_severe_febrile_treatment);
+        signsSevereFebrile = getString(R.string.very_severe_febrile_treatment_high);
         signsMalaria = getString(R.string.low_malaria_treatment);
         signsnoMalaria = getString(R.string.fever_no_malaria_treatment);
 
+        signsSevereFebriletwo = getString(R.string.very_severe_febrile_treatment_low_risk);
         signsnoMalariaLow = getString(R.string.fever_no_malaria_treatment);
 
         signsSuspectedMeasles = getString(R.string.suspected_measles_treatment);
@@ -60,6 +61,7 @@ public class IDTreatment_Fever extends Fragment {
 		/*
 		 * Third level String variables
 		 */
+
         ArrayList<ItemList> mItemListArray = new ArrayList<ItemList>();
         mItemListArray.add(new ItemList("", signsSevereFebrile));
 
@@ -68,6 +70,9 @@ public class IDTreatment_Fever extends Fragment {
 
         ArrayList<ItemList> mItemListArray3 = new ArrayList<ItemList>();
         mItemListArray3.add(new ItemList("", signsnoMalaria));
+
+        ArrayList<ItemList> mItemListArraytwo = new ArrayList<ItemList>();
+        mItemListArraytwo.add(new ItemList("", signsSevereFebriletwo));
 
         ArrayList<ItemList> mItemListArrayP1 = new ArrayList<ItemList>();
         mItemListArrayP1.add(new ItemList("", signsnoMalariaLow));
@@ -95,20 +100,20 @@ public class IDTreatment_Fever extends Fragment {
         pSubItemArrayList3 = new ArrayList<SubCategory>();
         pSubItemArrayList4 = new ArrayList<SubCategory>();
 
-        pSubItemArrayList.add(new SubCategory("Very Severe Febrile Disease", mItemListArray));
-        pSubItemArrayList.add(new SubCategory("Malaria", mItemListArray2));
-        pSubItemArrayList.add(new SubCategory("Fever: No Malaria", mItemListArray3));
+        pSubItemArrayList.add(new SubCategory("VERY SEVERE FEBRILE DISEASE", mItemListArray));
+        pSubItemArrayList.add(new SubCategory("MALARIA", mItemListArray2));
+        pSubItemArrayList.add(new SubCategory("FEVER: NO MALARIA", mItemListArray3));
 
 
-        pSubItemArrayList2.add(new SubCategory("Very Severe Febrile Disease", mItemListArray));
-        pSubItemArrayList2.add(new SubCategory("Malaria", mItemListArray2));
-        pSubItemArrayList2.add(new SubCategory("Fever: No Malaria", mItemListArrayP1));
+        pSubItemArrayList2.add(new SubCategory("VERY SEVERE FEBRILE DISEASE", mItemListArraytwo));
+        pSubItemArrayList2.add(new SubCategory("MALARIA", mItemListArray2));
+        pSubItemArrayList2.add(new SubCategory("FEVER: NO MALARIA", mItemListArrayP1));
 
-        pSubItemArrayList3.add(new SubCategory("Suspected MEASLES", mItemListArrayP2));
+        pSubItemArrayList3.add(new SubCategory("SUSPECTED MEASLES", mItemListArrayP2));
 
-        pSubItemArrayList4.add(new SubCategory("Severe Complications of MEASLES", mItemListArrayP3));
-        pSubItemArrayList4.add(new SubCategory("Eye OR Mouth Complications of MEASLES", mItemListArrayP4));
-        pSubItemArrayList4.add(new SubCategory("No Eye OR Mouth Complications of MEASLES", mItemListArrayP5));
+        pSubItemArrayList4.add(new SubCategory("SEVERE COMPLICATIONS OF MEASLES", mItemListArrayP3));
+        pSubItemArrayList4.add(new SubCategory("EYE OR MOUTH COMPLICATIONS OF MEASLES", mItemListArrayP4));
+        pSubItemArrayList4.add(new SubCategory("NO EYE OR MOUTH COMPLICATIONS OF MEASLES", mItemListArrayP5));
 		/*
 		 * pSubItemArrayList.add(new SubCategory("Color", mItemListArray));
 		 * pSubItemArrayList2.add(new SubCategory("Cloths", mItemListArray2));
@@ -228,7 +233,7 @@ public class IDTreatment_Fever extends Fragment {
                         .findViewById(R.id.imageSecondArrow);
                 final LinearLayout mLinearScrollThird = (LinearLayout) mLinearView2
                         .findViewById(R.id.linear_scroll_third);
-                if (j == 0) {
+                if (i == 0 && j == 0) {
                     mLinearView2.setBackgroundColor((Color
                             .parseColor("#ff69b4")));
                     mSubItemName.setBackgroundColor((Color
@@ -239,7 +244,7 @@ public class IDTreatment_Fever extends Fragment {
                             .parseColor("#ff69b4")));
 
                 }
-                if (j == 1) {
+                if (i == 0 && j == 1) {
                     mLinearView2.setBackgroundColor((Color
                             .parseColor("#FFFF00")));
                     mSubItemName.setBackgroundColor((Color
@@ -250,7 +255,7 @@ public class IDTreatment_Fever extends Fragment {
                             .parseColor("#FFFF00")));
 
                 }
-                if (j == 2) {
+                if (i == 0 && j == 2) {
                     mLinearView2.setBackgroundColor((Color
                             .parseColor("#90EE90")));
                     mSubItemName.setBackgroundColor((Color
@@ -262,6 +267,84 @@ public class IDTreatment_Fever extends Fragment {
 
                 }
 
+                if (i == 1 && j == 0) {
+                    mLinearView2.setBackgroundColor((Color
+                            .parseColor("#ff69b4")));
+                    mSubItemName.setBackgroundColor((Color
+                            .parseColor("#ff69b4")));
+                    mLinearSecondArrow.setBackgroundColor((Color
+                            .parseColor("#ff69b4")));
+                    mLinearScrollThird.setBackgroundColor((Color
+                            .parseColor("#ff69b4")));
+
+                }
+                if (i == 1 && j == 1) {
+                    mLinearView2.setBackgroundColor((Color
+                            .parseColor("#FFFF00")));
+                    mSubItemName.setBackgroundColor((Color
+                            .parseColor("#FFFF00")));
+                    mLinearSecondArrow.setBackgroundColor((Color
+                            .parseColor("#FFFF00")));
+                    mLinearScrollThird.setBackgroundColor((Color
+                            .parseColor("#FFFF00")));
+
+                }
+                if (i == 1 && j == 2) {
+                    mLinearView2.setBackgroundColor((Color
+                            .parseColor("#90EE90")));
+                    mSubItemName.setBackgroundColor((Color
+                            .parseColor("#90EE90")));
+                    mLinearSecondArrow.setBackgroundColor((Color
+                            .parseColor("#90EE90")));
+                    mLinearScrollThird.setBackgroundColor((Color
+                            .parseColor("#90EE90")));
+
+                }
+                if (i == 2 && j == 0) {
+                    mLinearView2.setBackgroundColor((Color
+                            .parseColor("#FFFF00")));
+                    mSubItemName.setBackgroundColor((Color
+                            .parseColor("#FFFF00")));
+                    mLinearSecondArrow.setBackgroundColor((Color
+                            .parseColor("#FFFF00")));
+                    mLinearScrollThird.setBackgroundColor((Color
+                            .parseColor("#FFFF00")));
+
+                }
+
+                if (i == 3 && j == 0) {
+                    mLinearView2.setBackgroundColor((Color
+                            .parseColor("#ff69b4")));
+                    mSubItemName.setBackgroundColor((Color
+                            .parseColor("#ff69b4")));
+                    mLinearSecondArrow.setBackgroundColor((Color
+                            .parseColor("#ff69b4")));
+                    mLinearScrollThird.setBackgroundColor((Color
+                            .parseColor("#ff69b4")));
+
+                }
+                if (i == 3 && j == 1) {
+                    mLinearView2.setBackgroundColor((Color
+                            .parseColor("#FFFF00")));
+                    mSubItemName.setBackgroundColor((Color
+                            .parseColor("#FFFF00")));
+                    mLinearSecondArrow.setBackgroundColor((Color
+                            .parseColor("#FFFF00")));
+                    mLinearScrollThird.setBackgroundColor((Color
+                            .parseColor("#FFFF00")));
+
+                }
+                if (i == 3 && j == 2) {
+                    mLinearView2.setBackgroundColor((Color
+                            .parseColor("#90EE90")));
+                    mSubItemName.setBackgroundColor((Color
+                            .parseColor("#90EE90")));
+                    mLinearSecondArrow.setBackgroundColor((Color
+                            .parseColor("#90EE90")));
+                    mLinearScrollThird.setBackgroundColor((Color
+                            .parseColor("#90EE90")));
+
+                }
                 if (isSecondViewClick == false) {
                     mLinearScrollThird.setVisibility(View.GONE);
                     mImageArrowSecond

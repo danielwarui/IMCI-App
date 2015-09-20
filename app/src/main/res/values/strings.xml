@@ -354,11 +354,12 @@ Is there ear pain?\n
 Is there ear discharge? If yes, how long?\n
 <b><u>LOOK, AND FEEL </u></b>\n
 •   Look for pus draining from the ear.\n•   Feel for tender swelling behind the ear?
-</string>
-    <string name="look_60_malnutrition"><b><u>ASK:</u></b> Is there history of TB contact?\n\n
+\n\n <b>Classify EAR PROBLEM</b>
+    </string>
+    <string name="look_60_malnutrition"><b><u>ASK:</u> Is there history of TB contact?</b>\n\n
 <b><u>LOOK, LISTEN, FEEL</u></b> \n
 •   Take the child\’s weight and plot it against mother / child health booklet to determine the z-score.\n•   Take the child\’s length/height for age and plot on mother /child health booklet to determine the z_score.\n•   Determine the growth patter:  is the growth faltering?(Weight curve is flattening or dropping for at least 2 consecutive months? )\n•   Look for oedema of both feet\n•   Look for visible severe wasting.\n\n
-For children aged 6 months up to 59 months, determine MUAC: \n•   &lt; 11.5cm\n•   11.5-12.5cm\n•   12.5-13.5cm\n
+For children aged 6 months up to 59 months, determine MUAC: \n•   &lt; 11.5cm\n•   11.5 - 12.5cm\n•   12.5 - 13.5cm\n
 Determine Z score for the same : \n•   &lt;-3\n•   -3 to &lt; -2\n•   -2 to &lt; -1\n•    -1 to +2\n\n
 </string>
     <string name="look_60_anaemia"><b>Look for palmar pallor</b>, is it: \n•   Severe  palmar pallor?\n•   Some palmar pallor?\n•   No palmar pallor?
@@ -723,7 +724,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
     <string name="signs_mastoditis">        • Tender swelling behind the ear\n
 </string>
-    <string name="signs_acute_ear_infection">        • Pus is seen draining from the ear or\n• Discharge is reported for less than 14 days or,ear pain\n
+    <string name="signs_acute_ear_infection">        • Pus is seen draining from the ear or\n• Discharge is reported for less than 14 days, or \n• Ear pain\n
 </string>
     <string name="signs_chronic_infection">        • Pus is seen draining from the ear or discharge is reported for 14 days or more.
 </string>
@@ -737,7 +738,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
     <string name="signs_fever_no_malaria_low">       • No general danger sign or.\n• No stiff neck.\n• Malaria test negative.
 </string>
-    <string name="signs_suspected_measles">        • Generalized rash of measles and \n• One of: cough,runny nose or red eyes.
+    <string name="signs_suspected_measles">Generalized rash of measles and \n• One of: cough,runny nose or red eyes.
 </string>
     <string name="signs_severe_complications_of_measles">Any general danger sign or\n        • Clouding of cornea or.\n• Deep or extensive mouth ulcers.
 </string>
@@ -954,7 +955,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
     </string-array>
 
     <string name="Malaria_Treatment"><b>MALARIA\n</b>•  Give Artemether + Lumefantrine (AL).\n
-•   Give one dose of paracetamol in clinic for high fever (>38.5°C).\n
+•   Give one dose of paracetamol in clinic for high fever (≥38.5°C).\n
 •   Give Vitamin A.\n
 •   Follow up in 2 days if fever persists.\n
 •   Advise when to return immediately .\n
@@ -1029,11 +1030,11 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
     <string name="dysentry_treatment">• Treat with Ciproflaxacin \n• Give vitamin A \n• Give Zinc Sulphate \n• Follow-up in 2 Days
 </string>
-    <string name="very_severe_febrile_treatment">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol  \n• Treat the child to prevent low blood sugar\n• Give one dose of paracetamol in clinic for high fever( >38.5°C  )
+    <string name="very_severe_febrile_treatment_high">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol  \n• Treat the child to prevent low blood sugar\n• Give one dose of paracetamol in clinic for high fever( ≥38.5°C  )\n• Admit or refer URGENTLY to hospital.
 </string>
 <string name="very_severe_febrile_treatment_low_risk">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol  \n• Treat the child to prevent low blood sugar\n• Check for HIV infection\n• Give one dose of paracetamol in clinic for high fever( >38.5°C  )
 </string>
-    <string name="fever_no_malaria_treatment">• Give one dose of paracetamol in clinic for high fever( >38.5°C  )\n• Assess for other posible causes of fever \n• Follow up in two days if fever persists\n
+    <string name="fever_no_malaria_treatment">• Give one dose of paracetamol in clinic for high fever( ≥38.5°C  )\n• Assess for other posible causes of fever \n• Follow up in two days if fever persists\n
         • Advise when to return immediately\n• Check for HIV infection.\n
         • If fever is present every day for more than 7 days assess further or refer
 </string>
@@ -1051,14 +1052,14 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
     <string name="lblsuspected_measles">SUSPECTED MEASLES</string>
 
 
-    <string name="low_malaria_treatment">•  Give Artemether + Lumefantrine (AL).\n•   Give one dose of paracetamol in clinic for high fever (>38.5°C).\n•   Give Vitamin A.\n•   Follow up in 2 days if fever persists.\n•   Advise when to return immediately .\n•   If fever is present every day > 7 days assess further or refer.\n
+    <string name="low_malaria_treatment">•  Give Artemether + Lumefantrine (AL).\n•   Give one dose of paracetamol in clinic for high fever (≥38.5°C).\n•   Give Vitamin A.\n•   Follow up in 2 days if fever persists.\n•   Advise when to return immediately .\n•   If fever is present every day > 7 days assess further or refer.\n
 </string>
-    <string name="severe_febrile_disease_treatment">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol \n• treat the child to prevent low blood sugar \n• Give one dose of paracetamol in clinic for high fever( >38.5°C  )
+    <string name="severe_febrile_disease_treatment">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol \n• treat the child to prevent low blood sugar \n• Give one dose of paracetamol in clinic for high fever( ≥38.5°C  )
 </string>
 
-    <string name="eye_mouth_measles_treatment">• Give Vitamin A \n• If pus draining from the eye, treat eye infection with tetracycline eye ointment\n• If mouth ulcers,treat with gentian voilet or nystatin\n• Follow-up in two days\n• If child has no indication for referral,notify and draw blood sample for confirmation of measles
+    <string name="eye_mouth_measles_treatment">• Give Vitamin A \n• If pus draining from the eye, treat eye infection with tetracycline eye ointment\n• If mouth ulcers,treat with gentian voilet or nystatin\n• Follow-up in two days\n• If child has no indication for referral, notify and draw blood sample for confirmation of measles
 </string>
-    <string name="no_eye_mouth_treatment"> • Give vitamin A if not received in the last 1 month\n • If child has no indication for referral,draw blood and send for confirmation
+    <string name="no_eye_mouth_treatment"> • Give vitamin A if not received in the last 1 month\n • If child has no indication for referral, draw blood and send for confirmation
 </string>
     <string name="mastoditis_treatment">• Give first dose of Chloramphenicol \n• Give first dose of paracetamol for pain\n• Admit or refer URGENTLY to hospital.
 </string>
