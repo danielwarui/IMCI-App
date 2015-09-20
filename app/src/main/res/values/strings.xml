@@ -382,12 +382,13 @@ If Mother is POSITIVE conduct rapid test on child as the child is exposed.
 \t\tFor how long?\n
 \t\tIs there blood in the stool? \n\n
 <b><u>LOOK, LISTEN, FEEL</u></b>
-        \n•   Look at the child’s general condition.\n•   Is the child:\n• Lethargic or unconscious?\n• Restless and irritable?\n\n
-• Look for sunken eyes.\n
- \n•   Offer the child fluid. Is the child:\n• Not able to drink or drinking poorly?\n
+        \n•   Look at the child’s general condition.\nIs the child:\n\t• Lethargic or unconscious?\n\t• Restless and irritable?\n
+• Look for sunken eyes.
+ \n\n•   Offer the child fluid. Is the child:\n• Not able to drink or drinking poorly?\n
  • Drinking eargerly,thirsty?
-        \n\n• Pinch the skin of the abdomen. Does it go back:\n\t • Very slowly (longer than 2 sec.)?\n\t• Slowly?\n\t• Immediately?
-</string>
+        \n\n• Pinch the skin of the abdomen. Does it go back:\n\t• Very slowly (longer than 2 sec.)?\n\t• Slowly?\n\t• Immediately?
+\n\n<b>Classify Diarrhoea</b>
+    </string>
     <string name="look_young_hiv"><b><u>ASK</u></b>\n
     • Ask for mother\'s HIV status to establish child\'s HIV exposure.Is it: \n
     \t\t-Reactive.\n
@@ -658,37 +659,46 @@ For how long?\n\n
 •   2 months up to 12 months: fast breathing is 50 breaths per minute or more.\n•   12 months up to 5 years: fast breathing is 40 breaths per minute or more.\n
 </string>
     <string name="fever_assessment">
+        (by history or feels hot or temperature 37.5°C* or above)\n\n
 <b><u>IF YES ASK </u></b>\n\n
-Has the child travelled to a high risk Malaria area in the last one month ?\n
-<b><u>THEN ASK:</u></b> \n
-For how long?\n
-If more than 7 days , has fever been present every day?\n
-Has the child had signs of measles within the last 3 months?\n
+Has the child travelled to a high risk Malaria area in the last one month?\n
+<b>Decide Malaria Risk: high, low or no risk.</b> \n\n
+        <b><u>THEN ASK:</u></b>
+\n• For how long?
+\n• If more than 7 days, has fever been present every day?
+\n• Has the child had signs of measles within the last 3 months?\n\n
 <b><u>LOOK AND FEEL</u></b> \n
 •   Look and feel for stiff neck.\n
-•   Look for runny nose.\n
-•   Look for signs of measles: \n
-• Generalized rash and one of these: runny nose, cough or red eyes.
-• Look for any other cause of fever.\n\n
+•   Look for runny nose.
+\n\nLook for signs of MEASLES:
+\n• Generalized rash and one of these: runny nose, cough or red eyes.
+\n• Look for any other cause of fever***.\n\n
 
-DO A MALARIA TEST\n
-IF Test is positive\n
-\t P.falciparum PRESENT and\n
-\t P.vivax PRESENT\n\n
-or ELSE \n
-\t P.falciparum ABSENT and\n
-\t P.vivax ABSENT\n
-\n
+<b>DO A MALARIA TEST:</b>
+        \nIf NO general danger sign or stiff neck.
+        \n\n• <b><u>High Malaria Risk: </u></b>
+        Do a malaria test in all fever cases.
+        \n\n• <b><u>Low Malaria Risk: </u></b>
+        Do a malaria test if no obvious cause of fever
+        \n\n• <b><u>No Malaria Risk: </u></b>
+        Do a malaria test if no obvious cause of fever
+        \n\n<b>TEST POSITIVE</b>
+\n\t• P.falciparum PRESENT
+\n\t• P.vivax PRESENT
+        \n\n<b>TEST NEGATIVE</b>
+\n\t• P.falciparum ABSENT or P.vivax ABSENT
 
-NOTE: if you can’t test, don’t withhold treatment\n\n
+        \n\n<b>Classify Fever</b>
 
-Check for complications of Measles\n
+\n\n<b>NOTE: if you can’t test, don’t withhold treatment</b>\n\n
+
+<b>Check for complications of Measles</b>\n
 •   Look for mouth ulcers, are they deep or extensive?\n
 •   Look for pus draining from the eye.\n
 •   Look for clouding of their cornea.\n
 </string>
 
-    <string name="signs_severe_pneumonia">      • Any general danger sign OR\n• Chest indrawing OR\n• Stridor in calm child\n.
+    <string name="signs_severe_pneumonia">      • Any general danger sign OR\n• Chest indrawing OR\n• Stridor in calm child. \n
 </string>
     <string name="signs_pneumonia">        • Fast Breathing\n
 </string>
@@ -701,7 +711,7 @@ Check for complications of Measles\n
 </string>
     <string name="signs_no_dehydration">Not enough signs to classify as some or severe dehydration.\n
 </string>
-    <string name="signs_some_dehydration">Two of the following signs:\n• Restless and irritable\n• Sunken eyes\n• Skin pinch goes back slowly.
+    <string name="signs_some_dehydration">Two of the following signs:\n• Restless and irritable\n• Sunken eyes\n• Drinks eagerly, thirsty\n• Skin pinch goes back slowly.
 </string>
     <string name="signs_severe_dehydration">Two of the following signs:\n• Lethargic or unconscious\n• Sunken eyes\n• Not able to drink or drink poorly\n• Skin pinch goes back very slowly.\n
 </string>
@@ -962,20 +972,20 @@ Check for complications of Measles\n
 </string>
     <string name="severe_dehydration">
       <b>If child has no other severe classification:</b>\n
-        &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.Advise the mother to continue breatsfeeding.\n
+        &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way. Advise the mother to continue breatsfeeding.\n
         \n\n\t\t\t\t<b>OR</b>\n\nIf child has no other severe classification:
-        \t\n• Give fluid for severe dehdration(Plan C)\t\n• Give vitamin A \t\n• Give Zinc Sulphate \n• If there is no other severe classification\n• If child is 2yrs or older and there is cholera in your area give Erythromycin \n
+        \t\n• Give fluid for severe dehdration(Plan C)\t\n• Give vitamin A \t\n• Give Zinc Sulphate \n\n If there is no other severe classification\n• If child is 2yrs or older and there is cholera in your area give Erythromycin \n
 </string>
     <string name="some_dehydration_treatment"><b>If the child also has a severe classification:</b>\n
         &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.Advise the mother to continue breatsfeeding.\n
         \n\n\t\t\t\t<b>OR</b>\n\nIf child has no other severe classification:
-        • Give fluid and food for some dehydration(Plan B)\n• Give vitamin A \n• Give Zinc Sulphate \n\n• Advise the mother when to return immediately.\n• Follow-up in 2days if not improving\n
+        \n• Give fluid and food for some dehydration(Plan B)\n• Give vitamin A \n• Give Zinc Sulphate \n\n• Advise the mother when to return immediately.\n• Follow-up in 2days if not improving.\n
 </string>
     <string name="no_dehydration_treatment">
         - If the child also has a severe classification \n
-        &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.Advise the mother to continue breatsfeeding.\n
+        &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way. Advise the mother to continue breatsfeeding.\n
        \n\n\t\t\t\t<b>OR</b>\n\nIf child has no other severe classification:
-        • Give fluid and food for some dehydration(Plan A) \n• Give vitamin A\n• Give Zinc Sulphate\n\n• Advise the mother when to return immediately\n• Follow-up in 5 days if not improving\n
+        \n• Give fluid and food for some dehydration(Plan A) \n• Give vitamin A\n• Give Zinc Sulphate\n\n• Advise the mother when to return immediately\n• Follow-up in 5 days if not improving.\n
 </string>
     <string name="severe_persistent_diarrhoea_treatment">• Treat dehydration before referral unless the child has another severe classification \n• Give vitamin A \n• Give Zinc Sulphate\n• Give Multivitamin / Mineral supplements \n• Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way\n
 </string>
