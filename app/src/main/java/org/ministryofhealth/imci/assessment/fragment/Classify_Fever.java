@@ -95,20 +95,20 @@ public class Classify_Fever extends Fragment {
         pSubItemArrayList3 = new ArrayList<SubCategory>();
         pSubItemArrayList4 = new ArrayList<SubCategory>();
 
-        pSubItemArrayList.add(new SubCategory("Very Severe Febrile Disease", mItemListArray));
-        pSubItemArrayList.add(new SubCategory("Malaria", mItemListArray2));
-        pSubItemArrayList.add(new SubCategory("Fever: No Malaria", mItemListArray3));
+        pSubItemArrayList.add(new SubCategory("VERY SEVERE FEBRILE DISEASE", mItemListArray));
+        pSubItemArrayList.add(new SubCategory("MALARIA", mItemListArray2));
+        pSubItemArrayList.add(new SubCategory("FEVER: NO MALARIA", mItemListArray3));
 
 
-        pSubItemArrayList2.add(new SubCategory("Very Severe Febrile Disease", mItemListArray));
-        pSubItemArrayList2.add(new SubCategory("Malaria", mItemListArray2));
-        pSubItemArrayList2.add(new SubCategory("Fever: No Malaria", mItemListArrayP1));
+        pSubItemArrayList2.add(new SubCategory("VERY SEVERE FEBRILE DISEASE", mItemListArray));
+        pSubItemArrayList2.add(new SubCategory("MALARIA", mItemListArray2));
+        pSubItemArrayList2.add(new SubCategory("FEVER: NO MALARIA", mItemListArrayP1));
 
-        pSubItemArrayList3.add(new SubCategory("Suspected Measles", mItemListArrayP2));
+        pSubItemArrayList3.add(new SubCategory("SUSPECTED MEASLES", mItemListArrayP2));
 
-        pSubItemArrayList4.add(new SubCategory("Severe Complications of Measles", mItemListArrayP3));
-        pSubItemArrayList4.add(new SubCategory("Eye OR Mouth Complications of Measles", mItemListArrayP4));
-        pSubItemArrayList4.add(new SubCategory("No Eye OR Mouth Complications of Measles", mItemListArrayP5));
+        pSubItemArrayList4.add(new SubCategory("SEVERE COMPLICATIONS OF MEASLES", mItemListArrayP3));
+        pSubItemArrayList4.add(new SubCategory("EYE OR MOUTH COMPLICATIONS OF MEASLES", mItemListArrayP4));
+        pSubItemArrayList4.add(new SubCategory("NO EYE OR MOUTH COMPLICATIONS OF MEASLES≥", mItemListArrayP5));
 		/*
 		 * pSubItemArrayList.add(new SubCategory("Color", mItemListArray));
 		 * pSubItemArrayList2.add(new SubCategory("Cloths", mItemListArray2));

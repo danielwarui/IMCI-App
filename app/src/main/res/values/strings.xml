@@ -615,17 +615,18 @@ Is it: \n
 \t\t-Non reactive\n
 \t\t-Unknown\n• Ask if child has had any TB contact.\n\n
 <u>LOOK, FEEL AND  DIAGNOSE:</u> \n\n
- <b> Child &lt;18months\n</b>  • If Mother’s HIV status  is unknown, conduct an  antibody test (rapid test)  on mother or child to
+ <b> Child ≤ 18 months\n</b>  • If Mother’s HIV status  is unknown, conduct an  antibody test (rapid test)  on mother or child to
 determine HIV exposure.\n• If mother  is or child’s  antibody test is  POSITIVE  the child  is HIV exposed.\n
 Take DBS  for DNA PCR  testing at six weeks or  earliest contact thereafter.\n\n
-<u>Child &gt;18 months</u>\n
+<u>Child ≥ 18 months</u>\n
 If mother\'s antibody test is POSITIVE, the child is exposed. Conduct an antibody test on child.\n
-\nPRESUMPTIVE SYMPTOMATIC DIAGNOSIS OF HIV INFECTION IN CHILDREN 18MONTHS\n\n
+\n<b>PRESUMPTIVE SYMPTOMATIC DIAGNOSIS OF HIV INFECTION IN CHILDREN 18 MONTHS</b>\n\n
 <u>LOOK and FEEL</u>\n
 •   Pneumonia\n
 •   Oral Candidiasis / thrush\n
 •   Severe sepsis\n
 •   Other AIDS defining conditions\n
+        \n\n<b>Classify HIV status</b>
 </string>
     <string name="young_eyeinfection">    CHECK FOR EYE INFECTIONS\n
 <b><u>IF YES, ASK:</u></b>  \n
@@ -1032,7 +1033,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
     <string name="very_severe_febrile_treatment_high">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol  \n• Treat the child to prevent low blood sugar\n• Give one dose of paracetamol in clinic for high fever( ≥38.5°C  )\n• Admit or refer URGENTLY to hospital.
 </string>
-<string name="very_severe_febrile_treatment_low_risk">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol  \n• Treat the child to prevent low blood sugar\n• Check for HIV infection\n• Give one dose of paracetamol in clinic for high fever( >38.5°C  )
+<string name="very_severe_febrile_treatment_low_risk">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol  \n• Treat the child to prevent low blood sugar\n• Give one dose of paracetamol in clinic for high fever( ≥38.5°C )\n• Check for HIV infection\n• Admit or refer URGENTLY to hospital.
 </string>
     <string name="fever_no_malaria_treatment">• Give one dose of paracetamol in clinic for high fever( ≥38.5°C  )\n• Assess for other posible causes of fever \n• Follow up in two days if fever persists\n
         • Advise when to return immediately\n• Check for HIV infection.\n
@@ -1081,11 +1082,9 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
     <string name="anaemia_treatment">• Assess the child\'s feeding and counsel the mother on feeding \n• If growth is faltering for 2 consecutive months,assess further or refer to the hospital \n• Give Iron and Folate\n• Give vitamin A \n• Give Artemether + Lumefantrine (AL) if high malaria risk\n• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months \n• If T.B. contact positive assess further or refer.\n• Check for HIV infection\n• Advise mother when to come immediately\n• Follow up in 14 days
 </string>
-    <string name="no_anaemia_treatment">• If the child is &lt; 2 years old assess the child\'s feeding and counsel the
-mother on feeding.  \n
-      • If child has a feeding problem follow up in  5 days.\n
-• Give Mebendazole or Albendazole if child is 1 year or older and has not had a dose in the previous 6 months.
-• Advice mother on when to return immediately.
+    <string name="no_anaemia_treatment">• If the child is less than 2 years old assess the child\'s feeding and counsel the
+mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n• Give Mebendazole or Albendazole if child is 1 year or older and has not had a dose in the previous 6 months.
+\n• Advice mother on when to return immediately.
 </string>
 <string name="for_any_sick">
     <b>FOR ANY SICK CHILD:</b>\n
@@ -1136,7 +1135,8 @@ mother on feeding.  \n
 • Assess child\'s feeding and provide appropriate counseling to mother \n
 • For children with positive TB contact,screen for TB and manage accordingly or refer to appropriate unit\n
 • Follow up after one month.\n
-• Offer comprehensive management ofHIV or refer to appropriate unit
+• Offer comprehensive management of HIV or refer to appropriate unit. \n  *Follow the national ART guidelines for comprehensive HIV care of the child.
+
 </string>
     <string name="hiv_exposed_treatment">• Treat, counsel and follow up existing infection\n
 • Initiate or continue with Cotrimoxazole prophylaxis\n
@@ -1147,6 +1147,7 @@ mother on feeding.  \n
 • Follow up after one month \n
 • Repeat HIV antibody test at 9 Months, if negative, repeat test again at 18 months and continue with normal under fives clinic\n
 • If antibody test at 9 months is positive, collect DBS sample for confirmatory DNA PCR test.
+        \n\n*Refer to national ART guidelines/ job aids for comprehensive details on HIV care of the child
 </string>
     <string name="ad_follow_up_pneumonia">        After 2 days \n
  • Check the child for general danger signs.\n
