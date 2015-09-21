@@ -2,6 +2,7 @@ package org.ministryofhealth.imci.assessment.counsel_mother;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.MenuItem;
 
 import org.ministryofhealth.imci.R;
 
@@ -12,10 +13,18 @@ public class FeedingAdvice_NotBreastfeed extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setHomeButtonEnabled(true);
         getActionBar().setSubtitle("HIV positive mother chosen not to breastfeed");
         setContentView(R.layout.feeding_advice_not_breastfeeding);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        onBackPressed();
+        return true;
+
+    }
     @Override
     public void onStart() {
         // TODO Auto-generated method stub

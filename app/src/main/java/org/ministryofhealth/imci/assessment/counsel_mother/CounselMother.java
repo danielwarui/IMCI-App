@@ -174,7 +174,7 @@ public class CounselMother extends Activity{
         List<String> careDev = new ArrayList<String>();
         // adding sublists to the entity top250
         careDev.add("Age up to 4 months");
-        careDev.add("Age 4 up to six months");
+        careDev.add("Age 4 months up to 6 months");
         careDev.add("6 months up to 12 months");
         careDev.add("12 months up to 2 years");
         careDev.add("2 years and older");
@@ -214,14 +214,7 @@ public class CounselMother extends Activity{
     public boolean onOptionsItemSelected(MenuItem item) {
         onBackPressed();
         return true;
-	   /* switch (item.getItemId()) {
-	    // Respond to the action bar's Up/Home button
-	    case android.R.id.home:
-	        NavUtils.navigateUpFromSameTask(this);
-	        return true;
-	    }
-	    return super.onOptionsItemSelected(item);
-	*/
+
     }
     @Override
     public void onStart() {

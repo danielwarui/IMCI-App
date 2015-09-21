@@ -33,6 +33,8 @@ public class Counsel_CareforDevelopment extends Activity {
         setContentView(R.layout.activity_mainforexplistview);
         getActionBar().setDisplayHomeAsUpEnabled(true);
         getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setTitle("Counsel the mother");
+        getActionBar().setSubtitle("Counsel the caregiver about care for development problems");
 
         // get the listview
         expListView = (ExpandableListView) findViewById(R.id.lvExp);
@@ -82,7 +84,7 @@ public class Counsel_CareforDevelopment extends Activity {
             }
         });
 
-        // Listview on child click listener
+        expListView.setFocusable(false);
         expListView.setClickable(false);
     }
 
@@ -153,14 +155,7 @@ public class Counsel_CareforDevelopment extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         onBackPressed();
         return true;
-	   /* switch (item.getItemId()) {
-	    // Respond to the action bar's Up/Home button
-	    case android.R.id.home:
-	        NavUtils.navigateUpFromSameTask(this);
-	        return true;
-	    }
-	    return super.onOptionsItemSelected(item);
-	*/
+
     }
 
     @Override

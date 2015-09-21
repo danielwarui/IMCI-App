@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.graphics.Matrix;
 import android.graphics.PointF;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
@@ -11,18 +12,18 @@ import android.widget.ImageView;
 import org.ministryofhealth.imci.R;
 
 public class CareForDevelopmentUniversal extends Activity {
-    private String HIVlbl;
+    static final int NONE = 0;
+    static final int DRAG = 1;
+    static final int ZOOM = 2;
     ImageView imageDetail;
     Matrix matrix = new Matrix();
     Matrix savedMatrix = new Matrix();
     PointF startPoint = new PointF();
     PointF midPoint = new PointF();
     float oldDist = 1f;
-    static final int NONE = 0;
-    static final int DRAG = 1;
-    static final int ZOOM = 2;
     int mode = NONE;
     int id = 0;
+    private String HIVlbl;
 
     /**
      * Called when the activity is first created.
@@ -30,26 +31,33 @@ public class CareForDevelopmentUniversal extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setHomeButtonEnabled(true);
         setRowIdFromIntent();
         HIVlbl = getResources().getString(R.string.lbl_hiv);
         if (id == 0) {
             getActionBar().setTitle("Recommendations for Care for Development");
+            getActionBar().setSubtitle("Age up to 4 months");
             setContentView(R.layout.care_for_development_upto_4months);
 
         } else if (id == 1) {
             getActionBar().setTitle("Recommendations for Care for Development");
+            getActionBar().setSubtitle("Age 4 months up to 6 months");
             setContentView(R.layout.care_for_development_4_6);
 
         } else if (id == 2) {
             getActionBar().setTitle("Recommendations for Care for Development");
+            getActionBar().setSubtitle("6 months up to 12 months");
             setContentView(R.layout.care_for_development_upto_6_12);
 
         } else if (id == 3) {
             getActionBar().setTitle("Recommendations for Care for Development");
+            getActionBar().setSubtitle("12 months up to 2 years");
             setContentView(R.layout.care_for_develpmont_upto_12_2years);
 
         } else if (id == 4) {
             getActionBar().setTitle("Recommendations for Care for Development");
+            getActionBar().setSubtitle("2 years and older");
             setContentView(R.layout.care_for_development_upto_2years_and_older);
 
         }
@@ -191,5 +199,12 @@ public class CareForDevelopmentUniversal extends Activity {
         super.onStart();
         System.out.println("----main activity---onStart---");
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        onBackPressed();
+        return true;
+
     }
 }

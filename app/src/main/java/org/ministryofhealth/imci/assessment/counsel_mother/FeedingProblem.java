@@ -82,7 +82,7 @@ public class FeedingProblem extends Activity {
             }
         });
 
-        // Listview on child click listener
+        expListView.setFocusable(false);
         expListView.setClickable(false);
     }
 
@@ -154,14 +154,7 @@ public class FeedingProblem extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         onBackPressed();
         return true;
-	   /* switch (item.getItemId()) {
-	    // Respond to the action bar's Up/Home button
-	    case android.R.id.home:
-	        NavUtils.navigateUpFromSameTask(this);
-	        return true;
-	    }
-	    return super.onOptionsItemSelected(item);
-	*/
+
     }
 
     @Override

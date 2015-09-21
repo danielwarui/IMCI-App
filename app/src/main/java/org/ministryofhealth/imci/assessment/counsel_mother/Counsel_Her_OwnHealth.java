@@ -33,6 +33,8 @@ public class Counsel_Her_OwnHealth extends Activity {
         setContentView(R.layout.activity_mainforexplistview);
         getActionBar().setDisplayHomeAsUpEnabled(true);
         getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setTitle("Counsel the mother");
+        getActionBar().setSubtitle("Counsel the mother about her own health");
 
         // get the listview
         expListView = (ExpandableListView) findViewById(R.id.lvExp);
@@ -84,6 +86,7 @@ public class Counsel_Her_OwnHealth extends Activity {
 
         // Listview on child click listener
         expListView.setClickable(false);
+        expListView.setFocusable(false);
     }
 
     /*
@@ -138,14 +141,7 @@ public class Counsel_Her_OwnHealth extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         onBackPressed();
         return true;
-	   /* switch (item.getItemId()) {
-	    // Respond to the action bar's Up/Home button
-	    case android.R.id.home:
-	        NavUtils.navigateUpFromSameTask(this);
-	        return true;
-	    }
-	    return super.onOptionsItemSelected(item);
-	*/
+
     }
 
     @Override

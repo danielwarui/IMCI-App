@@ -3,6 +3,7 @@ package org.ministryofhealth.imci.assessment.counsel_mother;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 
 import org.ministryofhealth.imci.R;
@@ -15,6 +16,8 @@ public class Counsel_Mother_Fluids extends Activity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setTitle("Counsel the mother");
+        getActionBar().setSubtitle("Counsel the mother on fluids and when to return");
         setContentView(R.layout.fluids_counsel_mother);
         findViewById(R.id.followUp).setOnClickListener(this);
         findViewById(R.id.whenToRet).setOnClickListener(this);
@@ -26,6 +29,13 @@ public class Counsel_Mother_Fluids extends Activity implements View.OnClickListe
         super.onStart();
         System.out.println("----Fragmentactivity---onStart---");
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        onBackPressed();
+        return true;
+
     }
     @Override
     public void onClick(View v) {

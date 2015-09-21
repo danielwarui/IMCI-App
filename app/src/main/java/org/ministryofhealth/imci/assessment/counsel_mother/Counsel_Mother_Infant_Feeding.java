@@ -2,10 +2,10 @@ package org.ministryofhealth.imci.assessment.counsel_mother;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
-import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
@@ -27,6 +27,8 @@ public class Counsel_Mother_Infant_Feeding extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		getActionBar().setDisplayHomeAsUpEnabled(true);
+		getActionBar().setHomeButtonEnabled(true);
 		getActionBar().setSubtitle("Counsel mother on infant feeding");
 		setContentView(R.layout.counsel_mother_on_infant_feeding);
 
@@ -79,22 +81,8 @@ public class Counsel_Mother_Infant_Feeding extends Activity {
 		});
 
 		// Listview on child click listener
-		expListView.setOnChildClickListener(new OnChildClickListener() {
-
-			@Override
-			public boolean onChildClick(ExpandableListView parent, View v,
-					int groupPosition, int childPosition, long id) {
-				// TODO Auto-generated method stub
-
-				/*if(groupPosition == 0){
-				 Intent intent = new Intent(getApplicationContext(),
-			               Young_Treatment_Confirmed_Hiv*//*Sypmtoms_and_treatment*//*.class);
-				    startActivity(intent);
-				}
-			*/
-				return false;
-			}
-		});
+		expListView.setFocusable(false);
+		expListView.setClickable(false);
 	}
 
 	/*
@@ -124,6 +112,13 @@ public class Counsel_Mother_Infant_Feeding extends Activity {
 
 		listDataChild.put(listDataHeader.get(0), malaria); // Header, Child data
 		listDataChild.put(listDataHeader.get(1), Dehydration);
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		onBackPressed();
+		return true;
+
 	}
 	@Override
 	public void onStart() {
