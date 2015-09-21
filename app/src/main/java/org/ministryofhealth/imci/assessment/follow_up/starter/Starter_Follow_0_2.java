@@ -6,20 +6,21 @@ import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.view.MenuItem;
 
 import org.ministryofhealth.imci.R;
-import org.ministryofhealth.imci.assessment.follow_up.adapters.YoungTabsPagerFollowThrushMouth;
 import org.ministryofhealth.imci.assessment.follow_up.adapters.YoungTabsPagerFollowBacterial;
 import org.ministryofhealth.imci.assessment.follow_up.adapters.YoungTabsPagerFollowDiarr;
 import org.ministryofhealth.imci.assessment.follow_up.adapters.YoungTabsPagerFollowEyeInfection;
 import org.ministryofhealth.imci.assessment.follow_up.adapters.YoungTabsPagerFollowFeeding;
 import org.ministryofhealth.imci.assessment.follow_up.adapters.YoungTabsPagerFollowJaundice;
 import org.ministryofhealth.imci.assessment.follow_up.adapters.YoungTabsPagerFollowLowWeight;
+import org.ministryofhealth.imci.assessment.follow_up.adapters.YoungTabsPagerFollowThrushMouth;
 
 public class Starter_Follow_0_2 extends FragmentActivity
 		implements ActionBar.TabListener {
-	private ViewPager viewPager;
 	int id;
+	private ViewPager viewPager;
 	private YoungTabsPagerFollowBacterial Adapter;
 	private YoungTabsPagerFollowEyeInfection Adapter1;
 	private YoungTabsPagerFollowJaundice Adapter2;
@@ -35,6 +36,8 @@ public class Starter_Follow_0_2 extends FragmentActivity
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		getActionBar().setDisplayHomeAsUpEnabled(true);
+		getActionBar().setHomeButtonEnabled(true);
 		setContentView(R.layout.starter_0_2);
 		// Initialization
 		setRowIdFromIntent();
@@ -155,6 +158,13 @@ public class Starter_Follow_0_2 extends FragmentActivity
 
 	@Override
 	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		onBackPressed();
+		return true;
+
 	}
 	@Override
 	public void onStart() {

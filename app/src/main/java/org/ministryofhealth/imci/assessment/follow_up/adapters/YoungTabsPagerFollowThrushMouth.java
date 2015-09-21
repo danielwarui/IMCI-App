@@ -5,8 +5,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import org.ministryofhealth.imci.assessment.follow_up.Ad_Young_Follow_Up_LocalBacterial;
-import org.ministryofhealth.imci.assessment.follow_up.Young_Follow_Up_Local_BacterialInfection;
+import org.ministryofhealth.imci.assessment.follow_up.Ad_Young_Follow_Up_ThrushMouthUlcers;
+import org.ministryofhealth.imci.assessment.follow_up.Young_Follow_Up_ThrushMouth_Ulcers;
 
 public class YoungTabsPagerFollowThrushMouth extends FragmentPagerAdapter {
 
@@ -19,11 +19,9 @@ public class YoungTabsPagerFollowThrushMouth extends FragmentPagerAdapter {
 
 		switch (index) {
 		case 0:
-			// Top Rated fragment activity
-			return new Ad_Young_Follow_Up_LocalBacterial();
+			return new Ad_Young_Follow_Up_ThrushMouthUlcers();
 		case 1:
-			// Games fragment activity
-			return new Young_Follow_Up_Local_BacterialInfection();
+			return new Young_Follow_Up_ThrushMouth_Ulcers();
 	
 		}
 

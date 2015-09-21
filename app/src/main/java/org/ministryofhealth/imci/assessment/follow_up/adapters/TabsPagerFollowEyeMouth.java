@@ -18,10 +18,8 @@ public class TabsPagerFollowEyeMouth extends FragmentPagerAdapter {
 
 		switch (index) {
 		case 0:
-			// Top Rated fragment activity
 			return new Ad_Follow_Up_Eye_Mouth();
 		case 1:
-			// Games fragment activity
 			return new Follow_Up_Eye_Mouth();
 	
 		}

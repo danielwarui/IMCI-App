@@ -82,6 +82,7 @@ public class Follow_Up_Dysentry extends Fragment{
 
 		// Listview on child click listener
 		elv.setFocusable(false);
+		elv.setClickable(false);
 		
 		return v;
 	}
@@ -91,6 +92,15 @@ public class Follow_Up_Dysentry extends Fragment{
 	 */
 	private void prepareListData() {
 
+		String one, two, three, four, excpone, excptwo, excpthree;
+		one = getResources().getString(R.string.young_dysentry_child_dehydrated);
+		two = getResources().getString(R.string.young_dysentry_child_no_stools);
+		three = getResources().getString(R.string.young_dysentry_child_conditions_same);
+		excpone = getResources().getString(R.string.young_dysentry_exception);
+		excptwo = getResources().getString(R.string.young_dysentry_exception_two);
+		excpthree = getResources().getString(R.string.young_dysentry_exception_three);
+		four = getResources().getString(R.string.young_dysentry_child_fewer);
+
 		listDataHeader = new ArrayList<String>();
 		listDataChild = new HashMap<String, List<String>>();
 
@@ -98,24 +108,33 @@ public class Follow_Up_Dysentry extends Fragment{
 		listDataHeader.add("Dehydrated");
 		listDataHeader.add("number of stools, amount of blood in stools...");
 		listDataHeader.add("the condition is the same");
+		listDataHeader.add("fewer stools, less blood in the stools, less fever, less abdominal pain, and eating better");
+		listDataHeader.add("Exception: Admit or refer URGENTLY to hospital");
 
 		// Adding child data
 
-		List<String> generalsigns = new ArrayList<String>();
-		generalsigns.add("Severe Dehydration");
-		generalsigns.add("Some Dehydration");
-		generalsigns.add("No Dehydration");
+		List<String> dehydrated = new ArrayList<String>();
+		dehydrated.add(one);
 
-		
-		List<String> symptoms = new ArrayList<String>();
-		symptoms.add("Severe Prolonged Diarrhoea");
+		List<String> stools = new ArrayList<String>();
+		stools.add(two);
 
-		List<String> conditions = new ArrayList<String>();
-		conditions.add("Possible Serious Abdominal Problem");
+		List<String> condition = new ArrayList<String>();
+		condition.add(three);
 
-		listDataChild.put(listDataHeader.get(0), generalsigns); // Header, Child
-		listDataChild.put(listDataHeader.get(1), symptoms);
-		listDataChild.put(listDataHeader.get(2), conditions);
+		List<String> fewerStools = new ArrayList<String>();
+		fewerStools.add(four);
+
+		List<String> exception = new ArrayList<String>();
+		exception.add(excpone);
+		exception.add(excptwo);
+		exception.add(excpthree);
+
+		listDataChild.put(listDataHeader.get(0), dehydrated); // Header, Child
+		listDataChild.put(listDataHeader.get(1), stools);
+		listDataChild.put(listDataHeader.get(2), condition);
+		listDataChild.put(listDataHeader.get(3), fewerStools);
+		listDataChild.put(listDataHeader.get(4), exception);
 	}
 
 }

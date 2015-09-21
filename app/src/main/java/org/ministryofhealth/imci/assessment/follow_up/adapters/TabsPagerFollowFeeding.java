@@ -19,10 +19,8 @@ public class TabsPagerFollowFeeding extends FragmentPagerAdapter {
 
 		switch (index) {
 		case 0:
-			// Top Rated fragment activity
 			return new Ad_Follow_Up_Feeding_Problem();
 		case 1:
-			// Games fragment activity
 			return new Follow_Up_Feeding_Problem();
 	
 		}

@@ -1149,10 +1149,10 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
 • If antibody test at 9 months is positive, collect DBS sample for confirmatory DNA PCR test.
         \n\n*Refer to national ART guidelines/ job aids for comprehensive details on HIV care of the child
 </string>
-    <string name="ad_follow_up_pneumonia">        After 2 days \n
+    <string name="ad_follow_up_pneumonia">        <b>After 2 days </b>\n
  • Check the child for general danger signs.\n
  • Assess the child for cough or difficult breathing.\n
- Ask: \n
+ <b>Ask:</b> \n
     \t-Is the child breathing slower?\n
     \t-Is there less fever?\n
     \t-Is the child eating better?\n
@@ -1199,10 +1199,9 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
       Ask:  \n
       -Has the Diarrhoea stopped.\n
       -how many loose stools is the child having per day?</string>
-    <string name="follow_up_persistent_diarrhoea">       • If the diarrhoea has not stopped(child is still having 3 or more loose
-       stools per day), do a full reassessment of the child.Give any treatment needed. Then refer to hospital.\n
-       • If the diarrhoea has stopped(child having &lt; 3 loose stools per day).
-       Tel the mother to follow th usual feeding recommendations for the child\'s age, but give one extra meal every day 1 month.
+    <string name="follow_up_persistent_diarrhoea">       • If the <b>diarrhoea has not stopped(child is still having 3 or more loose
+       stools per day)</b>, do a full reassessment of the child.Give any treatment needed. Then refer to hospital.\n
+       • If the <b>diarrhoea has stopped(child having &lt; 3 loose stools per day)</b>, tell the mother to follow th usual feeding recommendations for the child\'s age, but give one extra meal every day 1 month.
        Ask her to continue giving zinc for total of 10 days.\n\n
        • NB: Attention to diet is an essential part of the management of a child with persistent diarrhoea.
 </string>
@@ -1217,13 +1216,13 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
        stools per day)</b>, do a full reassessment of the child.Give any treatment needed. Then refer to hospital.
 </string>
 
-<string name="ad_follow_up_wheezing">        After 2 days \n
-    • Check the child for general danger signs or chest indrawing\n
-    • Assess the child for cough or difficult breathing.\n\n
-     Ask:  \n
+<string name="ad_follow_up_wheezing">        <b>After 2 days</b>\n\n
+    Check the child for general danger signs or chest indrawing\n
+    Assess the child for cough or difficult breathing.\n\n
+     <b>Ask:</b>  \n
     \t-Is the child breathing slower?\n
-    \t-Is the child still wheezing.\n
-    \t-Is the child eating better.\n
+    \t-Is the child still wheezing?\n
+    \t-Is the child eating better?\n
 </string>
 <string name="follow_up_wheezing_child_under_1">• If <b>chest indrawing or a danger sign,fast breathing,poor feeding or wheeze</b> : Give intramuscular antibiotic.Then admit or
     refer URGENTLY to hospital .\n• If <b>breathing slower,no wheezing and eating better continue</b> the treatment for 5 days.</string>
@@ -1234,14 +1233,13 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
     • If <b>breathing slower,no wheezing and eating better continue</b> the treatment for 5 days.</string>
 
 
-    <string name="ad_follow_up_malaria">  • If fever persists after 2 days, or recurs within 14 days: \n
-  • Do a full reassessment of the child.\n
-  • Assess for other causes of fever\n
+    <string name="ad_follow_up_malaria">  • If fever persists after 2 days, or recurs within 14 days:
+  \n\n• Do a full reassessment of the child. see ASSESS &amp; CLASSIFY chart.\nAssess for other causes of fever.\n
 </string>
-    <string name="follow_up_malaria">  • If the child has any general danger sign or stiff neck, treat as VERY SEVERE FEBRILE DISEASE.\n
-  • If the child has any cause of fever other than malaria, provide treatment.\n
-  • If malaria is the only apparent cause of fever: Give Oral
-  DIHYDROARTEMISININ-PIPERAQUINE(DHA-PPQ).Give paracetamol.If child is under 5 kg and was given DHA-PPQ
+    <string name="follow_up_malaria">  • If the child has <b>any general danger sign or stiff neck</b>, treat as VERY SEVERE FEBRILE DISEASE.\n
+  • If the child has any <b>cause of fever other than malaria</b>, provide treatment.\n
+  • If <b>malaria is the only apparent cause of fever: Give Oral
+  DIHYDROARTEMISININ-PIPERAQUINE(DHA-PPQ).Give paracetamol</b>.If child is under 5 kg and was given DHA-PPQ
   assess further.
   • Advice mother to return again in 2 days if the fever persists
   \n\t\t - if the fever has been present every day 7 days,refer for assessment.
@@ -1265,13 +1263,12 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
 
 </string>
 
-    <string name="ad_follow_up_fever_nomalaria">        After 2 days:  \n
- • Do a full reassessment of the child.\n
- • Assess for other causes of fever.\n
+    <string name="ad_follow_up_fever_nomalaria">        After 2 days:
+        \n\n• Do a full reassessment of the child. see ASSESS &amp; CLASSIFY chart.\nAssess for other causes of fever.\n
 </string>
-    <string name="follow_up_fever_nomalaria">  • If the child has any general danger sign or stiff neck, treat as VERY SEVERE FEBRILE DISEASE.\n
-  • If the child has any cause of fever other then malaria, provide treatment.\n
-  • If malaria is the only apparent cause of fever: \n
+    <string name="follow_up_fever_nomalaria">  • If the child has <b>any general danger sign or stiff neck</b>, treat as VERY SEVERE FEBRILE DISEASE.\n
+  • If the child has any <b>cause of fever other then malaria</b>, provide treatment.\n
+  • If <b>malaria is the only apparent cause of fever:</b> \n
   \t\t -Treat with the first-line antimalarial.Give paracetamol.Advise the mother to return again in 2 days if the fever persists.\n
   \t\t -If fever has been present every day for 7 days, refer for assessment.
 </string>
@@ -1291,16 +1288,13 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
 </string>
 
 <string name="ad_follow_up_earinfection">
-   • Measure the child\'s temperature.\n\n
+    After 5 days \n\n• Reassess for ear problem. > See ASSESS &amp; CLASSIFY chart.
+   \n• Measure the child\'s temperature.\n\n
 </string>
-    <string name="follow_up_earinfection">    • If there is a tender swelling behind the ear or high fever, admit or refer URGENTLY
-    to hospital.\n
-    • <b>Acute ear infection</b>: If ear pain continues or discharge persists, treat with 5 more days of the same antibiotic.
-    Conitnue wicking to dry the ear.Follow up in 5 days.\n
-    • <b>Chronic ear infection</b>: Check that the mother is wicking the ear correctly.Encourage her to continue.
-    Review in 2 weeks.\n
-    If ear discharge continues for more than 2 months: Admit or refer to hospital.\n
-    • <b>If no ear pain or discharge,</b> praise the mother for her careful treatment.If she has not yet finished the 5 days of
+    <string name="follow_up_earinfection">    • If there is a <b>tender swelling behind the ear or high fever(38.5°C or above), admit or refer URGENTLY
+    to hospital.</b>\n• <b>Acute ear infection</b>: If ear pain continues or discharge persists, treat with 5 more days of the same antibiotic.
+    Conitnue wicking to dry the ear.Follow up in 5 days.\n• <b>Chronic ear infection</b>: Check that the mother is wicking the ear correctly.Encourage her to continue.
+    Review in 2 weeks.\nIf ear discharge continues for more than 2 months: Admit or refer to hospital.\n• <b>If no ear pain or discharge,</b> praise the mother for her careful treatment.If she has not yet finished the 5 days of
     antibiotic, tell her to use it till treatmentis completed.
 </string>
 <string name="follow_up_tender_swelling">
@@ -1323,9 +1317,9 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
     antibiotic, tell her to use it till treatmentis completed.
 </string>
 <string name="ad_follow_up_eyemouth">        After 2 days:  \n
- • Look for red eyes and pus draining from the eyes.\n
- • Look at mouth ulcers.\n
- • Smell the mouth.
+ Look for red eyes and pus draining from the eyes.\n
+ Look at mouth ulcers.\n
+ Smell the mouth.
 </string>
     <string name="follow_up_eyemouth">  • If pus is draining from the eye, ask the mother to describe how she has treated the eye infection.\n
   \t\t-If treatment has been correct, admit or refer to hospital.\n \t\t-If treatment has not been correct, teach mother correct treatment.\n
@@ -1333,13 +1327,15 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
   • If no pus or redness, stop the treatment.
 </string>
 <string name="follow_up_eyemouth_trt_eye">
-    • If <b>pus is draining from the eye</b>, ask the mother to describe how she has treated the eye infection.\n
+    <b>Treatment for Eye Infection:</b>
+    \n\n• If <b>pus is draining from the eye</b>, ask the mother to describe how she has treated the eye infection.\n
   \t\t-If treatment has been correct, admit or refer to hospital.\n \t\t-If treatment has not been correct, teach mother correct treatment.\n
   • If the <b>pus is gone but redness remains</b>,continue the treatment.\n
   • If <b>no pus or redness</b>, stop the treatment.
 </string>
 <string name="follow_up_eyemouth_trt_mouth">
-     • If <b>mouth ulcers are worse, or there is a very foul smell from the mouth,</b> admit or refer to hospital.\n
+    <b>Treatment for Mouth:</b>
+    \n\n• If <b>mouth ulcers are worse, or there is a very foul smell from the mouth,</b> admit or refer to hospital.\n
      • If <b>mouth ulcers or thrush are the same or better</b>, continue using half-strength gentian voilet or Nystatin
      for a total of 5 days.\n
       • If <b>Thrush is no better or is worse</b> consider symptomatic HIV infection.
@@ -1351,20 +1347,17 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
  • If the child is very low weight for age, ask the mother to return 14 days after the initial visit to measure the child\'s weight gain.
 </string>
     <string name="follow_up_pallor">        After 14 days:  \n
-   • Give iron and folate.Advise mother to return in 14 days for more Iron and Folate.\n
+   • Give iron and folate. Advise mother to return in 14 days for more Iron and Folate.\n
    • Continue giving Iron and Folate every 14 days for 2 months.\n
    • If the child has palmar pallor after 2 months, refer for assessment.
 </string>
-    <string name="ad_follow_up_lowweight">    After 14 days:  \n
-  • Weigh the child and determine if the child is still very low weight for age.
-reassess feeding\n
+    <string name="ad_follow_up_lowweight">   <b>After 14 days:</b>   \n• Weigh the child and determine if the child is still very low weight for age.
+Reassess feeding.\n
 </string>
-    <string name="follow_up_lowweight"> • If the child is no longer having a very low weight for age, praise the mother and encourage her to continue with
- the feeding until catch up growth is realized.\n
- • If child is still very low weight for age but gaining weight,encourage the mother to continue with feeding. Counsel the mother
+    <string name="follow_up_lowweight"> • If the child is <b>no longer having a very low weight for age</b>, praise the mother and encourage her to continue with
+ the feeding until catch up growth is realized.\n• If child is still <b>very low weight for age but gaining weight</b>,encourage the mother to continue with feeding. Counsel the mother
  about any feeding problem found. Ask the mother to return again in 14 days.\n
- Continue to see the child every one month until the child is normal weight for age.\n
- • Admit or refer if the child has lost weight. You do not think that feeding will improve or the child continues to lose weight.
+ Continue to see the child every one month until the child is normal weight for age.\n• <b>Admit or refer if</b> \nthe child has lost weight. You do not think that feeding will improve or the child continues to lose weight.
 </string>
 <string name="follow_up_lowweight_one">
    • Praise the mother and encourage her to continue with
@@ -1380,7 +1373,7 @@ reassess feeding\n
 </string>
 
 <string name="ad_follow_up_hivexposed">  <b>HIV INFECTED CHILD</b>      \n
- After 1 month:  \n
+ <b>After 1 month:</b>  \n
 • Assess the child\s general condition. Do a full reassessment.\n
 • treat the child for any condition found.\n
 • Ask for any feeding problems, counsel the mother about any new or continuing feeding problems.\n
@@ -1407,36 +1400,36 @@ guidelines.
 • Refer to early infant Diagnosis (EID) algorithm for confirmation of HIV status.\n
 • Refer to the HIV exposed infant follow up card and register for further follow up instructions.
 </string>
-    <string name="ad_young_follow_up_local_bacterialinfection">     After 2 Days:  \n
+    <string name="ad_young_follow_up_local_bacterialinfection">     <b>After 2 Days:</b>  \n
    • Look at the umbilicus.Is it red or draining pus?\n
    • Does redness extend to the skin?\n
    • Look at the skin pustules. Are there many or severe pustules?\n
    • Look at the eyes.Is there pus? Is there associated swelling or redness of the eyelids?\n\n
 </string>
-    <string name="young_follow_up_local_bacterialinfection">    • If pus or redness remains or is worse, admit or refer to hospital.\n
-    • If pus and redness are improved, tell the mother to continue giving the
+    <string name="young_follow_up_local_bacterialinfection">    • If <b>pus or redness remains or is worse</b>, admit or refer to hospital.\n
+    • If <b>pus and redness are improved</b>, tell the mother to continue giving the
     5 days of antibiotic and continue treating the local infection at home.
     \n\n
-    • If the pustules are same or worse, admit or refer to hospital.\n
-    • If skin pustules are improved, tell the mother to continue treating the local infection at home.
+    • If <b>the pustules are same or worse</b>, admit or refer to hospital.\n
+    • If <b>skin pustules are improved</b>, tell the mother to continue treating the local infection at home.
 </string>
     <string name="young_dysentry_child_dehydrated">If the child is dehydrated, treat dehydration according to classification.</string>
 <string name="young_dysentry_child_no_stools">If number of stools, amount of blood in stools, fever, abdominal pain, or eating is worse: \n<b>Admit or Refer to hospital</b>.
     </string>
     <string name="young_dysentry_child_conditions_same">If the condition is the same : add metronidazole to the treatment.</string>
     <string name="young_dysentry_exception">Exceptions....Admit or refer URGENTLY to hospital for the following:</string>
-    <string name="young_dysentry_exception_one">- is child &lt; 12 months old or</string>
+    <string name="young_dysentry_exception_one">- is child less than 12 months old or</string>
     <string name="young_dysentry_exception_two">- was dehydrated on the first visit or</string>
     <string name="young_dysentry_exception_three">- had measles within the last three months</string>
     <string name="young_dysentry_child_fewer">If fewer stools, less blood in the stools, less fever, less abdominal pain, and eating, continue giving ciproflaxin and zinc until finished.</string>
 
-<string name="ad_young_follow_up_jaundice">      After 2 Days:  \n
-   -Are palms and soles yellow?\n\n
+<string name="ad_young_follow_up_jaundice">      <b>After 2 Days:</b>\nLook for jaundice
+   \n\n-Are palms and soles yellow?\n\n
 </string>
     <string name="young_follow_up_jaundice">   \t\t • If palms and soles are yellow or age 14 days or more, admit or refer to hospital.\n
    \t\t • If palms and soles are not yellow and age is &lt; 14 days, advise on home care and when to return immediately.
 </string>
-    <string name="ad_young_follow_up_eyeinfection">    After 2 Days:  \n
+    <string name="ad_young_follow_up_eyeinfection">    <b>After 2 Days:</b>  \n
   • Look for pus from the eyes.\n\n
 </string>
     <string name="young_follow_up_eyeinfection">   \t\t • If pus draining from the eyes, ask the mother to describe how
@@ -1446,7 +1439,7 @@ guidelines.
    treatment and advise her to give treatment for 5 days. \nFollow up in 2 days.
 \n\t\t • If no pus, ask the mother to continue treatment for 5 days.
 </string>
-    <string name="ad_young_follow_up_diarrhoea">    After 2 Days: \n
+    <string name="ad_young_follow_up_diarrhoea">   <b>After 2 Days:</b>  \n
    • Ask if the diarrhoea stopped ?\n
 </string>
     <string name="young_follow_up_diarrhoea_not_stopped">   \t\t • If the diarrhoea has not stopped.Assess and treat the young infant for diarrhoea.\n
@@ -1454,7 +1447,7 @@ guidelines.
 <string name="young_follow_up_diarrhoea_stopped">
     \t\t • If the diarrhoea has stopped, tell the mother to continue exclusive breastfeeding . Advise her to continue giving zinc to complete 10 days.
 </string>
-    <string name="ad_young_follow_up_feeding_problem">        After 2 days : \n
+    <string name="ad_young_follow_up_feeding_problem">        <b>After 2 days:</b> \n
    Reassess feeding.\n
     • Ask   about any feeding problem found on the initial visit\n
 </string>
@@ -1466,7 +1459,7 @@ weight gain.
 \t\t Exception:   \n
 \tIf you do not think that feeding will improve, or if the young infant has not lost weight, admit or refer the child.
 </string>
-    <string name="ad_young_follow_up_lowweight">   After 2 days\n
+    <string name="ad_young_follow_up_lowweight">   <b>After 2 days</b>\n
  • Weigh the young infant and determine if the infant is still low weight for age.\n
 </string>
     <string name="young_follow_up_lowweight">   Reassess feeding.\n
@@ -1475,7 +1468,7 @@ weight gain.
    \t\t • If the young infant is low weight for age, ask the mother to return 14 days after the initial visit to measure the young infant\'s weight gain.
    \n\n
     Exception:  \n
-   If you do not think that feeding will improve, or if the young infant has lost weight, admit or refer the child.
+   If you do not think that feeding will improve, or if the young infant has <b>lost weight</b>, admit or refer the child.
 </string>
 <string name="young_follow_up_low_weight_one">
     Reassess feeding.\n
@@ -1495,12 +1488,12 @@ weight gain.
     If you do not think that feeding will improve, or if the young infant has <b>lost weight</b>, admit or refer to hospital.
 </string>
 
-    <string name="ad_young_follow_up_thrush_mouth">   After 2 days\n
-  • Look for ulcers or patches in the mouth ulcers(thrush).\n
+    <string name="ad_young_follow_up_thrush_mouth">  <b>After 2 days</b>
+        \nLook for ulcers or patches in the mouth ulcers(thrush).\n
 </string>
     <string name="young_follow_up_thrush_mouth">   Reassess feeding.\n
-   \t\t •If thrush or mouth ulcers are worse or the infant has problems with attachmentor sucking.admit or refer to hospital. \n
-   \t\t •If thrush or mouth ulcers are the same or better, and the baby is feeding well continue with Gentian or Nystatin for a total of 5 days. \n
+   \t\t •If <b>thrush or mouth ulcers are worse</b> or the infant has <b>problems with attachment or sucking</b>, admit or refer to hospital. \n
+   \t\t •If <b>thrush or mouth ulcers are the same or better</b>, and the baby is <b>feeding well</b> continue with Gentian or Nystatin for a total of 5 days. \n
 </string>
     <string name="young_severe">
         <b><u>ASK</u></b>\n

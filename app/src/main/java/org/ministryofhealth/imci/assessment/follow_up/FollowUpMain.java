@@ -16,6 +16,8 @@ public class FollowUpMain extends Activity implements View.OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+		getActionBar().setDisplayHomeAsUpEnabled(true);
+		getActionBar().setHomeButtonEnabled(true);
 		setContentView(R.layout.activity_follow_up);
 		findViewById(R.id.two_months).setOnClickListener(this);
 		findViewById(R.id.sixty_months).setOnClickListener(this);
@@ -47,10 +49,6 @@ switch (v.getId()){
 	public boolean onOptionsItemSelected(MenuItem item) {
 		onBackPressed();
 		return true;
-		/*
-		 * switch (item.getItemId()) { // Respond to the action bar's Up/Home
-		 * button case android.R.id.home: NavUtils.navigateUpFromSameTask(this);
-		 * return true; } return super.onOptionsItemSelected(item);
-		 */
+
 	}
 }

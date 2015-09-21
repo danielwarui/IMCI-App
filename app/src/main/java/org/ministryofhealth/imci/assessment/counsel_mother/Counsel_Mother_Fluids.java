@@ -16,6 +16,8 @@ public class Counsel_Mother_Fluids extends Activity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setHomeButtonEnabled(true);
         getActionBar().setTitle("Counsel the mother");
         getActionBar().setSubtitle("Counsel the mother on fluids and when to return");
         setContentView(R.layout.fluids_counsel_mother);

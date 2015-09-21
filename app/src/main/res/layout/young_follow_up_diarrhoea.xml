@@ -15,7 +15,17 @@
         android:layout_height="wrap_content"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="@string/ad_young_follow_up_diarrhoea"
+        android:text="@string/young_follow_up_diarrhoea_not_stopped"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/young_follow_up_diarrhoea_stopped"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#000000" />
 

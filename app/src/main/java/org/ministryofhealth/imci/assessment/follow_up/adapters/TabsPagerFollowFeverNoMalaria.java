@@ -19,10 +19,8 @@ public class TabsPagerFollowFeverNoMalaria extends FragmentPagerAdapter {
 
 		switch (index) {
 		case 0:
-			// Top Rated fragment activity
 			return new Ad_Follow_Up_Fever_No_Malaria();
 		case 1:
-			// Games fragment activity
 			return new Follow_Up_Fever_No_Malaria();
 	
 		}

@@ -70,11 +70,6 @@ public class Follow_Up_Pneumonia extends Fragment{
 
 			@Override
 			public void onGroupCollapse(int groupPosition) {
-//				elv.getChildAt(0).setBackgroundColor(Color.BLACK);
-
-		/*		Toast.makeText(getActivity(),
-						listDataHeader.get(groupPosition) + " Collapsed",
-						Toast.LENGTH_SHORT).show();*/
 
 			}
 		});
@@ -88,28 +83,32 @@ public class Follow_Up_Pneumonia extends Fragment{
 	 * Preparing the list data
 	 */
 	private void prepareListData() {
-		String one,two;
-		one = getResources().getString(R.string.counsel_mother_on_infant_feeding_ARV);
-		two = getResources().getString(R.string.counsel_mother_on_infant_feeding_replacement);
+		String one, two, three;
+		one = getResources().getString(R.string.followup_pneumonia_chest_indrawing);
+		two = getResources().getString(R.string.followup_pneumonia_breathing_rate);
+		three = getResources().getString(R.string.followup_pneumonia_breathing_slower);
 		
 
 		listDataHeader = new ArrayList<String>();
 		listDataChild = new HashMap<String, List<String>>();
 
 		// Adding child data
-		listDataHeader.add("1. Exclusive breastfeeding with ARVs");
-		listDataHeader.add("2. Exclusive replacement feeding");
+		listDataHeader.add("Chest indrawing or a general sign");
+		listDataHeader.add("Breathing rate, fever and eating not improved");
+		listDataHeader.add("Breathing slower, less fever, or eating better");
 
 		// Adding child data
-		// top250 is an entry of the major list
-		List<String> malaria = new ArrayList<String>();
-		// adding sublists to the entity top250
-		malaria.add(one);
-		
-		List<String> Dehydration = new ArrayList<String>();
-		Dehydration.add(two);
+		List<String> indrawing = new ArrayList<String>();
+		indrawing.add(one);
 
-		listDataChild.put(listDataHeader.get(0), malaria); // Header, Child data
-		listDataChild.put(listDataHeader.get(1), Dehydration);
+		List<String> fever = new ArrayList<String>();
+		fever.add(two);
+
+		List<String> slower = new ArrayList<String>();
+		slower.add(three);
+
+		listDataChild.put(listDataHeader.get(0), indrawing); // Header, Child data
+		listDataChild.put(listDataHeader.get(1), fever);
+		listDataChild.put(listDataHeader.get(2), slower);
 	}
 }

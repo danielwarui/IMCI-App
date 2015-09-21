@@ -24,8 +24,8 @@ import org.ministryofhealth.imci.assessment.follow_up.adapters.TabsPagerFollowWh
 
 public class Starter_Follow_0_60 extends FragmentActivity
         implements ActionBar.TabListener {
-    private ViewPager viewPager;
     int id;
+    private ViewPager viewPager;
     private TabsPagerFollowPneumonia Adapter1;
     private TabsPagerFollowPersistentDiarrhoea Adapter2;
     private TabsPagerFollowDysentry Adapter3;
@@ -60,7 +60,6 @@ public class Starter_Follow_0_60 extends FragmentActivity
                 Adapter1 = new TabsPagerFollowPneumonia(getSupportFragmentManager());
 
                 viewPager.setAdapter(Adapter1);
-//			actionBar.setHomeButtonEnabled(true);
                 actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
                 break;
@@ -70,11 +69,9 @@ public class Starter_Follow_0_60 extends FragmentActivity
                 getActionBar().setDisplayHomeAsUpEnabled(true);
                 actionBar = getActionBar();
                 actionBar.setSubtitle("Child --> Persistent Diarrhoea");
-                Adapter2 = new TabsPagerFollowPersistentDiarrhoea(
-                        getSupportFragmentManager());
+                Adapter2 = new TabsPagerFollowPersistentDiarrhoea(getSupportFragmentManager());
 
                 viewPager.setAdapter(Adapter2);
-//			actionBar.setHomeButtonEnabled(true);
                 actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
                 break;
 
@@ -87,7 +84,6 @@ public class Starter_Follow_0_60 extends FragmentActivity
                 Adapter3 = new TabsPagerFollowDysentry(getSupportFragmentManager());
 
                 viewPager.setAdapter(Adapter3);
-//			actionBar.setHomeButtonEnabled(true);
                 actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
                 break;
 
@@ -100,7 +96,6 @@ public class Starter_Follow_0_60 extends FragmentActivity
                 Adapter4 = new TabsPagerFollowWheezing(getSupportFragmentManager());
 
                 viewPager.setAdapter(Adapter4);
-//			actionBar.setHomeButtonEnabled(true);
                 actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
                 break;
 
@@ -113,7 +108,6 @@ public class Starter_Follow_0_60 extends FragmentActivity
                 Adapter5 = new TabsPagerFollowMalaria(getSupportFragmentManager());
 
                 viewPager.setAdapter(Adapter5);
-//			actionBar.setHomeButtonEnabled(true);
                 actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
                 break;
 
@@ -123,11 +117,9 @@ public class Starter_Follow_0_60 extends FragmentActivity
                 getActionBar().setDisplayHomeAsUpEnabled(true);
                 actionBar = getActionBar();
                 actionBar.setSubtitle("Child --> Fever: No Malaria");
-                Adapter6 = new TabsPagerFollowFeverNoMalaria(
-                        getSupportFragmentManager());
+                Adapter6 = new TabsPagerFollowFeverNoMalaria(getSupportFragmentManager());
 
                 viewPager.setAdapter(Adapter6);
-//			actionBar.setHomeButtonEnabled(true);
                 actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
                 break;
 
@@ -140,7 +132,6 @@ public class Starter_Follow_0_60 extends FragmentActivity
                 Adapter7 = new TabsPagerFollowEyeMouth(getSupportFragmentManager());
 
                 viewPager.setAdapter(Adapter7);
-//			actionBar.setHomeButtonEnabled(true);
                 actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
                 break;
 
@@ -154,7 +145,6 @@ public class Starter_Follow_0_60 extends FragmentActivity
                         getSupportFragmentManager());
 
                 viewPager.setAdapter(Adapter8);
-//			actionBar.setHomeButtonEnabled(true);
                 actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
                 break;
 
@@ -168,7 +158,6 @@ public class Starter_Follow_0_60 extends FragmentActivity
                         getSupportFragmentManager());
 
                 viewPager.setAdapter(Adapter9);
-//			actionBar.setHomeButtonEnabled(true);
                 actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
                 break;
 
@@ -181,7 +170,6 @@ public class Starter_Follow_0_60 extends FragmentActivity
                 Adapter10 = new TabsPagerFollowFeeding(getSupportFragmentManager());
 
                 viewPager.setAdapter(Adapter10);
-//			actionBar.setHomeButtonEnabled(true);
                 actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
                 break;
             case 10:
@@ -193,7 +181,6 @@ public class Starter_Follow_0_60 extends FragmentActivity
                 Adapter11 = new TabsPagerFollowPallor(getSupportFragmentManager());
 
                 viewPager.setAdapter(Adapter11);
-//			actionBar.setHomeButtonEnabled(true);
                 actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
                 break;
             case 11:
@@ -206,7 +193,6 @@ public class Starter_Follow_0_60 extends FragmentActivity
                         getSupportFragmentManager());
 
                 viewPager.setAdapter(Adapter12);
-//			actionBar.setHomeButtonEnabled(true);
                 actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
                 break;
 
