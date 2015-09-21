@@ -62,6 +62,7 @@ public class Oral_Antibiotic extends Activity {
                 setContentView(R.layout.young_give_zinc_sulphate);
                 break;
             case 10:
+                getActionBar().setTitle("Immunization Table");
                 setContentView(R.layout.immunization_table_2_60);
                 break;
 
