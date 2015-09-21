@@ -90,46 +90,42 @@ public class Oral_Drugs_0_2_At extends Activity {
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
                 if (groupPosition == 0 && childPosition == 0) {
-                    Intent intent = new Intent(Oral_Drugs_0_2_At.this,Treat_Child_Activity_0_2.class);
+                    Intent intent = new Intent(Oral_Drugs_0_2_At.this, Treat_Child_Activity_0_2.class);
                     intent.putExtra("position", 1);
                     startActivity(intent);
                 }
                 if (groupPosition == 1 && childPosition == 0) {
 
-                    Intent intent = new Intent(Oral_Drugs_0_2_At.this,Treat_Child_Activity_0_2.class);
+                    Intent intent = new Intent(Oral_Drugs_0_2_At.this, Treat_Child_Activity_0_2.class);
                     intent.putExtra("position", 2);
                     startActivity(intent);
 
                 }
-				if (groupPosition == 2 && childPosition == 0) {
+                if (groupPosition == 2 && childPosition == 0) {
                     Intent intent = new Intent(Oral_Drugs_0_2_At.this, Young_Treatment_Health_Facility.class);
-					startActivity(intent);
-
-				}
-				if (groupPosition == 3 && childPosition == 0) {
-					Intent intent = new Intent(Oral_Drugs_0_2_At.this,Young_Oral_Drugs_At_Home.class);
-					startActivity(intent);
-
-				}
-				if (groupPosition == 4 && childPosition == 0) {
-                    Intent intent = new Intent(Oral_Drugs_0_2_At.this, Young_Local_Infections_At_Home.class);
-                    intent.putExtra("position", 5);
-					startActivity(intent);
-
-				}
-				if (groupPosition == 5 && childPosition == 0) {
-					Intent intent = new Intent(Oral_Drugs_0_2_At.this,Young_Teach_Correct_Positioning.class);
-					intent.putExtra("position", 6);
-					startActivity(intent);
-
-				}
-               /* if (groupPosition == 6 && childPosition == 0) {
-                    Intent intent = new Intent(Oral_Drugs_0_2_At.this,Young_Home_Care.class);
-                    intent.putExtra("position", 6);
                     startActivity(intent);
 
-                }*/
+                }
+                if (groupPosition == 3 && childPosition == 0) {
+                    Intent intent = new Intent(Oral_Drugs_0_2_At.this, Young_Oral_Drugs_At_Home.class);
+                    startActivity(intent);
 
+                }
+                if (groupPosition == 4 && childPosition == 0) {
+                    Intent intent = new Intent(Oral_Drugs_0_2_At.this, Young_Local_Infections_At_Home.class);
+                    startActivity(intent);
+
+                }
+                if (groupPosition == 5 && childPosition == 0) {
+                    Intent intent = new Intent(Oral_Drugs_0_2_At.this, Young_Teach_Correct_Positioning.class);
+                    startActivity(intent);
+
+                }
+                if (groupPosition == 6 && childPosition == 0) {
+                    Intent intent = new Intent(Oral_Drugs_0_2_At.this, Young_Home_Care.class);
+                    intent.putExtra("position", 6);
+                    startActivity(intent);
+                }
                 return false;
             }
         });
@@ -141,6 +137,7 @@ public class Oral_Drugs_0_2_At extends Activity {
         return true;
 
     }
+
     /*
      * Preparing the list data
      */

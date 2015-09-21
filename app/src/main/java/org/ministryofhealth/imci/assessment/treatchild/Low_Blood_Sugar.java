@@ -24,4 +24,12 @@ public class Low_Blood_Sugar extends Activity{
 
 	}
 
+	@Override
+	protected void onStart() {
+		// TODO Auto-generated method stub
+		super.onStart();
+		System.out.println("----main activity---onStart---");
+		overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
+	}
+
 }

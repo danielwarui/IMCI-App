@@ -194,6 +194,9 @@
         <activity
             android:name=".assessment.counsel_mother.FeedingAdvice_NotBreastfeed"
             android:label="@string/app_name" />
+        <activity
+            android:name=".assessment.treatchild.Young_Home_Care"
+            android:label="@string/lbl_assessment"></activity>
 
     </application>
 

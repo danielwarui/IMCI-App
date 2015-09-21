@@ -113,6 +113,14 @@ public class CareForDevelopmentUniversal extends Activity {
             getActionBar().setTitle("When to Return");
             setContentView(R.layout.when_to_return);
 
+        } else if (id == 15) {
+            getActionBar().setTitle("Return for follow up");
+            setContentView(R.layout.when_to_return);
+
+        } else if (id == 16) {
+            getActionBar().setTitle("Advice on when to return for any of the following signs");
+            setContentView(R.layout.when_to_return);
+
         }
 //	  End of the NVP Section
         imageDetail = (ImageView) findViewById(R.id.imageview_zoomview);

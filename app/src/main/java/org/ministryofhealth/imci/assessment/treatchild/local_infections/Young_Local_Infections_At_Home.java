@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -33,9 +34,11 @@ public class Young_Local_Infections_At_Home extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+		getActionBar().setHomeButtonEnabled(true);
+		getActionBar().setDisplayHomeAsUpEnabled(true);
+		getActionBar().setTitle("Teach mother to treat local infections at home");
 		setContentView(R.layout.young_oral_drugs_at_home);
-		fiilliste = getResources().getStringArray(
-				R.array.young_local_infections_at_home);
+		fiilliste = getResources().getStringArray(R.array.young_local_infections_at_home);
 
 		vlist = (ListView) findViewById(R.id.list1_oral);
 		adapter = new ArrayAdapter<String>(this, R.layout.simple_list_check, fiilliste);
@@ -52,8 +55,7 @@ public class Young_Local_Infections_At_Home extends Activity {
 				// TODO Auto-generated method stub
 				if (position == 0 || position == 1 || position == 2){
 				super.getClass();
-				Intent intent = new Intent(getApplication(),
-						Young_Local_Infection_Instruct.class);
+					Intent intent = new Intent(getApplication(), Young_Local_Infection_Instruct.class);
 				intent.putExtra("Position", position);
 				startActivity(intent);
 				}else{
@@ -89,7 +91,7 @@ public class Young_Local_Infections_At_Home extends Activity {
 			            myDialog.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
 			                // do something when the button is clicked
 			                public void onClick(DialogInterface arg0, int arg1) {
-			                	
+
 			                 }
 			                });
 			            
@@ -101,9 +103,23 @@ public class Young_Local_Infections_At_Home extends Activity {
 	}
 
 	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		onBackPressed();
+		return true;
+
+	}
+	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+	}
+
+	@Override
+	protected void onStart() {
+		// TODO Auto-generated method stub
+		super.onStart();
+		System.out.println("----main activity---onStart---");
+		overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
 	}
 }

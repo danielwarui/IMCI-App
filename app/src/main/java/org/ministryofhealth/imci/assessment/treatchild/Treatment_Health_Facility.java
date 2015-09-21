@@ -11,22 +11,20 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 
+import org.ministryofhealth.imci.R;
 import org.ministryofhealth.imci.assessment.treatchild.healthfacility.Convulsing_Now;
 import org.ministryofhealth.imci.assessment.treatchild.healthfacility.Intramuscular_Antibiotic;
 import org.ministryofhealth.imci.assessment.treatchild.healthfacility.Treat_Wheezing;
 import org.ministryofhealth.imci.assessment.treatchild.healthfacility.Treatment_Severe_Malaria;
 
-import org.ministryofhealth.imci.R;
-
 public class Treatment_Health_Facility extends Activity {
-    private ListView vlist;
     EditText ara;
     String[] fiilliste;
     Intent intent;
-
     // String [] fiilliste=
     // getResources().getStringArray(R.array.fragment_array_treatment);
     ArrayAdapter<String> adapter;
+    private ListView vlist;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,6 +81,14 @@ public class Treatment_Health_Facility extends Activity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+
+    @Override
+    protected void onStart() {
+        // TODO Auto-generated method stub
+        super.onStart();
+        System.out.println("----main activity---onStart---");
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
     }
 }
 

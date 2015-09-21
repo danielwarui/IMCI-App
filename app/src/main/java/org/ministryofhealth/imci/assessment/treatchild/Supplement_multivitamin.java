@@ -11,15 +11,15 @@ import android.widget.ImageView;
 import org.ministryofhealth.imci.R;
 
 public class Supplement_multivitamin extends Activity{
+	static final int NONE = 0;
+	static final int DRAG = 1;
+	static final int ZOOM = 2;
 	 ImageView imageDetail;
 	 Matrix matrix = new Matrix();
 	 Matrix savedMatrix = new Matrix();
 	 PointF startPoint = new PointF();
 	 PointF midPoint = new PointF();
 	 float oldDist = 1f;
-	 static final int NONE = 0;
-	 static final int DRAG = 1;
-	 static final int ZOOM = 2;
 	 int mode = NONE;
 
 	 /** Called when the activity is first created. */
@@ -99,5 +99,13 @@ public class Supplement_multivitamin extends Activity{
 	  });
 
 	 }
+
+	@Override
+	protected void onStart() {
+		// TODO Auto-generated method stub
+		super.onStart();
+		System.out.println("----main activity---onStart---");
+		overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
+	}
 
 }

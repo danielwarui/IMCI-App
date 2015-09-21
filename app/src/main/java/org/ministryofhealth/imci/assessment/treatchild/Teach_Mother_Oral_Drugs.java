@@ -15,12 +15,12 @@ import org.ministryofhealth.imci.R;
 import org.ministryofhealth.imci.assessment.treatchild.oral_drugs.Oral_Antibiotic;
 
 public class Teach_Mother_Oral_Drugs extends Activity{
-	private ListView vlist;
 	EditText ara;
 	String[] fiilliste;
 	Intent intent;
-
 	ArrayAdapter<String> adapter;
+	private ListView vlist;
+
 @Override
 protected void onCreate(Bundle savedInstanceState) {
 	// TODO Auto-generated method stub
@@ -57,5 +57,13 @@ public boolean onCreateOptionsMenu(Menu menu) {
 	getMenuInflater().inflate(R.menu.main, menu);
 	return true;
 }
+
+	@Override
+	protected void onStart() {
+		// TODO Auto-generated method stub
+		super.onStart();
+		System.out.println("----main activity---onStart---");
+		overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
+	}
 }
 

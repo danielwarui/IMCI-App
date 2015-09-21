@@ -79,5 +79,13 @@ public boolean onCreateOptionsMenu(Menu menu) {
 	getMenuInflater().inflate(R.menu.main, menu);
 	return true;
 }
+
+	@Override
+	protected void onStart() {
+		// TODO Auto-generated method stub
+		super.onStart();
+		System.out.println("----main activity---onStart---");
+		overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
+	}
 }
 
