@@ -38,8 +38,7 @@ public class Young_Local_Infections_At_Home extends Activity {
 				R.array.young_local_infections_at_home);
 
 		vlist = (ListView) findViewById(R.id.list1_oral);
-		adapter = new ArrayAdapter<String>(this,
-				android.R.layout.simple_list_item_single_choice, fiilliste);
+		adapter = new ArrayAdapter<String>(this, R.layout.simple_list_check, fiilliste);
 
 		vlist.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
 		vlist.setAdapter(adapter);

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
@@ -34,7 +35,12 @@ public class Oral_Drugs_0_2_At extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setTitle("Treat the Infant");
+        getActionBar().setSubtitle("Age up to 2 months");
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
+
         setContentView(R.layout.what_to_check);
         System.out.println("----Secondactivity activity---onCreates---");
 
@@ -97,13 +103,11 @@ public class Oral_Drugs_0_2_At extends Activity {
                 }
 				if (groupPosition == 2 && childPosition == 0) {
                     Intent intent = new Intent(Oral_Drugs_0_2_At.this, Young_Treatment_Health_Facility.class);
-                    intent.putExtra("position", 3);
 					startActivity(intent);
 
 				}
 				if (groupPosition == 3 && childPosition == 0) {
 					Intent intent = new Intent(Oral_Drugs_0_2_At.this,Young_Oral_Drugs_At_Home.class);
-					intent.putExtra("position", 4);
 					startActivity(intent);
 
 				}
@@ -131,6 +135,12 @@ public class Oral_Drugs_0_2_At extends Activity {
         });
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        onBackPressed();
+        return true;
+
+    }
     /*
      * Preparing the list data
      */
@@ -179,7 +189,5 @@ public class Oral_Drugs_0_2_At extends Activity {
         listDataChild.put(listDataHeader.get(4), infections);
         listDataChild.put(listDataHeader.get(5), positioning);
         listDataChild.put(listDataHeader.get(6), home);
-
-        // data
     }
 }

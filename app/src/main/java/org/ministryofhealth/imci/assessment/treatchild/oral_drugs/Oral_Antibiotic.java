@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.graphics.Matrix;
 import android.graphics.PointF;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
@@ -11,6 +12,9 @@ import android.widget.ImageView;
 import org.ministryofhealth.imci.R;
 
 public class Oral_Antibiotic extends Activity {
+    static final int NONE = 0;
+    static final int DRAG = 1;
+    static final int ZOOM = 2;
     ImageView imageDetail;
     Matrix matrix = new Matrix();
     Matrix savedMatrix = new Matrix();
@@ -18,9 +22,6 @@ public class Oral_Antibiotic extends Activity {
     PointF midPoint = new PointF();
     float oldDist = 1f;
     int id;
-    static final int NONE = 0;
-    static final int DRAG = 1;
-    static final int ZOOM = 2;
     int mode = NONE;
 
     /**
@@ -29,40 +30,52 @@ public class Oral_Antibiotic extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         setRowIdFromIntent();
         switch (id) {
             case 0:
+                getActionBar().setTitle("Oral antibiotic");
                 setContentView(R.layout.oral_antibiotic);
                 break;
             case 1:
+                getActionBar().setTitle("Metronidazole");
                 setContentView(R.layout.metronidazole);
                 break;
             case 2:
+                getActionBar().setTitle("Oral antimalarial");
                 setContentView(R.layout.oral_antimalarial);
                 break;
             case 3:
+                getActionBar().setTitle("Vitamin A");
                 setContentView(R.layout.vitamin_a);
                 break;
             case 4:
+                getActionBar().setTitle("Iron folate");
                 setContentView(R.layout.iron_folate);
                 break;
             case 5:
+                getActionBar().setTitle("Zinc Sulphate");
                 setContentView(R.layout.zinc_sulphate);
                 break;
             case 6:
+                getActionBar().setTitle("Paracetamol for fever");
                 setContentView(R.layout.paracetamol_for_fever);
                 break;
             case 7:
+                getActionBar().setTitle("Mebendazole or albendazole");
                 setContentView(R.layout.mebendazole_or_albendazole);
                 break;
             case 8:
+                getActionBar().setTitle("Oral antibiotic");
                 setContentView(R.layout.young_appropriate_antibiotic);
                 break;
             case 9:
+                getActionBar().setTitle("Zinc sulphate");
                 setContentView(R.layout.young_give_zinc_sulphate);
                 break;
             case 10:
-                getActionBar().setTitle("Immunization Table");
+                getActionBar().setTitle("Immunization table");
                 setContentView(R.layout.immunization_table_2_60);
                 break;
 
@@ -141,6 +154,12 @@ public class Oral_Antibiotic extends Activity {
 
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        onBackPressed();
+        return true;
+
+    }
     private void setRowIdFromIntent() {
         Bundle extras = getIntent().getExtras();
         id = extras != null ? extras.getInt("Position") : null;

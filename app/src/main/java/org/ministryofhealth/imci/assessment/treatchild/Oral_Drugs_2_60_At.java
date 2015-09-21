@@ -3,6 +3,7 @@ package org.ministryofhealth.imci.assessment.treatchild;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
@@ -29,6 +30,10 @@ public class Oral_Drugs_2_60_At extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setTitle("Treat the Child");
+        getActionBar().setSubtitle("Age 2 months up to 5 years");
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
         setContentView(R.layout.what_to_check);
         System.out.println("----Secondactivity activity---onCreates---");
@@ -146,6 +151,12 @@ public class Oral_Drugs_2_60_At extends Activity {
         });
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        onBackPressed();
+        return true;
+
+    }
     /*
      * Preparing the list data
      */
@@ -191,7 +202,5 @@ public class Oral_Drugs_2_60_At extends Activity {
         listDataChild.put(listDataHeader.get(3), rehydrationTherapy);
         listDataChild.put(listDataHeader.get(4), malnutrition);
         listDataChild.put(listDataHeader.get(5), supp);
-
-        // data
     }
 }
