@@ -25,6 +25,7 @@ public class Teach_Mother_Oral_Drugs extends Activity{
 protected void onCreate(Bundle savedInstanceState) {
 	// TODO Auto-generated method stub
 	super.onCreate(savedInstanceState);
+	getActionBar().setTitle("Teach mother to give oral drugs at home");
 	setContentView(R.layout.teach_mother_oral_drugs);
 	fiilliste = getResources().getStringArray(R.array.trt_oral_drugs_at_home);
 

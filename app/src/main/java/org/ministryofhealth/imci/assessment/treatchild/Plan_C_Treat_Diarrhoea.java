@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.graphics.Matrix;
 import android.graphics.PointF;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
@@ -11,21 +12,23 @@ import android.widget.ImageView;
 import org.ministryofhealth.imci.R;
 
 public class Plan_C_Treat_Diarrhoea extends Activity {
+	static final int NONE = 0;
+	static final int DRAG = 1;
+	static final int ZOOM = 2;
 	ImageView imageDetail;
 	 Matrix matrix = new Matrix();
 	 Matrix savedMatrix = new Matrix();
 	 PointF startPoint = new PointF();
 	 PointF midPoint = new PointF();
 	 float oldDist = 1f;
-	 static final int NONE = 0;
-	 static final int DRAG = 1;
-	 static final int ZOOM = 2;
 	 int mode = NONE;
 
 	 /** Called when the activity is first created. */
 	 @Override
 	 public void onCreate(Bundle savedInstanceState) {
 	  super.onCreate(savedInstanceState);
+		 getActionBar().setHomeButtonEnabled(true);
+		 getActionBar().setDisplayHomeAsUpEnabled(true);
 		 getActionBar().setTitle("Rehydration Therapy Plan C");
 		 getActionBar().setSubtitle("Treat Severe Dehydration");
 	  setContentView(R.layout.plan_c_treat);
@@ -102,4 +105,18 @@ public class Plan_C_Treat_Diarrhoea extends Activity {
 
 	 }
 
+	@Override
+	protected void onStart() {
+		// TODO Auto-generated method stub
+		super.onStart();
+		System.out.println("----main activity---onStart---");
+		overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		onBackPressed();
+		return true;
+
+	}
 }

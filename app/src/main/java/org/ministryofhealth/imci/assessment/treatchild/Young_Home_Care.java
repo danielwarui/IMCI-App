@@ -23,6 +23,9 @@ public class Young_Home_Care extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setTitle("Advise mother on when to return");
         setContentView(R.layout.young_home_care);
 
         txt = (TextView) findViewById(R.id.textView10);

@@ -15,6 +15,7 @@ public class FeedingAdvice_NotBreastfeed extends Activity{
         super.onCreate(savedInstanceState);
         getActionBar().setDisplayHomeAsUpEnabled(true);
         getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setTitle("Feeding options: HIV exposed and infected");
         getActionBar().setSubtitle("HIV positive mother chosen not to breastfeed");
         setContentView(R.layout.feeding_advice_not_breastfeeding);
     }

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -17,8 +18,6 @@ public class Young_Teach_Correct_Positioning extends Activity{
 	EditText ara;
 	String[] fiilliste;
 	Intent intent;
-	// String [] fiilliste=
-	// getResources().getStringArray(R.array.fragment_array_treatment);
 	ArrayAdapter<String> adapter;
 	private ListView vlist;
 
@@ -26,12 +25,14 @@ public class Young_Teach_Correct_Positioning extends Activity{
 protected void onCreate(Bundle savedInstanceState) {
 	// TODO Auto-generated method stub
 	super.onCreate(savedInstanceState);
+	getActionBar().setHomeButtonEnabled(true);
+	getActionBar().setDisplayHomeAsUpEnabled(true);
+	getActionBar().setTitle("Teach correct positioning and attachment, for breastfeed");
 	setContentView(R.layout.young_teach_correct_positioning);
 	fiilliste = getResources().getStringArray(R.array.young_teach_correct_positioning);
 
 	vlist = (ListView) findViewById(R.id.list_correct_positioning);
-	adapter = new ArrayAdapter<String>(this,
-			android.R.layout.simple_list_item_single_choice, fiilliste);
+	adapter = new ArrayAdapter<String>(this, R.layout.simple_list_check, fiilliste);
 
 	vlist.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
 	vlist.setAdapter(adapter);
@@ -44,8 +45,7 @@ protected void onCreate(Bundle savedInstanceState) {
 				int position, long arg3) {
 			// TODO Auto-generated method stub
 				super.getClass();
-				Intent intent = new Intent(getApplication(),
-						Young_Teach_Correct_Positioning_Instruct.class);
+			Intent intent = new Intent(getApplication(), Young_Teach_Correct_Positioning_Instruct.class);
 				intent.putExtra("Position", position);
 				startActivity(intent);
 			
@@ -63,6 +63,12 @@ public boolean onCreateOptionsMenu(Menu menu) {
 	return true;
 }
 
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		onBackPressed();
+		return true;
+
+	}
 	@Override
 	protected void onStart() {
 		// TODO Auto-generated method stub

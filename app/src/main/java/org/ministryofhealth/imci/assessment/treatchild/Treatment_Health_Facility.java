@@ -21,8 +21,6 @@ public class Treatment_Health_Facility extends Activity {
     EditText ara;
     String[] fiilliste;
     Intent intent;
-    // String [] fiilliste=
-    // getResources().getStringArray(R.array.fragment_array_treatment);
     ArrayAdapter<String> adapter;
     private ListView vlist;
 
@@ -30,6 +28,7 @@ public class Treatment_Health_Facility extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
+        getActionBar().setTitle("Give this treatments in health facility only");
         setContentView(R.layout.treatment_healthy_facility);
         fiilliste = getResources().getStringArray(R.array.health_facility_only);
 

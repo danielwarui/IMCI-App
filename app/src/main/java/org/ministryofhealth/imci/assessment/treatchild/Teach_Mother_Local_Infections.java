@@ -24,6 +24,7 @@ public class Teach_Mother_Local_Infections extends Activity{
 @Override
 protected void onCreate(Bundle savedInstanceState) {
 	super.onCreate(savedInstanceState);
+	getActionBar().setTitle("Teach the mother to treat local infections at home");
 	setContentView(R.layout.teach_mother_local_infection);
 	fiilliste = getResources().getStringArray(R.array.trt_mother_local_infection);
 

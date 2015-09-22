@@ -48,11 +48,6 @@ public class Oral_Drugs_2_60_At extends Activity {
 
         // setting list adapter
         expListView.setAdapter(listAdapter);
-        /*
-         * expListView.expandGroup(0); expListView.expandGroup(1);
-		 * expListView.expandGroup(2); expListView.expandGroup(3);
-		 * expListView.expandGroup(4);
-		 */
 
         // Listview Group click listener
         expListView.setOnGroupClickListener(new OnGroupClickListener() {
@@ -100,38 +95,32 @@ public class Oral_Drugs_2_60_At extends Activity {
                 // TODO Auto-generated method stub
 
                 if (groupPosition == 0 && childPosition == 0) {
-                    Intent intent = new Intent(
-                            Oral_Drugs_2_60_At.this, Teach_Mother_Oral_Drugs.class);
+                    Intent intent = new Intent(Oral_Drugs_2_60_At.this, Teach_Mother_Oral_Drugs.class);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 1 && childPosition == 0) {
-                    Intent intent = new Intent(
-                            Oral_Drugs_2_60_At.this, Teach_Mother_Local_Infections.class);
+                    Intent intent = new Intent(Oral_Drugs_2_60_At.this, Teach_Mother_Local_Infections.class);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 2 && childPosition == 0) {
-                    Intent intent = new Intent(
-                            Oral_Drugs_2_60_At.this, Treatment_Health_Facility.class);
+                    Intent intent = new Intent(Oral_Drugs_2_60_At.this, Treatment_Health_Facility.class);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 3 && childPosition == 0) {
-                    Intent intent = new Intent(
-                            Oral_Drugs_2_60_At.this, Plan_A_Treat_Diarrhoea.class);
+                    Intent intent = new Intent(Oral_Drugs_2_60_At.this, Plan_A_Treat_Diarrhoea.class);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 3 && childPosition == 1) {
-                    Intent intent = new Intent(
-                            Oral_Drugs_2_60_At.this, Plan_B_Treat_Diarrhoea.class);
+                    Intent intent = new Intent(Oral_Drugs_2_60_At.this, Plan_B_Treat_Diarrhoea.class);
                     startActivity(intent);
 
                 }
                 if (groupPosition == 3 && childPosition == 2) {
-                    Intent intent = new Intent(
-                            Oral_Drugs_2_60_At.this, Plan_C_Treat_Diarrhoea.class);
+                    Intent intent = new Intent(Oral_Drugs_2_60_At.this, Plan_C_Treat_Diarrhoea.class);
                     startActivity(intent);
 
                 }
@@ -157,6 +146,14 @@ public class Oral_Drugs_2_60_At extends Activity {
         return true;
 
     }
+
+    @Override
+    protected void onStart() {
+        // TODO Auto-generated method stub
+        super.onStart();
+        System.out.println("----main activity---onStart---");
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
+    }
     /*
      * Preparing the list data
      */
@@ -170,7 +167,7 @@ public class Oral_Drugs_2_60_At extends Activity {
 
         // Adding child data
         listDataHeader.add("Teach mother to give oral drugs at home");
-        listDataHeader.add("Treat the mother to treat local infections at home");
+        listDataHeader.add("Teach the mother to treat local infections at home");
         listDataHeader.add("Give these treatment in health facility only");
         listDataHeader.add("Rehydration therapy & feeding for diarrhoea");
         listDataHeader.add("Rehydration therapy for diarrhoea for children with severe malnutrition");
