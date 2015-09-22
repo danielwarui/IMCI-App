@@ -94,7 +94,7 @@ public class CareForDevelopmentUniversal extends Activity {
             setContentView(R.layout.young_immunization_status);
 
         } else if (id == 11) {
-            getActionBar().setSubtitle(" Quinine Dosage");
+            getActionBar().setSubtitle("Quinine Dosage");
             setContentView(R.layout.quinine_dosage);
 
         }
