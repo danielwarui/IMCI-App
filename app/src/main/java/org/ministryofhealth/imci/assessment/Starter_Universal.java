@@ -7,6 +7,7 @@ import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.view.MenuItem;
 
 import org.ministryofhealth.imci.R;
 
@@ -26,7 +27,6 @@ public class Starter_Universal extends FragmentActivity implements
     private TabsPagerAdapterEarproblem mAdapter2_60Ear_Problem;
     private TabsPagerAdapterFever mAdapter2_60Fever;
     private TabsPagerAdapterHIVExposure mAdapter2_60HIV;
-    private TabsPagerAdapterImmunization mAdapter2_60Immunization;
     private TabsPagerAdapterMalnutrition mAdapter2_60Malnutrition;
 
     private String Label;
@@ -46,8 +46,8 @@ public class Starter_Universal extends FragmentActivity implements
         viewPager = (ViewPager) findViewById(R.id.pager);
         actionBar = getActionBar();
         loadTabPagerAdapter(id);
-
-        actionBar.setHomeButtonEnabled(false);
+        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
         // Adding Tabs
@@ -100,7 +100,12 @@ public class Starter_Universal extends FragmentActivity implements
         System.out.println("----Fragmentactivity---onStart---");
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
     }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        onBackPressed();
+        return true;
 
+    }
     private void loadTabPagerAdapter(int od) {
         switch (od) {
             case 1:

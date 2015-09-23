@@ -42,12 +42,6 @@ public class Classify_HIVExp extends Fragment {
         /*
          * Declaration of String variables
 		 */
-    /*    signsSevereDehydration = getString(R.string.signs_severe_dehydration);
-        signsSomeDehydration = getString(R.string.signs_some_dehydration);
-        noDehydration = getString(R.string.signs_no_dehydration);
-        severeProlonged = getString(R.string.young_signs_severe_prolonged_diarrhoea);
-        possibleAbdominal = getString(R.string.signs_dysentry);
-*/
 
         signsSevereDiseases = getString(R.string.signs_confirmed_hiv);
         signsLocalBacteria = getString(R.string.signs_hiv_exposed);

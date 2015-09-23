@@ -25,6 +25,39 @@
             android:text="@string/young_hiv"
             android:textColor="#000000"
             android:textSize="17dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/young_hiv_two"
+            android:textColor="@color/link"
+            android:clickable="true"
+            android:textSize="17dp"
+            android:id="@+id/tv_two" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/young_hiv_three"
+            android:textColor="#000000"
+            android:textSize="17dp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/border"
+            android:text="@string/young_hiv_four"
+            android:textColor="#000000"
+            android:textSize="17dp" />
 
 
 </LinearLayout>

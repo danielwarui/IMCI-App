@@ -236,7 +236,7 @@ bottle of gentian violet.\n• Check the mother\’s understanding before she le
     <string name="intro"><b>Key Elements of IMCI\n</b><b>1. Assessment</b>\n
          \tAssess for general danger signs (or possible bacterial infection in a young infant), common illnesses and other health problems.\n\n
  <b>2. Classification</b></string>
-    <string name="intro2"><b>3. Identify Treatment\n</b>  \bIf the child has more than one classification look at more than one treatment table.
+    <string name="intro2"><b>3. Identify Treatment\n</b>  \bShows how to administer treatment for identified classifications. It shows those requiring admissions or referral specific treatment and advice on home care.
 
 \n
 \n
@@ -358,7 +358,7 @@ Is there ear discharge? If yes, how long?\n
     </string>
     <string name="look_60_malnutrition"><b><u>ASK:</u> Is there history of TB contact?</b>\n\n
 <b><u>LOOK, LISTEN, FEEL</u></b> \n
-•   Take the child\’s weight and plot it against mother / child health booklet to determine the z-score.\n•   Take the child\’s length/height for age and plot on mother /child health booklet to determine the z_score.\n•   Determine the growth patter:  is the growth faltering?(Weight curve is flattening or dropping for at least 2 consecutive months? )\n•   Look for oedema of both feet\n•   Look for visible severe wasting.\n\n
+•   Take the child\’s weight and plot it against mother / child health booklet to determine the z-score.\n•   Take the child\’s length/height for age and plot on mother /child health booklet to determine the z_score.\n•   Determine the growth pattern:  is the growth faltering?(Weight curve is flattening or dropping for at least 2 consecutive months? )\n•   Look for oedema of both feet\n•   Look for visible severe wasting.\n\n
 For children aged 6 months up to 59 months, determine MUAC: \n•   &lt; 11.5cm\n•   11.5 - 12.5cm\n•   12.5 - 13.5cm\n
 Determine Z score for the same : \n•   &lt;-3\n•   -3 to &lt; -2\n•   -2 to &lt; -1\n•    -1 to +2\n\n
 </string>
@@ -609,7 +609,7 @@ CLASSIFY
 \n\t-Are they yellow?
 \n\n <b>Classify Jaundice.</b>
 </string>
-    <string name="young_hiv"><b><u>ASK</u></b>        \n• Ask for mother\’s  HIV status  to establish child’s HIV exposure.\n
+    <string name="young_hiv"><b><u>ASK</u></b>        \n• Ask for mother’s  HIV status  to establish child’s HIV exposure*.\n
 Is it: \n
 \t\t-Reactive\n
 \t\t-Non reactive\n
@@ -620,12 +620,20 @@ determine HIV exposure.\n• If mother  is or child’s  antibody test is  POSIT
 Take DBS  for DNA PCR  testing at six weeks or  earliest contact thereafter.\n\n
 <u>Child ≥ 18 months</u>\n
 If mother\'s antibody test is POSITIVE, the child is exposed. Conduct an antibody test on child.\n
-\n<b>PRESUMPTIVE SYMPTOMATIC DIAGNOSIS OF HIV INFECTION IN CHILDREN 18 MONTHS</b>\n\n
+        \n
+        </string>
+    <string name="young_hiv_two">
+        <b>NB: See Early Infant Diagnosis (EID) Algorithm.</b>\n
+        </string>
+    <string name="young_hiv_three">
+<b>PRESUMPTIVE SYMPTOMATIC DIAGNOSIS OF HIV INFECTION IN CHILDREN 18 MONTHS</b>\n\n
+        </string>
+    <string name="young_hiv_four">
 <u>LOOK and FEEL</u>\n
-•   Pneumonia\n
+•   Pneumonia***\n
 •   Oral Candidiasis / thrush\n
 •   Severe sepsis\n
-•   Other AIDS defining conditions\n
+•   Other AIDS defining conditions**\n
         \n\n<b>Classify HIV status</b>
 </string>
     <string name="young_eyeinfection">    CHECK FOR EYE INFECTIONS\n
@@ -694,8 +702,9 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 
 \n\n<b>NOTE: if you can’t test, don’t withhold treatment</b>\n\n
 
-<b>Check for complications of Measles</b>\n
-•   Look for mouth ulcers, are they deep or extensive?\n
+<b>Check for complications of MEASLES</b>
+        \nIf the child has signs of measles now or within the last 3 months
+\n\n•   Look for mouth ulcers, are they deep or extensive?\n
 •   Look for pus draining from the eye.\n
 •   Look for clouding of their cornea.\n
 </string>
@@ -782,7 +791,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
      <string name="young_signs_hiv_exposed"> <b>Children &lt; 18 months</b>\n• If mother\'s HIV status is POSITIVE and no result for child.\n OR \n• If child antibody test shows POSITIVE.\n OR \n• If DNA PCR test is NEGATIVE.
 </string>
-    <string name="signs_suspected_symptomatic_hiv_infection">        • No test results for child or mother. \n• 2 or more of the following conditions:  \n\t\t -Severe Pneumonia\n\t\t -Candidiasis/thrush\n\t\t -Severe Sepsis\n OR \n\n\t\t- An AIDS defining condition.
+    <string name="signs_suspected_symptomatic_hiv_infection">        • No test results for child or mother. \n• 2 or more of the following conditions:  \n\t\t -Severe Pneumonia\n\t\t -Oral Candidiasis/thrush\n\t\t -Severe Sepsis\n OR \n\n\t\t- An AIDS defining condition.
 </string>
      <string name="young_signs_suspected_symptomatic_hiv_infection">        • No test results for child or mother. \n• 2 or more of the following conditions:  \n\t\t -Severe Pneumonia\n\t\t -Candidiasis/thrush\n\t\t -Severe Sepsis\n OR \n\n\t\t- An AIDS defining condition.
 </string>
@@ -973,7 +982,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
     <string name="no_pneumonia_treatment">• If coughing for 14 days or more screen for TB or refer\n• Treat wheeze if present\n• Soothe the throat and relieve the cough with a safe remedy\n• Advise mother when to return immediately.\n• Follow-up in 5 days if not improving.
 </string>
     <string name="severe_dehydration">
-      <b>If child has no other severe classification:</b>\n
+      <b>If child also has another severe classification:</b>\n
         &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way. Advise the mother to continue breatsfeeding.\n
         \n\n\t\t\t\t<b>OR</b>\n\nIf child has no other severe classification:
         \t\n• Give fluid for severe dehdration(Plan C)\t\n• Give vitamin A \t\n• Give Zinc Sulphate \n\n If there is no other severe classification\n• If child is 2yrs or older and there is cholera in your area give Erythromycin \n
@@ -986,7 +995,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
     <string name="no_dehydration_treatment">
         - If the child also has a severe classification \n
         &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way. Advise the mother to continue breatsfeeding.\n
-       \n\n\t\t\t\t<b>OR</b>\n\nIf child has no other severe classification:
+       \n\n\t\t\t\t<b>OR</b>\n\nIf the child has no other severe classification:
         \n• Give fluid and food for some dehydration(Plan A) \n• Give vitamin A\n• Give Zinc Sulphate\n\n• Advise the mother when to return immediately\n• Follow-up in 5 days if not improving.\n
 </string>
     <string name="severe_persistent_diarrhoea_treatment">• Treat dehydration before referral unless the child has another severe classification \n• Give vitamin A \n• Give Zinc Sulphate\n• Give Multivitamin / Mineral supplements \n• Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way\n
@@ -1070,7 +1079,8 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
     <string name="no_ear_infection_treatment">        • No additional treatment\n
 </string>
-    <string name="severe_acute_malnutrition_treatment">• Give Vitamin A \n• Treat for and to prevent low blood sugar\n• Keep the child warm\n• Admit or refer URGENTLY to hospital \n
+    <string name="severe_acute_malnutrition_treatment">• Give Vitamin A \n• Treat for and to prevent low blood sugar\n• Keep the child warm\n• Admit or refer URGENTLY to hospital. - If child has no other complications (Danger signs
+        , Diarrhoea, Pneumonia, Fever, no appetite e.t.c)
 </string>
     <string name="moderate_acute_malnutrition_treatment">• Assess the child\'s feeding and counsel the mother on feeding \n• If growth is faltering for 2 consecutive months,assess further or refer to the hospital \n• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months \n• If T.B. contact positive assess further or refer.\n• Check for HIV infection\n• Advise mother when to come immediately\n• Follow up in 5 days
 </string>

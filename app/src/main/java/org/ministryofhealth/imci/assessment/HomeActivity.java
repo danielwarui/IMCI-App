@@ -19,6 +19,8 @@ public class HomeActivity extends Activity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         setContentView(R.layout.activity_home);
 
         // referencing the buttons
@@ -27,7 +29,6 @@ public class HomeActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.btnNVP).setOnClickListener(this);
         findViewById(R.id.btnTreatTheChild).setOnClickListener(this);
         findViewById(R.id.btnCounselMother).setOnClickListener(this);
-
 
 
     }
@@ -41,11 +42,14 @@ public class HomeActivity extends Activity implements View.OnClickListener {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.help:
                /* Intent intent = new Intent(HomeActivity.this ,ScreenSlideActivity.class);
                 startActivity(intent);*/
-            break;
+                break;
+            default:
+                onBackPressed();
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }
@@ -57,6 +61,7 @@ public class HomeActivity extends Activity implements View.OnClickListener {
         System.out.println("----Fragmentactivity---onStart---");
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
     }
+
 
     @Override
     public void onClick(View v) {
