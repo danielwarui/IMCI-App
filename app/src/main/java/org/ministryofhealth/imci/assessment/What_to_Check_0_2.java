@@ -201,7 +201,7 @@ public class What_to_Check_0_2 extends Activity {
         listCheckFor.add("Eye infections");
         listCheckFor.add("Does the young infant have diarrhoea?");
         listCheckFor.add("HIV exposure and infection");
-        listCheckFor.add("feeding problem, low weight or low birthweight");
+        listCheckFor.add("Feeding problem, low weight or low birthweight");
         listCheckFor.add("Young infant's immunization status");
         listCheckFor.add("Care for development");
         listCheckFor.add("Special treatment needs");

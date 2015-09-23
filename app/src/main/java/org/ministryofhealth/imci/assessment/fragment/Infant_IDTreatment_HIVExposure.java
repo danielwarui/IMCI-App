@@ -42,12 +42,6 @@ public class Infant_IDTreatment_HIVExposure extends Fragment {
         /*
          * Declaration of String variables
 		 */
-    /*    signsSevereDehydration = getString(R.string.signs_severe_dehydration);
-        signsSomeDehydration = getString(R.string.signs_some_dehydration);
-        noDehydration = getString(R.string.signs_no_dehydration);
-        severeProlonged = getString(R.string.young_signs_severe_prolonged_diarrhoea);
-        possibleAbdominal = getString(R.string.signs_dysentry);
-*/
 
         signsSevereDiseases = getString(R.string.young_treatment_confirmed_hivinfection);
         signsLocalBacteria = getString(R.string.young_treatment_hiv_exposed);

@@ -473,7 +473,7 @@ If Mother is POSITIVE conduct rapid test on child as the child is exposed.
     <string name="young_signs_low_body_temperature">Temperature 35.5°C-36.4°C.
 </string>
     <!-- Identify Treatment Infant Severe Disease -->
-    <string name="young_treatment_very_severe_disease">  <b>• Immediately resuscitate using a bag and mask if the baby:</b> \n\n\t<i>-Is not breathing at all even when stimulated \n\t or\n\t-Is gasping or\n\t Has a respiratory rate less than 20 breaths per minute.</i>\n\n<b>• If convulsing now, give anticonvulsants.\n• Give first dose of Benzylpenicillin &amp; Gentamicin.\n• Treat to prevent low blood sugar.\n• Advise mother how to keep the infant warm an the way to the hospital.\n• Admit or refer URGENTLY to hospital.**</b>
+    <string name="young_treatment_very_severe_disease">  <b>• Immediately resuscitate using a bag and mask if the baby:</b> \n\n\t<i>-Is not breathing at all even when stimulated \n\t or\n\t-Is gasping or\n\t Has a respiratory rate less than 20 breaths per minute.</i>\n\n<b>• If convulsing now, give anticonvulsants.\n• Give first dose of Benzylpenicillin &amp; Gentamicin.\n• Treat to prevent low blood sugar.\n• Advise mother how to keep the infant warm on the way to the hospital.\n• Admit or refer URGENTLY to hospital.**</b>
 </string>
     <string name="young_treatment_local_bacterial_infection">• Give Cotrimoxazole.\n• Teach the mother to treat local infections at home.\n• Advise mother to give home care for young infant.\n• Follow-up in 2 days.
 </string>
@@ -722,7 +722,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
     <string name="signs_no_dehydration">Not enough signs to classify as some or severe dehydration.\n
 </string>
-    <string name="signs_some_dehydration">Two of the following signs:\n• Restless and irritable\n• Sunken eyes\n• Drinks eagerly, thirsty\n• Skin pinch goes back slowly.
+    <string name="signs_some_dehydration">Two of the following signs:\n• Restless and irritable\n• Sunken eyes\n• Skin pinch goes back slowly.
 </string>
     <string name="signs_severe_dehydration">Two of the following signs:\n• Lethargic or unconscious\n• Sunken eyes\n• Not able to drink or drink poorly\n• Skin pinch goes back very slowly.\n
 </string>
@@ -793,11 +793,11 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
     <string name="signs_suspected_symptomatic_hiv_infection">        • No test results for child or mother. \n• 2 or more of the following conditions:  \n\t\t -Severe Pneumonia\n\t\t -Oral Candidiasis/thrush\n\t\t -Severe Sepsis\n OR \n\n\t\t- An AIDS defining condition.
 </string>
-     <string name="young_signs_suspected_symptomatic_hiv_infection">        • No test results for child or mother. \n• 2 or more of the following conditions:  \n\t\t -Severe Pneumonia\n\t\t -Candidiasis/thrush\n\t\t -Severe Sepsis\n OR \n\n\t\t- An AIDS defining condition.
+     <string name="young_signs_suspected_symptomatic_hiv_infection">        • No test results for child or mother. \n• 2 or more of the following conditions:  \n\t\t -Severe pneumonia\n\t\t -Oral candidiasis/thrush\n\t\t -Severe sepsis\n OR \n\n\t\t- An AIDS defining condition.
 </string>
-    <string name="signs_unlikely_hiv_infection">        • If child is &lt; 18 months with UNKNOWN mother\'s HIV status tests antibody NEGATIVE \n• If child is above 18 months and tests antibody NEGATIVE.
+    <string name="signs_unlikely_hiv_infection">        • If child is &lt; 18 months with UNKNOWN mother\'s HIV status and tests antibody NEGATIVE \n• If child is above 18 months and tests antibody NEGATIVE.
 </string>
-     <string name="young_signs_unlikely_hiv_infection">• If child is &lt; 18 months with UNKNOWN mother\'s HIV status tests antibody NEGATIVE.
+     <string name="young_signs_unlikely_hiv_infection">• If child is &lt; 18 months with UNKNOWN mother\'s HIV status and tests antibody NEGATIVE.
 </string>
     <string name="young_risk_of_bacterial_infection">    • Baby &lt; 1 day old and membranes ruptured for &gt; 18hrs before delivery \n or\n• Foul smelling liquor or\n• Mother being treated for antibiotics for infection or\n• Mother has fever: temperature &gt; 38°C.
 </string>
@@ -1024,7 +1024,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
     <string name="young_treatment_no_feeding_problem">         • Advise mother to give home care for the young infant. \n• Praise the mother for feeding the infant well.
 </string>
-    <string name="young_treatment_very_low_birth">         • Treat to prevent low blood sugar. \n• Keep baby warm.\n• Advise mother to keep the baby warm.\n• Admit or refer urgently to hospital.
+    <string name="young_treatment_very_low_birth">         • Treat to prevent low blood sugar. \n• Keep baby warm.\n• Advise mother to keep the young infant warm on the way to the hospital..\n• Admit or refer urgently to hospital.
 </string>
     <string name="young_treatment_low_birth_weight">         • Manage as for FEEDING PROBLEM OR LOW WEIGHT. \n• Advice mother to keep the young infant warm.\n• Followup in 14 days.
 </string>

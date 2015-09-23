@@ -73,10 +73,10 @@ public class Infant_Classify_VerySevereDisease extends Fragment {
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Very Severe Disease", pSubItemArrayList));
-        pProductArrayList.add(new Product("Local Bacterial Infection", pSubItemArrayList2));
-        pProductArrayList.add(new Product("Very Severe Disease OR Local Bacterial Infection Unlikely", pSubItemArrayList3));
-        pProductArrayList.add(new Product("Low Body Temperature", pSubItemArrayList4));
+        pProductArrayList.add(new Product("VERY SEVERE DISEASE", pSubItemArrayList));
+        pProductArrayList.add(new Product("LOCAL BACTERIAL INFECTION", pSubItemArrayList2));
+        pProductArrayList.add(new Product("VERY SEVERE DISEASE OR LOCAL BACTERIAL INFECTION UNLIKELY", pSubItemArrayList3));
+        pProductArrayList.add(new Product("LOW BODY TEMPERATURES", pSubItemArrayList4));
 
         /***
          * adding item into listview

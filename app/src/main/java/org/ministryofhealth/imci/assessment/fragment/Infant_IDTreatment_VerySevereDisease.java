@@ -42,12 +42,6 @@ public class Infant_IDTreatment_VerySevereDisease extends Fragment {
         /*
          * Declaration of String variables
 		 */
-    /*    signsSevereDehydration = getString(R.string.signs_severe_dehydration);
-        signsSomeDehydration = getString(R.string.signs_some_dehydration);
-        noDehydration = getString(R.string.signs_no_dehydration);
-        severeProlonged = getString(R.string.young_signs_severe_prolonged_diarrhoea);
-        possibleAbdominal = getString(R.string.signs_dysentry);
-*/
 
         signsSevereDiseases = getString(R.string.young_treatment_very_severe_disease);
         signsLocalBacteria = getString(R.string.young_treatment_local_bacterial_infection);
@@ -82,10 +76,10 @@ public class Infant_IDTreatment_VerySevereDisease extends Fragment {
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Very Severe Disease", pSubItemArrayList));
-        pProductArrayList.add(new Product("Local Bacterial Infection", pSubItemArrayList2));
-        pProductArrayList.add(new Product("Very Severe Disease OR Local Bacterial Infection Unlikely", pSubItemArrayList3));
-        pProductArrayList.add(new Product("Low Body Temperature", pSubItemArrayList4));
+        pProductArrayList.add(new Product("VERY SEVERE DISEASE", pSubItemArrayList));
+        pProductArrayList.add(new Product("LOCAL BACTERIAL INFECTION", pSubItemArrayList2));
+        pProductArrayList.add(new Product("VERY SEVERE DISEASE OR LOCAL BACTERIAL INFECTION UNLIKELY", pSubItemArrayList3));
+        pProductArrayList.add(new Product("LOW BODY TEMPERATURE", pSubItemArrayList4));
 
 
         /***

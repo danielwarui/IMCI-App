@@ -35,7 +35,6 @@ public class Starter_Universal extends FragmentActivity implements
     private int id = 0;
     // Tab titles
     private String[] tabs = {"Assess", "Classify", "Identify treatment"};
-    private String[] tabs1 = {"Immunization", "Vitamin A & Deworming"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
