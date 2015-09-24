@@ -83,7 +83,7 @@ public class Classify_Ear_Problem extends Fragment {
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("MASTODITIS", pSubItemArrayList));
+        pProductArrayList.add(new Product("MASTOIDITIS", pSubItemArrayList));
         pProductArrayList.add(new Product("ACUTE EAR INFECTION", pSubItemArrayList2));
         pProductArrayList.add(new Product("CHRONIC EAR INFECTION", pSubItemArrayList3));
         pProductArrayList.add(new Product("NO EAR INFECTION", pSubItemArrayList4));

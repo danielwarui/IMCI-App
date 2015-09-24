@@ -38,23 +38,7 @@
             android:textColor="@color/primary_text"
             android:text="text0"
             android:textSize="17dp" />
-        <TextView
-            android:id="@+id/text0_1"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
-            android:textColor="@color/link"
-            android:text="text0_1"
-            android:clickable="true"
-            android:textSize="17dp" />
-        <TextView
-            android:id="@+id/text0_2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
-            android:textColor="@color/primary_text"
-            android:text="text0_2"
-            android:textSize="17dp" />
+
 
     </LinearLayout>
     <ExpandableListView

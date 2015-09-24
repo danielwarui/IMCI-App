@@ -42,12 +42,6 @@ public class Classify_Anaemia extends Fragment {
         /*
          * Declaration of String variables
 		 */
-    /*    signsSevereDehydration = getString(R.string.signs_severe_dehydration);
-        signsSomeDehydration = getString(R.string.signs_some_dehydration);
-        noDehydration = getString(R.string.signs_no_dehydration);
-        severeProlonged = getString(R.string.young_signs_severe_prolonged_diarrhoea);
-        possibleAbdominal = getString(R.string.signs_dysentry);
-*/
 
         signsSevereDiseases = getString(R.string.signs_severe_anaemia);
         signsLocalBacteria = getString(R.string.signs_anaemia);
@@ -71,18 +65,10 @@ public class Classify_Anaemia extends Fragment {
         pSubItemArrayList3.add(new SubCategory(signsUnlikelyBact, itemNothing));
 
 
-
-		/*
-         * pSubItemArrayList.add(new SubCategory("Color", mItemListArray));
-		 * pSubItemArrayList2.add(new SubCategory("Cloths", mItemListArray2));
-		 *//**
-         * ArrayList<Product> means it is an arraylist of the object Product...First level String variables
-         */
-
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Severe Anaemia", pSubItemArrayList));
-        pProductArrayList.add(new Product("Anaemia", pSubItemArrayList2));
-        pProductArrayList.add(new Product("No Anaemia", pSubItemArrayList3));
+        pProductArrayList.add(new Product("SEVERE ANAEMIA", pSubItemArrayList));
+        pProductArrayList.add(new Product("ANAEMIA", pSubItemArrayList2));
+        pProductArrayList.add(new Product("NO ANAEMIA", pSubItemArrayList3));
 
 
         /***

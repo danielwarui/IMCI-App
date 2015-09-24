@@ -41,12 +41,7 @@ public class Infant_Classify_EyeInfections extends Fragment {
         /*
          * Declaration of String variables
 		 */
-    /*    signsSevereDehydration = getString(R.string.signs_severe_dehydration);
-        signsSomeDehydration = getString(R.string.signs_some_dehydration);
-        noDehydration = getString(R.string.signs_no_dehydration);
-        severeProlonged = getString(R.string.young_signs_severe_prolonged_diarrhoea);
-        possibleAbdominal = getString(R.string.signs_dysentry);
-*/
+
 signsSquint = getString(R.string.young_signs_squint);
         signsCongenitalCancer = getString(R.string.young_signs_congenital_cancer_of_the_eye);
         signsCongenitalGlaucoma = getString(R.string.young_signs_congenital_glaucoma);
@@ -89,12 +84,12 @@ signsSquint = getString(R.string.young_signs_squint);
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Squint", pSubItemArrayList));
-        pProductArrayList.add(new Product("Congenital Cancer of the Eye", pSubItemArrayList2));
-        pProductArrayList.add(new Product("Congenital Glaucoma", pSubItemArrayList3));
-        pProductArrayList.add(new Product("Severe Eye Infection", pSubItemArrayList4));
-        pProductArrayList.add(new Product("Eye Infection", pSubItemArrayList5));
-        pProductArrayList.add(new Product("Congenital Condition OR Eye Infection Unlikely", pSubItemArrayList6));
+        pProductArrayList.add(new Product("SQUINT", pSubItemArrayList));
+        pProductArrayList.add(new Product("CONGENITAL CANCER OF THE EYE", pSubItemArrayList2));
+        pProductArrayList.add(new Product("CONGENITAL GLAUCOMA", pSubItemArrayList3));
+        pProductArrayList.add(new Product("SEVERE EYE INFECTION", pSubItemArrayList4));
+        pProductArrayList.add(new Product("EYE INFECTION", pSubItemArrayList5));
+        pProductArrayList.add(new Product("CONGENITAL CONDITION OR EYE INFECTION UNLIKELY", pSubItemArrayList6));
 
 
         /***

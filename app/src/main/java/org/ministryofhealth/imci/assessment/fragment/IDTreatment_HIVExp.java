@@ -39,15 +39,7 @@ public class IDTreatment_HIVExp extends Fragment {
         // mLinearListView = (LinearLayout) findViewById(R.id.linear_listview);
         mLinearListView = (LinearLayout) rootView
                 .findViewById(R.id.linear_listview);
-        /*
-         * Declaration of String variables
-		 */
-    /*    signsSevereDehydration = getString(R.string.signs_severe_dehydration);
-        signsSomeDehydration = getString(R.string.signs_some_dehydration);
-        noDehydration = getString(R.string.signs_no_dehydration);
-        severeProlonged = getString(R.string.young_signs_severe_prolonged_diarrhoea);
-        possibleAbdominal = getString(R.string.signs_dysentry);
-*/
+
 
         signsSevereDiseases = getString(R.string.confirmed_hiv_infection_treatment);
         signsLocalBacteria = getString(R.string.hiv_exposed_treatment);
@@ -83,10 +75,10 @@ public class IDTreatment_HIVExp extends Fragment {
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Confirmed HIV Infection", pSubItemArrayList));
-        pProductArrayList.add(new Product("HIV Exposed: Children less than 18 months", pSubItemArrayList2));
-        pProductArrayList.add(new Product("Suspected Sympomatic HIV Infection", pSubItemArrayList3));
-        pProductArrayList.add(new Product("HIV Infection Unlikely", pSubItemArrayList4));
+        pProductArrayList.add(new Product("CONFIRMED HIV INFECTION", pSubItemArrayList));
+        pProductArrayList.add(new Product("HIV EXPOSED: CHILDREN LESS THAN 18 MONTHS", pSubItemArrayList2));
+        pProductArrayList.add(new Product("SUSPECTED SYMPTOMATIC HIV INFECTION", pSubItemArrayList3));
+        pProductArrayList.add(new Product("HIV INFECTION UNLIKELY", pSubItemArrayList4));
 
 
         /***

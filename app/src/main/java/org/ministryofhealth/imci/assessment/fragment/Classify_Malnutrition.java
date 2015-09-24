@@ -76,10 +76,10 @@ public class Classify_Malnutrition extends Fragment {
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Severe Acute Malnutrition", pSubItemArrayList));
-        pProductArrayList.add(new Product("Moderate Acute Malnutrition", pSubItemArrayList2));
-        pProductArrayList.add(new Product("At Risk of Acute Malnutrition", pSubItemArrayList3));
-        pProductArrayList.add(new Product("No Malnutrition", pSubItemArrayList4));
+        pProductArrayList.add(new Product("SEVERE ACUTE MALNUTRITION", pSubItemArrayList));
+        pProductArrayList.add(new Product("MODERATE ACUTE MALNUTRITION", pSubItemArrayList2));
+        pProductArrayList.add(new Product("AT RISK OF ACUTE MALNUTRITION", pSubItemArrayList3));
+        pProductArrayList.add(new Product("NO MALNUTRITION", pSubItemArrayList4));
 
 
         /***

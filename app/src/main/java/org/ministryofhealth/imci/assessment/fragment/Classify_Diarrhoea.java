@@ -78,24 +78,18 @@ public class Classify_Diarrhoea extends Fragment {
         pSubItemArrayList2 = new ArrayList<SubCategory>();
         pSubItemArrayList3 = new ArrayList<SubCategory>();
 
-        pSubItemArrayList.add(new SubCategory("Severe Dehydration", mItemListArray));
-        pSubItemArrayList.add(new SubCategory("Some Dehydration", mItemListArray2));
-        pSubItemArrayList.add(new SubCategory("No Dehydration", mItemListArray3));
+        pSubItemArrayList.add(new SubCategory("SEVERE DEHYDRATION", mItemListArray));
+        pSubItemArrayList.add(new SubCategory("SOME DEHYDRATION", mItemListArray2));
+        pSubItemArrayList.add(new SubCategory("NO DEHYDRATION", mItemListArray3));
 
 
-        pSubItemArrayList2.add(new SubCategory("Severe Persistent Diarrhoea", mItemListArrayP1));
-        pSubItemArrayList2.add(new SubCategory("Persistent Diarrhoea", mItemListArrayP2));
+        pSubItemArrayList2.add(new SubCategory("SEVERE PERSISTENT DIARRHOEA", mItemListArrayP1));
+        pSubItemArrayList2.add(new SubCategory("PERSISTENT DIARRHOEA", mItemListArrayP2));
 
-        pSubItemArrayList3.add(new SubCategory("Dysentry", mItemListArrayP3));
-		/*
-		 * pSubItemArrayList.add(new SubCategory("Color", mItemListArray));
-		 * pSubItemArrayList2.add(new SubCategory("Cloths", mItemListArray2));
-		 *//**
-         * ArrayList<Product> means it is an arraylist of the object Product...First level String variables
-         */
+        pSubItemArrayList3.add(new SubCategory("DYSENTERY", mItemListArrayP3));
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("for dehydration", pSubItemArrayList));
+        pProductArrayList.add(new Product("for DEHYDRATION", pSubItemArrayList));
         pProductArrayList.add(new Product("if diarrhoea is 14 days or more", pSubItemArrayList2));
         pProductArrayList.add(new Product("if blood in the stool", pSubItemArrayList3));
 

@@ -42,12 +42,7 @@ public class IDTreatment_Cough_Difficulty extends Fragment {
         /*
          * Declaration of String variables
 		 */
-    /*    signsSevereDehydration = getString(R.string.signs_severe_dehydration);
-        signsSomeDehydration = getString(R.string.signs_some_dehydration);
-        noDehydration = getString(R.string.signs_no_dehydration);
-        severeProlonged = getString(R.string.young_signs_severe_prolonged_diarrhoea);
-        possibleAbdominal = getString(R.string.signs_dysentry);
-*/
+
 
         signsSevereDiseases = getString(R.string.severe_pneumonia_treatment);
         signsLocalBacteria = getString(R.string.pneumonia_treatment);
@@ -70,17 +65,11 @@ public class IDTreatment_Cough_Difficulty extends Fragment {
         pSubItemArrayList3 = new ArrayList<SubCategory>();
         pSubItemArrayList3.add(new SubCategory(signsUnlikelyBact, itemNothing));
 
-		/*
-         * pSubItemArrayList.add(new SubCategory("Color", mItemListArray));
-		 * pSubItemArrayList2.add(new SubCategory("Cloths", mItemListArray2));
-		 *//**
-         * ArrayList<Product> means it is an arraylist of the object Product...First level String variables
-         */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Severe Pneumonia OR Very Severe Disease", pSubItemArrayList));
-        pProductArrayList.add(new Product("Pneumonia", pSubItemArrayList2));
-        pProductArrayList.add(new Product("No Pneumonia: Cough OR Cold", pSubItemArrayList3));
+        pProductArrayList.add(new Product("SEVERE PNEUMONIA OR VERY SEVERE DISEASE", pSubItemArrayList));
+        pProductArrayList.add(new Product("PNEUMONIA", pSubItemArrayList2));
+        pProductArrayList.add(new Product("NO PNEUMONIA: COUGH OR COLD", pSubItemArrayList3));
 
 
         /***

@@ -78,9 +78,9 @@ public class Infant_IDTreatment_Jaundice extends Fragment {
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Severe Jaundice", pSubItemArrayList));
-        pProductArrayList.add(new Product("Jaundice", pSubItemArrayList2));
-        pProductArrayList.add(new Product("No Jaundice", pSubItemArrayList3));
+        pProductArrayList.add(new Product("SEVERE JAUNDICE", pSubItemArrayList));
+        pProductArrayList.add(new Product("JAUNDICE", pSubItemArrayList2));
+        pProductArrayList.add(new Product("NO JAUNDICE", pSubItemArrayList3));
 
 
         /***

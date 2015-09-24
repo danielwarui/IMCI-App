@@ -39,15 +39,7 @@ public class IDTreatment_Anaemia extends Fragment {
         // mLinearListView = (LinearLayout) findViewById(R.id.linear_listview);
         mLinearListView = (LinearLayout) rootView
                 .findViewById(R.id.linear_listview);
-        /*
-         * Declaration of String variables
-		 */
-    /*    signsSevereDehydration = getString(R.string.signs_severe_dehydration);
-        signsSomeDehydration = getString(R.string.signs_some_dehydration);
-        noDehydration = getString(R.string.signs_no_dehydration);
-        severeProlonged = getString(R.string.young_signs_severe_prolonged_diarrhoea);
-        possibleAbdominal = getString(R.string.signs_dysentry);
-*/
+
 
         signsSevereDiseases = getString(R.string.severe_anaemia_treatment);
         signsLocalBacteria = getString(R.string.anaemia_treatment);
@@ -80,9 +72,9 @@ public class IDTreatment_Anaemia extends Fragment {
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Severe Anaemia", pSubItemArrayList));
-        pProductArrayList.add(new Product("Anaemia", pSubItemArrayList2));
-        pProductArrayList.add(new Product("No Anaemia", pSubItemArrayList3));
+        pProductArrayList.add(new Product("SEVERE ANAEMIA", pSubItemArrayList));
+        pProductArrayList.add(new Product("ANAEMIA", pSubItemArrayList2));
+        pProductArrayList.add(new Product("NO ANAEMIA", pSubItemArrayList3));
 
 
         /***

@@ -236,7 +236,8 @@ bottle of gentian violet.\n• Check the mother\’s understanding before she le
     <string name="intro"><b>Key Elements of IMCI\n</b><b>1. Assessment</b>\n
          \tAssess for general danger signs (or possible bacterial infection in a young infant), common illnesses and other health problems.\n\n
  <b>2. Classification</b></string>
-    <string name="intro2"><b>3. Identify Treatment\n</b>  \bShows how to administer treatment for identified classifications. It shows those requiring admissions or referral specific treatment and advice on home care.
+    <string name="intro2"><b>3. Identify Treatment\n</b>  \bHelps health workers to quickly and accurately identify treatment as per each classification. If a child has more than one classification,
+        the health worker must look at more than one table to find the appropriate treatments.
 
 \n
 \n
@@ -244,7 +245,7 @@ bottle of gentian violet.\n• Check the mother\’s understanding before she le
 
 \n
 \n
- <b>5. Counsel\n</b> \bTeach the mother when to return to the clinic for follow up and recognize signs that indicate that the child should be brought back to the clinic immediately.
+ <b>5. Counsel\n</b> \bTeach the mother when to return to the clinic if follow up is indicated and recognize signs that indicate that the child should be brought back to the clinic immediately.
 
 \n
 \n
@@ -283,7 +284,8 @@ if it is an initial visit assess the child as follow:
 ---
 \n
 </string>
-    <string name="check_general"><b><u>Ask:</u></b> \n\t • Is the child able to drink or breastfeed?\n\t • Does the child vomit everything? \n\t • Has the child had convulsions?
+    <string name="check_general">If the child is on the initial visit.
+        \n\n<b><u>Ask:</u></b> \n\t • Is the child able to drink or breastfeed?\n\t • Does the child vomit everything? \n\t • Has the child had convulsions?
 \n
 \n
 <b><u>Look:</u></b> \n
@@ -291,11 +293,9 @@ if it is an initial visit assess the child as follow:
 \t • See if child is lethargic or unconscious \n\t • Is the child convulsing now ? \n
 If yes treat immediately.
 </string>
+    <string name="check_header">Check for general danger signs</string>
     <!-- Ask the mother for the general signs of the young infant -->
     <string name="ask_mother_young_infant">        Determine if this is an initial or follow-up visit for this problem \n
-
-
-
 </string>
     <string name="click_here">if follow up Click HERE </string>
 <string name="ask_mother_young_infant_continue">
@@ -383,11 +383,10 @@ If Mother is POSITIVE conduct rapid test on child as the child is exposed.
 \t\tFor how long?\n
 \t\tIs there blood in the stool? \n\n
 <b><u>LOOK, LISTEN, FEEL</u></b>
-        \n•   Look at the child’s general condition.\nIs the child:\n\t• Lethargic or unconscious?\n\t• Restless and irritable?\n
+        \n•   Look at the child’s general condition.\nIs the child:\n\t\t\t• Lethargic or unconscious?\n\t\t\t• Restless and irritable?\n
 • Look for sunken eyes.
- \n\n•   Offer the child fluid. Is the child:\n• Not able to drink or drinking poorly?\n
- • Drinking eargerly,thirsty?
-        \n\n• Pinch the skin of the abdomen. Does it go back:\n\t• Very slowly (longer than 2 sec.)?\n\t• Slowly?\n\t• Immediately?
+ \n\n•   Offer the child fluid. Is the child:\n\t\t\t• Not able to drink or drinking poorly?\n\t\t\t• Drinking eagerly,thirsty?
+        \n\n• Pinch the skin of the abdomen. Does it go back:\n• Very slowly (longer than 2 sec.)?\n• Slowly?\n• Immediately?
 \n\n<b>Classify Diarrhoea</b>
     </string>
     <string name="look_young_hiv"><b><u>ASK</u></b>\n
@@ -399,13 +398,19 @@ If Mother is POSITIVE conduct rapid test on child as the child is exposed.
 <b>Child ≤ 18 months</b>\n• If Mother\'s HIV status is unknown,conduct an antibody test(rapid test) on
         mother or child to determine HIV exposure.\n\n•If mother\'s or child\'s antibody test is POSITIVE the child is HIV exposed.
         Take DBS for DNA PCR test at six weeks or earliest contact thereafter.
+        </string>
+    <string name="look_young_hiv_one">
 \n\n<b>PRESUMPTIVE SYMPTOMATIC DIAGNOSIS OF HIV INFECTION IN
         CHILDREN &lt; 18 MONTHS</b>\n\n
+        </string>
+    <string name="look_young_hiv_two">
         LOOK and FEEL:\n
         • Pneumonia***\n
         • Oral Candidiasis / thrush\n
         • Severe sepsis.\n
         • Other AIDS defining conditions**\n\n
+        </string>
+    <string name="look_young_hiv_three">
         Presumptive HIV diagnosis should be confirmed at the earliest opportunity.
 \n\n <b>CLASSIFY HIV STATUS</b>
     </string>
@@ -634,6 +639,9 @@ If mother\'s antibody test is POSITIVE, the child is exposed. Conduct an antibod
 •   Oral Candidiasis / thrush\n
 •   Severe sepsis\n
 •   Other AIDS defining conditions**\n
+        </string>
+    <string name="young_hiv_five">
+        Presumptive HIV diagnosis should be confirmed at the earliest opportunity.
         \n\n<b>Classify HIV status</b>
 </string>
     <string name="young_eyeinfection">    CHECK FOR EYE INFECTIONS\n
@@ -686,23 +694,20 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 
 <b>DO A MALARIA TEST:</b>
         \nIf NO general danger sign or stiff neck.
+         \n\n<b>TEST POSITIVE</b>
+\n\t• P.falciparum PRESENT
+\n\t• P.vivax PRESENT
+        \n\n<b>TEST NEGATIVE</b>
+\n\t• P.falciparum ABSENT or P.vivax ABSENT
         \n\n• <b><u>High Malaria Risk: </u></b>
         Do a malaria test in all fever cases.
         \n\n• <b><u>Low Malaria Risk: </u></b>
         Do a malaria test if no obvious cause of fever
         \n\n• <b><u>No Malaria Risk: </u></b>
         Do a malaria test if no obvious cause of fever
-        \n\n<b>TEST POSITIVE</b>
-\n\t• P.falciparum PRESENT
-\n\t• P.vivax PRESENT
-        \n\n<b>TEST NEGATIVE</b>
-\n\t• P.falciparum ABSENT or P.vivax ABSENT
-
-        \n\n<b>Classify Fever</b>
-
-\n\n<b>NOTE: if you can’t test, don’t withhold treatment</b>\n\n
-
-<b>Check for complications of MEASLES</b>
+\n\n<b>NOTE: if you can’t test, don’t withhold treatment</b>
+ \n\n<b>Classify Fever</b>
+\n\n\n<b>Check for complications of MEASLES</b>
         \nIf the child has signs of measles now or within the last 3 months
 \n\n•   Look for mouth ulcers, are they deep or extensive?\n
 •   Look for pus draining from the eye.\n
@@ -756,10 +761,10 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
     <string name="signs_no_eye_mouth">        • No pus draining from the eyes or mouth ulcers.
 </string>
-    <string name="signs_severe_acute_malnutrition"> For all children:\n       \t• With visible wasting.\n
-        \t• Oedema of both feet. \n\t• &lt;-3 Z Score ( weight for or weight for height/length)\n\n <b>FOR CHILDREN 6MONTHS UPTO 59MONTHS: MUAC &lt;11.5cm</b>
+    <string name="signs_severe_acute_malnutrition"> For all children:\n       \t• With visible severe wasting.\n
+        \t• Oedema of both feet. \n\t• &lt;-3 Z Score ( weight for age or weight for height/length)\n\n <b>FOR CHILDREN 6MONTHS UPTO 59MONTHS: MUAC &lt;11.5cm</b>
 </string>
-    <string name="signs_moderate_acute_malnutrition"> For all age groups:\n        \t• Static weight or losing.\n\t• 3 to &lt; -2 Z- Score\n\n
+    <string name="signs_moderate_acute_malnutrition"> For all age groups:\n        \t• Static weight or losing weight.\n\t• 3 to &lt; -2 Z- Score\n\n
         <b>IF AGE 6 MONTHS UPTO 59 MONTHS MUAC 11.5 TO 12.5cm</b>
 </string>
     <string name="signs_at_risk_malnutrition">For all age groups:\n        • Static weight or losing weight\n• 2 to &lt; -1 Z-Score\n\n
@@ -983,19 +988,19 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
     <string name="severe_dehydration">
       <b>If child also has another severe classification:</b>\n
-        &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way. Advise the mother to continue breatsfeeding.\n
+        &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way. Advise the mother to continue breastfeeding.\n
         \n\n\t\t\t\t<b>OR</b>\n\nIf child has no other severe classification:
-        \t\n• Give fluid for severe dehdration(Plan C)\t\n• Give vitamin A \t\n• Give Zinc Sulphate \n\n If there is no other severe classification\n• If child is 2yrs or older and there is cholera in your area give Erythromycin \n
+        \t\n• Give fluid for severe dehydration(Plan C)\t\n• Give vitamin A \t\n• Give Zinc Sulphate\t\n• If child is 2yrs or older and there is cholera in your area give Erythromycin \n
 </string>
     <string name="some_dehydration_treatment"><b>If the child also has a severe classification:</b>\n
-        &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way.Advise the mother to continue breatsfeeding.\n
-        \n\n\t\t\t\t<b>OR</b>\n\nIf child has no other severe classification:
+        &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way. Advise the mother to continue breastfeeding.\n
+        \n\n\t\t\t\t<b>OR</b>\n\nIf child has no severe classification:
         \n• Give fluid and food for some dehydration(Plan B)\n• Give vitamin A \n• Give Zinc Sulphate \n\n• Advise the mother when to return immediately.\n• Follow-up in 2days if not improving.\n
 </string>
     <string name="no_dehydration_treatment">
         - If the child also has a severe classification \n
-        &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way. Advise the mother to continue breatsfeeding.\n
-       \n\n\t\t\t\t<b>OR</b>\n\nIf the child has no other severe classification:
+        &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way. Advise the mother to continue breastfeeding.\n
+       \n\n\t\t\t\t<b>OR</b>\n\nIf the child has no severe classification:
         \n• Give fluid and food for some dehydration(Plan A) \n• Give vitamin A\n• Give Zinc Sulphate\n\n• Advise the mother when to return immediately\n• Follow-up in 5 days if not improving.\n
 </string>
     <string name="severe_persistent_diarrhoea_treatment">• Treat dehydration before referral unless the child has another severe classification \n• Give vitamin A \n• Give Zinc Sulphate\n• Give Multivitamin / Mineral supplements \n• Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way\n

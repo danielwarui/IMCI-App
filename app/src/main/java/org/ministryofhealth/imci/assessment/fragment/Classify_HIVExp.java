@@ -77,10 +77,10 @@ public class Classify_HIVExp extends Fragment {
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Confirmed HIV Infection", pSubItemArrayList));
-        pProductArrayList.add(new Product("HIV Exposed: Children less than 18 months", pSubItemArrayList2));
-        pProductArrayList.add(new Product("Suspected Sympomatic HIV Infection", pSubItemArrayList3));
-        pProductArrayList.add(new Product("HIV Infection Unlikely", pSubItemArrayList4));
+        pProductArrayList.add(new Product("CONFIRMED HIV INFECTION", pSubItemArrayList));
+        pProductArrayList.add(new Product("HIV EXPOSED: CHILDREN LESS THAN 18 MONTHS", pSubItemArrayList2));
+        pProductArrayList.add(new Product("SUSPECTED SYMPTOMATIC HIV INFECTION", pSubItemArrayList3));
+        pProductArrayList.add(new Product("HIV INFECTION UNLIKELY", pSubItemArrayList4));
 
 
         /***

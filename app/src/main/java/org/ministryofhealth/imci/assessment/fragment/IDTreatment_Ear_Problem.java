@@ -42,12 +42,6 @@ public class IDTreatment_Ear_Problem extends Fragment {
         /*
          * Declaration of String variables
 		 */
-    /*    signsSevereDehydration = getString(R.string.signs_severe_dehydration);
-        signsSomeDehydration = getString(R.string.signs_some_dehydration);
-        noDehydration = getString(R.string.signs_no_dehydration);
-        severeProlonged = getString(R.string.young_signs_severe_prolonged_diarrhoea);
-        possibleAbdominal = getString(R.string.signs_dysentry);
-*/
 
         signsSevereDiseases = getString(R.string.mastoditis_treatment);
         signsLocalBacteria = getString(R.string.acute_ear_infection_treatment);
@@ -83,10 +77,10 @@ public class IDTreatment_Ear_Problem extends Fragment {
          */
 
         pProductArrayList = new ArrayList<Product>();
-        pProductArrayList.add(new Product("Mastoditis", pSubItemArrayList));
-        pProductArrayList.add(new Product("Acute Ear Infection", pSubItemArrayList2));
-        pProductArrayList.add(new Product("Chronic Ear Infection", pSubItemArrayList3));
-        pProductArrayList.add(new Product("No Ear Infection", pSubItemArrayList4));
+        pProductArrayList.add(new Product("MASTOIDITIS", pSubItemArrayList));
+        pProductArrayList.add(new Product("ACUTE EAR INFECTION", pSubItemArrayList2));
+        pProductArrayList.add(new Product("CHRONIC EAR INFECTION", pSubItemArrayList3));
+        pProductArrayList.add(new Product("NO EAR INFECTION", pSubItemArrayList4));
 
 
         /***

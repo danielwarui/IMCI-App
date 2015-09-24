@@ -3,6 +3,7 @@ package org.ministryofhealth.imci.assessment;
 import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -29,7 +30,7 @@ public class What_to_Check_0_2 extends Activity {
     List<String> listDataHeader;
     HashMap<String, List<String>> listDataChild;
     Fragment fragment;
-    TextView t, t0, t1, t2;
+    private TextView t, t0, t1, t2;
     private String checkGeneral;
     private String checkGeneralContinue;
     private String clickhere;
@@ -68,7 +69,7 @@ public class What_to_Check_0_2 extends Activity {
         // setting list adapter
         expListView.setAdapter(listAdapter);
         expListView.expandGroup(0);
-
+        expListView.setBackgroundColor(Color.TRANSPARENT);
         // Listview Group click listener
         expListView.setOnGroupClickListener(new OnGroupClickListener() {
 
