@@ -170,7 +170,7 @@ public class Oral_Drugs_2_60_At extends Activity {
         listDataHeader.add("Teach the mother to treat local infections at home");
         listDataHeader.add("Give these treatment in health facility only");
         listDataHeader.add("Rehydration therapy & feeding for diarrhoea");
-        listDataHeader.add("Rehydration therapy for diarrhoea for children with severe malnutrition");
+        listDataHeader.add("Rehydration therapy for diarrhoea in children with severe malnutrition");
         listDataHeader.add("Give multivitamin/ mineral supplement for persistent diarrhoea");
         // Adding child data
         List<String> oralDrugs = new ArrayList<String>();
