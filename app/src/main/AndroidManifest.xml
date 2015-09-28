@@ -69,6 +69,15 @@
             android:name=".assessment.CareForDevelopment"
             android:label="@string/app_name"></activity>
         <activity
+            android:name=".assessment.Other_Problems"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".assessment.treatchild.Treat_Child_Activity_0_2_Resus"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".assessment.treatchild.Treat_Child_Activity_0_2_Keep_Warm"
+            android:label="@string/app_name"></activity>
+        <activity
             android:name=".assessment.treatchild.Oral_Drugs_0_2_At"
             android:label="@string/app_name" />
         <activity

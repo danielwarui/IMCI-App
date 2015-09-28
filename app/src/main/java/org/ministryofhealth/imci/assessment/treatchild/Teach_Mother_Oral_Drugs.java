@@ -33,8 +33,7 @@ protected void onCreate(Bundle savedInstanceState) {
 	fiilliste = getResources().getStringArray(R.array.trt_oral_drugs_at_home);
 
 	vlist = (ListView) findViewById(R.id.list1);
-	adapter = new ArrayAdapter<String>(this,
-			android.R.layout.simple_list_item_single_choice, fiilliste);
+	adapter = new ArrayAdapter<String>(this,R.layout.simple_list_check, fiilliste);
 
 	vlist.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
 	vlist.setAdapter(adapter);

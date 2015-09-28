@@ -36,8 +36,7 @@ public class Treatment_Health_Facility extends Activity {
         fiilliste = getResources().getStringArray(R.array.health_facility_only);
 
         vlist = (ListView) findViewById(R.id.list1);
-        adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_single_choice, fiilliste);
+        adapter = new ArrayAdapter<String>(this,R.layout.simple_list_check, fiilliste);
 
         vlist.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
         vlist.setAdapter(adapter);

@@ -19,6 +19,8 @@ import org.ministryofhealth.imci.R;
 import org.ministryofhealth.imci.assessment.adapter.AdapterExpandable;
 import org.ministryofhealth.imci.assessment.counsel_mother.CareForDevelopmentUniversal;
 import org.ministryofhealth.imci.assessment.follow_up.FollowUpMain;
+import org.ministryofhealth.imci.assessment.treatchild.Treat_Child_Activity_0_2;
+import org.ministryofhealth.imci.assessment.treatchild.Treat_Child_Activity_0_2_Resus;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -172,6 +174,24 @@ public class What_to_Check_0_2 extends Activity {
                     startActivity(intent);
 
                 }
+                if (groupPosition == 1 && childPosition == 0) {
+                    //Resuscitate
+                    Intent intent = new Intent(What_to_Check_0_2.this, Treat_Child_Activity_0_2_Resus.class);
+                    startActivity(intent);
+                   /* Intent intent = new Intent(What_to_Check_0_2.this, Treat_Child_Activity_0_2.class);
+                    intent.putExtra("position", 1);
+                    startActivity(intent);*/
+
+                }
+                if (groupPosition == 2 && childPosition == 0) {
+                    //Keep younginfant warm
+
+                    Intent intent = new Intent(What_to_Check_0_2.this, Treat_Child_Activity_0_2.class);
+                    intent.putExtra("position", 2);
+                    startActivity(intent);
+
+                }
+
                 return false;
             }
         });
@@ -194,6 +214,8 @@ public class What_to_Check_0_2 extends Activity {
 
         // Adding child data
         listDataHeader.add("CHECK FOR:");
+        listDataHeader.add("Helping Babies Breathe:");
+        listDataHeader.add("Keep the young infant warm");
 
 
         List<String> listCheckFor = new ArrayList<String>();
@@ -207,7 +229,16 @@ public class What_to_Check_0_2 extends Activity {
         listCheckFor.add("Care for development");
         listCheckFor.add("Special treatment needs");
 
+        List<String> listBabiesBreathe = new ArrayList<String>();
+        listBabiesBreathe.add("Touch here and follow instructions to resuscitate the young infant");
+
+        List<String> listKeepWarm = new ArrayList<String>();
+        listKeepWarm.add("Touch here and follow instructions to keep the young infant warm");
+
         listDataChild.put(listDataHeader.get(0), listCheckFor);
+        listDataChild.put(listDataHeader.get(1), listBabiesBreathe);
+        listDataChild.put(listDataHeader.get(2), listKeepWarm);
+
 
         // data
     }

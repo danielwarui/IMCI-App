@@ -137,6 +137,12 @@ public class What_to_Check_2_60 extends Activity {
                     startActivity(intent);
 
                 }
+                //other problems that the child may have
+                if (groupPosition == 1 && childPosition == 4) {
+                    Intent intent = new Intent(What_to_Check_2_60.this, Other_Problems.class);
+                    startActivity(intent);
+
+                }
                 return false;
             }
         });
@@ -170,6 +176,7 @@ public class What_to_Check_2_60 extends Activity {
         conditions.add("Check for anaemia");
         conditions.add("Check for HIV exposure and infection");
         conditions.add("Check the child's immunization,vitamin A & deworming status");
+        conditions.add("Assess for other problems that the child may have.");
 
         listDataChild.put(listDataHeader.get(0), symptoms);
         listDataChild.put(listDataHeader.get(1), conditions);

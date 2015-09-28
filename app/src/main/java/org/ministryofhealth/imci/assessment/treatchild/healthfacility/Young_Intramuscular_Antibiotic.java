@@ -29,7 +29,7 @@ public class Young_Intramuscular_Antibiotic extends Activity{
 	  super.onCreate(savedInstanceState);
 		 getActionBar().setHomeButtonEnabled(true);
 		 getActionBar().setDisplayHomeAsUpEnabled(true);
-		 getActionBar().setTitle("Intramuscular antibiotic");
+		 getActionBar().setTitle("Give first dose of Intramuscular Antibiotics");
 	  setContentView(R.layout.young_intramuscular_antibiotic);
 	  imageDetail = (ImageView) findViewById(R.id.imageview_zoomview);
 	  /**

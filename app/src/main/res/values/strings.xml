@@ -177,7 +177,7 @@
     </string-array>
     <string-array name="young_health_facility_only">
         <item>Give an Intramuscular Antibiotic</item>
-        <item>Treat the Child for Low Blood Sugar</item>
+        <item>Treat the young infant to prevent Low Blood Sugar</item>
     </string-array>
     <string-array name="young_oral_drugs">
         <item>Give an Appropriate Oral Antibiotic</item>
@@ -603,7 +603,7 @@ CLASSIFY
     <string name="young_severe_disease3">        LOW BODY TEMPERATURE
 </string>
 <string name="other_problems_child">
-    <b>MAKE SURE A CHILD WITH ANY GENERAL DANGER SIGN IS REFERRED:</b>\n
+    <b>MAKE SURE A CHILD WITH ANY GENERAL DANGER SIGN IS REFERRED:</b>\n\n
 - After first dose of an appropriate antibiotic and other urgent treatments.\n
 - Exception: Rehydration of the child according to Plan C may resolve danger signs so that referral is no longer needed.
 </string>
@@ -631,7 +631,7 @@ If mother\'s antibody test is POSITIVE, the child is exposed. Conduct an antibod
         <b>NB: See Early Infant Diagnosis (EID) Algorithm.</b>\n
         </string>
     <string name="young_hiv_three">
-<b>PRESUMPTIVE SYMPTOMATIC DIAGNOSIS OF HIV INFECTION IN CHILDREN 18 MONTHS</b>\n\n
+<b>PRESUMPTIVE SYMPTOMATIC DIAGNOSIS OF HIV INFECTION IN CHILDREN &lt; 18 MONTHS</b>\n\n
         </string>
     <string name="young_hiv_four">
 <u>LOOK and FEEL</u>\n
@@ -713,7 +713,6 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 •   Look for pus draining from the eye.\n
 •   Look for clouding of their cornea.\n
 </string>
-
     <string name="signs_severe_pneumonia">      • Any general danger sign OR\n• Chest indrawing OR\n• Stridor in calm child. \n
 </string>
     <string name="signs_pneumonia">        • Fast Breathing\n
@@ -764,10 +763,10 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
     <string name="signs_severe_acute_malnutrition"> For all children:\n       \t• With visible severe wasting.\n
         \t• Oedema of both feet. \n\t• &lt;-3 Z Score ( weight for age or weight for height/length)\n\n <b>FOR CHILDREN 6MONTHS UPTO 59MONTHS: MUAC &lt;11.5cm</b>
 </string>
-    <string name="signs_moderate_acute_malnutrition"> For all age groups:\n        \t• Static weight or losing weight.\n\t• 3 to &lt; -2 Z- Score\n\n
+    <string name="signs_moderate_acute_malnutrition"> For all age groups:\n        \t• Static weight or losing weight.\n\t• -3 to &lt; -2 Z-Score\n\n
         <b>IF AGE 6 MONTHS UPTO 59 MONTHS MUAC 11.5 TO 12.5cm</b>
 </string>
-    <string name="signs_at_risk_malnutrition">For all age groups:\n        • Static weight or losing weight\n• 2 to &lt; -1 Z-Score\n\n
+    <string name="signs_at_risk_malnutrition">For all age groups:\n        • Static weight or losing weight\n• -2 to &lt; -1 Z-Score\n\n
         <b>IF AGE 6MONTHS UPTO 59 MONTHS MUAC 12.5 TO 13.5cm</b>
 </string>
     <string name="signs_no_malnutrition">        • weight -1 to +2.
@@ -792,7 +791,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
     <string name="young_signs_normal_birth_weight">Weight 2.5kg or more.
 </string>
-    <string name="signs_hiv_exposed"> <b>Children &lt; 18 months</b>\n• If mother\'s HIV status is POSITIVE and no result for child.\n OR \n• If child antibody test shows POSITIVE.\n OR \n• If DNA PCR test is NEGATIVE.
+    <string name="signs_hiv_exposed"> <b>Children &lt; 18 months</b>\n• If mother\'s HIV status is POSITIVE and no result for child.\n OR \n• If child antibody test POSITIVE.\n OR \n• If DNA PCR test is NEGATIVE.
 </string>
      <string name="young_signs_hiv_exposed"> <b>Children &lt; 18 months</b>\n• If mother\'s HIV status is POSITIVE and no result for child.\n OR \n• If child antibody test shows POSITIVE.\n OR \n• If DNA PCR test is NEGATIVE.
 </string>
@@ -1087,11 +1086,11 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
     <string name="severe_acute_malnutrition_treatment">• Give Vitamin A \n• Treat for and to prevent low blood sugar\n• Keep the child warm\n• Admit or refer URGENTLY to hospital. - If child has no other complications (Danger signs
         , Diarrhoea, Pneumonia, Fever, no appetite e.t.c)
 </string>
-    <string name="moderate_acute_malnutrition_treatment">• Assess the child\'s feeding and counsel the mother on feeding \n• If growth is faltering for 2 consecutive months,assess further or refer to the hospital \n• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months \n• If T.B. contact positive assess further or refer.\n• Check for HIV infection\n• Advise mother when to come immediately\n• Follow up in 5 days
+    <string name="moderate_acute_malnutrition_treatment">• Assess the child\'s feeding and counsel the mother on feeding \n• If growth is faltering for 2 consecutive months,assess further or refer to the hospital \n• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months \n• If T.B. contact positive assess further or refer.\n• Check for HIV infection\n• Advise mother when to return immediately\n• Follow up in 5 days
 </string>
-    <string name="at_risk_malnutrition_treatment">• Assess the child\'s feeding and counsel the mother on feeding \n• If growth is faltering for 2 consecutive months,assess further or refer to the hospital \n• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months\n• If T.B. contact positive assess further or refer.\n• Check for HIV infection\n• Advise mother when to come immediately\n• Follow up in 14 days
+    <string name="at_risk_malnutrition_treatment">• If child is less than 2 years old, and has growth faltering, assess the child\'s feeding and counsel the mother on feeding according to FOOD box on the COUNSEL THE MOTHER tab.\n<b>• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months.</b>\n• If T.B. contact positive assess further or refer.\n• Check for HIV infection\n• Advise mother when to return immediately\n• Follow up in 14 days
 </string>
-    <string name="no_malnutrition_treatment">• Counsel the mother on feeding.  \n• Give Mebendazole or Albendazole if child is 1 year or older and has not had a dose in the previous 6 months
+    <string name="no_malnutrition_treatment">• Counsel the mother on feeding according to the FOOD box on the COUNSEL THE MOTHER tab.  \n• Give Mebendazole or Albendazole if child is 1 year or older and has not had a dose in the previous 6 months
 </string>
     <string name="severe_anaemia_treatment">• Treat for and to prevent low blood sugar\n• Keep the child warm \n• Admit or refer URGENTLY to hospital\n
 </string>
@@ -1654,7 +1653,47 @@ REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS
        - To constitute 10% glucose from 50% glucose: Mix 1 part of 50% glucose
        with 4 parts of water for injection.
 </string>
-    <string name="evaluate_baby_breathing"><b>Evaluate the baby\'s breathing after stimulation: </b>\n
+    <string name="evaluate_baby_breathing_one">• A baby who is gasping or not breathing at all will require resuscitation.</string>
+    <string name="keep_baby_warm_one">• Place the baby onto a firm, clean and warm surface.\n
+    • Inform the mother that the baby has difficulty breathing and that you will help the baby breathe.\n
+    • Keep the baby wrapped and under a radiant heater if possible.
+</string>
+    <string name="open_airway_one">• Position the head so that it is slightly extended.\n
+    • Suction the mouth and then the nose.\n
+    • Introduce the suction tube into the newborn\'s mouth 5cm from lips and suck while withdrawing.\n
+    • Introduce the suction tube 3cm into each nostril and suck while withdrawing until no mucus.\n
+    • Repeat each suction if necessary but no more than twice and no more than 20 seconds in total.
+</string>
+    <string name="if_still_no_breathing_one">• Place mask to cover chin, mouth and nose.\n
+    • Form seal.\n
+    • Squeeze bag attached to the mask with 2 fingers or whole hand, according to bagsize, 2 or 3 times\n
+    • Observe rise of chest. If chest not rising : \n
+    \t\t\t• Reposition head.\n
+    \t\t\t• Check mask heal.\n
+    \t\t\t• Squeeze bag harder.\n
+    • Once good seal and chest rising, ventilate at 40 squeezes per minute until baby starts breathing spontaneously.
+</string>
+    <string name="breathing_or_crying_one">• Look at the chest for indrawing.\n
+    • Count breaths per minute.\n
+    • If breathing more than 30 breaths per minute and no severe chest drawing: \n
+    \t\t\t• Do not ventilate any more.\n
+    \t\t\t• Put the baby in skin to skin contact on mother\'s chest and continue care.\n
+    \t\t\t• Monitor every 15 minutes for breathing and warmth.\n
+    \t\t\t• Tell the mother that the baby will probably be well.
+    \n\n
+        </string>
+    <string name="leave_baby_one"><b>DO NOT LEAVE THE BABY ALONE</b>\n</string>
+    <string name="breathing_less_severe_one">• Continue ventilating.\n
+    • Arrange for immediate referral.\n
+    • Explain to the mother what has happened,what are you doing and why?\n
+    • Ventilate during referral.\n
+    • Record the event on the referral form .
+</string>
+    <string name="breathing_gasping_one">• Stop ventilating, the baby is dead.\n
+    • Explain to the mother and give supportive care.\n
+    • Record the event.
+</string>
+       <string name="evaluate_baby_breathing"><b>Evaluate the baby\'s breathing after stimulation: </b>\n
     • A baby who is gasping or not breathing at all will require resuscitation.</string>
     <string name="keep_baby_warm"><b>Keep the baby warm</b>\n• Place the baby onto a firm, clean and warm surface.\n
     • Inform the mother that the baby has difficulty breathing and that you will help the baby breathe.\n
@@ -1959,4 +1998,5 @@ feeds should be introduced and breastfeeding continued for the first year of lif
     • In cool weather, cover the infant\'s head and feet and dress the infant with extra clothing.
 </string>
     <string name="if_baby_cannot_be_breastfed">• If baby cannot be breastfed, counsel on alternative feeding.</string>
+
 </resources>

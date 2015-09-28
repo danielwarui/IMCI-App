@@ -32,8 +32,7 @@ public class Teach_Mother_Local_Infections extends Activity {
         fiilliste = getResources().getStringArray(R.array.trt_mother_local_infection);
 
         vlist = (ListView) findViewById(R.id.list1);
-        adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_single_choice, fiilliste);
+        adapter = new ArrayAdapter<String>(this, R.layout.simple_list_check, fiilliste);
 
         vlist.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
         vlist.setAdapter(adapter);
