@@ -20,7 +20,7 @@ import java.util.List;
  */
 public class CounselMother extends Activity{
     Intent intent;
-
+    int id;
     ExpandableListAdapter listAdapter;
     ExpandableListView expListView;
     List<String> listDataHeader;
@@ -30,6 +30,7 @@ public class CounselMother extends Activity{
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainforexplistview);
+        setRowIdFromIntent();
         getActionBar().setDisplayHomeAsUpEnabled(true);
         getActionBar().setHomeButtonEnabled(true);
 
@@ -44,6 +45,13 @@ public class CounselMother extends Activity{
 
         // setting list adapter
         expListView.setAdapter(listAdapter);
+
+        if (id == 1) {
+            expListView.expandGroup(1);
+        }
+        if (id == 0) {
+        }
+
 
         // Listview Group click listener
         expListView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
@@ -215,6 +223,11 @@ public class CounselMother extends Activity{
         onBackPressed();
         return true;
 
+    }
+
+    private void setRowIdFromIntent() {
+        Bundle extras = getIntent().getExtras();
+        id = extras != null ? extras.getInt("Expander") : null;
     }
     @Override
     public void onStart() {

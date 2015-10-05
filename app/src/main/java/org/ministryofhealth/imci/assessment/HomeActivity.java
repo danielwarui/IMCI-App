@@ -84,6 +84,7 @@ public class HomeActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.btnCounselMother:
                 intent = new Intent(HomeActivity.this, CounselMother.class);
+                intent.putExtra("Expander", 0);
                 startActivity(intent);
                 break;
 

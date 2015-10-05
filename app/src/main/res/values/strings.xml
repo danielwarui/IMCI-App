@@ -185,7 +185,9 @@
         <item>To Treat Skin Pustules or Umbilical Infection</item>
         <item>To Treat Thrush (white patches in mouth) or Mouth Ulcers.</item>
         <item>Treat Eye infection with Tetracycline Eye Ointment</item>
+        <item>Immunize Every Sick Young Infant as Needed</item>
         <item>To Treat Diarrhoea</item>
+        <item>To counsel the mother about care for development problems.</item>
     </string-array>
     <string-array name="young_teach_correct_positioning">
         <item>Teach Correct Positioning and Attachment
@@ -1790,12 +1792,12 @@ REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS
     <string name="young_teach_mother_to_give_oral_drugs">
     Follow the instructions below for every oral drug to be given at home.\n
     Also follow the instructions listed with each drug\'s dosage table.\n
-    • Determine the appropriate drugs and dosage for child\'s age or weight.\n
+    • Determine the appropriate drugs and dosage for the child\'s age or weight.\n
     • Tell the mother the reason for giving the drug to the child.\n
     • Demonstrate how to measure a dose.\n
     • Watch the mother practise measuring a dose by herself.\n
     • Ask the mother to give the first dose to her child.\n
-    • Explain carefully how to give, then label and package the drug.\n
+    • Explain carefully how to give the drug, then label and package the drug.\n
     • If more than one drug will be given, collect, count and package each drug separately.\n
     • Explain that all oral drug tablets or syrups must be used to finish the course of treatment, even if the child gets better.\n
     • Check the mother\'s understanding before she leaves the clinic.
