@@ -43,7 +43,6 @@ public class Treat_Child_Activity_0_2_Resus extends Activity {
 
         // setting list adapter
         expListView.setAdapter(listAdapter);
-        expListView.expandGroup(0);
         expListView.setBackgroundColor(Color.TRANSPARENT);
         // Listview Group click listener
         expListView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
@@ -80,7 +79,6 @@ public class Treat_Child_Activity_0_2_Resus extends Activity {
         expListView.setClickable(false);
         expListView.setFocusable(false);
     }
-
     /*
      * Preparing the list data
      */

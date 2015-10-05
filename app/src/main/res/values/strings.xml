@@ -1,5 +1,4 @@
-<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
-
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto" formatted="false">
     <string name="app_name">IMCI</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -10,10 +9,9 @@
     <string name="action_previous">Previous</string>
     <string name="action_next">Next</string>
     <string name="action_finish">Finish</string>
-     <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: Lorem
+  <string name="title_template_step">Step <xliff:g id="step_number">%%1$d</xliff:g>: Lorem
         Ipsum</string>
     <string name="lorem_ipsum"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et magna ut erat elementum cursus in quis ipsum. Nam faucibus ultrices eros, vel tempor leo semper sit amet. Duis magna quam, congue vitae interdum nec, condimentum ut lectus. Sed commodo venenatis eros a dignissim. Nunc adipiscing turpis nec magna venenatis at ultricies ipsum bibendum. Sed volutpat urna quis nisi vulputate egestas. Etiam eu dui a enim lacinia dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\nPhasellus orci mi, eleifend nec congue id, volutpat at neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer semper velit vel leo rutrum sed fermentum elit porta.]]></string>
-
 
     <string name="result_activity">ResultActivity</string>
     <string name="symptoms">SYMPTOMS</string>
@@ -51,11 +49,11 @@
     <string name="lbl_specialtreatment">Check for special treatment needs</string>
     <string name="lbl_jaundice">Check for jaundice</string>
     <string name="lbl_eyeproblem">Check for eye infections</string>
-    <string name="lbl_feeding">Check for feeding problem, low weight or low birthweight</string>
+    <string name="lbl_feeding">Check for feeding problem, low weight or low birth weight</string>
     <string name="lbl_severedisease">Does the child have a severe disease</string>
     <string name="lbl_immunization">Check the child\'s immunization, vitamin A amp; Deworming status </string>
     <string name="lbl_Starter_Follow_Persistent_Diarrhoea">Follow up persistent diarrhoea</string>
-    <string name="lbl_Starter_Follow_Dysentry">Follow up dysentry</string>
+    <string name="lbl_Starter_Follow_Dysentry">Follow up dysentery</string>
     <string name="lbl_Starter_Follow_EyeInfection">Follow up eye infection</string>
     <string name="lbl_Starter_Follow_EarInfection">Follow up ear infection</string>
     <string name="lbl_Starter_Follow_EyeMouth">Follow up eye or mouth complications of measles</string>
@@ -69,13 +67,13 @@
     <string name="lbl_Starter_Follow_Wheezing">Follow up wheezing</string>
     <string name="lbl_YoungStarter_Follow_Bacterial">Follow up bacterial infection</string>
     <string name="lbl_YoungStarter_Follow_Diarrhoea">Follow up diarrhoea</string>
-    <string name="lbl_YoungStarter_Follow_EyeInfection">Follow up eyeinfection</string>
-    <string name="lbl_YoungStarter_Follow_FeedingProblem">Follow up feedingproblem</string>
+    <string name="lbl_YoungStarter_Follow_EyeInfection">Follow up eye infection</string>
+    <string name="lbl_YoungStarter_Follow_FeedingProblem">Follow up feeding problem</string>
     <string name="lbl_YoungStarter_Follow_Jaundice">Follow up jaundice</string>
-    <string name="lbl_YoungStarter_Follow_LowWeight">Follow up lowweight</string>
+    <string name="lbl_YoungStarter_Follow_LowWeight">Follow up low weight</string>
     <string name="lbl_YoungStarter_Follow_ThrushMouthUlcers">Follow up thrush or mouth ulcers</string>
     <string name="lbl_Oral_Drugs">Teach the mother to give oral drugs at home</string>
-    <string name="lbl_Local_Infection">Teach the mother to treat local infecetions at home</string>
+    <string name="lbl_Local_Infection">Teach the mother to treat local infections at home</string>
     <string name="lbl_health_facility">Give these treatments in health facility only</string>
     <string name="lbl_rehydration_and_feeding">Rehydration therapy &amp; feeding for diarrhoea</string>
     <string name="lbl_rehydration_severe_malnutrition">Rehydration therapy for diarrhoea for children with severe malnutrition</string>
@@ -861,7 +859,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
         <item>With severe wasting</item>
         <item>Oedema of both feet</item>
         <item>&lt; 3 Zscore</item>
-        <item>For children 6 months upto 59 months : MUAC &lt;11.5cm</item>
+        <item>For children 6 months up to 59 months : MUAC &lt;11.5cm</item>
         <item>For all age groups</item>
         <item>Static weight or losing weight</item>
         <item>3 to &lt; 2 Z score</item>
@@ -1595,8 +1593,8 @@ REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS
     <string name="treatment_of_severe_malaria" formatted="false">
         <i>The recommended treatment for severe malaria is parenteral artesunate, quinine or artemether</i>\n\n
         <b>1. Artesunate for Severe Malaria</b>\n
-        • Dissolve artesunic powder with 5% sodium bicarbonate solution(provided with vial).Dilute resultant solution with
-        5ml of 5% dextrose.\n• Administer 2.4mg/kg stat by slow IV injection then 1.2mg/kg at 12 hrs
+        • Dissolve artesunic powder with 5%% sodium bicarbonate solution(provided with vial).Dilute resultant solution with
+        5ml of 5%% dextrose.\n• Administer 2.4mg/kg stat by slow IV injection then 1.2mg/kg at 12 hrs
         and 24 hrs then 1.2 mg/kg daily until the patient is able to tolerate oral medications.\n• Artesunate can be given IM at the same dosage and intervals.\n• Thereafter a complete course of artemetherlumefantrine (AL) is given.
 </string>
     <string name="quinine_dilution">        • To dilute injection 50mg/ml, draw 5ml of water for injection into a syringe
@@ -1615,12 +1613,12 @@ REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS
         until the child is able to take an oral antimalarial. Do not continue quinine
         injections for more than 1 week.\n• If low risk of malaria, do not give quinine to a child &lt; 4 months of age.\n• Give Vitamin A.
 </string>
-    <string name="artemether_for_severe_malaria"><b>3. Artemether for Severe Malaria</b>\n
+    <string name="artemether_for_severe_malaria" formatted="false"><b>3. Artemether for Severe Malaria</b>\n
         • Administer a loading dose of 3.2mg/kg IM stat then 1.6mg/kg
         daily until the patient is able to tolerate oral medications.\n
         • Thereafter a complete course of AL is given.\n
         • Admit or refer patients with the following: \n
-        \t • Severe anaemia(Hb level of below 5g/dl or haematocrit of below 15%)\n
+        \t • Severe anaemia(Hb level of below 5g/dl or haematocrit of below 15%%)\n
         \t • Two or more convulsions within a 24-hr period.\n
         \t • Hyperparasitaemia and are stable. These patients can be treated with
         AL, DHA-PPQ or oral quinine where ACT is not available. However,they need to be closely monitored.
@@ -1634,23 +1632,30 @@ REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS
  <b>To make sugar water : Dissolve 4 level teaspoons of sugar (20grams) in a 200 ml cup</b> \n<b>• If the child is not able to swallow: </b>\n
         Give 50 ml of milk or sugar water by nasogastric tube.\n
  <b>For suspected low blood sugar</b>\n
-        Give 10% glucose 5ml/kg by nasogastric tube OR \n
+        Give 10%% glucose 5ml/kg by nasogastric tube OR \n
         Give the same amount slowly intravenously if a line is available.\n
         Keep warm.\n
  <b>Admit or Refer urgently to hospital</b>\n
-<i>Low blood sugar(hypoglycemia) may be suspected in any infant or child who is convulsing or has loss of consciousness for which there is no obvious cause&#59; has a rectal temperateure of below 35.5°C is drowsy or sweating, is lethargic, floppy or jittery particularly when less than 2 months old.\n\n To constitute 10% glucose from 50% glucose&#58; Mix 1 part of 50% glucose with 4 parts of water for injection.</i>
+<i>Low blood sugar(hypoglycemia) may be suspected in any infant or child who is convulsing or has loss of consciousness for which there is no obvious cause&#59; has a rectal temperateure of below 35.5°C is drowsy or sweating, is lethargic, floppy or jittery particularly when less than 2 months old.\n\n To constitute 10%% glucose from 50%% glucose&#58; Mix 1 part of 50%% glucose with 4 parts of water for injection.</i>
 
 </string>
-
-    <string name="young_treat_child_for_low_blood_sugar">
-
-
-  </string>
+    <string name="ableBreastFeed">Ask the mother to breastfeed the child.\n</string>
+    <string name="notAbleBreastFeed"> Give expressed breast milk or a breast milk substitute.\n
+        If neither of these is available give sugar water.\n
+        Give 30-50 ml of milk or sugar water before departure.</string>
+    <string name="toMakeSugar"></string>
+    <string name="notSwallow">Give 50 ml of milk or sugar water by nasogastric tube.</string>
+    <string name="suspBloodSugar" formatted="false"> Give 10%% glucose 5ml/kg by nasogastric tube OR \n
+        Give the same amount slowly intravenously if a line is available.\n
+        Keep warm.</string>
+    <string name="admitorRefer">Admit or Refer urgently to hospital</string>
+    <string name="pointsToNoteBloodSugar"><i>Low blood sugar(hypoglycemia) may be suspected in any infant or child who is convulsing or has loss of consciousness for which there is no obvious cause&#59; has a rectal temperateure of below 35.5°C is drowsy or sweating, is lethargic, floppy or jittery particularly when less than 2 months old.\n\n To constitute 10%% glucose from 50%% glucose&#58; Mix 1 part of 50%% glucose with 4 parts of water for injection.</i>
+</string>
     <string name="nb_low_sugar" formatted="false">       - Low blood sugar(hypoglycemia) may be suspected in any
        infant or child who is convulsing or has loss of consciousness for which there
-       is no obviuos cause; has a rectal temperature of below 35.5°C, is drowsy
+       is no obvious cause; has a rectal temperature of below 35.5°C, is drowsy
        or sweating, is lethargic, floppy or jittery- particularly when &lt; 2 months old\n\n
-       - To constitute 10% glucose from 50% glucose: Mix 1 part of 50% glucose
+       - To constitute 10%% glucose from 50%% glucose: Mix 1 part of 50%% glucose
        with 4 parts of water for injection.
 </string>
     <string name="evaluate_baby_breathing_one">• A baby who is gasping or not breathing at all will require resuscitation.</string>
@@ -1869,7 +1874,7 @@ REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS
         expressed breast milk and if not available, give 20-50 ml (10ml/kg) sugar water before referral. \n
         To make sugar water: Dissolve 4 level teaspoons of sugar (20 grams) in a 200-ml cup of clean water.\n
         • If the child is not able to swallow: Give 20-50ml(10ml/mg) expressed breast milk or sugar water by NG tube.\n
-        • If low blood sugar is suspected: Give 10% glucose 10ml/kg by nasogastric tube give same amount intravenously.\n
+        • If low blood sugar is suspected: Give 10%% glucose 10ml/kg by nasogastric tube give same amount intravenously.\n
         * Low blood sugar (hypoglycemia) may be suspected in any infant there is no obvious cause; has a rectal temperature of below 35.5°C is drowsy or sweating,
         is lethargic, floppy of jittery.
 </string>
@@ -1998,5 +2003,4 @@ feeds should be introduced and breastfeeding continued for the first year of lif
     • In cool weather, cover the infant\'s head and feet and dress the infant with extra clothing.
 </string>
     <string name="if_baby_cannot_be_breastfed">• If baby cannot be breastfed, counsel on alternative feeding.</string>
-
 </resources>

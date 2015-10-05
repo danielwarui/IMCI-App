@@ -20,7 +20,6 @@ import org.ministryofhealth.imci.assessment.adapter.AdapterExpandable;
 import org.ministryofhealth.imci.assessment.counsel_mother.CareForDevelopmentUniversal;
 import org.ministryofhealth.imci.assessment.follow_up.FollowUpMain;
 import org.ministryofhealth.imci.assessment.treatchild.Treat_Child_Activity_0_2;
-import org.ministryofhealth.imci.assessment.treatchild.Treat_Child_Activity_0_2_Resus;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -176,11 +175,9 @@ public class What_to_Check_0_2 extends Activity {
                 }
                 if (groupPosition == 1 && childPosition == 0) {
                     //Resuscitate
-                    Intent intent = new Intent(What_to_Check_0_2.this, Treat_Child_Activity_0_2_Resus.class);
-                    startActivity(intent);
-                   /* Intent intent = new Intent(What_to_Check_0_2.this, Treat_Child_Activity_0_2.class);
+                    Intent intent = new Intent(What_to_Check_0_2.this, Treat_Child_Activity_0_2.class);
                     intent.putExtra("position", 1);
-                    startActivity(intent);*/
+                    startActivity(intent);
 
                 }
                 if (groupPosition == 2 && childPosition == 0) {

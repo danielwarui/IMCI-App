@@ -39,7 +39,6 @@ public class Oral_Drugs_0_2_At extends Activity {
         getActionBar().setDisplayHomeAsUpEnabled(true);
         getActionBar().setTitle("Treat the Infant");
         getActionBar().setSubtitle("Age up to 2 months");
-        overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
 
         setContentView(R.layout.what_to_check);
         System.out.println("----Secondactivity activity---onCreates---");
@@ -89,7 +88,7 @@ public class Oral_Drugs_0_2_At extends Activity {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
-                if (groupPosition == 0 && childPosition == 0) {
+               /* if (groupPosition == 0 && childPosition == 0) {
                     Intent intent = new Intent(Oral_Drugs_0_2_At.this, Treat_Child_Activity_0_2.class);
                     intent.putExtra("position", 1);
                     startActivity(intent);
@@ -100,28 +99,28 @@ public class Oral_Drugs_0_2_At extends Activity {
                     intent.putExtra("position", 2);
                     startActivity(intent);
 
-                }
-                if (groupPosition == 2 && childPosition == 0) {
+                }*/
+                if (groupPosition == 0 && childPosition == 0) {
                     Intent intent = new Intent(Oral_Drugs_0_2_At.this, Young_Treatment_Health_Facility.class);
                     startActivity(intent);
 
                 }
-                if (groupPosition == 3 && childPosition == 0) {
+                if (groupPosition == 1 && childPosition == 0) {
                     Intent intent = new Intent(Oral_Drugs_0_2_At.this, Young_Oral_Drugs_At_Home.class);
                     startActivity(intent);
 
                 }
-                if (groupPosition == 4 && childPosition == 0) {
+                if (groupPosition == 2 && childPosition == 0) {
                     Intent intent = new Intent(Oral_Drugs_0_2_At.this, Young_Local_Infections_At_Home.class);
                     startActivity(intent);
 
                 }
-                if (groupPosition == 5 && childPosition == 0) {
+                if (groupPosition == 3 && childPosition == 0) {
                     Intent intent = new Intent(Oral_Drugs_0_2_At.this, Young_Teach_Correct_Positioning.class);
                     startActivity(intent);
 
                 }
-                if (groupPosition == 6 && childPosition == 0) {
+                if (groupPosition == 4 && childPosition == 0) {
                     Intent intent = new Intent(Oral_Drugs_0_2_At.this, Young_Home_Care.class);
                     intent.putExtra("position", 6);
                     startActivity(intent);
@@ -154,8 +153,6 @@ public class Oral_Drugs_0_2_At extends Activity {
         listDataChild = new HashMap<String, List<String>>();
 
         // Adding child data
-        listDataHeader.add("Resuscitate the young infant");
-        listDataHeader.add("Keep the young infant warm");
         listDataHeader.add("Give the treatments in health facility only");
         listDataHeader.add("Teach the mother to give oral drugs at home");
         listDataHeader.add("Teach the mother how to treat local infections at home");
@@ -164,11 +161,6 @@ public class Oral_Drugs_0_2_At extends Activity {
 
 
         // Adding child data(the sudlists of the header expandable list
-        List<String> resuscitate = new ArrayList<String>();
-        resuscitate.add("Touch here to follow instructions to resuscitate the young infant");
-
-        List<String> warm = new ArrayList<String>();
-        warm.add("Touch and follow instructions to keeping the young infant warm");
 
         List<String> health_facility = new ArrayList<String>();
         health_facility.add("Touch and follow instructions to give the treatments in health facility");
@@ -186,12 +178,10 @@ public class Oral_Drugs_0_2_At extends Activity {
         home.add("Touch and follow instructions advising mother on when to return");
 
 
-        listDataChild.put(listDataHeader.get(0), resuscitate); // Header, Child
-        listDataChild.put(listDataHeader.get(1), warm);
-        listDataChild.put(listDataHeader.get(2), health_facility);
-        listDataChild.put(listDataHeader.get(3), oral);
-        listDataChild.put(listDataHeader.get(4), infections);
-        listDataChild.put(listDataHeader.get(5), positioning);
-        listDataChild.put(listDataHeader.get(6), home);
+        listDataChild.put(listDataHeader.get(0), health_facility);
+        listDataChild.put(listDataHeader.get(1), oral);
+        listDataChild.put(listDataHeader.get(2), infections);
+        listDataChild.put(listDataHeader.get(3), positioning);
+        listDataChild.put(listDataHeader.get(4), home);
     }
 }

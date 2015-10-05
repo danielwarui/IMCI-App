@@ -55,9 +55,7 @@ public class Oral_Drugs_2_60_At extends Activity {
             @Override
             public boolean onGroupClick(ExpandableListView parent, View v,
                                         int groupPosition, long id) {
-                // Toast.makeText(getApplicationContext(),
-                // "Group Clicked " + listDataHeader.get(groupPosition),
-                // Toast.LENGTH_SHORT).show();
+
                 return false;
             }
 
@@ -68,9 +66,7 @@ public class Oral_Drugs_2_60_At extends Activity {
 
             @Override
             public void onGroupExpand(int groupPosition) {
-                /*Toast.makeText(getApplicationContext(),
-                        listDataHeader.get(groupPosition) + " Expanded",
-						Toast.LENGTH_SHORT).show();*/
+
             }
         });
 
@@ -79,9 +75,6 @@ public class Oral_Drugs_2_60_At extends Activity {
 
             @Override
             public void onGroupCollapse(int groupPosition) {
-				/*Toast.makeText(getApplicationContext(),
-						listDataHeader.get(groupPosition) + " Collapsed",
-						Toast.LENGTH_SHORT).show();*/
 
             }
         });
