@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0E68C">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linear_what_to_check"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0E68C">
+
+        <LinearLayout
+            android:id="@+id/lltreatOne"
+            android:layout_width="wrap_content"
+            android:layout_height="440dp">
+
+            <ExpandableListView
+                android:id="@+id/lvExpTreat"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="@color/accent"
+                android:childDivider="#FFFFFF"
+                android:dividerHeight="3dp"
+                android:drawSelectorOnTop="true" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lltreatOne"
+            android:text="@string/pointsToNoteBloodSugar"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    </RelativeLayout>
+</ScrollView>
