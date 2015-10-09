@@ -133,7 +133,7 @@
         <item>Fever - No Malaria(Low or No Risk)</item>
         <item>Eye or Mouth complications of measles</item>
         <item>Ear Infection</item>
-        <item>HIV Exposed </item>
+        <item>HIV Exposed and Infected Children</item>
         <item>Feeding Problem</item>
         <item>Pallor</item>
         <item>Very Low Weight(At risk of malnutrition)</item>
@@ -200,9 +200,9 @@ for Breastfeeding</item>
     <!-- treat the infant/child string variables -->
 
     <string name="header_instructions_teach_the_mother_oral_drugs">    Follow the instructions below for every oral drug to be given at home.
-Also follow the instructions listed with each drug\’s dosage table.\n
+Also follow the instructions listed with each drug\'s dosage table.\n
 </string>
-    <string name="instructions_teach_the_mother_oral_drugs">• Determine the appropriate drugs and dosage for the child\'s weight and age.\n• Tell the mother the reason for giving the drug to the child.\n• Demonstrate how to measure a dose.\n• Watch the mother practise measuring a dose for herself.\n• Ask the mother to give the first dose to the child.\n• Explain carefully how to give the drug, then label and package the drug.\n• If more than one drug will be given, collect, countand package each drug separately.\n• Explain that all the oral drug tablets or syrups must be used to finish the
+    <string name="instructions_teach_the_mother_oral_drugs">• Determine the appropriate drugs and dosage for the child\'s weight and age.\n• Tell the mother the reason for giving the drug to the child.\n• Demonstrate how to measure a dose.\n• Watch the mother practise measuring a dose by herself.\n• Ask the mother to give the first dose to the child.\n• Explain carefully how to give the drug, then label and package the drug.\n• If more than one drug will be given, collect, count and package each drug separately.\n• Explain that all the oral drug tablets or syrups must be used to finish the
 course of treatment, even if the child gets better.\n• Check the mother\’s understanding before she leaves the clinic.
 </string>
     <string name="instructions_teach_the_mother_local_infections">• Explain to the mother what the treatment is and why it should be given.\n• Describe the treatment steps listed in the appropriate box.\n• Watch the mother as she gives the first treatment in the clinic (except remedy for cough
@@ -1132,7 +1132,7 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
   \t - Emphasize on the importance of adhering to HIV treatment for both mother and child.\n
   \t - Refer mother for HIV care and support if services not offered in facility.\n \t - Encourage parent to seek Voluntary Counselling and Testing (VCT).\n
   \t - Re-emphasize the importance of safe sex and ealry treatment of STI/RTI and counsel
-	regarding future pregnancies.
+    regarding future pregnancies.
 
 </string>
 <string name="baby_less_than_two">
@@ -1171,7 +1171,13 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
     \t-Is there less fever?\n
     \t-Is the child eating better?\n
 </string>
-    <string name="follow_up_pneumonia">
+    <string name="follow_up_pneumonia"><b>Treatment</b>
+        \n• If <b>chest indrawing or a general danger sign</b>, give a dose of second-line antibiotic or intramuscular
+        chloramphenicol. Then admit or refer URGENTLY to hospital.
+        \n\n• If <b>breathing rate, fever and eating have not improved</b>, change to the second-line antibiotic and advise
+        the mother to return in 2 days or refer. (If this child had measles within the last 3 months or is known or suspected
+        to have symptomatic HIV infections, refer.)
+        \n\n• If <b>breathing slower, less fever, or eating better</b>, complete the 5 days of antibiotic.
     </string>
 <string name="followup_pneumonia_chest_indrawing">
     • Give a dose of second-line antibiotic or intramuscular chloramphenicol. Then admit or refer URGENTLY to hospital.\n
@@ -1195,24 +1201,24 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
     \t-Is there less abdominal pain?\n
     \t-Is the child eating better?\n
 </string>
-    <string name="follow_up_dysentry">    • If the child is dehydrated, treat dehyration according to classification.\n
-    • If number of stools, fever, abdominnal pain, or eating is worse: Admit or refer to hospital.\n
-    • If the condition is the same: add metronidazole to the treatment.\n
+    <string name="follow_up_dysentry"> <b>Treatment:</b>\n• If the child is <b>dehydrated</b>, treat dehyration according to classification.\n
+    • If <b>number of stools, fever, abdominal pain, or eating is worse: Admit or refer to hospital.</b>\n
+    • If <b>the condition is the same: add metronidazole to the treatment.</b>\n
     \t Give it for 5 days. Advise the mother to continue ciproflaxin and zinc and to return in 2 days.
-    Exceptions if the child\n
+    <b>Exceptions if the child</b>\n
     \t 1. Is &lt; 12 months old
     \n\t 2. Was dehydrated on the first visit
     \n\t 3. Had measles within the last 3 months
     \n For the three Admit or refer urgently to hospital.
     \n
     \n
-    • If fewer stools, less blood in the stools, less fever, less abdominal pain, and eating better,
+    • If <b>fewer stools, less blood in the stools, less fever, less abdominal pain, and eating better</b>,
     continue giving ciproflaxin and zinc until finished.
 </string>
     <string name="ad_follow_up_persistent_diarrhoea">        After 5 days\n
       Ask:  \n
-      -Has the Diarrhoea stopped.\n
-      -how many loose stools is the child having per day?</string>
+      -Has the Diarrhoea stopped?\n
+      -How many loose stools is the child having per day?</string>
     <string name="follow_up_persistent_diarrhoea">       • If the <b>diarrhoea has not stopped(child is still having 3 or more loose
        stools per day)</b>, do a full reassessment of the child.Give any treatment needed. Then refer to hospital.\n
        • If the <b>diarrhoea has stopped(child having &lt; 3 loose stools per day)</b>, tell the mother to follow th usual feeding recommendations for the child\'s age, but give one extra meal every day 1 month.
@@ -1238,6 +1244,15 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
     \t-Is the child still wheezing?\n
     \t-Is the child eating better?\n
 </string>
+    <string name="follow_up_wheezing_treatment"><b><u>Child under 1 year</u></b>
+        \n• If <b>chest indrawing or a danger sign,fast breathing,poor feeding or wheeze</b> : Give intramuscular antibiotic.Then admit or
+    refer URGENTLY to hospital .\n• If <b>breathing slower, no wheezing and eating better continue</b> the treatment for 5 days.
+    \n\n<b><u>Child one year and over</u></b>
+    \n• If chest indrawing or a danger sign give intramuscular antibiotic. Then admit or refer urgently to Hospital.\n
+    • If breathing rate and eating have not improved, change to second line antibiotic, and if still
+    wheezing continue oral bronchodilator. Advise the mother to return in 2 days.\n
+    • If <b>breathing slower,no wheezing and eating better continue</b> the treatment for 5 days.
+    </string>
 <string name="follow_up_wheezing_child_under_1">• If <b>chest indrawing or a danger sign,fast breathing,poor feeding or wheeze</b> : Give intramuscular antibiotic.Then admit or
     refer URGENTLY to hospital .\n• If <b>breathing slower,no wheezing and eating better continue</b> the treatment for 5 days.</string>
 
@@ -1280,10 +1295,11 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
     <string name="ad_follow_up_fever_nomalaria">        After 2 days:
         \n\n• Do a full reassessment of the child. see ASSESS &amp; CLASSIFY chart.\nAssess for other causes of fever.\n
 </string>
-    <string name="follow_up_fever_nomalaria">  • If the child has <b>any general danger sign or stiff neck</b>, treat as VERY SEVERE FEBRILE DISEASE.\n
-  • If the child has any <b>cause of fever other then malaria</b>, provide treatment.\n
+    <string name="follow_up_fever_nomalaria"><b>Treatment:</b>
+        \n• If the child has <b>any general danger sign or stiff neck</b>, treat as VERY SEVERE FEBRILE DISEASE.\n
+  • If the child has any <b>cause of fever other than malaria</b>, provide treatment.\n
   • If <b>malaria is the only apparent cause of fever:</b> \n
-  \t\t -Treat with the first-line antimalarial.Give paracetamol.Advise the mother to return again in 2 days if the fever persists.\n
+  \t\t -Treat with the first-line oral antimalarial. Give paracetamol. Advise the mother to return again in 2 days if the fever persists.\n
   \t\t -If fever has been present every day for 7 days, refer for assessment.
 </string>
 <string name="follow_up_fever_nomalaria_general">
@@ -1305,11 +1321,11 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
     After 5 days \n\n• Reassess for ear problem. > See ASSESS &amp; CLASSIFY chart.
    \n• Measure the child\'s temperature.\n\n
 </string>
-    <string name="follow_up_earinfection">    • If there is a <b>tender swelling behind the ear or high fever(38.5°C or above), admit or refer URGENTLY
+    <string name="follow_up_earinfection"><b>Treatment</b>\n\n• If there is a <b>tender swelling behind the ear or high fever(38.5°C or above), admit or refer URGENTLY
     to hospital.</b>\n• <b>Acute ear infection</b>: If ear pain continues or discharge persists, treat with 5 more days of the same antibiotic.
-    Conitnue wicking to dry the ear.Follow up in 5 days.\n• <b>Chronic ear infection</b>: Check that the mother is wicking the ear correctly.Encourage her to continue.
-    Review in 2 weeks.\nIf ear discharge continues for more than 2 months: Admit or refer to hospital.\n• <b>If no ear pain or discharge,</b> praise the mother for her careful treatment.If she has not yet finished the 5 days of
-    antibiotic, tell her to use it till treatmentis completed.
+    continue wicking to dry the ear.Follow up in 5 days.\n• <b>Chronic ear infection</b>: Check that the mother is wicking the ear correctly.Encourage her to continue.
+    Review in 2 weeks.\n• If ear discharge continues for more than 2 months: Admit or refer to hospital.\n• <b>If no ear pain or discharge,</b> praise the mother for her careful treatment.If she has not yet finished the 5 days of
+    antibiotic, tell her to use it till treatment is completed.
 </string>
 <string name="follow_up_tender_swelling">
     • Admit or refer URGENTLY
@@ -1348,7 +1364,7 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
   • If <b>no pus or redness</b>, stop the treatment.
 </string>
 <string name="follow_up_eyemouth_trt_mouth">
-    <b>Treatment for Mouth:</b>
+    <b>Treatment for Mouth Ulcers:</b>
     \n\n• If <b>mouth ulcers are worse, or there is a very foul smell from the mouth,</b> admit or refer to hospital.\n
      • If <b>mouth ulcers or thrush are the same or better</b>, continue using half-strength gentian voilet or Nystatin
      for a total of 5 days.\n
@@ -1371,7 +1387,7 @@ Reassess feeding.\n
     <string name="follow_up_lowweight"> • If the child is <b>no longer having a very low weight for age</b>, praise the mother and encourage her to continue with
  the feeding until catch up growth is realized.\n• If child is still <b>very low weight for age but gaining weight</b>,encourage the mother to continue with feeding. Counsel the mother
  about any feeding problem found. Ask the mother to return again in 14 days.\n
- Continue to see the child every one month until the child is normal weight for age.\n• <b>Admit or refer if</b> \nthe child has lost weight. You do not think that feeding will improve or the child continues to lose weight.
+ Continue to see the child every one month until the child is normal weight for age.\n• <b>Admit or refer if</b> \n\nThe child has lost weight or is not gaining weight. You do not think that feeding will improve or the child continues to lose weight.
 </string>
 <string name="follow_up_lowweight_one">
    • Praise the mother and encourage her to continue with
@@ -1388,12 +1404,12 @@ Reassess feeding.\n
 
 <string name="ad_follow_up_hivexposed">  <b>HIV INFECTED CHILD</b>      \n
  <b>After 1 month:</b>  \n
-• Assess the child\s general condition. Do a full reassessment.\n
-• treat the child for any condition found.\n
+• Assess the child\'s general condition. Do a full reassessment.\n
+• Treat the child for any condition found.\n
 • Ask for any feeding problems, counsel the mother about any new or continuing feeding problems.\n
 • Advise mother to bring the child back If any new illness develops or she is worried.\n
 • Counsel the mother or any other problems and rescue community support is being given
-.Refer for further counselling if necessary.\n
+. Refer for further counselling if necessary.\n
 • Continue with routine follow up for growth and development, nutrition, immunization, vitamin A, deworming.\n
 • Assess adherence to ART and Cotrimoxazole and advice accordingly.\n
 • Offer or refer child for comprehesive HIV
@@ -1425,7 +1441,7 @@ guidelines.
     5 days of antibiotic and continue treating the local infection at home.
     \n\n
     • If <b>the pustules are same or worse</b>, admit or refer to hospital.\n
-    • If <b>skin pustules are improved</b>, tell the mother to continue treating the local infection at home.
+    • If <b>skin pustules are improved</b>, tell the mother to continue giving the 5 days of antibiotic and continue treating the local infection at home.
 </string>
     <string name="young_dysentry_child_dehydrated">If the child is dehydrated, treat dehydration according to classification.</string>
 <string name="young_dysentry_child_no_stools">If number of stools, amount of blood in stools, fever, abdominal pain, or eating is worse: \n<b>Admit or Refer to hospital</b>.
@@ -1444,11 +1460,11 @@ guidelines.
    \t\t • If palms and soles are not yellow and age is &lt; 14 days, advise on home care and when to return immediately.
 </string>
     <string name="ad_young_follow_up_eyeinfection">    <b>After 2 Days:</b>  \n
-  • Look for pus from the eyes.\n\n
+  • Look for pus draining from the eyes.\n\n
 </string>
-    <string name="young_follow_up_eyeinfection">   \t\t • If pus draining from the eyes, ask the mother to describe how
+    <string name="young_follow_up_eyeinfection">   \t\t • If pus is still draining from the eyes, ask the mother to describe how
    she has treated the eye infection. \n
-   \t\t\t - If treatment has been correct, admit or refer ro hospital.\n
+   \t\t\t - If treatment has been correct, admit or refer to hospital.\n
    \t\t\t - If treatment has not been correct, teach the mother correct
    treatment and advise her to give treatment for 5 days. \nFollow up in 2 days.
 \n\t\t • If no pus, ask the mother to continue treatment for 5 days.
@@ -1465,24 +1481,25 @@ guidelines.
    Reassess feeding.\n
     • Ask   about any feeding problem found on the initial visit\n
 </string>
-    <string name="young_follow_up_feeding_problem">   \t\t • Counsel the mother about any new or continuing feeding problem. If you counsel the mother to make significant changes in feeding. ask her to bring the young infant back
+    <string name="young_follow_up_feeding_problem">   \t\t • Counsel the mother about any new or continuing feeding problem. If you counsel the mother to make significant changes in feeding, ask her to bring the young infant back
    after 2 days.\n
-   \t\t • If the young infant is low weight for age, ask the mother to return 14 days after the visit to measure the young infant\'s
-weight gain.
-\n
-\t\t Exception:   \n
-\tIf you do not think that feeding will improve, or if the young infant has not lost weight, admit or refer the child.
+   \t\t • If the young infant is low weight for age, ask the mother to return 14 days after the initial visit to measure the young infant\'s weight gain.
+\n\n
+\t\t <b>Exception:</b>   \n
+\tIf you do not think that feeding will improve, or if the young infant has <b>lost weight</b>, admit or refer the child.
 </string>
     <string name="ad_young_follow_up_lowweight">   <b>After 2 days</b>\n
  • Weigh the young infant and determine if the infant is still low weight for age.\n
 </string>
     <string name="young_follow_up_lowweight">   Reassess feeding.\n
-   \t\t • Counsel the mother about any new or continuing problems. If you counsel the mother to make significant changes in feeding, ask her to bring the young infant
-   back after 2 days\n
-   \t\t • If the young infant is low weight for age, ask the mother to return 14 days after the initial visit to measure the young infant\'s weight gain.
-   \n\n
-    Exception:  \n
-   If you do not think that feeding will improve, or if the young infant has <b>lost weight</b>, admit or refer the child.
+   \t\t • If the infant is <b>no longer low weight for age</b>, praise the mother and encourage her to continue, until normal weight is attained.
+        \n\t\t • If the young infant is <b>still low weight for age, but is feeding well</b>, praise the mother. Ask her to have her infant weighed again within a month or when she returns for
+        immunization.
+        \n• If the infant is <b>still low weight for age and still has a feeding problem</b>, counsel the mother about the feeding problem. Ask the mother to return again in 14 days (or when
+        she returns for immunization, if this is within 2 weeks). Continue to see the young infant every 2 weeks until the infant is feeding well and gaining weight regularly or is
+        no longer low weight for age.\n\n
+   <b>Exception:</b>  \n
+   If you do not think that feeding will improve, or if the young infant has <b>lost weight</b>, admit or refer to hospital.
 </string>
 <string name="young_follow_up_low_weight_one">
     Reassess feeding.\n
@@ -1503,7 +1520,7 @@ weight gain.
 </string>
 
     <string name="ad_young_follow_up_thrush_mouth">  <b>After 2 days</b>
-        \nLook for ulcers or patches in the mouth ulcers(thrush).\n
+        \nLook for ulcers or white patches in the mouth (thrush).\n
 </string>
     <string name="young_follow_up_thrush_mouth">   Reassess feeding.\n
    \t\t •If <b>thrush or mouth ulcers are worse</b> or the infant has <b>problems with attachment or sucking</b>, admit or refer to hospital. \n
@@ -1592,6 +1609,31 @@ REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS
     <string name="treat_for_convulsion_now">        • Turn the child to the side and clear the airway.\n• Avoid putting things in his/her mouth while he/she is convulsing.\n• Give 0.5 mg/kg diazepam injection solution per rectum using a syringe
         without needle or using a catheter.\n• Check the blood sugar level if possible/treat for low blood sugar.\n• Repeat diazepam 10 minutes later if still convulsing.\n• Give oxygen if available and refer.
 </string>
+    <string name="severe_malaria_parenteral">  <i>The recommended treatment for severe malaria is parenteral artesunate, quinine or artemether</i></string>
+    <string name="artesunate_severe_malaria_short">
+        • Dissolve artesunic powder with 5%% sodium bicarbonate solution(provided with vial).Dilute resultant solution with
+        5ml of 5%% dextrose.\n• Administer 2.4mg/kg stat by slow IV injection then 1.2mg/kg at 12 hrs
+        and 24 hrs then 1.2 mg/kg daily until the patient is able to tolerate oral medications.\n• Artesunate can be given IM at the same dosage and intervals.\n• Thereafter a complete course of artemetherlumefantrine (AL) is given.</string>
+    <string name="quinine_table">Touch to view Quinine Dosage Table</string>
+    <string name="quinine_dilution_short"> • To dilute injection 50mg/ml, draw 5ml of water for injection into a syringe
+        and then draw 1ml of quinine injection 300mg/ml into the same syringe or 3 ml
+        of water for injection and 1 ml of quinine 200mg/ml. Shake gently to mix.</string>
+    <string name="quinine_severe_malaria_short">
+        FOR CHILDREN BEING REFERRED WITH VERY SEVERE FEBRILE DISEASE: \n• Give first dose of intramuscular quinine(20mg/kg-loading dose)
+        and refer child urgently to hospital.\n
+        IF REFERRAL IS NOT POSSIBLE: \n• Give first dose of IM quinine (20mg/kg-loading dose). The child
+        should remain lying down for one hour.\n• Treat to prevent hypoglycemia.\n• Repeat the quinine injection every 8 hours(maintenance dose at 10mg/kg)
+        until the child is able to take an oral antimalarial. Do not continue quinine
+        injections for more than 1 week.\n• If low risk of malaria, do not give quinine to a child less than 4 months of age.\n• Give Vitamin A.</string>
+    <string name="artemether_severe_malaria_short">• Administer a loading dose of 3.2mg/kg IM stat then 1.6mg/kg
+        daily until the patient is able to tolerate oral medications.\n
+        • Thereafter a complete course of AL is given.\n
+        • Admit or refer patients with the following: \n
+        \t • Severe anaemia(Hb level of below 5g/dl or haematocrit of below 15%%)\n
+        \t • Two or more convulsions within a 24-hr period.\n
+        \t • Hyperparasitaemia and are stable. These patients can be treated with
+        AL, DHA-PPQ or oral quinine where ACT is not available. However,they need to be closely monitored.</string>
+
     <string name="treatment_of_severe_malaria" formatted="false">
         <i>The recommended treatment for severe malaria is parenteral artesunate, quinine or artemether</i>\n\n
         <b>1. Artesunate for Severe Malaria</b>\n
@@ -1625,7 +1667,7 @@ REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS
         \t • Hyperparasitaemia and are stable. These patients can be treated with
         AL, DHA-PPQ or oral quinine where ACT is not available. However,they need to be closely monitored.
 </string>
-    <string name="treat_child_for_low_blood_sugar" formatted="false"><b>• If the child is able to breastfeed</b>\n
+    <string name="treat_child_for_low_blood_sugar"><b>• If the child is able to breastfeed</b>\n
         Ask the mother to breastfeed the child.\n
  <b>• Is the child is not able to breastfeed but is able to swallow: </b>\n
         Give expressed breast milk or a breast milk substitute.\n
@@ -1641,19 +1683,27 @@ REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS
 <i>Low blood sugar(hypoglycemia) may be suspected in any infant or child who is convulsing or has loss of consciousness for which there is no obvious cause&#59; has a rectal temperateure of below 35.5°C is drowsy or sweating, is lethargic, floppy or jittery particularly when less than 2 months old.\n\n To constitute 10%% glucose from 50%% glucose&#58; Mix 1 part of 50%% glucose with 4 parts of water for injection.</i>
 
 </string>
-    <string name="ableBreastFeed">Ask the mother to breastfeed the child.\n</string>
-    <string name="notAbleBreastFeed"> Give expressed breast milk or a breast milk substitute.\n
-        If neither of these is available give sugar water.\n
-        Give 30-50 ml of milk or sugar water before departure.</string>
+    <string name="ableBreastFeed">Ask the mother to breastfeed the infant.\n</string>
+    <string name="notAbleBreastFeed"> Give 20-50ml (10ml/kg) expressed breast milk and of not available, give 20-50 ml (10ml/kg) sugar water before referral.\n
+        </string>
     <string name="toMakeSugar"></string>
-    <string name="notSwallow">Give 50 ml of milk or sugar water by nasogastric tube.</string>
-    <string name="suspBloodSugar" formatted="false"> Give 10%% glucose 5ml/kg by nasogastric tube OR \n
-        Give the same amount slowly intravenously if a line is available.\n
-        Keep warm.</string>
+    <string name="notSwallow">Give 20-50 ml (10ml/kg)expressed breast milk or sugar water by nasogastric tube(NG tube).</string>
+    <string name="suspBloodSugar"> Give 10%% glucose 10ml/kg by nasogastric tube give same amount slowly intravenously.
+        (To make 10%% glucose mix one part of 50%% glucose with 4 parts water for injection)</string>
     <string name="admitorRefer">Admit or Refer urgently to hospital</string>
-    <string name="pointsToNoteBloodSugar"><i>Low blood sugar(hypoglycemia) may be suspected in any infant or child who is convulsing or has loss of consciousness for which there is no obvious cause&#59; has a rectal temperateure of below 35.5°C is drowsy or sweating, is lethargic, floppy or jittery particularly when less than 2 months old.\n\n To constitute 10%% glucose from 50%% glucose&#58; Mix 1 part of 50%% glucose with 4 parts of water for injection.</i>
+    <string name="pointsToNoteBloodSugar"><b><i>*Low blood sugar(hypoglycemia) may be suspected in any infant or child who is convulsing or has loss of consciousness for which there is no obvious cause&#59; has a rectal temperature of below 35.5°C is drowsy or sweating, is lethargic, floppy or jittery.</i></b>
 </string>
-    <string name="nb_low_sugar" formatted="false">       - Low blood sugar(hypoglycemia) may be suspected in any
+    <string name="old_ableBreastFeed">Ask the mother to breastfeed the child.\n</string>
+    <string name="old_notAbleBreastFeed">Give expressed breast milk or a breast milk substitute. If neither of these is available, give sugar water.
+    Give 30-50 ml of milk or sugar water before departure.</string>
+    <string name="old_notSwallow">Give 50 ml of milk or sugar by nasogastric tube.</string>
+    <string name="old_suspBloodSugar"> Give 10%% glucose** 5 ml/kg by nasogastric tube OR \n Give same amount slowly intravenously if a  line is available.
+    keep warm.</string>
+    <string name="old_admitorRefer"><b>Admit or Refer urgently to hospital</b></string>
+    <string name="old_pointsToNoteBloodSugar"><i>*Low blood sugar(hypoglycemia) may be suspected in any infant or child who is convulsing or has loss of consciousness for which there is no obvious cause&#59; has a rectal temperature of below 35.5°C is drowsy or sweating, is lethargic, floppy or jittery --
+     particularly when less than 2 months old.\n\n ** To constitute 10%% glucose form 50%% glucose: Mix I part of 50%% glucose with 4 parts of water for injection.</i>
+</string>
+    <string name="nb_low_sugar">       - Low blood sugar(hypoglycemia) may be suspected in any
        infant or child who is convulsing or has loss of consciousness for which there
        is no obvious cause; has a rectal temperature of below 35.5°C, is drowsy
        or sweating, is lethargic, floppy or jittery- particularly when &lt; 2 months old\n\n
@@ -1802,7 +1852,7 @@ REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS
     • Explain that all oral drug tablets or syrups must be used to finish the course of treatment, even if the child gets better.\n
     • Check the mother\'s understanding before she leaves the clinic.
 </string>
-    <string name="young_teach_mother_treat_local_infections"><b>Teach the Mother How to Treat Local Infections at Home</b>\n
+    <string name="young_teach_mother_treat_local_infections">
         • Explain how the treatment is given.\n
         • Watch her as she does the first treatment in the clinic.\n
         • She should return to the clinic if the infection worsens.\n
@@ -1875,7 +1925,7 @@ REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS
         • If not able to breastfeed but is able to swallow: Give 20-50 ml (10ml/kg)
         expressed breast milk and if not available, give 20-50 ml (10ml/kg) sugar water before referral. \n
         To make sugar water: Dissolve 4 level teaspoons of sugar (20 grams) in a 200-ml cup of clean water.\n
-        • If the child is not able to swallow: Give 20-50ml(10ml/mg) expressed breast milk or sugar water by NG tube.\n
+        • If the child is not able to swallow: Give 20-50ml(10ml/kg) expressed breast milk or sugar water by NG tube.\n
         • If low blood sugar is suspected: Give 10%% glucose 10ml/kg by nasogastric tube give same amount intravenously.\n
         * Low blood sugar (hypoglycemia) may be suspected in any infant there is no obvious cause; has a rectal temperature of below 35.5°C is drowsy or sweating,
         is lethargic, floppy of jittery.

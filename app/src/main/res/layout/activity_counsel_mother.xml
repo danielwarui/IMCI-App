@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:background="#F0E68C"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -9,31 +9,14 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin">
 
-    <TextView
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:id="@+id/tvSelectChildCounsel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="Please select the age of the infant and follow instructions on how to counsel the mother "
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#000000" />
-
-    <Button
-        android:id="@+id/two_months"
+    <ExpandableListView
+        android:id="@+id/lvExp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="31dp"
-        android:text="@string/two_months" />
+        android:cacheColorHint="#3ed695"
+        android:childDivider="#FFFFFF"
+        android:dividerHeight="3dp"
+        android:drawSelectorOnTop="true"></ExpandableListView>
 
-    <Button
-        android:id="@+id/sixty_months"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="@string/sixty_months" />
 
-</LinearLayout>
+</RelativeLayout>

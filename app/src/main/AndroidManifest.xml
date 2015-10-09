@@ -9,7 +9,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".assessment.Splash"
+            android:name=".app.Splash"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,193 +18,202 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".assessment.ScreenSlideActivity"
+            android:name=".app.utils.ScreenSlideActivity"
             android:label="Help"></activity>
         <activity
-            android:name=".assessment.First_Main"
+            android:name=".app.First_Main"
             android:label="@string/app_name"></activity>
         <activity
-            android:name=".assessment.HomeActivity"
+            android:name=".app.HomeActivity"
             android:label="@string/main_menu"></activity>
         <activity
-            android:name=".assessment.hiv_care_children.NVPMain"
+            android:name=".app.hiv_care_children.NVPMain"
             android:label="@string/lbl_eid_testing"></activity>
         <activity
-            android:name=".assessment.counsel_mother.CounselMother"
+            android:name=".app.counsel_mother.CounselMother_2_60"
             android:label="@string/lbl_counsel_mother"></activity>
         <activity
-            android:name=".assessment.AssessmentActivity"
+            android:name=".app.counsel_mother.CounselMother_0_2"
+            android:label="@string/lbl_counsel_mother"></activity>
+        <activity
+            android:name=".app.counsel_mother.CounselMother_Main"
+            android:label="@string/lbl_counsel_mother"></activity>
+        <activity
+            android:name=".app.assess_classify.AssessmentActivity"
             android:label="@string/lbl_assessment"></activity>
         <activity
-            android:name=".assessment.treatchild.TreatTheChildActivity"
+            android:name=".app.treatchild.TreatTheChildActivity"
             android:label="@string/lbl_treat_the_child"></activity>
         <activity
-            android:name=".assessment.What_to_Check_0_2"
+            android:name=".app.assess_classify.What_to_Check_0_2"
             android:label="@string/lbl_assessment"></activity>
         <activity
-            android:name=".assessment.What_to_Check_2_60"
+            android:name=".app.assess_classify.What_to_Check_2_60"
             android:label="@string/lbl_assessment"></activity>
         <activity
-            android:name=".assessment.Starter_Universal"
+            android:name=".app.assess_classify.frag_activity_container.Starter_Universal"
             android:label="@string/lbl_assessment"></activity>
         <activity
-            android:name=".assessment.Starter_Immunization"
+            android:name=".app.assess_classify.frag_activity_container.Starter_Immunization"
             android:label="@string/lbl_immunization"></activity>
         <activity
-            android:name=".assessment.follow_up.FollowUpMain"
+            android:name=".app.follow_up.FollowUpMain"
             android:label="@string/lbl_follow_up"></activity>
         <activity
-            android:name=".assessment.follow_up.starter.Infant_Follow_UpMain"
+            android:name=".app.follow_up.starter.Activity_Main_Follow_Up_0_2"
             android:label="@string/lbl_follow_up"></activity>
         <activity
-            android:name=".assessment.follow_up.starter.Follow_UpMainTwo"
+            android:name=".app.follow_up.starter.Activity_Follow_Up_2_60"
             android:label="@string/lbl_follow_up"></activity>
         <activity
-            android:name=".assessment.follow_up.starter.Starter_Follow_0_60"
+            android:name=".app.follow_up.starter.Starter_Follow_0_60"
             android:label="@string/lbl_follow_up" />
         <activity
-            android:name=".assessment.follow_up.starter.Starter_Follow_0_2"
+            android:name=".app.follow_up.starter.Starter_Follow_0_2"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.CareForDevelopment"
+            android:name=".app.CareForDevelopment"
             android:label="@string/app_name"></activity>
         <activity
-            android:name=".assessment.Other_Problems"
+            android:name=".app.assess_classify.Other_Problems"
             android:label="@string/app_name"></activity>
         <activity
-            android:name=".assessment.treatchild.Treat_Child_Activity_0_2_Resus"
+            android:name=".app.treatchild.Treat_Child_Activity_0_2_Resus"
             android:label="@string/app_name"></activity>
         <activity
-            android:name=".assessment.treatchild.Treat_Child_Activity_0_2_Keep_Warm"
+            android:name=".app.treatchild.Treat_Child_Activity_0_2_Keep_Warm"
             android:label="@string/app_name"></activity>
         <activity
-            android:name=".assessment.treatchild.Oral_Drugs_0_2_At"
+            android:name=".app.treatchild.Oral_Drugs_0_2_At"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Oral_Drugs_2_60_At"
+            android:name=".app.treatchild.Oral_Drugs_2_60_At"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.healthfacility.HealthFacility0_2"
+            android:name=".app.treatchild.healthfacility.HealthFacility0_2"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Treat_Child_Activity_0_2"
+            android:name=".app.treatchild.Treat_Child_Activity_0_2"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Young_Treatment_Health_Facility"
+            android:name=".app.treatchild.Young_Treatment_Health_Facility"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.healthfacility.Young_Intramuscular_Antibiotic"
+            android:name=".app.treatchild.healthfacility.Young_Intramuscular_Antibiotic"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.oral_drugs.Oral_Antibiotic"
+            android:name=".app.treatchild.oral_drugs.Oral_Antibiotic"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Low_Blood_Sugar"
+            android:name=".app.treatchild.Low_Blood_Sugar"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.oral_drugs.Young_Oral_Drugs_At_Home"
+            android:name=".app.treatchild.Young_Low_Blood_Sugar"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.local_infections.Young_Local_Infection_Instruct"
+            android:name=".app.treatchild.oral_drugs.Young_Oral_Drugs_At_Home"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.local_infections.LocalUnivers"
+            android:name=".app.treatchild.local_infections.Young_Local_Infection_Instruct"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.local_infections.Young_Local_Infections_At_Home"
+            android:name=".app.treatchild.local_infections.LocalUnivers"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Young_Teach_Correct_Positioning"
+            android:name=".app.treatchild.local_infections.Young_Local_Infections_At_Home"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Young_Teach_Correct_Positioning_Instruct"
+            android:name=".app.treatchild.Young_Teach_Correct_Positioning"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Plan_A_Treat_Diarrhoea"
+            android:name=".app.treatchild.Young_Teach_Correct_Positioning_Instruct"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Plan_B_Treat_Diarrhoea"
+            android:name=".app.treatchild.Plan_A_Treat_Diarrhoea"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Plan_C_Treat_Diarrhoea"
+            android:name=".app.treatchild.Plan_B_Treat_Diarrhoea"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Treatment_Health_Facility"
+            android:name=".app.treatchild.Plan_C_Treat_Diarrhoea"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Activity_immunization_table"
+            android:name=".app.treatchild.Treatment_Health_Facility"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.healthfacility.Convulsing_Now"
+            android:name=".app.treatchild.Activity_immunization_table"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.healthfacility.Chloramphenicol_Table"
+            android:name=".app.treatchild.healthfacility.Convulsing_Now"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.healthfacility.First_Dose_of_Choramphenicol"
+            android:name=".app.treatchild.healthfacility.Chloramphenicol_Table"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.healthfacility.Treat_Wheezing"
+            android:name=".app.treatchild.healthfacility.First_Dose_of_Choramphenicol"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.healthfacility.Low_Blood_Sugar"
+            android:name=".app.treatchild.healthfacility.Treat_Wheezing"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.healthfacility.Intramuscular_Antibiotic"
+            android:name=".app.treatchild.healthfacility.Low_Blood_Sugar"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.healthfacility.Treatment_Severe_Malaria"
+            android:name=".app.treatchild.healthfacility.Intramuscular_Antibiotic"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Teach_Mother_Oral_Drugs"
+            android:name=".app.treatchild.healthfacility.Treatment_Severe_Malaria"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Teach_Mother_Local_Infections"
+            android:name=".app.treatchild.Teach_Mother_Oral_Drugs"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Rehydration_Severe_Malnutrition"
+            android:name=".app.treatchild.Teach_Mother_Local_Infections"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Supplement_multivitamin"
+            android:name=".app.treatchild.Rehydration_Severe_Malnutrition"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.counsel_mother.AgeSixMonths"
+            android:name=".app.treatchild.Supplement_multivitamin"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".app.counsel_mother.AgeSixMonths"
             android:label="Recommendations for feeding during sickness and health" />
         <activity
-            android:name=".assessment.counsel_mother.AgeSixMonthstoTwelveMonths"
+            android:name=".app.counsel_mother.AgeSixMonthstoTwelveMonths"
             android:label="Recommendations for feeding during sickness and health" />
         <activity
-            android:name=".assessment.counsel_mother.AgeTwelveMonthstoTwoYears"
+            android:name=".app.counsel_mother.AgeTwelveMonthstoTwoYears"
             android:label="Recommendations for feeding during sickness and health" />
         <activity
-            android:name=".assessment.counsel_mother.AgeTwoYearsandOlder"
+            android:name=".app.counsel_mother.AgeTwoYearsandOlder"
             android:label="Recommendations for feeding during sickness and health" />
         <activity
-            android:name=".assessment.counsel_mother.CareForDevelopmentUniversal"
+            android:name=".app.counsel_mother.CareForDevelopmentUniversal"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.counsel_mother.Counsel_Mother_Infant_Feeding"
+            android:name=".app.counsel_mother.Counsel_Mother_Infant_Feeding"
             android:label="Feeding Options:HIV Exposed" />
         <activity
-            android:name=".assessment.counsel_mother.Counsel_Mother_Fluids"
+            android:name=".app.counsel_mother.Counsel_Mother_Fluids"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.counsel_mother.Counsel_CareforDevelopment"
+            android:name=".app.counsel_mother.Counsel_CareforDevelopment"
             android:label="Counsel on Care for Development Problems" />
         <activity
-            android:name=".assessment.counsel_mother.FeedingProblem"
+            android:name=".app.counsel_mother.FeedingProblem"
             android:label="Feeding Problems" />
         <activity
-            android:name=".assessment.counsel_mother.Counsel_Her_OwnHealth"
+            android:name=".app.counsel_mother.Counsel_Her_OwnHealth"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.counsel_mother.FeedingAdvice_Breastfeed"
+            android:name=".app.counsel_mother.FeedingAdvice_Breastfeed"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.counsel_mother.FeedingAdvice_NotBreastfeed"
+            android:name=".app.counsel_mother.FeedingAdvice_NotBreastfeed"
             android:label="@string/app_name" />
         <activity
-            android:name=".assessment.treatchild.Young_Home_Care"
+            android:name=".app.treatchild.Young_Home_Care"
             android:label="@string/lbl_assessment"></activity>
 
     </application>

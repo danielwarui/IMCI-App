@@ -19,13 +19,11 @@
         android:paddingRight="20dp"
         android:text="@string/young_teach_mother_treat_local_infections"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#000000"
-        android:textStyle="italic" />
+        android:textColor="#000000" />
 
     <ListView
-        android:id="@+id/list1"
+        android:id="@+id/listmakeaway"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="#000000"></ListView>
+        android:layout_height="wrap_content"></ListView>
 
 </LinearLayout>
