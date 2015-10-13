@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0E68C">
+
+    <LinearLayout
+        android:id="@+id/linear_what_to_check"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#F0E68C"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_light"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/text0"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+                android:text="@string/severe_malaria_parenteral"
+                android:textColor="@color/primary_text"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <ExpandableListView
+            android:id="@+id/lvExp1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/accent"
+            android:childDivider="#FFFFFF"
+            android:dividerHeight="3dp"></ExpandableListView>
+
+    </LinearLayout>
+</RelativeLayout>
