@@ -141,7 +141,7 @@ public class Starter_Follow_0_60 extends FragmentActivity
                 viewPager.setAdapter(AdapterEarInfection);
                 actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
                 break;
-// It all fun and games until you find yourself working at 2:46 am Friday October 2015 and the instrumental your are listening says "Work for the night is coming"
+// It's all fun and games until you find yourself working at 2:46 am Friday October 2015 and the instrumental your are listening says "Work for the night is coming"
             case 8:
                 viewPager = (ViewPager) findViewById(R.id.pager);
                 actionBar = getActionBar();

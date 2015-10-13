@@ -54,7 +54,6 @@ public class AssessmentActivity extends Activity {
         System.out.println("----Fragmentactivity---onStart---");
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);

@@ -14,6 +14,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 
 import org.ministryofhealth.imci.R;
+import org.ministryofhealth.imci.app.HomeActivity;
 import org.ministryofhealth.imci.app.counsel_mother.CareForDevelopmentUniversal;
 
 public class NVPMain extends Activity {
@@ -60,14 +61,6 @@ public class NVPMain extends Activity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-
-    @Override
     public void onStart() {
         // TODO Auto-generated method stub
         super.onStart();
@@ -76,10 +69,24 @@ public class NVPMain extends Activity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        onBackPressed();
-        return true;
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
 
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+            case R.id.homePage:
+                Intent intent = new Intent(NVPMain.this, HomeActivity.class);
+                startActivity(intent);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
 

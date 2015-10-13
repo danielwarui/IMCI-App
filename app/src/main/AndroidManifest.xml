@@ -18,6 +18,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".app.assess_classify.AssessmentActivity"
+            android:label="@string/lbl_assessment"></activity>
+        <activity
             android:name=".app.utils.ScreenSlideActivity"
             android:label="Help"></activity>
         <activity
@@ -38,9 +41,6 @@
         <activity
             android:name=".app.counsel_mother.CounselMother_Main"
             android:label="@string/lbl_counsel_mother"></activity>
-        <activity
-            android:name=".app.assess_classify.AssessmentActivity"
-            android:label="@string/lbl_assessment"></activity>
         <activity
             android:name=".app.treatchild.TreatTheChildActivity"
             android:label="@string/lbl_treat_the_child"></activity>
