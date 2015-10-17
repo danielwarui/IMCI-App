@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import org.ministryofhealth.imci.R;
+import org.ministryofhealth.imci.app.HomeActivity;
 
 public class Young_Teach_Correct_Positioning_Instruct extends Activity{
 	Intent intent;
@@ -64,16 +65,23 @@ overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
 }
 
 	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		onBackPressed();
-		return true;
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.main, menu);
 
+		return super.onCreateOptionsMenu(menu);
 	}
-@Override
-public boolean onCreateOptionsMenu(Menu menu) {
-	// Inflate the menu; this adds items to the action bar if it is present.
-	getMenuInflater().inflate(R.menu.main, menu);
-	return true;
-}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+			case android.R.id.home:
+				onBackPressed();
+			case R.id.homePage:
+				Intent intent = new Intent(Young_Teach_Correct_Positioning_Instruct.this, HomeActivity.class);
+				startActivity(intent);
+				break;
+		}
+		return super.onOptionsItemSelected(item);
+	}
 }
 

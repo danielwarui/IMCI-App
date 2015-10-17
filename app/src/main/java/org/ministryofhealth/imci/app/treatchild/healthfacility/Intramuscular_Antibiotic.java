@@ -3,12 +3,14 @@ package org.ministryofhealth.imci.app.treatchild.healthfacility;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
 import org.ministryofhealth.imci.R;
+import org.ministryofhealth.imci.app.HomeActivity;
 
 public class Intramuscular_Antibiotic extends Activity {
     @Override
@@ -32,12 +34,24 @@ public class Intramuscular_Antibiotic extends Activity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        onBackPressed();
-        return true;
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
 
+        return super.onCreateOptionsMenu(menu);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+            case R.id.homePage:
+                Intent intent = new Intent(Intramuscular_Antibiotic.this, HomeActivity.class);
+                startActivity(intent);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
     @Override
     protected void onStart() {
         // TODO Auto-generated method stub

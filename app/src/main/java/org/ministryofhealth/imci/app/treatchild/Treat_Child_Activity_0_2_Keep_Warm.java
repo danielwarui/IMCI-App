@@ -1,11 +1,14 @@
 package org.ministryofhealth.imci.app.treatchild;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import org.ministryofhealth.imci.R;
+import org.ministryofhealth.imci.app.HomeActivity;
 
 public class Treat_Child_Activity_0_2_Keep_Warm extends Activity{
 	int id;
@@ -19,7 +22,7 @@ protected void onCreate(Bundle savedInstanceState) {
 
 	setRowIdFromIntent();
 	if(id == 1){
-		Log.i("Rescucitate", "1");
+		Log.i("Resuscitate", "1");
 		getActionBar().setTitle("Resuscitate the young infant");
 	setContentView(R.layout.resuscitate_young_infant);
 	}
@@ -29,14 +32,25 @@ protected void onCreate(Bundle savedInstanceState) {
 		setContentView(R.layout.keep_young_infant_warm);
 	}
 }
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.main, menu);
+
+		return super.onCreateOptionsMenu(menu);
+	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		onBackPressed();
-		return true;
-
+		switch (item.getItemId()) {
+			case android.R.id.home:
+				onBackPressed();
+			case R.id.homePage:
+				Intent intent = new Intent(Treat_Child_Activity_0_2_Keep_Warm.this, HomeActivity.class);
+				startActivity(intent);
+				break;
+		}
+		return super.onOptionsItemSelected(item);
 	}
-
 	@Override
 	protected void onStart() {
 		// TODO Auto-generated method stub

@@ -1,11 +1,14 @@
 package org.ministryofhealth.imci.app.treatchild.local_infections;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
 import org.ministryofhealth.imci.R;
+import org.ministryofhealth.imci.app.HomeActivity;
 
 
 public class Young_Local_Infection_Instruct extends Activity{
@@ -60,10 +63,23 @@ private void setRowIdFromIntent() {
 }
 
 	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		onBackPressed();
-		return true;
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.main, menu);
 
+		return super.onCreateOptionsMenu(menu);
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+			case android.R.id.home:
+				onBackPressed();
+			case R.id.homePage:
+				Intent intent = new Intent(Young_Local_Infection_Instruct.this, HomeActivity.class);
+				startActivity(intent);
+				break;
+		}
+		return super.onOptionsItemSelected(item);
 	}
 @Override
 protected void onStart() {

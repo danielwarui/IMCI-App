@@ -46,7 +46,8 @@ public class HomeActivity extends Activity implements View.OnClickListener {
 
             case android.R.id.home:
                 onBackPressed();
-                return true;
+                break;
+
         }
         return super.onOptionsItemSelected(item);
     }

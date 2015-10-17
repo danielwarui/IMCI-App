@@ -3,12 +3,15 @@ package org.ministryofhealth.imci.app.follow_up.starter;
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import org.ministryofhealth.imci.R;
+import org.ministryofhealth.imci.app.HomeActivity;
 import org.ministryofhealth.imci.app.follow_up.adapters.YoungTabsPagerFollowBacterial;
 import org.ministryofhealth.imci.app.follow_up.adapters.YoungTabsPagerFollowDiarr;
 import org.ministryofhealth.imci.app.follow_up.adapters.YoungTabsPagerFollowEyeInfection;
@@ -162,14 +165,25 @@ public class Starter_Follow_0_2 extends FragmentActivity
     @Override
     public void onTabUnselected(Tab tab, FragmentTransaction ft) {
     }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        onBackPressed();
-        return true;
-
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+            case R.id.homePage:
+                Intent intent = new Intent(Starter_Follow_0_2.this, HomeActivity.class);
+                startActivity(intent);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
-
     @Override
     public void onStart() {
         // TODO Auto-generated method stub

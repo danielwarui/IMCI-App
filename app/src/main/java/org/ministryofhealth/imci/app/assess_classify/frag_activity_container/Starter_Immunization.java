@@ -4,12 +4,15 @@ package org.ministryofhealth.imci.app.assess_classify.frag_activity_container;
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import org.ministryofhealth.imci.R;
+import org.ministryofhealth.imci.app.HomeActivity;
 import org.ministryofhealth.imci.app.assess_classify.tab_managers.TabsPagerAdapterImmunization;
 
 public class Starter_Immunization extends FragmentActivity implements
@@ -88,10 +91,22 @@ public class Starter_Immunization extends FragmentActivity implements
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
     }
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        onBackPressed();
-        return true;
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
 
+        return super.onCreateOptionsMenu(menu);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+            case R.id.homePage:
+                Intent intent = new Intent(Starter_Immunization.this, HomeActivity.class);
+                startActivity(intent);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

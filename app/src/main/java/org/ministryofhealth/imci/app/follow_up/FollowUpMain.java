@@ -3,10 +3,12 @@ package org.ministryofhealth.imci.app.follow_up;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
 import org.ministryofhealth.imci.R;
+import org.ministryofhealth.imci.app.HomeActivity;
 import org.ministryofhealth.imci.app.follow_up.starter.Activity_Follow_Up_2_60;
 import org.ministryofhealth.imci.app.follow_up.starter.Activity_Main_Follow_Up_0_2;
 
@@ -46,9 +48,22 @@ switch (v.getId()){
 	}
 
 	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		onBackPressed();
-		return true;
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.main, menu);
 
+		return super.onCreateOptionsMenu(menu);
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+			case android.R.id.home:
+				onBackPressed();
+			case R.id.homePage:
+				Intent intent = new Intent(FollowUpMain.this, HomeActivity.class);
+				startActivity(intent);
+				break;
+		}
+		return super.onOptionsItemSelected(item);
 	}
 }

@@ -3,12 +3,15 @@ package org.ministryofhealth.imci.app.follow_up.starter;
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import org.ministryofhealth.imci.R;
+import org.ministryofhealth.imci.app.HomeActivity;
 import org.ministryofhealth.imci.app.follow_up.adapters.TabsPagerFollowDysentry;
 import org.ministryofhealth.imci.app.follow_up.adapters.TabsPagerFollowEarInfection;
 import org.ministryofhealth.imci.app.follow_up.adapters.TabsPagerFollowEyeMouth;
@@ -242,10 +245,22 @@ public class Starter_Follow_0_60 extends FragmentActivity
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        onBackPressed();
-        return true;
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
 
+        return super.onCreateOptionsMenu(menu);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+            case R.id.homePage:
+                Intent intent = new Intent(Starter_Follow_0_60.this, HomeActivity.class);
+                startActivity(intent);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

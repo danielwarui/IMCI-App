@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 
 import org.ministryofhealth.imci.R;
+import org.ministryofhealth.imci.app.HomeActivity;
 import org.ministryofhealth.imci.app.treatchild.local_infections.LocalUnivers;
 
 public class Teach_Mother_Local_Infections extends Activity {
@@ -54,18 +55,23 @@ public class Teach_Mother_Local_Infections extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
-        return true;
+
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        onBackPressed();
-        return true;
-
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+            case R.id.homePage:
+                Intent intent = new Intent(Teach_Mother_Local_Infections.this, HomeActivity.class);
+                startActivity(intent);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
-
     @Override
     protected void onStart() {
         // TODO Auto-generated method stub

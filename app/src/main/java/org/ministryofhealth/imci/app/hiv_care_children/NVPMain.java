@@ -80,7 +80,6 @@ public class NVPMain extends Activity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
-                return true;
             case R.id.homePage:
                 Intent intent = new Intent(NVPMain.this, HomeActivity.class);
                 startActivity(intent);

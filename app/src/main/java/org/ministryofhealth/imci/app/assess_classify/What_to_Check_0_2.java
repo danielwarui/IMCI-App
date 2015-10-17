@@ -5,6 +5,7 @@ import android.app.Fragment;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListAdapter;
@@ -17,6 +18,7 @@ import android.widget.TextView;
 
 import org.ministryofhealth.imci.R;
 import org.ministryofhealth.imci.app.CareForDevelopment;
+import org.ministryofhealth.imci.app.HomeActivity;
 import org.ministryofhealth.imci.app.assess_classify.frag_activity_container.Starter_Universal;
 import org.ministryofhealth.imci.app.counsel_mother.CareForDevelopmentUniversal;
 import org.ministryofhealth.imci.app.follow_up.FollowUpMain;
@@ -251,9 +253,22 @@ public class What_to_Check_0_2 extends Activity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        onBackPressed();
-        return true;
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
 
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+            case R.id.homePage:
+                Intent intent = new Intent(What_to_Check_0_2.this, HomeActivity.class);
+                startActivity(intent);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

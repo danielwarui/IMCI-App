@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 
 import org.ministryofhealth.imci.R;
+import org.ministryofhealth.imci.app.HomeActivity;
 
 public class Young_Teach_Correct_Positioning extends Activity{
 	EditText ara;
@@ -56,18 +57,24 @@ protected void onCreate(Bundle savedInstanceState) {
 	
 }
 
-@Override
-public boolean onCreateOptionsMenu(Menu menu) {
-	// Inflate the menu; this adds items to the action bar if it is present.
-	getMenuInflater().inflate(R.menu.main, menu);
-	return true;
-}
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.main, menu);
+
+		return super.onCreateOptionsMenu(menu);
+	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		onBackPressed();
-		return true;
-
+		switch (item.getItemId()) {
+			case android.R.id.home:
+				onBackPressed();
+			case R.id.homePage:
+				Intent intent = new Intent(Young_Teach_Correct_Positioning.this, HomeActivity.class);
+				startActivity(intent);
+				break;
+		}
+		return super.onOptionsItemSelected(item);
 	}
 	@Override
 	protected void onStart() {

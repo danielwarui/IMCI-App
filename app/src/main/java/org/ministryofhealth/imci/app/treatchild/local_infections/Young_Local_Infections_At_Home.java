@@ -14,6 +14,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import org.ministryofhealth.imci.R;
+import org.ministryofhealth.imci.app.HomeActivity;
 import org.ministryofhealth.imci.app.assess_classify.AssessmentActivity;
 import org.ministryofhealth.imci.app.counsel_mother.CounselMother_2_60;
 import org.ministryofhealth.imci.app.treatchild.Oral_Drugs_2_60_At;
@@ -88,21 +89,25 @@ public class Young_Local_Infections_At_Home extends Activity {
         });
 
     }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        onBackPressed();
-        return true;
-
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+            case R.id.homePage:
+                Intent intent = new Intent(Young_Local_Infections_At_Home.this, HomeActivity.class);
+                startActivity(intent);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
     @Override
     protected void onStart() {
         // TODO Auto-generated method stub
