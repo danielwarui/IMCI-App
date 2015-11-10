@@ -43,11 +43,13 @@ public class HomeActivity extends Activity implements View.OnClickListener {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-
             case android.R.id.home:
                 onBackPressed();
+                return true;
+            case R.id.homePage:
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                startActivity(intent);
                 break;
-
         }
         return super.onOptionsItemSelected(item);
     }

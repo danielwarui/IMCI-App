@@ -165,7 +165,7 @@ public class Starter_Follow_0_2 extends FragmentActivity
     @Override
     public void onTabUnselected(Tab tab, FragmentTransaction ft) {
     }
-    @Override
+     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 
@@ -177,8 +177,9 @@ public class Starter_Follow_0_2 extends FragmentActivity
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+                return true;
             case R.id.homePage:
-                Intent intent = new Intent(Starter_Follow_0_2.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }

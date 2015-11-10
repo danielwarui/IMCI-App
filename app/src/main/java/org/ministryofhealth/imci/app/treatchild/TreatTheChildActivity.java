@@ -27,8 +27,7 @@ public class TreatTheChildActivity extends Activity implements View.OnClickListe
         findViewById(R.id.sixty_months).setOnClickListener(this);
 
     }
-
-    @Override
+ @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 
@@ -40,14 +39,14 @@ public class TreatTheChildActivity extends Activity implements View.OnClickListe
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+                return true;
             case R.id.homePage:
-                Intent intent = new Intent(TreatTheChildActivity.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }
         return super.onOptionsItemSelected(item);
     }
-
     @Override
     public void onStart() {
         // TODO Auto-generated method stub

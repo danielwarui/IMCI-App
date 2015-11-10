@@ -68,7 +68,7 @@ public class NVPMain extends Activity {
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
     }
 
-    @Override
+     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 
@@ -80,8 +80,9 @@ public class NVPMain extends Activity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+                return true;
             case R.id.homePage:
-                Intent intent = new Intent(NVPMain.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }

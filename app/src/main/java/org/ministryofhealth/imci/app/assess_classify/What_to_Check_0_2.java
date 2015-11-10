@@ -251,8 +251,7 @@ public class What_to_Check_0_2 extends Activity {
         System.out.println("----Fragmentactivity---onStart---");
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
     }
-
-    @Override
+ @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 
@@ -264,8 +263,9 @@ public class What_to_Check_0_2 extends Activity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+                return true;
             case R.id.homePage:
-                Intent intent = new Intent(What_to_Check_0_2.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }

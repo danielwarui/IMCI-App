@@ -138,7 +138,7 @@ public class Counsel_Her_OwnHealth extends Activity {
         listDataChild.put((String) listDataHeader.get(3), array3);
         listDataChild.put((String) listDataHeader.get(4), array4);
     }
-    @Override
+     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 
@@ -150,8 +150,9 @@ public class Counsel_Her_OwnHealth extends Activity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+                return true;
             case R.id.homePage:
-                Intent intent = new Intent(Counsel_Her_OwnHealth.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }

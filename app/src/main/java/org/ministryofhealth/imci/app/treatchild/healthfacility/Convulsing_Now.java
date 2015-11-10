@@ -20,8 +20,7 @@ public class Convulsing_Now extends Activity {
 
         setContentView(R.layout.convulsing_now);
     }
-
-    @Override
+ @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 
@@ -33,8 +32,9 @@ public class Convulsing_Now extends Activity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+                return true;
             case R.id.homePage:
-                Intent intent = new Intent(Convulsing_Now.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }

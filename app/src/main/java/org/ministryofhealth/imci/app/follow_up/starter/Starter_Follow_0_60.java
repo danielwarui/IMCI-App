@@ -244,7 +244,7 @@ public class Starter_Follow_0_60 extends FragmentActivity
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
     }
 
-    @Override
+     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 
@@ -256,8 +256,9 @@ public class Starter_Follow_0_60 extends FragmentActivity
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+                return true;
             case R.id.homePage:
-                Intent intent = new Intent(Starter_Follow_0_60.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }

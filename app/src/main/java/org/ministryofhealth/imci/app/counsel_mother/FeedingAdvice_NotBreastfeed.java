@@ -23,7 +23,7 @@ public class FeedingAdvice_NotBreastfeed extends Activity{
         setContentView(R.layout.feeding_advice_not_breastfeeding);
     }
 
-    @Override
+     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 
@@ -35,8 +35,9 @@ public class FeedingAdvice_NotBreastfeed extends Activity{
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+                return true;
             case R.id.homePage:
-                Intent intent = new Intent(FeedingAdvice_NotBreastfeed.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }

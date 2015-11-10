@@ -35,7 +35,7 @@ public class Counsel_Mother_Fluids extends Activity implements View.OnClickListe
         overridePendingTransition(R.anim.anim_in, R.anim.anim_out);
     }
 
-    @Override
+     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 
@@ -47,8 +47,9 @@ public class Counsel_Mother_Fluids extends Activity implements View.OnClickListe
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+                return true;
             case R.id.homePage:
-                Intent intent = new Intent(Counsel_Mother_Fluids.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }

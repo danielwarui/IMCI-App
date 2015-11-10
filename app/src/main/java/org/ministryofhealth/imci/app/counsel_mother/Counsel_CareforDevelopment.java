@@ -152,7 +152,7 @@ public class Counsel_CareforDevelopment extends Activity {
         listDataChild.put((String) listDataHeader.get(5), array5);
         listDataChild.put((String) listDataHeader.get(6), array6);
     }
-    @Override
+     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 
@@ -164,8 +164,9 @@ public class Counsel_CareforDevelopment extends Activity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+                return true;
             case R.id.homePage:
-                Intent intent = new Intent(Counsel_CareforDevelopment.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }

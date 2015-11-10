@@ -145,7 +145,7 @@ public class Oral_Drugs_2_60_At extends Activity {
             }
         });
     }
-    @Override
+     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 
@@ -157,8 +157,9 @@ public class Oral_Drugs_2_60_At extends Activity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+                return true;
             case R.id.homePage:
-                Intent intent = new Intent(Oral_Drugs_2_60_At.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }

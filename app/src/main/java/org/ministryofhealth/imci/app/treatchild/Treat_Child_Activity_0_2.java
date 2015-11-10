@@ -31,26 +31,26 @@ protected void onCreate(Bundle savedInstanceState) {
 		getActionBar().setTitle("Keep the young infant warm");
 		setContentView(R.layout.keep_young_infant_warm);
 	}
-}
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.main, menu);
+} @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
 
-		return super.onCreateOptionsMenu(menu);
-	}
+        return super.onCreateOptionsMenu(menu);
+    }
 
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-			case android.R.id.home:
-				onBackPressed();
-			case R.id.homePage:
-				Intent intent = new Intent(Treat_Child_Activity_0_2.this, HomeActivity.class);
-				startActivity(intent);
-				break;
-		}
-		return super.onOptionsItemSelected(item);
-	}
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+            case R.id.homePage:
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                startActivity(intent);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 	@Override
 	protected void onStart() {
 		// TODO Auto-generated method stub

@@ -232,13 +232,12 @@ public class CounselMother_2_60 extends Activity {
                 onBackPressed();
                 return true;
             case R.id.homePage:
-                Intent intent = new Intent(CounselMother_2_60.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }
         return super.onOptionsItemSelected(item);
     }
-
     private void setRowIdFromIntent() {
         Bundle extras = getIntent().getExtras();
         id = extras != null ? extras.getInt("Expander") : null;

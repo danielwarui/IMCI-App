@@ -174,7 +174,7 @@ public class CounselMother_0_2 extends Activity {
                 onBackPressed();
                 return true;
             case R.id.homePage:
-                Intent intent = new Intent(CounselMother_0_2.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }

@@ -146,8 +146,7 @@ public class Treat_Child_Activity_0_2_Resus extends Activity {
 
         // data
     }
-
-    @Override
+ @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 
@@ -159,8 +158,9 @@ public class Treat_Child_Activity_0_2_Resus extends Activity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+                return true;
             case R.id.homePage:
-                Intent intent = new Intent(Treat_Child_Activity_0_2_Resus.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }

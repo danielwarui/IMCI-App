@@ -151,7 +151,7 @@ public class FeedingProblem extends Activity {
         listDataChild.put((String) listDataHeader.get(6), array6);
         listDataChild.put((String) listDataHeader.get(7), array7);
     }
-    @Override
+     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 
@@ -163,8 +163,9 @@ public class FeedingProblem extends Activity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+                return true;
             case R.id.homePage:
-                Intent intent = new Intent(FeedingProblem.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }

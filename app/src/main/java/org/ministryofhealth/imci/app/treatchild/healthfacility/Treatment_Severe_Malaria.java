@@ -134,7 +134,7 @@ public class Treatment_Severe_Malaria extends Activity {
         listDataChild.put(listDataHeader.get(3), listQuinineDilution);
         listDataChild.put(listDataHeader.get(4), listArtamether);
     }
-    @Override
+     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
 
@@ -146,8 +146,9 @@ public class Treatment_Severe_Malaria extends Activity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 onBackPressed();
+                return true;
             case R.id.homePage:
-                Intent intent = new Intent(Treatment_Severe_Malaria.this, HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                 startActivity(intent);
                 break;
         }
