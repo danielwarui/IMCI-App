@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#F0E68C"
+    android:background="@color/primary_light"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -10,34 +11,36 @@
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="#F0E68C"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_light"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/counsel_the_mother"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="13sp"
             android:text="@string/counsel_mother_on_infant_feeding"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="#000000" />
-
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#F0E68C"
-            android:orientation="vertical">
-
-            <ExpandableListView
-                android:id="@+id/lvExp"
-                android:layout_width="fill_parent"
-                android:layout_height="145dp"
-                android:cacheColorHint="#3ed695"
-                android:childDivider="@color/divider"
-                android:dividerHeight="3dp"
-                android:drawSelectorOnTop="true"></ExpandableListView>
-        </LinearLayout>
     </LinearLayout>
 
-</ScrollView>
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_light"
+            android:orientation="vertical">
+
+        </ScrollView>
+
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@color/divider"
+        android:childDivider="@color/divider"
+        android:dividerHeight="3dp"
+        android:drawSelectorOnTop="true" />
+
+
+</LinearLayout>

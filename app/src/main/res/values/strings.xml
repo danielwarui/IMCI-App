@@ -97,7 +97,7 @@
     <string name="lbl_age_twelve_up_to_two_years">12 months up to 2 years</string>
     <string name="lbl_age_two_years_older">2 years and older</string>
     <string name="btn_immunization_tbl">View Immunization Table</string>
-    <string name="follow_up_intro">        • Care for the child who returns for follow up visit using all the boxes that match the child\'s previous classifications.\n• If the child has any new problem, Assess, Classify &amp; Identify Treatment fully and treat as on the Assess Classify &amp; Identify Treatment on the Main Menu.
+    <string name="follow_up_intro">        • Care for the child who returns for follow up visit using all the boxes that match the child\'s previous classifications.\n• If the child has any new problem, Assess, Classify &amp; Identify Treatment fully and treat as on the Assess Classify &amp; Identify Treatment tab on the Main Menu.
 </string>
 
     <!-- Nav Drawer Menu Items -->
@@ -194,7 +194,7 @@
 for Breastfeeding</item>
         <item>Teach the Mother to treat breast or nipple problems</item>
         <item>Counsel the HIV positive mother who has chosen not to breastfeed</item>
-        <item>Teach the mother how to keep infant with low weight warm at home</item>
+        <item>Teach the mother how to keep infant with low weight or low body temperature warm at home</item>
     </string-array>
 
     <!-- treat the infant/child string variables -->
@@ -1111,9 +1111,9 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
 
 </string>
 <string name="mother_sick_provide">
-    • If she has a breast problem(such as engorgement, sore nipples, breast infection), provide care or her
+    • If she has a breast problem(such as engorgement, sore nipples, breast infection), provide care for her or refer her
     for help.\n
-    • Advise her to express milk form breasts if separated from the baby for more than one day to maintain lactation and prevent breast engorgement.\n
+    • Advise her to express milk from breasts if separated from the baby for more than one day to maintain lactation and prevent breast engorgement.\n
     • Advise her to eat well to keep up her own strength and health.\n
     • Encourage male involvement in reproductive and child health care.\n
     • Check her immunization status including the 5TTs.\n
@@ -1131,7 +1131,7 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
     and enrollment into HIV care if child is positive.\n
   \t - Emphasize on the importance of adhering to HIV treatment for both mother and child.\n
   \t - Refer mother for HIV care and support if services not offered in facility.\n \t - Encourage parent to seek Voluntary Counselling and Testing (VCT).\n
-  \t - Re-emphasize the importance of safe sex and ealry treatment of STI/RTI and counsel
+  \t - Re-emphasize the importance of safe sex and early treatment of STI/RTI and counsel
     regarding future pregnancies.
 
 </string>
@@ -1141,6 +1141,7 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
     \t - Ask about Caeserian section scar where applicable.\n
     \t - If PMTCT not done counsel and test.\n
     \t - If on ART or other medication counsel on compliance.
+    \t - Remind her of post-parlum schedule (within 48hrs, 2-4 weeks, 4-6 weeks)
 
 </string>
     <string name="confirmed_hiv_infection_treatment">• Treat, counsel and follow up existing infection\n
@@ -1202,7 +1203,7 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
     \t-Is the child eating better?\n
 </string>
     <string name="follow_up_dysentry"> <b>Treatment:</b>\n• If the child is <b>dehydrated</b>, treat dehyration according to classification.\n
-    • If <b>number of stools, fever, abdominal pain, or eating is worse: Admit or refer to hospital.</b>\n
+    • If <b>number of stools, amount of blood in stools, fever, abdominal pain, or eating is worse: Admit or refer to hospital.</b>\n
     • If <b>the condition is the same: add metronidazole to the treatment.</b>\n
     \t Give it for 5 days. Advise the mother to continue ciproflaxin and zinc and to return in 2 days.
     <b>Exceptions if the child</b>\n
@@ -1292,7 +1293,7 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
 
 </string>
 
-    <string name="ad_follow_up_fever_nomalaria">        After 2 days:
+    <string name="ad_follow_up_fever_nomalaria">        If fever persists after 2 days:
         \n\n• Do a full reassessment of the child. see ASSESS &amp; CLASSIFY chart.\nAssess for other causes of fever.\n
 </string>
     <string name="follow_up_fever_nomalaria"><b>Treatment:</b>
@@ -1408,7 +1409,7 @@ Reassess feeding.\n
 • Treat the child for any condition found.\n
 • Ask for any feeding problems, counsel the mother about any new or continuing feeding problems.\n
 • Advise mother to bring the child back If any new illness develops or she is worried.\n
-• Counsel the mother or any other problems and rescue community support is being given
+• Counsel the mother or any other problems and ensure community support is being given
 . Refer for further counselling if necessary.\n
 • Continue with routine follow up for growth and development, nutrition, immunization, vitamin A, deworming.\n
 • Assess adherence to ART and Cotrimoxazole and advice accordingly.\n
@@ -1420,8 +1421,8 @@ guidelines.
     <string name="follow_up_hivexposed">   <b>HIV EXPOSED CHILD (&lt;18 months) :For children tested DNA PCR negative.</b>
           \n
 <b>After 1 months:</b>
-• Assess the child\'s general condition. Do a full reassessment.\n
-• Ask for any feeding problems or poor appetite,counsel the mother or continue feeding problems.\n
+\n• Assess the child\'s general condition. Do a full reassessment.
+\n• Ask for any feeding problems or poor appetite, counsel the mother or continue feeding problems.\n
 • Treat the child for any condition found.\n
 • Start or continue with nevirapine prophylaxis.\n
 • Continue with routine follow up for growth and development,nutrition, immunization, vitamin A, deworming.\n
@@ -1524,7 +1525,7 @@ guidelines.
 </string>
     <string name="young_follow_up_thrush_mouth">   Reassess feeding.\n
    \t\t •If <b>thrush or mouth ulcers are worse</b> or the infant has <b>problems with attachment or sucking</b>, admit or refer to hospital. \n
-   \t\t •If <b>thrush or mouth ulcers are the same or better</b>, and the baby is <b>feeding well</b> continue with Gentian or Nystatin for a total of 5 days. \n
+   \t\t •If <b>thrush or mouth ulcers are the same or better</b>, and the baby is <b>feeding well</b> continue with Gentian Violet or Nystatin for a total of 5 days. \n
 </string>
     <string name="young_severe">
         <b><u>ASK</u></b>\n
@@ -1701,7 +1702,7 @@ REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS
     keep warm.</string>
     <string name="old_admitorRefer"><b>Admit or Refer urgently to hospital</b></string>
     <string name="old_pointsToNoteBloodSugar"><i>*Low blood sugar(hypoglycemia) may be suspected in any infant or child who is convulsing or has loss of consciousness for which there is no obvious cause&#59; has a rectal temperature of below 35.5°C is drowsy or sweating, is lethargic, floppy or jittery --
-     particularly when less than 2 months old.\n\n ** To constitute 10%% glucose form 50%% glucose: Mix I part of 50%% glucose with 4 parts of water for injection.</i>
+     particularly when less than 2 months old.\n\n ** To constitute 10%% glucose from 50%% glucose: Mix I part of 50%% glucose with 4 parts of water for injection.</i>
 </string>
     <string name="nb_low_sugar">       - Low blood sugar(hypoglycemia) may be suspected in any
        infant or child who is convulsing or has loss of consciousness for which there
@@ -1948,10 +1949,10 @@ feeds should be introduced and breastfeeding continued for the first year of lif
         and other milks, water and foods before six months increases the risk of transmitting HIV to her infant and the risk of diarrhoea and other illnesses)\n•At 6 months her child needs nutritions locally available family foods in addition to breast milk.
         \n\n
 <b>Infant Feeding Options</b>\n
-        Inform the other of the two main recommended infant feeding options for HIV-exposed infants:\n
+        Inform the mother of the two main recommended infant feeding options for HIV-exposed infants:\n
 </string>
     <string name="feeding_advice_hiv_mother_chose_breastfeed">        Make sure that the mother or caretaker understands that mixed feeding (giving breast milk and other milks, water and foods) before 6 months increases the risk of transmitting HIV to the infant and the risk of death from diarrhoea and other illnesses.\n
-      \n \t • Reinforce exclusive breastfeeding for 6 months, Initiation of breastfeeding within 1 hour after birth, Emphasize on positioning, attachment care of the breast and management of breast conditions.\n\t• Advice the mother to introduce appropriate complementary feeds from age six months while continuing to breast feed up to 12 months or beyond.\n\t• Advice mother that breastfeeding should stop once a nutrtionally adequate and safe diet without breast milk can be provided.\n\t• Emphasize on adherence to ARVs.
+      \n \t • Reinforce exclusive breastfeeding for 6 months, Initiation of breastfeeding within 1 hour after birth, Emphasize on positioning, attachment care of the breast and management of breast conditions.\n\t• Advice the mother to introduce appropriate complementary feeds from age six months while continuing to breast feed up to 12 months or beyond.\n\t• Advice mother that breastfeeding should stop once a nutritionally adequate and safe diet without breast milk can be provided.\n\t• Emphasize on adherence to ARVs.
 </string>
     <string name="feeding_advice_hiv_mother_chose_not_breastfeed">    The mother/caregiver should have received full counselling before making the decision not to breastfeed.\n
 \n    \t• Give information on replacement feeding and the risk of mixed feeding.\n\t• Give information on safe preparation, storage and appropriate feeding techniques for chosen artificial feeds.\n\t• Demonstrate on how to prepare and feed the infant.\n\t•Counsel on care of the breast to avoid engorgement.\n\t•Provide reliable family planning.\n\t•For low birth weightbabies(1.5kg)and pre-term babies advise on special infant formula.\n\t•Adhere to the code of marketing of breast milk substitutes.\n\t• HIV- exposed infants not breastfeeding should be given ART prophylaxis for 6 weeks only.
@@ -1996,7 +1997,7 @@ feeds should be introduced and breastfeeding continued for the first year of lif
 
     <string name="child_cannot_be_breastfed">Hold the child close when feeding, look at the child, and talk or sing to him/her.</string>
 <string name="caregiver_not_does_to_play">\t - Inform her/him that children play and communicate from birth.\n
-      \t - Demonstrate for her/him how the child responds to activitiies.</string>
+      \t - Demonstrate for her/him how the child responds to activities.</string>
 <string name="caregiver_enough_time">\t - Combine care for development with other care for the child(feeding, bathing, dressing).\n
       \t - Ask other family members to help provide care for development or help her/him with other tasks.</string>
 <string name="caregiver_no_toys"> \t - Use any household objects that are clean and safe.\n

@@ -14,8 +14,7 @@ public class Ad_Follow_Up_HivExposed extends Fragment{
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 
-		View rootView = inflater
-				.inflate(R.layout.ad_follow_up_hivexposed, container, false);
+		View rootView = inflater.inflate(R.layout.ad_follow_up_hivexposed, container, false);
 		
 
 		return rootView;

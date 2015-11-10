@@ -52,6 +52,7 @@ public class Activity_Main_Follow_Up_0_2 extends Activity {
         });
 
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);

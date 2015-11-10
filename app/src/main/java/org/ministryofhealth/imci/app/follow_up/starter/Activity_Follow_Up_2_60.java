@@ -21,8 +21,6 @@ public class Activity_Follow_Up_2_60 extends Activity {
 	EditText ara;
 	String[] fiilliste;
 	Intent intent;
-	// String [] fiilliste=
-	// getResources().getStringArray(R.array.fragment_array_treatment);
 	ArrayAdapter<String> adapter;
 	private ListView vlist;
 

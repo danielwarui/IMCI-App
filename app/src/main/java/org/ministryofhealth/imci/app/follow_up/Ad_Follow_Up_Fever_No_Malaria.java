@@ -15,8 +15,7 @@ public class Ad_Follow_Up_Fever_No_Malaria extends Fragment{
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 
-		View rootView = inflater
-				.inflate(R.layout.ad_follow_up_fevernomalaria, container, false);
+		View rootView = inflater.inflate(R.layout.ad_follow_up_fevernomalaria, container, false);
 		
 
 		return rootView;
