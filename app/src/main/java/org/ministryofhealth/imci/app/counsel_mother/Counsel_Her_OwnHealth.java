@@ -99,7 +99,6 @@ public class Counsel_Her_OwnHealth extends Activity {
         String sureAccess = getResources().getString(R.string.she_has_access_to);
         String motherHIV = getResources().getString(R.string.mother_hiv_positive);
         String babyMonths = getResources().getString(R.string.baby_less_than_two);
-        String nothing = getResources().getString(R.string.nothing);
 
         listDataHeader = new ArrayList();
         listDataChild = new HashMap();
@@ -112,8 +111,6 @@ public class Counsel_Her_OwnHealth extends Activity {
         //3
         listDataHeader.add("If baby is less than 2 months:");
         //4
-        listDataHeader.add("Remind her of post partum schedule (Within 48 hours, 2-4 weeks, 4-6 weeks");
-        //5
 
         List<String> array0 = new ArrayList<String>();
         array0.add(motherSick);
@@ -127,8 +124,6 @@ public class Counsel_Her_OwnHealth extends Activity {
         List<String> array3 = new ArrayList<String>();
         array3.add(babyMonths);
 
-        List<String> array4 = new ArrayList<String>();
-        array4.add(nothing);
 
 
 
@@ -136,7 +131,6 @@ public class Counsel_Her_OwnHealth extends Activity {
         listDataChild.put((String) listDataHeader.get(1), array1);
         listDataChild.put((String) listDataHeader.get(2), array2);
         listDataChild.put((String) listDataHeader.get(3), array3);
-        listDataChild.put((String) listDataHeader.get(4), array4);
     }
      @Override
     public boolean onCreateOptionsMenu(Menu menu) {

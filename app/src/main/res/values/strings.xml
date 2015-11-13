@@ -1141,7 +1141,7 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
     \t - Ask about Caeserian section scar where applicable.\n
     \t - If PMTCT not done counsel and test.\n
     \t - If on ART or other medication counsel on compliance.
-    \t - Remind her of post-parlum schedule (within 48hrs, 2-4 weeks, 4-6 weeks)
+   \n \t - Remind her of post-parlum schedule (within 48hrs, 2-4 weeks, 4-6 weeks)
 
 </string>
     <string name="confirmed_hiv_infection_treatment">• Treat, counsel and follow up existing infection\n
@@ -1246,11 +1246,11 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
     \t-Is the child eating better?\n
 </string>
     <string name="follow_up_wheezing_treatment"><b><u>Child under 1 year</u></b>
-        \n• If <b>chest indrawing or a danger sign,fast breathing,poor feeding or wheeze</b> : Give intramuscular antibiotic.Then admit or
-    refer URGENTLY to hospital .\n• If <b>breathing slower, no wheezing and eating better continue</b> the treatment for 5 days.
+        \n• If <b>chest indrawing or a danger sign,fast breathing,poor feeding or wheeze</b> : Give intramuscular antibiotic.<b>Then admit or
+    refer URGENTLY to hospital.</b>\n• If <b>breathing slower, no wheezing and eating better continue</b> the treatment for 5 days.
     \n\n<b><u>Child one year and over</u></b>
-    \n• If chest indrawing or a danger sign give intramuscular antibiotic. Then admit or refer urgently to Hospital.\n
-    • If breathing rate and eating have not improved, change to second line antibiotic, and if still
+    \n• If <b>chest indrawing or a danger sign</b> give intramuscular antibiotic. Then admit or refer urgently to Hospital.\n
+    • If <b>breathing rate and eating have not improved</b>, change to second line antibiotic, and if still
     wheezing continue oral bronchodilator. Advise the mother to return in 2 days.\n
     • If <b>breathing slower,no wheezing and eating better continue</b> the treatment for 5 days.
     </string>
