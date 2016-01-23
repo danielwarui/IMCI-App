@@ -83,7 +83,7 @@ public class Starter_Follow_0_60 extends FragmentActivity
                 viewPager = (ViewPager) findViewById(R.id.pager);
                 actionBar = getActionBar();
                 actionBar.setTitle(Title);
-                actionBar.setSubtitle("Child --> Dysentry");
+                actionBar.setSubtitle("Child --> Dysentery");
                 AdapterDysentery = new TabsPagerFollowDysentry(getSupportFragmentManager());
 
                 viewPager.setAdapter(AdapterDysentery);

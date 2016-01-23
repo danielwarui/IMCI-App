@@ -1222,7 +1222,7 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
       -How many loose stools is the child having per day?</string>
     <string name="follow_up_persistent_diarrhoea">       • If the <b>diarrhoea has not stopped(child is still having 3 or more loose
        stools per day)</b>, do a full reassessment of the child.Give any treatment needed. Then refer to hospital.\n
-       • If the <b>diarrhoea has stopped(child having &lt; 3 loose stools per day)</b>, tell the mother to follow th usual feeding recommendations for the child\'s age, but give one extra meal every day 1 month.
+       • If the <b>diarrhoea has stopped(child having &lt; 3 loose stools per day)</b>, tell the mother to follow the usual feeding recommendations for the child\'s age, but give one extra meal every day 1 month.
        Ask her to continue giving zinc for total of 10 days.\n\n
        • NB: Attention to diet is an essential part of the management of a child with persistent diarrhoea.
 </string>
@@ -1270,7 +1270,7 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
   • If the child has any <b>cause of fever other than malaria</b>, provide treatment.\n
   • If <b>malaria is the only apparent cause of fever: Give Oral
   DIHYDROARTEMISININ-PIPERAQUINE(DHA-PPQ).Give paracetamol</b>.If child is under 5 kg and was given DHA-PPQ
-  assess further.
+  assess further.\n
   • Advice mother to return again in 2 days if the fever persists
   \n\t\t - if the fever has been present every day 7 days,refer for assessment.
 </string>
@@ -1354,7 +1354,7 @@ mother on feeding.  \n• If child has a feeding problem follow up in  5 days.\n
 </string>
     <string name="follow_up_eyemouth">  • If pus is draining from the eye, ask the mother to describe how she has treated the eye infection.\n
   \t\t-If treatment has been correct, admit or refer to hospital.\n \t\t-If treatment has not been correct, teach mother correct treatment.\n
-  • If the pus is gone but redness remains,continue the treatment.\n
+  • If the pus is gone but redness remains, continue the treatment.\n
   • If no pus or redness, stop the treatment.
 </string>
 <string name="follow_up_eyemouth_trt_eye">
