@@ -1014,7 +1014,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
     <string name="young_treatment_confirmed_hivinfection">• Treat, counsel and follow up existing infections.\n• Initiate or continue with Cotrimoxazole prophylaxis.\n• Give vitamin A.\n• Assess child\'s feeding and provide appropriate counselling to mother.\n• For children with positive TB contact, screen for TB and manage accordingly or refer to appropriate unit.\n• Follow up after one month.\n• Offer comprehensive management of HIV or refer to appropriate unit.<i>Follow the national ART guidelines for comprehensive HIV care of child</i>
 </string>
-<string name="treatment_hiv_exposed">• Treat, counsel and follow up existing infections.\n• Initiate or continue with Cotrimoxazole prophylaxis.\n• Give and continue with Nevirapine prophylaxisas per the national PMTCT guidelines.\n• Give vitamin A.\n• Assess child\'s feeding and provide appropriate counselling to mother.\n
+<string name="treatment_hiv_exposed">• Treat, counsel and follow up existing infections.\n• Initiate or continue with Cotrimoxazole prophylaxis.\n• Give and continue with Nevirapine prophylaxis as per the national PMTCT guidelines.\n• Give vitamin A.\n• Assess child\'s feeding and provide appropriate counselling to mother.\n
     • Offer routine followup for growth and development,nutrition, immunization.\n• Follow up after 1 month.\n• Repeat HIV antibody test 9 months, if negative, repeat test again at 18 months and continue with normal Under fives clinic.\n
     • If antibody test at 9 months is POSITIVE, collect DBS sample for confirmatory DNA PCR test.
 </string>
