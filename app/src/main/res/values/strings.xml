@@ -385,7 +385,7 @@ If Mother is POSITIVE conduct rapid test on child as the child is exposed.
 <b><u>LOOK, LISTEN, FEEL</u></b>
         \n•   Look at the child’s general condition.\nIs the child:\n\t\t\t• Lethargic or unconscious?\n\t\t\t• Restless and irritable?\n
 • Look for sunken eyes.
- \n\n•   Offer the child fluid. Is the child:\n\t\t\t• Not able to drink or drinking poorly?\n\t\t\t• Drinking eagerly,thirsty?
+ \n\n•   Offer the child fluid. Is the child:\n\t\t\t• Not able to drink or drinking poorly?\n\t\t\t• Drinking eagerly, thirsty?
         \n\n• Pinch the skin of the abdomen. Does it go back:\n• Very slowly (longer than 2 sec.)?\n• Slowly?\n• Immediately?
 \n\n<b>Classify Diarrhoea</b>
     </string>
@@ -507,7 +507,7 @@ Look at the young infant’s general condition.Is the infant: \n\t•   Lethargi
 
     <string name="young_signs_severe_dehydration"> Two of the following signs:\n• Lethargic or unconscious\n• Sunken eyes\n• Skin pinch goes back very slowly\n
 </string>
-    <string name="young_signs_some_dehydration">        • Restless, irritable\n• Sunken eyes\n• Drinks eagerly,thirsty\n• Skin pinch goes back slowly
+    <string name="young_signs_some_dehydration">        • Restless, irritable\n• Sunken eyes\n• Drinks eagerly, thirsty\n• Skin pinch goes back slowly
 </string>
     <string name="young_signs_no_dehydration">        • Not enough signs to classify as some or severe dehydration.\n
 </string>
@@ -584,7 +584,7 @@ CLASSIFY
 </string>
     <string name="signs_diarrhoea_0_2">•    Lethargic or unconscious.\n•   Sunken eyes.\n•   Skin pinch goes back very slowly\n
 </string>
-    <string name="signs_diarrhoea_0_2Y">  •    Restless,irritable\n•   Sunken Eyes\n•   Drink eagerly,thirsty\n•   Skin pinch goes back slowly\n
+    <string name="signs_diarrhoea_0_2Y">  •    Restless,irritable\n•   Sunken Eyes\n•   Drink eagerly, thirsty\n•   Skin pinch goes back slowly\n
 </string>
     <string name="signs_diarrhoea_0_2G">        Not enough signs to classify as some or severe dehydration
 </string>
@@ -825,7 +825,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
         <item>Not able to drink or drink poorly</item>
         <item>Skin pinch goes back very slowly</item>
         <item>Restless, irritable</item>
-        <item>Drinks eagerly,thirsty</item>
+        <item>Drinks eagerly, thirsty</item>
         <item>Skin pinch goes back slowly </item>
         <item>Not enough signs to classify as some or severe dehydration</item>
         <item>Dehydration present</item>
