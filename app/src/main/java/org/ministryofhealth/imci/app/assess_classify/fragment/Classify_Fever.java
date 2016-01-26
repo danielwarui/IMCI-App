@@ -108,8 +108,8 @@ public class Classify_Fever extends Fragment {
 
         pSubItemArrayList4.add(new SubCategory("SEVERE COMPLICATIONS OF MEASLES", mItemListArrayP3));
         pSubItemArrayList4.add(new SubCategory("EYE OR MOUTH COMPLICATIONS OF MEASLES", mItemListArrayP4));
-        pSubItemArrayList4.add(new SubCategory("NO EYE OR MOUTH COMPLICATIONS OF MEASLES≥", mItemListArrayP5));
-		/*
+        pSubItemArrayList4.add(new SubCategory("NO EYE OR MOUTH COMPLICATIONS OF MEASLES", mItemListArrayP5));
+        /*
 		 * pSubItemArrayList.add(new SubCategory("Color", mItemListArray));
 		 * pSubItemArrayList2.add(new SubCategory("Cloths", mItemListArray2));
 		 *//**
