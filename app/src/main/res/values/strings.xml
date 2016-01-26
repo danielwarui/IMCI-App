@@ -1048,7 +1048,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
 <string name="very_severe_febrile_treatment_low_risk">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol  \n• Treat the child to prevent low blood sugar\n• Give one dose of paracetamol in clinic for high fever( ≥38.5°C )\n• Check for HIV infection\n• Admit or refer URGENTLY to hospital.
 </string>
-    <string name="fever_no_malaria_treatment">• Give one dose of paracetamol in clinic for high fever( ≥38.5°C  )\n• Assess for other posible causes of fever \n• Follow up in two days if fever persists\n
+    <string name="fever_no_malaria_treatment">• Give one dose of paracetamol in clinic for high fever( ≥38.5°C  )\n• Assess for other possible causes of fever \n• Follow up in two days if fever persists\n
         • Advise when to return immediately\n• Check for HIV infection.\n
         • If fever is present every day for more than 7 days assess further or refer
 </string>
@@ -1071,7 +1071,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
     <string name="severe_febrile_disease_treatment">• Give first dose of Artesunate for severe malaria \n• Give first dose of Chloramphenicol \n• treat the child to prevent low blood sugar \n• Give one dose of paracetamol in clinic for high fever( ≥38.5°C  )
 </string>
 
-    <string name="eye_mouth_measles_treatment">• Give Vitamin A \n• If pus draining from the eye, treat eye infection with tetracycline eye ointment\n• If mouth ulcers,treat with gentian voilet or nystatin\n• Follow-up in two days\n• If child has no indication for referral, notify and draw blood sample for confirmation of measles
+    <string name="eye_mouth_measles_treatment">• Give Vitamin A \n• If pus draining from the eye, treat eye infection with tetracycline eye ointment\n• If mouth ulcers, treat with gentian violet or nystatin\n• Follow-up in two days\n• If child has no indication for referral, notify and draw blood sample for confirmation of measles
 </string>
     <string name="no_eye_mouth_treatment"> • Give vitamin A if not received in the last 1 month\n • If child has no indication for referral, draw blood and send for confirmation
 </string>
