@@ -222,7 +222,7 @@ bottle of gentian violet.\n• Check the mother\’s understanding before she le
     <string name="soothe_the_throat">• Safe remedies to recommend: \n\t\t-Breastmilk for breastfeeding children.\n
     \t\t-Warm water with lemon and honey (children > 6 months)\n• Harmful remedies to discourage: \n
      \t\t-Codeine and ephedrine containing cough mixtures.
-</string>
+    </string>
     <string name="instructions_immunization_tbl">• If BCG not given at birth, it should not be given to children with symptomatic HIV /AIDS.\n• Measles vaccine at 6 months is for HIV exposed /infected children.\n• Yellow fever vaccine should not be given to children with symptomatic HIV /AIDS.\n• Yellow fever vaccine is only offered in (Koibatek, Baringo, Keiyo) in Rift valley.\n• Rota virus vaccine should not be given to children over 15 months.
 </string>
     <string name="immunization_other_problems"><b>ASSESS FOR OTHER PROBLEMS THAT THE CHILD MAY HAVE</b></string>
@@ -370,7 +370,7 @@ Determine Z score for the same : \n•   &lt;-3\n•   -3 to &lt; -2\n•   -2 t
 <u>LOOK, FEEL AND DIAGNOSE:</u> \n
 <u>For child &lt; 18 months</u>\n•   If mother’s HIV status is unknown, conduct an antibody test (rapid test)on either or mother or child.\n•   If mother’s or child’s antibody test is POSITIVE the child is HIV exposed. Take DBS for DNA PCR testing at six weeks or earliest contact thereafter\n
  For child >18 months
-If Mother is POSITIVE conduct rapid test on child as the child is exposed.
+If mother is POSITIVE conduct rapid test on child as the child is exposed.
 </string>
     <string name="look_young_special_treatment"><b><u>Ask and check record for special treatment needs</u></b> \n\n
  • Has the mother had within 2 weeks of delivery: \n
@@ -395,7 +395,7 @@ If Mother is POSITIVE conduct rapid test on child as the child is exposed.
     \t\t-Non reactive.\n
     \t\t-Unknown.\n• Ask if child has had any TB contact.\n\n
 <b><u>LOOK,FEEL AND DIAGNOSE:</u></b> \n
-<b>Child ≤ 18 months</b>\n• If Mother\'s HIV status is unknown,conduct an antibody test(rapid test) on
+<b>Child ≤ 18 months</b>\n• If mother\'s HIV status is unknown,conduct an antibody test(rapid test) on
         mother or child to determine HIV exposure.\n\n•If mother\'s or child\'s antibody test is POSITIVE the child is HIV exposed.
         Take DBS for DNA PCR test at six weeks or earliest contact thereafter.
         </string>
@@ -620,7 +620,7 @@ Is it: \n
 \t\t-Non reactive\n
 \t\t-Unknown\n• Ask if child has had any TB contact.\n\n
 <u>LOOK, FEEL AND  DIAGNOSE:</u> \n\n
- <b> Child ≤ 18 months\n</b>  • If Mother’s HIV status  is unknown, conduct an  antibody test (rapid test)  on mother or child to
+ <b> Child ≤ 18 months\n</b>  • If mother’s HIV status  is unknown, conduct an  antibody test (rapid test)  on mother or child to
 determine HIV exposure.\n• If mother  is or child’s  antibody test is  POSITIVE  the child  is HIV exposed.\n
 Take DBS  for DNA PCR  testing at six weeks or  earliest contact thereafter.\n\n
 <u>Child ≥ 18 months</u>\n
@@ -1827,7 +1827,7 @@ REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS
      \t- Advise mother to give home care.\n
      \t- Advise mother when to return immediately.
 </string>
-    <string name="teach_the_mother_on_way_to_hospital"><b>Teach the Mother How to Keep the Young Infant Warm on the way To the Hospital\n</b>             • Provide skin to skin contact OR \n
+    <string name="teach_the_mother_on_way_to_hospital"><b>Teach the mother How to Keep the Young Infant Warm on the way To the Hospital\n</b>             • Provide skin to skin contact OR \n
             • Keep the infant clothed or covered as much as possible all the time. Dress the young infant in 3-4 layers of clothes(including hat, gloves, socks)
             and wrap him/her in a soft dry cloth and cover with shawl or blanket. Hold the baby close to your body.
 </string>
@@ -1899,7 +1899,7 @@ REMIND THE MOTHER TO GIVE ZINC SULPHATE FOR  THE FULL 10 DAYS
     • If able to feed with a cup advise mother to continue breastfeeding the infant and at the end of each feed express breast milk and feed a cup.\n
     • If not able to feed with a cup, Admit or Refer to hospital.
 </string>
-    <string name="teach_mother_to_treat_breast_or_nipple"><b>Teach the Mother to treat breast or nipple problems</b>\n\n
+    <string name="teach_mother_to_treat_breast_or_nipple"><b>Teach the mother to treat breast or nipple problems</b>\n\n
         • If the nipple is flat or inverted, evert the nipple several times with fingers before each feed and put the baby on the breast.\n\n
         • If the nipple is sore, apply breast milk for soothing effect and ensure correct positioning and attachment of the baby. If mother continues feeling discomfort feed
         expressed breast milk with cup.\n\n
@@ -2039,7 +2039,7 @@ feeds should be introduced and breastfeeding continued for the first year of lif
     <string name="if_child_sore_mouth_ulcers">    • Recommend soft foods that will not burn the mouth such as thick enriched porridge, eggs, mashed potatoes, bananas, pumpkin or avocado.\n• Chop foods finely.\n• Avoid salty, spicy; acidic foods that may irritate the child.\n• Give cold nutritious drinks- they\'ll not make the child sick or sicker.
 </string>
 <string name="counsel_on_own_health">
-    <b>Counsel Mother on her own health</b>
+    <b>Counsel mother on her own health</b>
 </string>
     <string name="hygiene">
         <b>HYGIENE DURING FOOD PREPARATION:</b>
