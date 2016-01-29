@@ -1038,7 +1038,7 @@ Has the child travelled to a high risk Malaria area in the last one month?\n
 </string>
     <string name="young_treatment_risk_syphilis">         • Give baby single dose of benzathine penicillin.\n• Ensure mother and partner are treated.\n• Follow up in 14 days.
 </string>
-    <string name="young_treatment_risk_transmission_hiv">         • Give ARV prophylaxis to the newborn.\n• Counsel on infant feeding options.\n• Give special counselling to breast feeding omther.Emphasize on exclusive breastfeeding for 6 months.\n• Teach the mother replacement feeding if that\'s her choice and meets AFASS criteria.\n• Inform mother of DNA PCR test at 6 weeks.\n• Follow up in 14 days.
+    <string name="young_treatment_risk_transmission_hiv">         • Give ARV prophylaxis to the newborn.\n• Counsel on infant feeding options.\n• Give special counselling to breast feeding mother.Emphasize on exclusive breastfeeding for 6 months.\n• Teach the mother replacement feeding if that\'s her choice and meets AFASS criteria.\n• Inform mother of DNA PCR test at 6 weeks.\n• Follow up in 14 days.
 </string>
     <string name="young_treatment_risk_TB">         • Give infant Isoniazid prophylaxis for 6 months.\n• Give BCG vaccination to the infant only when baby\'s treatment is completed.\n• Follow up in 14 days.
 </string>
